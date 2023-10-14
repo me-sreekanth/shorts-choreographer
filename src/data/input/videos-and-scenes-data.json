@@ -60,10 +60,6 @@
       "Duration": "5 seconds",
       "Description": "Fade to black with text.",
       "Text": "Join the cosmic journey. Explore with us."
-    },
-    {
-      "Transition & Pauses": "For smooth transitions and emphasis between scenes.",
-      "Duration": "4 seconds"
     }
   ]
 }
