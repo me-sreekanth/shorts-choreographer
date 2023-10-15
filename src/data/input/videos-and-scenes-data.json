@@ -3,61 +3,61 @@
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5 seconds",
+      "Duration": "5",
       "Description": "The universe with galaxies, stars, and cosmic structures.",
       "Text": "Everything we see..."
     },
     {
       "SceneNumber": 2,
-      "Duration": "6 seconds",
+      "Duration": "6",
       "Description": "Zoom into a galaxy, showing stars, planets, and other visible matter.",
       "Text": "...makes up only 5%."
     },
     {
       "SceneNumber": 3,
-      "Duration": "7 seconds",
+      "Duration": "7",
       "Description": "The scene fades to black, but with outlines of cosmic structures.",
       "Text": "So, what's the other 95%?"
     },
     {
       "SceneNumber": 4,
-      "Duration": "5 seconds",
+      "Duration": "5",
       "Description": "Ghostly, wavy structures symbolizing dark matter intertwining with galaxies.",
       "Text": "Dark Matter."
     },
     {
       "SceneNumber": 5,
-      "Duration": "5 seconds",
+      "Duration": "5",
       "Description": "A visualization of the universe expanding at an accelerating rate.",
       "Text": "And the force pushing it?"
     },
     {
       "SceneNumber": 6,
-      "Duration": "6 seconds",
+      "Duration": "6",
       "Description": "A cosmic explosion, representing the Big Bang and the universe's expansion.",
       "Text": "Dark Energy."
     },
     {
       "SceneNumber": 7,
-      "Duration": "6 seconds",
+      "Duration": "6",
       "Description": "A balance scale, with visible matter on one side and dark matter and dark energy on the other.",
       "Text": "A Cosmic Balance."
     },
     {
       "SceneNumber": 8,
-      "Duration": "6 seconds",
+      "Duration": "6",
       "Description": "Scientists working, telescopes observing the skies, data being analyzed on screens.",
       "Text": "The Quest Continues..."
     },
     {
       "SceneNumber": 9,
-      "Duration": "5 seconds",
+      "Duration": "5",
       "Description": "The universe with all its mysteries, stars twinkling, galaxies rotating.",
       "Text": "Unveiling the Invisible."
     },
     {
       "SceneNumber": 10,
-      "Duration": "5 seconds",
+      "Duration": "5",
       "Description": "Fade to black with text.",
       "Text": "Join the cosmic journey. Explore with us."
     }

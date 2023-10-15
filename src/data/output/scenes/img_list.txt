@@ -1,0 +1,21 @@
+
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/1-The_universe_with_galaxies_stars_and_cosmic_structures.png'
+duration 5
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/2-Zoom_into_a_galaxy_showing_stars_planets_and_other_visible_matter.png'
+duration 6
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/3-The_scene_fades_to_black_but_with_outlines_of_cosmic_structures.png'
+duration 7
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/4-Ghostly_wavy_structures_symbolizing_dark_matter_intertwining_with_galaxies.png'
+duration 5
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/5-A_visualization_of_the_universe_expanding_at_an_accelerating_rate.png'
+duration 5
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/6-A_cosmic_explosion_representing_the_Big_Bang_and_the_universe's_expansion.png'
+duration 6
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/7-A_balance_scale_with_visible_matter_on_one_side_and_dark_matter_and_dark_energy_on_the_other.png'
+duration 6
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/8-Scientists_working_telescopes_observing_the_skies_data_being_analyzed_on_screens.png'
+duration 6
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/9-The_universe_with_all_its_mysteries_stars_twinkling_galaxies_rotating.png'
+duration 5
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/10-Fade_to_black_with_text.png'
+duration 5
