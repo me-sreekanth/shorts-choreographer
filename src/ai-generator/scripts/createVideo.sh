@@ -10,10 +10,8 @@ VOICEOVER_DIR="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/s
 VOICEOVER_LIST="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/voiceover_list.txt"
 FONT_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/fonts/RobotoBoldCondensed.ttf"
 TEMP_CONCAT_AUDIO="temp_concat_audio.aac"
-WATERMARK_TEXT="Your Watermark Here"
 SILENT_AUDIO="silent_audio.aac"
 SCENE_VIDEOS_LIST="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/scene_videos_list.txt"
-
 
 # Empty the img_list.txt and voiceover_list.txt files
 echo "" > $IMG_LIST
@@ -59,8 +57,8 @@ if [ ! -f $TEMP_CONCAT_AUDIO ]; then
     echo "Error creating concatenated voiceover. Exiting."
     exit 1
 fi
+
 # 1. Combine Voiceover and Background Audio
-# We'll use the 'amix' filter to mix the two audio streams
 ffmpeg \
   -i $AUDIO_PATH \
   -i $TEMP_CONCAT_AUDIO \
@@ -78,17 +76,23 @@ for scene in $(seq 1 10); do
   FILENAME="$scene-$(echo $DESCRIPTION | tr ' ' '_' | tr -d ',.').png"
   SCENE_VIDEO="$TEMP_DIR/scene_$scene.mp4"
 
+  # Wrap the description more aggressively if it's too long
+  if [ ${#DESCRIPTION} -gt 30 ]; then
+    MIDPOINT=$(( ${#DESCRIPTION} / 2 ))
+    SPLIT_POINT=$(echo $DESCRIPTION | awk -v mp=$MIDPOINT 'BEGIN{FS=""}{for(i=mp;i<=NF;i++) if($i==" ") {print i; exit}}')
+    DESCRIPTION="${DESCRIPTION:0:$SPLIT_POINT}\n${DESCRIPTION:$SPLIT_POINT}"
+  fi
+
   ffmpeg \
   -loop 1 \
   -i "$IMG_DIR/$FILENAME" \
-  -vf "fps=25,scale=1920:-1,drawtext=text='$DESCRIPTION':x=(w-text_w)/2:y=h-text_h-30:fontsize=88:fontcolor=white:fontfile=$FONT_PATH,drawtext=text='Code Worthy':x=50:y=50:fontsize=100:fontcolor=green:fontfile=$FONT_PATH" \
+  -vf "fps=25,scale=1920:-1,drawtext=text='$DESCRIPTION':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=48:fontcolor=white:fontfile=$FONT_PATH,drawtext=text='CODE WORTHY':x=50:y=50:fontsize=80:fontcolor=green:fontfile=$FONT_PATH" \
   -pix_fmt yuv420p \
   -c:v libx264 \
   -t $(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Duration" $DATA_FILE) \
   $SCENE_VIDEO
 done
 
-# Generate a list of individual scene videos
 # Generate a list of individual scene videos
 find $TEMP_DIR -name "scene_*.mp4" | sort -n | while read line; do echo "file '$line'" >> $SCENE_VIDEOS_LIST; done
 
