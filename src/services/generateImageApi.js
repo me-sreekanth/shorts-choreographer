@@ -83,7 +83,7 @@ const fetchStatus = async (process_id, scene) => {
       ); // Sanitize the description to remove any non-alphanumeric characters
 
       const imageStream = fs.createWriteStream(
-        `src/data/output/scenes/${scene.SceneNumber}-${sanitizedDescription}.png`
+        `src/data/output/scenes/${scene.SceneNumber}-scene.png`
       );
 
       const imageResponse = await axios.get(imageUrl, {
