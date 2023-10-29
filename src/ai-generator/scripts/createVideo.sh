@@ -15,9 +15,14 @@ generate_voiceover() {
                                             --header "X-USER-ID: $USER_ID" \
                                             --header 'accept: text/event-stream' \
                                             --header 'content-type: application/json' \
-                                            --data "{ \"text\": \"$description\", \"voice\": \"s3://peregrine-voices/oliver_narrative2_parrot_saad/manifest.json\", \"voice_engine\": \"PlayHT2.0\" }")
+                                            --data "{ \"text\": \"$description\", \"voice\": \"s3://peregrine-voices/mel28/manifest.json\", \"voice_engine\": \"PlayHT2.0\" }")
 
+echo "Voiceover API Response: $voiceover_response"
         local voiceover_url=$(echo "$voiceover_response" | grep -o "https://peregrine-results.s3.amazonaws.com[^\" ]*\.mp3")
+        if [ -z "$voiceover_url" ]; then
+    echo "Error: Voiceover URL not found!"
+    exit 1
+fi
         local temp_voiceover_mp3="$VOICEOVER_DIR/$scene-temp-voiceover.mp3"
         
         curl -o $temp_voiceover_mp3 $voiceover_url
@@ -25,6 +30,7 @@ generate_voiceover() {
         rm $temp_voiceover_mp3
     fi
 }
+
 
 generate_scene_video() {
     local scene=$1
@@ -34,22 +40,18 @@ generate_scene_video() {
     local output_path=$5
 
     local text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Text" $DATA_FILE)
-    local escaped_text=$(echo "$text" | sed 's/%/percentage/g')
-
-    if [ ${#escaped_text} -gt 30 ]; then
-        local midpoint=$(( ${#escaped_text} / 2 ))
-        local split_point=$(echo $escaped_text | awk -v mp=$midpoint 'BEGIN{FS=""}{for(i=mp;i<=NF;i++) if($i==" ") {print i; exit}}')
-        escaped_text="${escaped_text:0:$split_point}\n${escaped_text:$split_point}"
-    fi
-
-      ffmpeg -y -loop 1 \
+    
+    # Escape common special characters
+    local escaped_text=$(echo "$text" | sed -e 's/\([\\"]\)/\\\1/g' -e 's/\$/\\$/g')
+    
+    ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
        -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[zoomed][watermark]overlay=10:10,drawtext=text='$escaped_text':x=(w-text_w)/2:y=(h-text_h)/2+100:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black\@0.2" \
        -pix_fmt yuv420p \
        -c:v libx264 \
        -t $duration \
-       $output_path
+       $output_path 2>> ffmpeg_errors.log  # Redirect errors and warnings from ffmpeg to the log file
 }
 
 # Directory and file paths
@@ -79,9 +81,11 @@ mkdir -p $TEMP_DIR
 
 # Process each scene
 for scene in $(seq 1 10); do
-    duration=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Duration" $DATA_FILE)
+       duration=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Duration" $DATA_FILE)
+    voiceover_text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .VoiceOverText" $DATA_FILE)
     description=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Description" $DATA_FILE)
-    text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Text" $DATA_FILE | sed 's/%/%%/g')    filename="$scene-scene.png"
+    text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Text" $DATA_FILE | sed 's/%/%%/g')
+    filename="$scene-scene.png"
     voiceover="$VOICEOVER_DIR/$scene-scene-voiceover.aac"
 
     # Image list for video creation
@@ -91,7 +95,7 @@ for scene in $(seq 1 10); do
     # Check if voiceover file already exists
     if [ ! -f "$voiceover" ]; then
         # Generate voiceovers
-        generate_voiceover $scene "$description" $voiceover
+        generate_voiceover $scene "$voiceover_text" $voiceover
     fi
 
     # Add voiceover to list

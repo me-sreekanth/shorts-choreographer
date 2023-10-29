@@ -13,9 +13,9 @@ const sendRequest = async (scene) => {
       samples: 1,
       steps: 50,
       aspect_ratio: "portrait",
-      guidance_scale: 12.5,
+      guidance_scale: 25,
       seed: 8265801,
-      prompt: scene.Description,
+      prompt: scene.Description, // This uses the Description key as intended
       style: "realism",
     },
   };
@@ -72,15 +72,13 @@ const fetchStatus = async (process_id, scene) => {
     if (
       response.data.data.data.status === "COMPLETED" &&
       response.data.data.data.result
-      //   response.data.data.data.output &&
-      //   response.data.data.data.output.length > 0
     ) {
       console.log("DONE : ", response.data);
       const imageUrl = response.data.data.data.result.output[0];
       const sanitizedDescription = scene.Description.replace(
         /[^a-zA-Z0-9]/g,
         "_"
-      ); // Sanitize the description to remove any non-alphanumeric characters
+      );
 
       const imageStream = fs.createWriteStream(
         `src/data/output/scenes/${scene.SceneNumber}-scene.png`
