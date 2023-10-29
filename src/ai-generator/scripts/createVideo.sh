@@ -42,10 +42,10 @@ generate_scene_video() {
         escaped_text="${escaped_text:0:$split_point}\n${escaped_text:$split_point}"
     fi
 
-    ffmpeg -y -loop 1 \
+      ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
-       -filter_complex "[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[0:v][watermark]overlay=10:10,fps=25,scale=1920:-1,drawtext=text='$escaped_text':x=(w-text_w)/2:y=(h-text_h)/2+100:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black\@0.2" \
+       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[zoomed][watermark]overlay=10:10,drawtext=text='$escaped_text':x=(w-text_w)/2:y=(h-text_h)/2+100:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black\@0.2" \
        -pix_fmt yuv420p \
        -c:v libx264 \
        -t $duration \

@@ -1,65 +1,65 @@
 {
-  "Title": "Unveiling the Invisible: Dark Matter & Dark Energy",
+  "Title": "Exploring the Solar System: Our Cosmic Neighborhood",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "5",
-      "Description": "The universe with galaxies, stars, and cosmic structures.",
-      "Text": "Everything we see..."
+      "Description": "A view of the sun radiating immense energy.",
+      "Text": "Our Sun: power source."
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "Description": "Zoom into a galaxy, showing stars, planets, and other visible matter.",
-      "Text": "...makes up only 5%."
+      "Description": "Mercury, scorched and barren, orbits closest to the sun.",
+      "Text": "Mercury: sun's closest companion."
     },
     {
       "SceneNumber": 3,
-      "Duration": "7",
-      "Description": "The scene fades to black, but with outlines of cosmic structures.",
-      "Text": "So, what's the other 95%?"
+      "Duration": "6",
+      "Description": "Venus with its thick, toxic atmosphere.",
+      "Text": "Venus: Earth's fiery twin."
     },
     {
       "SceneNumber": 4,
       "Duration": "5",
-      "Description": "Ghostly, wavy structures symbolizing dark matter intertwining with galaxies.",
-      "Text": "Dark Matter."
+      "Description": "A view of Earth from space, showcasing its blue beauty.",
+      "Text": "Earth: our blue home."
     },
     {
       "SceneNumber": 5,
       "Duration": "5",
-      "Description": "A visualization of the universe expanding at an accelerating rate.",
-      "Text": "And the force pushing it?"
+      "Description": "Mars, the red planet with evidence of ancient rivers.",
+      "Text": "Mars: water's ancient trace."
     },
     {
       "SceneNumber": 6,
       "Duration": "6",
-      "Description": "A cosmic explosion, representing the Big Bang and the universe's expansion.",
-      "Text": "Dark Energy."
+      "Description": "Jupiter, with its massive size and Great Red Spot.",
+      "Text": "Jupiter: gas giant's majesty."
     },
     {
       "SceneNumber": 7,
       "Duration": "6",
-      "Description": "A balance scale, with visible matter on one side and dark matter and dark energy on the other.",
-      "Text": "A Cosmic Balance."
+      "Description": "Saturn, with its iconic rings.",
+      "Text": "Saturn: ringed wonder."
     },
     {
       "SceneNumber": 8,
-      "Duration": "6",
-      "Description": "Scientists working, telescopes observing the skies, data being analyzed on screens.",
-      "Text": "The Quest Continues..."
+      "Duration": "5",
+      "Description": "Uranus and Neptune, the blue ice giants.",
+      "Text": "Ice giants: mysteries remain."
     },
     {
       "SceneNumber": 9,
       "Duration": "5",
-      "Description": "The universe with all its mysteries, stars twinkling, galaxies rotating.",
-      "Text": "Unveiling the Invisible."
+      "Description": "The asteroid belt and dwarf planets.",
+      "Text": "Beyond planets: cosmic debris."
     },
     {
       "SceneNumber": 10,
       "Duration": "5",
-      "Description": "Fade to black with text.",
-      "Text": "Join the cosmic journey. Explore with us."
+      "Description": "Fade to black with a call to action.",
+      "Text": "Discover the cosmos with us."
     }
   ]
 }
