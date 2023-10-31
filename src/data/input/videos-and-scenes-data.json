@@ -70,6 +70,13 @@
       "VoiceOverText": "The mysteries and marvels of the quantum world remain an active area of research and exploration. Join us on this fascinating journey to uncover the enigmas of the quantum realm.",
       "Description": "Fade to black with a call to action.",
       "Text": "Uncover the quantum realm with us."
+    },
+    {
+      "SceneNumber": 11,
+      "Duration": "3",
+      "VoiceOverText": "Like and subscribe for more videos",
+      "Description": "Like, Share and Subscribe",
+      "Text": "Like, Share and Subscribe"
     }
   ]
 }

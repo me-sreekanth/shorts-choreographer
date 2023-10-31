@@ -40,18 +40,46 @@ generate_scene_video() {
     local output_path=$5
 
     local text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Text" $DATA_FILE)
+    local words=($text)  # Split text into words
+    local num_words=${#words[@]}  # Count words
+
+    # Check if number of words is zero and handle it
+    if [ $num_words -eq 0 ]; then
+        echo "Error: No words found for scene $scene. Skipping video generation."
+        return 1
+    fi
+
+    local word_duration=$(awk "BEGIN {print $duration/$num_words}")  # Duration for each word
+    local filters=""
+
+    # Debug prints
+    echo "For scene $scene:"
+    echo "Duration: $duration"
+    echo "Number of words: $num_words"
+    echo "Word duration: $word_duration"
     
-    # Escape common special characters
-    local escaped_text=$(echo "$text" | sed -e 's/\([\\"]\)/\\\1/g' -e 's/\$/\\$/g')
-    
+   # Build drawtext filters for each word
+    for i in "${!words[@]}"; do
+        local start_time=$(awk "BEGIN {print $word_duration*$i}")
+        local word="${words[$i]}"
+        
+        # Escape single quotes inside the word
+        local escaped_word=$(echo "$word" | sed "s/'/'\\\\''/g")
+        
+        filters+="[zoomed]drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)'[zoomed];"
+    done
+
+    # Debug print
+    echo "Constructed filter: $filters"
+
     ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
-       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[zoomed][watermark]overlay=10:10,drawtext=text='$escaped_text':x=(w-text_w)/2:y=(h-text_h)/2+100:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black\@0.2" \
+       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];$filters[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[zoomed][watermark]overlay=10:10" \
        -pix_fmt yuv420p \
        -c:v libx264 \
        -t $duration \
-       $output_path 2>> ffmpeg_errors.log  # Redirect errors and warnings from ffmpeg to the log file
+       $output_path #2>> ffmpeg_errors.log   # Redirect errors and warnings from ffmpeg to the log file
 }
 
 # Directory and file paths
@@ -72,6 +100,9 @@ WATERMARK_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/
 USER_ID="kW0pPfKLtlhGJwEnPmqAeqIpyOt1"
 SECRET_KEY="966fffff684a4d2182f7e1567aa3133b"
 
+# Determine the number of scenes
+total_scenes=$(jq '.Scenes | length' $DATA_FILE)
+
 # Empty files
 echo "" > $IMG_LIST
 echo "" > $VOICEOVER_LIST
@@ -80,7 +111,7 @@ echo "" > $SCENE_VIDEOS_LIST
 mkdir -p $TEMP_DIR
 
 # Process each scene
-for scene in $(seq 1 10); do
+for scene in $(seq 1 $total_scenes); do
        duration=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Duration" $DATA_FILE)
     voiceover_text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .VoiceOverText" $DATA_FILE)
     description=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Description" $DATA_FILE)

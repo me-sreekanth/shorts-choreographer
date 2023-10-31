@@ -19,3 +19,5 @@ file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/o
 duration 5
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/10-scene-voiceover.aac'
 duration 5
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/11-scene-voiceover.aac'
+duration 3
