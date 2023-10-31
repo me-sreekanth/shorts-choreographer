@@ -57,30 +57,38 @@ generate_scene_video() {
     echo "Duration: $duration"
     echo "Number of words: $num_words"
     echo "Word duration: $word_duration"
-    
-   # Build drawtext filters for each word
-    for i in "${!words[@]}"; do
+
+    # Build drawtext filters for one or two words at a time
+    for ((i=0; i<${#words[@]}; i+=2)); do
         local start_time=$(awk "BEGIN {print $word_duration*$i}")
-        local word="${words[$i]}"
-        
-        # Escape single quotes inside the word
-        local escaped_word=$(echo "$word" | sed "s/'/'\\\\''/g")
-        
-        filters+="[zoomed]drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=60:fontcolor=white:fontfile=$FONT_PATH_ITALIC:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)'[zoomed];"
+        local word1="${words[$i]}"
+        local word2="${words[$i+1]}"
+
+        # Combine the two words
+        local combined_word="$word1 $word2"
+    
+        # Convert the combined words to uppercase using 'tr'
+        combined_word=$(echo "$combined_word" | tr '[:lower:]' '[:upper:]')
+    
+        # Escape single quotes inside the combined words
+        local escaped_word=$(echo "$combined_word" | sed "s/'/'\\\\''/g")
+    
+        filters+="drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=80:fontcolor=yellow:fontfile=$FONT_PATH:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)',"
     done
 
-    # Debug print
-    echo "Constructed filter: $filters"
+    # Remove the trailing comma from filters
+    filters=${filters%,}
 
     ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
-       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];$filters[1:v]format=yuva444p,colorchannelmixer=aa=0.7[watermark];[zoomed][watermark]overlay=10:10" \
+       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];[zoomed]$filters[withText];[1:v]hue=h=60:s=1,drawbox=w=iw:h=ih:c=black:t=5,format=rgba,colorchannelmixer=aa=0.5[watermark];[withText][watermark]overlay=30:30" \
        -pix_fmt yuv420p \
        -c:v libx264 \
        -t $duration \
-       $output_path #2>> ffmpeg_errors.log   # Redirect errors and warnings from ffmpeg to the log file
+       $output_path
 }
+
 
 # Directory and file paths
 DATA_FILE="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/videos-and-scenes-data.json"
@@ -90,7 +98,7 @@ OUTPUT_VIDEO="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/sr
 AUDIO_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/audio/background-audio.mp3"
 VOICEOVER_DIR="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers"
 VOICEOVER_LIST="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/voiceover_list.txt"
-FONT_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/fonts/RobotoBoldCondensed.ttf"
+FONT_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/fonts/Bangers-Regular.ttf"
 TEMP_CONCAT_AUDIO="temp_concat_audio.aac"
 SCENE_VIDEOS_LIST="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/scene_videos_list.txt"
 TEMP_DIR="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/scenes_videos"
