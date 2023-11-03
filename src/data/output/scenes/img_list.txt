@@ -12,12 +12,4 @@ duration 5
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/6-scene.png'
 duration 6
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/7-scene.png'
-duration 6
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/8-scene.png'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/9-scene.png'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/10-scene.png'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/11-scene.png'
 duration 3

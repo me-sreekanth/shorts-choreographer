@@ -12,12 +12,4 @@ duration 5
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/6-scene-voiceover.aac'
 duration 6
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/7-scene-voiceover.aac'
-duration 6
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/8-scene-voiceover.aac'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/9-scene-voiceover.aac'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/10-scene-voiceover.aac'
-duration 5
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/11-scene-voiceover.aac'
 duration 3

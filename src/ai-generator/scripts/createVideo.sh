@@ -15,7 +15,7 @@ generate_voiceover() {
                                             --header "X-USER-ID: $USER_ID" \
                                             --header 'accept: text/event-stream' \
                                             --header 'content-type: application/json' \
-                                            --data "{ \"text\": \"$description\", \"voice\": \"s3://peregrine-voices/mel28/manifest.json\", \"voice_engine\": \"PlayHT2.0\" }")
+                                            --data "{ \"text\": \"$description\", \"voice\": \"s3://peregrine-voices/hudson saad parrot/manifest.json\", \"voice_engine\": \"PlayHT2.0\" }")
 
 echo "Voiceover API Response: $voiceover_response"
         local voiceover_url=$(echo "$voiceover_response" | grep -o "https://peregrine-results.s3.amazonaws.com[^\" ]*\.mp3")
@@ -73,7 +73,7 @@ generate_scene_video() {
         # Escape single quotes inside the combined words
         local escaped_word=$(echo "$combined_word" | sed "s/'/'\\\\''/g")
     
-        filters+="drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=80:fontcolor=yellow:fontfile=$FONT_PATH:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)',"
+        filters+="drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=90:fontcolor=yellow:fontfile=$FONT_PATH:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)',"
     done
 
     # Remove the trailing comma from filters
@@ -82,7 +82,7 @@ generate_scene_video() {
     ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
-       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.0008,1.3)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=$duration*25,scale=-1:1920,crop=1080:1920:((in_w-1080)/2):0[zoomed];[zoomed]$filters[withText];[1:v]hue=h=60:s=1,drawbox=w=iw:h=ih:c=black:t=5,format=rgba,colorchannelmixer=aa=0.5[watermark];[withText][watermark]overlay=30:30" \
+       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.001,1.5)':d=$duration*25:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024,scale=1440:1920,crop=1080:1920:((1440-1080)/2):0[zoomed];[zoomed]$filters[withText];[1:v]hue=h=60:s=1,drawbox=w=iw:h=ih:c=black:t=5,format=rgba,colorchannelmixer=aa=0.7[watermark];[withText][watermark]overlay=50:50" \
        -pix_fmt yuv420p \
        -c:v libx264 \
        -t $duration \
