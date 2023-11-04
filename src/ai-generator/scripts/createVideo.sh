@@ -79,12 +79,20 @@ generate_scene_video() {
     # Remove the trailing comma from filters
     filters=${filters%,}
 
-    ffmpeg -y -loop 1 \
+   ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
-       -filter_complex "[0:v]fps=25,zoompan=z='min(zoom+0.001,1.5)':d=$duration*25:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024,scale=1440:1920,crop=1080:1920:((1440-1080)/2):0[zoomed];[zoomed]$filters[withText];[1:v]hue=h=60:s=1,drawbox=w=iw:h=ih:c=black:t=5,format=rgba,colorchannelmixer=aa=0.7[watermark];[withText][watermark]overlay=50:50" \
+       -filter_complex \
+       "[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=$duration*50:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; \
+        [zoomed]scale=1440:1920[scaled]; \
+        [scaled]crop=1080:1920:((1440-1080)/2):0[cropped]; \
+        [cropped]$filters[withText]; \
+        [1:v]scale=300:-1,format=rgba[watermark]; \
+        [watermark]colorchannelmixer=aa=0.9[watermarkTransparent]; \
+        [withText][watermarkTransparent]overlay=50:50" \
        -pix_fmt yuv420p \
        -c:v libx264 \
+       -r 50 \
        -t $duration \
        $output_path
 }

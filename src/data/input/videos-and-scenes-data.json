@@ -1,54 +1,54 @@
 {
-  "Title": "Cosmic Wonders: The Universe Unveiled",
+  "Title": "Mysteries of the Ocean Depths: Unseen Worlds Below",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5",
-      "VoiceOverText": "The cosmos, an expanse of mysteries, has intrigued humans for eons.",
-      "Description": "A panoramic view of the starry cosmos.",
-      "Text": "The cosmos an expanse of mysteries has intrigued humans for eons"
+      "Duration": "7",
+      "VoiceOverText": "Beneath the waves lies a world more alien than the cosmos above.",
+      "Description": "Create an image of the ocean's serene surface transitioning to a mysterious and dark underwater landscape.",
+      "Text": "Beneath the waves lies a world more alien than the cosmos above"
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "Black holes and supernovae: regions of intense gravity and stellar explosions that shape the universe.",
-      "Description": "A black hole and a star exploding as a supernova.",
-      "Text": "Black holes and supernovae regions of intense gravity and stellar explosions that shape the universe"
+      "Duration": "7",
+      "VoiceOverText": "The Mariana Trench, deeper than Everest is tall, holds secrets in the dark.",
+      "Description": "Generate an image of a narrow, deep underwater canyon representing the Mariana Trench, with faint lights suggesting unknown depths.",
+      "Text": "The Mariana Trench deeper than Everest is tall holds secrets in the dark"
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "From galaxies colliding to the dense neutron stars, the universe is in constant motion.",
-      "Description": "Galaxies colliding and a spinning neutron star.",
-      "Text": "From galaxies colliding to the dense neutron stars the universe is in constant motion"
+      "Duration": "8",
+      "VoiceOverText": "Bioluminescent creatures light up the abyss with lifes glow, a spectacle unseen above.",
+      "Description": "Illustrate a scene of various bioluminescent marine animals illuminating the dark ocean depths with a surreal glow.",
+      "Text": "Bioluminescent creatures light up the abyss with lifes glow a spectacle unseen above"
     },
     {
       "SceneNumber": 4,
-      "Duration": "5",
-      "VoiceOverText": "Dark matter and cosmic inflation: unseen forces and rapid expansion shape the universe's fabric.",
-      "Description": "Visualization of dark matter and universe rapidly expanding.",
-      "Text": "Dark matter and cosmic inflation unseen forces and rapid expansion shape the universes fabric"
+      "Duration": "7",
+      "VoiceOverText": "Hydrothermal vents, lifes oases, thrive in boiling chemistry far from the suns reach.",
+      "Description": "Depict an ecosystem of bizarre creatures clustered around the hot, mineral-rich plumes of underwater hydrothermal vents.",
+      "Text": "Hydrothermal vents lifes oases thrive in boiling chemistry far from the suns reach"
     },
     {
       "SceneNumber": 5,
-      "Duration": "5",
-      "VoiceOverText": "Exoplanets and pioneers like Hubble and Hawking have expanded our cosmic horizons.",
-      "Description": "Exoplanets and a montage of Hubble and Hawking.",
-      "Text": "Exoplanets and pioneers like Hubble and Hawking have expanded our cosmic horizons"
+      "Duration": "7",
+      "VoiceOverText": "Join us in unveiling the oceans ancient stories and modern discoveries.",
+      "Description": "Visualize an underwater explorer with a flashlight revealing ancient ruins and new species, symbolizing discovery.",
+      "Text": "Join us in unveiling the oceans ancient stories and modern discoveries"
     },
     {
       "SceneNumber": 6,
-      "Duration": "6",
-      "VoiceOverText": "Embark on a journey with us, exploring the universe's vastness and wonders.",
-      "Description": "Fade to black with a call to action.",
-      "Text": "Embark on a journey with us exploring the universes vastness and wonders"
+      "Duration": "7",
+      "VoiceOverText": "Dive into our channel for more deep-sea mysteries.",
+      "Description": "Show an invitation to the viewer in the form of a diver's hand reaching out, beckoning into the mysterious deep blue.",
+      "Text": "Dive into our channel for more deep sea mysteries"
     },
     {
       "SceneNumber": 7,
-      "Duration": "3",
-      "VoiceOverText": "Like and subscribe to journey beyond the stars.",
-      "Description": "Like, Share and Subscribe",
-      "Text": "Like and subscribe to journey beyond the stars"
+      "Duration": "7",
+      "VoiceOverText": "Like and subscribe for a plunge into the unknown.",
+      "Description": "Craft an engaging image with a subscribe button encrusted with corals and sea life, emphasizing the theme of exploration.",
+      "Text": "Like and subscribe for a plunge into the unknown"
     }
   ]
 }
