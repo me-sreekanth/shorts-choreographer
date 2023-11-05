@@ -1,0 +1,47 @@
+{
+  "Title": "Ancient India: Epics and Inventions",
+  "Scenes": [
+    {
+      "SceneNumber": 1,
+      "Duration": "7",
+      "VoiceOverText": "Discover Ancient India, where the roots of modern civilization and knowledge systems took hold.",
+      "Description": "A serene panorama of the Indus Valley blending into ancient manuscripts.",
+      "Text": "Discover Ancient India where the roots of modern civilization and knowledge systems took hold"
+    },
+    {
+      "SceneNumber": 2,
+      "Duration": "7",
+      "VoiceOverText": "Marvel at the Indus Valley Civilization's urban planning and the Sanskrit language's contributions to science and literature.",
+      "Description": "Ruins of Mohenjo-daro and Harappa transitioning to ancient texts in Sanskrit.",
+      "Text": "Marvel at the Indus Valley Civilizations urban planning and the Sanskrit languages contributions to science and literature"
+    },
+    {
+      "SceneNumber": 3,
+      "Duration": "7",
+      "VoiceOverText": "Witness the origin of zero in mathematics, the holistic healing of Ayurveda, and the timeless tales of the Ramayana and Mahabharata.",
+      "Description": "Symbols of mathematics and zero leading to Ayurvedic herbs and epic illustrations.",
+      "Text": "Witness the origin of zero in mathematics the holistic healing of Ayurveda and the timeless tales of the Ramayana and Mahabharata"
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "7",
+      "VoiceOverText": "From the ancient practice of Yoga to the strategic game of Chess, India's legacy continues to enrich global culture.",
+      "Description": "Statues in yoga poses with a backdrop of an ancient Chaturanga game.",
+      "Text": "From the ancient practice of Yoga to the strategic game of Chess Indias legacy continues to enrich global culture"
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "5",
+      "VoiceOverText": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations.",
+      "Description": "Montage of ancient Indian achievements fading into a call to action.",
+      "Text": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "3",
+      "VoiceOverText": "Subscribe and delve into more historical mysteries and achievements with us.",
+      "Description": "Like, Share and Subscribe animation.",
+      "Text": "Subscribe and delve into more historical mysteries and achievements with us"
+    }
+  ]
+}
