@@ -1,54 +1,47 @@
 {
-  "Title": "Mysteries of the Ocean Depths: Unseen Worlds Below",
+  "Title": "Ancient India: Epics and Inventions",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "7",
-      "VoiceOverText": "Beneath the waves lies a world more alien than the cosmos above.",
-      "Description": "Create an image of the ocean's serene surface transitioning to a mysterious and dark underwater landscape.",
-      "Text": "Beneath the waves lies a world more alien than the cosmos above"
+      "VoiceOverText": "Discover Ancient India, where the roots of modern civilization and knowledge systems took hold.",
+      "Description": "A serene panorama of the Indus Valley blending into ancient manuscripts.",
+      "Text": "Discover Ancient India where the roots of modern civilization and knowledge systems took hold"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "The Mariana Trench, deeper than Everest is tall, holds secrets in the dark.",
-      "Description": "Generate an image of a narrow, deep underwater canyon representing the Mariana Trench, with faint lights suggesting unknown depths.",
-      "Text": "The Mariana Trench deeper than Everest is tall holds secrets in the dark"
+      "VoiceOverText": "Marvel at the Indus Valley Civilization's urban planning and the Sanskrit language's contributions to science and literature.",
+      "Description": "Ruins of Mohenjo-daro and Harappa transitioning to ancient texts in Sanskrit.",
+      "Text": "Marvel at the Indus Valley Civilizations urban planning and the Sanskrit languages contributions to science and literature"
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Bioluminescent creatures light up the abyss with lifes glow, a spectacle unseen above.",
-      "Description": "Illustrate a scene of various bioluminescent marine animals illuminating the dark ocean depths with a surreal glow.",
-      "Text": "Bioluminescent creatures light up the abyss with lifes glow a spectacle unseen above"
+      "Duration": "7",
+      "VoiceOverText": "Witness the origin of zero in mathematics, the holistic healing of Ayurveda, and the timeless tales of the Ramayana and Mahabharata.",
+      "Description": "Symbols of mathematics and zero leading to Ayurvedic herbs and epic illustrations.",
+      "Text": "Witness the origin of zero in mathematics the holistic healing of Ayurveda and the timeless tales of the Ramayana and Mahabharata"
     },
     {
       "SceneNumber": 4,
       "Duration": "7",
-      "VoiceOverText": "Hydrothermal vents, lifes oases, thrive in boiling chemistry far from the suns reach.",
-      "Description": "Depict an ecosystem of bizarre creatures clustered around the hot, mineral-rich plumes of underwater hydrothermal vents.",
-      "Text": "Hydrothermal vents lifes oases thrive in boiling chemistry far from the suns reach"
+      "VoiceOverText": "From the ancient practice of Yoga to the strategic game of Chess, India's legacy continues to enrich global culture.",
+      "Description": "Statues in yoga poses with a backdrop of an ancient Chaturanga game.",
+      "Text": "From the ancient practice of Yoga to the strategic game of Chess Indias legacy continues to enrich global culture"
     },
     {
       "SceneNumber": 5,
-      "Duration": "7",
-      "VoiceOverText": "Join us in unveiling the oceans ancient stories and modern discoveries.",
-      "Description": "Visualize an underwater explorer with a flashlight revealing ancient ruins and new species, symbolizing discovery.",
-      "Text": "Join us in unveiling the oceans ancient stories and modern discoveries"
+      "Duration": "5",
+      "VoiceOverText": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations.",
+      "Description": "Montage of ancient Indian achievements fading into a call to action.",
+      "Text": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations"
     },
     {
       "SceneNumber": 6,
-      "Duration": "7",
-      "VoiceOverText": "Dive into our channel for more deep-sea mysteries.",
-      "Description": "Show an invitation to the viewer in the form of a diver's hand reaching out, beckoning into the mysterious deep blue.",
-      "Text": "Dive into our channel for more deep sea mysteries"
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "7",
-      "VoiceOverText": "Like and subscribe for a plunge into the unknown.",
-      "Description": "Craft an engaging image with a subscribe button encrusted with corals and sea life, emphasizing the theme of exploration.",
-      "Text": "Like and subscribe for a plunge into the unknown"
+      "Duration": "3",
+      "VoiceOverText": "Subscribe and delve into more historical mysteries and achievements with us.",
+      "Description": "Like, Share and Subscribe animation.",
+      "Text": "Subscribe and delve into more historical mysteries and achievements with us"
     }
   ]
 }

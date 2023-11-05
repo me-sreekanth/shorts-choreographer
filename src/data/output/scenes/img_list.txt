@@ -1,15 +1,1 @@
 
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/1-scene.png'
-duration 7
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/2-scene.png'
-duration 7
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/3-scene.png'
-duration 8
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/4-scene.png'
-duration 7
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/5-scene.png'
-duration 7
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/6-scene.png'
-duration 7
-file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/scenes/7-scene.png'
-duration 7

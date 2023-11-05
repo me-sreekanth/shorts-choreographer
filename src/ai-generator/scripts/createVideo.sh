@@ -27,7 +27,17 @@ fi
         
         curl -o $temp_voiceover_mp3 $voiceover_url
         ffmpeg -y -i $temp_voiceover_mp3 -c:a aac $voiceover_path
-        rm $temp_voiceover_mp3
+rm $temp_voiceover_mp3
+
+# Check if the voiceover was created successfully
+# if [ -f "$voiceover_path" ]; then
+#     # Append the file path to the voiceover list
+#     # echo "file '$voiceover_path'" >> $VOICEOVER_LIST
+# else
+#     echo "Error: Failed to create voiceover at path $voiceover_path"
+#     exit 1
+# fi
+
     fi
 }
 
@@ -49,37 +59,37 @@ generate_scene_video() {
         return 1
     fi
 
-    local word_duration=$(awk "BEGIN {print $duration/$num_words}")  # Duration for each word
-    local filters=""
+    local pause_duration=1  # Pause duration at the start and end
+    local adjusted_duration=$((duration - 2 * pause_duration))  # Adjusted duration for the voiceover without pauses
+    local word_duration=$(awk "BEGIN {print $adjusted_duration/$num_words}")  # Duration for each word
 
     # Debug prints
     echo "For scene $scene:"
     echo "Duration: $duration"
     echo "Number of words: $num_words"
     echo "Word duration: $word_duration"
+    echo "Pause duration: $pause_duration"
 
-    # Build drawtext filters for one or two words at a time
-    for ((i=0; i<${#words[@]}; i+=2)); do
-        local start_time=$(awk "BEGIN {print $word_duration*$i}")
-        local word1="${words[$i]}"
-        local word2="${words[$i+1]}"
+    local filters=""
 
-        # Combine the two words
-        local combined_word="$word1 $word2"
-    
-        # Convert the combined words to uppercase using 'tr'
-        combined_word=$(echo "$combined_word" | tr '[:lower:]' '[:upper:]')
-    
-        # Escape single quotes inside the combined words
-        local escaped_word=$(echo "$combined_word" | sed "s/'/'\\\\''/g")
-    
+    # Build drawtext filters for each word
+    for ((i=0; i<$num_words; i++)); do
+        local start_time=$(awk "BEGIN {print $word_duration*$i + $pause_duration}")
+        local word="${words[$i]}"
+
+        # Convert the word to uppercase using 'tr'
+        word=$(echo "$word" | tr '[:lower:]' '[:upper:]')
+
+        # Escape single quotes inside the word
+        local escaped_word=$(echo "$word" | sed "s/'/'\\\\''/g")
+
         filters+="drawtext=text='$escaped_word':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=90:fontcolor=yellow:fontfile=$FONT_PATH:borderw=3:bordercolor=black:box=1:boxcolor=black@0.2:enable='between(t,$start_time,$start_time+$word_duration)',"
     done
 
     # Remove the trailing comma from filters
     filters=${filters%,}
 
-   ffmpeg -y -loop 1 \
+    ffmpeg -y -loop 1 \
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
        -filter_complex \
@@ -97,6 +107,31 @@ generate_scene_video() {
        $output_path
 }
 
+add_pauses_to_audio() {
+    local voiceover=$1
+    local pause_duration=$2
+    local duration=$3
+    local voiceover_with_pauses=$4
+
+    # This adds a pause of 1 second at the beginning and end of the audio file
+    ffmpeg -y -i $voiceover -af "apad=pad_dur=$pause_duration:whole_dur=$(($duration + $pause_duration))" $voiceover_with_pauses
+}
+
+# Error checking function
+check_command_success() {
+    if [ $? -ne 0 ]; then
+        echo "Error: Command failed - $1"
+        exit 1
+    fi
+}
+
+# Function to get the duration of an audio file in seconds and round it
+get_audio_duration() {
+    local audio_file=$1
+    local duration
+    duration=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$audio_file")
+    echo "$duration" | awk '{printf("%d\n",$1 + 0.5)}' # rounds to the nearest integer
+}
 
 # Directory and file paths
 DATA_FILE="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/input/videos-and-scenes-data.json"
@@ -113,8 +148,8 @@ TEMP_DIR="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/da
 WATERMARK_PATH="/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/watermarks/code_worthy_channel_logo.png"
 
 # API credentials
-USER_ID="kW0pPfKLtlhGJwEnPmqAeqIpyOt1"
-SECRET_KEY="966fffff684a4d2182f7e1567aa3133b"
+USER_ID="dIzV24C18qRrkG7tqbM0ESSD1bv1"
+SECRET_KEY="543b3187c54248c18b16f429f76b5278"
 
 # Determine the number of scenes
 total_scenes=$(jq '.Scenes | length' $DATA_FILE)
@@ -126,46 +161,68 @@ echo "" > $SCENE_VIDEOS_LIST
 
 mkdir -p $TEMP_DIR
 
-# Process each scene
 for scene in $(seq 1 $total_scenes); do
-       duration=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Duration" $DATA_FILE)
     voiceover_text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .VoiceOverText" $DATA_FILE)
-    description=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Description" $DATA_FILE)
-    text=$(jq -r ".Scenes[] | select(.SceneNumber == $scene) | .Text" $DATA_FILE | sed 's/%/%%/g')
     filename="$scene-scene.png"
     voiceover="$VOICEOVER_DIR/$scene-scene-voiceover.aac"
+    voiceover_with_pauses="$VOICEOVER_DIR/$scene-scene-voiceover-with-pauses.aac"
 
-    # Image list for video creation
-    echo "file '$IMG_DIR/$filename'" >> $IMG_LIST
-    echo "duration $duration" >> $IMG_LIST
-
-    # Check if voiceover file already exists
+    # Generate voiceover if it doesn't exist
     if [ ! -f "$voiceover" ]; then
-        # Generate voiceovers
         generate_voiceover $scene "$voiceover_text" $voiceover
     fi
 
-    # Add voiceover to list
-    echo "file '$voiceover'" >> $VOICEOVER_LIST
-    echo "duration $duration" >> $VOICEOVER_LIST
+    # Add pauses to the voiceover
+    add_pauses_to_audio $voiceover 1 # Pass only the voiceover and pause duration
+    # The duration of the scene will be determined by the voiceover with pauses
+    duration=$(get_audio_duration "$voiceover_with_pauses")
+duration_rounded=$(echo "$duration" | awk '{printf("%d\n",$1 + 0.5)}') # rounds to the nearest integer
 
-    # Generate individual scene video
+
+    if [ ! -f "$voiceover_with_pauses" ]; then
+        echo "Error: Failed to create voiceover with pauses at path $voiceover_with_pauses"
+        exit 1
+    fi
+
+    # Append the file path of the voiceover with pauses to the voiceover list
+    echo "file '$voiceover_with_pauses'" >> $VOICEOVER_LIST
+
+    # Generate individual scene video using the voiceover with pauses
     scene_video="$TEMP_DIR/scene_$scene.mp4"
-    generate_scene_video $scene "$text" "$filename" $duration $scene_video
+    generate_scene_video $scene "$text" "$filename" $duration_rounded $scene_video
+    check_command_success "generate_scene_video for scene $scene"
 
     # Scene videos list for final video creation
     echo "file '$scene_video'" >> $SCENE_VIDEOS_LIST
 done
 
+# Check contents of the VOICEOVER_LIST before processing
+echo "Contents of VOICEOVER_LIST:"
+cat $VOICEOVER_LIST
+echo "End of VOICEOVER_LIST"
+
+# Check contents of the SCENE_VIDEOS_LIST before processing
+echo "Contents of SCENE_VIDEOS_LIST:"
+cat $SCENE_VIDEOS_LIST
+echo "End of SCENE_VIDEOS_LIST"
+
 # Audio and video processing
 ffmpeg -y -f concat -safe 0 -i $VOICEOVER_LIST -af "aresample=async=1" -c:a aac -strict -2 $TEMP_CONCAT_AUDIO
+check_command_success "concatenating voiceovers"
+
 ffmpeg -y -i $AUDIO_PATH -i $TEMP_CONCAT_AUDIO -filter_complex "[0]volume=0.1[a];[a][1]amix=inputs=2:duration=first:dropout_transition=2" -c:a aac -strict experimental mixed_audio.aac
+check_command_success "mixing background audio with voiceovers"
+
 ffmpeg -y -f concat -safe 0 -i $SCENE_VIDEOS_LIST -c copy -y concatenated_scenes.mp4
+check_command_success "concatenating scene videos"
+
 ffmpeg -y -i concatenated_scenes.mp4 -i mixed_audio.aac -c:v copy -c:a aac -strict experimental -map 0:v:0 -map 1:a:0 -shortest $OUTPUT_VIDEO
+check_command_success "merging audio and video"
 
 # Cleanup
-rm -r $TEMP_DIR
-rm concatenated_scenes.mp4 mixed_audio.aac
-rm $TEMP_CONCAT_AUDIO
+[ -d "$TEMP_DIR" ] && rm -r "$TEMP_DIR"
+[ -f concatenated_scenes.mp4 ] && rm concatenated_scenes.mp4
+[ -f mixed_audio.aac ] && rm mixed_audio.aac
+[ -f $TEMP_CONCAT_AUDIO ] && rm $TEMP_CONCAT_AUDIO
 
 echo "Video creation completed!"

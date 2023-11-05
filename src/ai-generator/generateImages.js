@@ -25,8 +25,9 @@ const generateImagesForScenes = async () => {
     // Extract the scenes
     const scenes = jsonData.Scenes;
 
-    // Iterate over the scenes and send API request for each
-    for (let scene of scenes) {
+    // Iterate over the scenes and send API request for each, excluding the last scene
+    for (let i = 0; i < scenes.length - 1; i++) {
+      let scene = scenes[i];
       console.log("Scene: ", scene);
       const responseData = await sendRequest(scene);
 
