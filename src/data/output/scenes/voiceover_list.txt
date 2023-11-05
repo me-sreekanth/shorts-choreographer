@@ -5,3 +5,4 @@ file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/o
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/4-scene-voiceover-with-pauses.aac'
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/5-scene-voiceover-with-pauses.aac'
 file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/6-scene-voiceover-with-pauses.aac'
+file '/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/voiceovers/7-scene-voiceover-with-pauses.aac'
