@@ -1,47 +1,47 @@
 {
-  "Title": "Ancient India: Epics and Inventions",
+  "Title": "Galileo: The Father of Modern Astronomy",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "7",
-      "VoiceOverText": "Discover Ancient India, where the roots of modern civilization and knowledge systems took hold.",
-      "Description": "A serene panorama of the Indus Valley blending into ancient manuscripts.",
-      "Text": "Discover Ancient India where the roots of modern civilization and knowledge systems took hold"
+      "VoiceOverText": "Galileo Galilei, an icon of scientific revolution, challenged the cosmos's understanding with his telescope.",
+      "Description": "A dramatic introduction of Galileo gazing through his telescope at the stars.",
+      "Text": "Galileo Galilei an icon of scientific revolution challenged the cosmos understanding with his telescope"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "Marvel at the Indus Valley Civilization's urban planning and the Sanskrit language's contributions to science and literature.",
-      "Description": "Ruins of Mohenjo-daro and Harappa transitioning to ancient texts in Sanskrit.",
-      "Text": "Marvel at the Indus Valley Civilizations urban planning and the Sanskrit languages contributions to science and literature"
+      "VoiceOverText": "His celestial observations confirmed that Earth orbits the Sun, a truth that defied the age-old geocentric model.",
+      "Description": "Galileo's sketches of the heliocentric solar system.",
+      "Text": "His celestial observations confirmed that Earth orbits the Sun a truth that defied the age old geocentric model"
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
-      "VoiceOverText": "Witness the origin of zero in mathematics, the holistic healing of Ayurveda, and the timeless tales of the Ramayana and Mahabharata.",
-      "Description": "Symbols of mathematics and zero leading to Ayurvedic herbs and epic illustrations.",
-      "Text": "Witness the origin of zero in mathematics the holistic healing of Ayurveda and the timeless tales of the Ramayana and Mahabharata"
+      "VoiceOverText": "Galileo's discovery of Jupiter's moons provided crucial evidence for the Copernican theory.",
+      "Description": "Visualization of Jupiter and its moons as seen through Galileo's telescope.",
+      "Text": "Galileos discovery of Jupiters moons provided crucial evidence for the Copernican theory"
     },
     {
       "SceneNumber": 4,
       "Duration": "7",
-      "VoiceOverText": "From the ancient practice of Yoga to the strategic game of Chess, India's legacy continues to enrich global culture.",
-      "Description": "Statues in yoga poses with a backdrop of an ancient Chaturanga game.",
-      "Text": "From the ancient practice of Yoga to the strategic game of Chess Indias legacy continues to enrich global culture"
+      "VoiceOverText": "Defiant of the Inquisition's condemnation, Galileo remained a steadfast proponent of scientific truth.",
+      "Description": "A depiction of Galileo's trial juxtaposed with his unwavering commitment to science.",
+      "Text": "Defiant of the Inquisitions condemnation Galileo remained a steadfast proponent of scientific truth"
     },
     {
       "SceneNumber": 5,
       "Duration": "5",
-      "VoiceOverText": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations.",
-      "Description": "Montage of ancient Indian achievements fading into a call to action.",
-      "Text": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations"
+      "VoiceOverText": "Explore the legacy of Galileo, whose inventions and discoveries became the bedrock of modern physics and astronomy.",
+      "Description": "Montage of Galileo's contributions and their impact on modern science.",
+      "Text": "Explore the legacy of Galileo whose inventions and discoveries became the bedrock of modern physics and astronomy"
     },
     {
       "SceneNumber": 6,
       "Duration": "3",
-      "VoiceOverText": "Subscribe and delve into more historical mysteries and achievements with us.",
-      "Description": "Like, Share and Subscribe animation.",
-      "Text": "Subscribe and delve into more historical mysteries and achievements with us"
+      "VoiceOverText": "Subscribe and join us on a journey through the lives of great minds who shaped our understanding of the universe.",
+      "Description": "Like, Share, and Subscribe animation with images of the universe.",
+      "Text": "Subscribe and join us on a journey through the lives of great minds who shaped our understanding of the universe"
     }
   ]
 }
