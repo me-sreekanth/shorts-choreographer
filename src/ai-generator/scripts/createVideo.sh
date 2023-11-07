@@ -93,7 +93,7 @@ generate_scene_video() {
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
        -filter_complex \
-       "[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=$duration*50:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; \
+       "[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=$adjusted_duration*50:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; \
         [zoomed]scale=1440:1920[scaled]; \
         [scaled]crop=1080:1920:((1440-1080)/2):0[cropped]; \
         [cropped]$filters[withText]; \

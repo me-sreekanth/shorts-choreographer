@@ -1,54 +1,26 @@
 {
-  "Title": "Glowing Life: Bioluminescence in Nature",
+  "Title": "Zeus: Thunderbolt and Throne",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "7",
-      "VoiceOverText": "Imagine a world where light comes alive, where the ocean's depths sparkle with stars of the sea. This is the magic of bioluminescence.",
-      "Description": "A deep-sea scene with glowing creatures.",
-      "Text": "Imagine a world where light comes alive where the oceans depths sparkle with stars of the sea This is the magic of bioluminescence"
+      "VoiceOverText": "Zeus rules Olympus with a thunderbolt in hand, his power resonating through time as the king of gods.",
+      "Description": "Zeus holding a thunderbolt atop Mount Olympus, with storm clouds gathering.",
+      "Text": "Zeus rules Olympus with a thunderbolt in hand his power resonating through time as the king of gods"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "From the flickering fireflies on a warm summer's night to the vibrant glow of jellyfish, nature has its own way of creating light.",
-      "Description": "Fireflies dancing in the night; a jellyfish glowing in the dark waters.",
-      "Text": "From the flickering fireflies on a warm summers night to the vibrant glow of jellyfish nature has its own way of creating light"
+      "VoiceOverText": "Rising from a titan's lineage, Zeus became the foremost figure of strength and the arbiter of divine law.",
+      "Description": "Young Zeus with the Titans in the background, hinting at his rise to power.",
+      "Text": "Rising from a titans lineage Zeus became the foremost figure of strength and the arbiter of divine law"
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
-      "VoiceOverText": "Dive into the depths, where creatures like the anglerfish use their luminous lure to attract prey in the cloak of the ocean's darkness.",
-      "Description": "An anglerfish with its glowing lure in the abyss.",
-      "Text": "Dive into the depths where creatures like the anglerfish use their luminous lure to attract prey in the cloak of the oceans darkness"
-    },
-    {
-      "SceneNumber": 4,
-      "Duration": "7",
-      "VoiceOverText": "On land, bioluminescent fungi cast an ethereal glow on the forest floor, creating a mystical atmosphere where fantasy seems to come to life.",
-      "Description": "Bioluminescent mushrooms lighting up a forest.",
-      "Text": "On land bioluminescent fungi cast an ethereal glow on the forest floor creating a mystical atmosphere where fantasy seems to come to life"
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "7",
-      "VoiceOverText": "Discover how this living light is not just for show; it's a survival technique for communication, camouflage, attraction, and defense.",
-      "Description": "Various bioluminescent organisms displaying their light for different purposes.",
-      "Text": "Discover how this living light is not just for show its a survival technique for communication camouflage attraction and defense"
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "5",
-      "VoiceOverText": "Join us as we uncover the secrets of bioluminescence, a spectacular display of nature's ingenuity.",
-      "Description": "A call to action scene with a compilation of bioluminescent life forms.",
-      "Text": "Join us as we uncover the secrets of bioluminescence a spectacular display of natures ingenuity"
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "3",
-      "VoiceOverText": "Illuminate your curiosity by subscribing for more wonders of the natural world.",
-      "Description": "Like, Share, and Subscribe animation with glowing motifs.",
-      "Text": "Illuminate your curiosity by subscribing for more wonders of the natural world"
+      "VoiceOverText": "Like,Share and Subscribe for more interesing stories from Greek Mythology",
+      "Description": "A panoramic view of ancient Greece with lightning bolts descending from the heavens.",
+      "Text": "Zeus commands the skies and extends his influence to the mortal realm where his decisions manifest as storms and calm"
     }
   ]
 }
