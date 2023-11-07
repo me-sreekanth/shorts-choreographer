@@ -1,26 +1,47 @@
 {
-  "Title": "Zeus: Thunderbolt and Throne",
+  "Title": "Embracing Minds: Understanding Mental Health",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "7",
-      "VoiceOverText": "Zeus rules Olympus with a thunderbolt in hand, his power resonating through time as the king of gods.",
-      "Description": "Zeus holding a thunderbolt atop Mount Olympus, with storm clouds gathering.",
-      "Text": "Zeus rules Olympus with a thunderbolt in hand his power resonating through time as the king of gods"
+      "VoiceOverText": "Mental health is the silent melody of our inner wellbeing, often unheard in the cacophony of life.",
+      "Description": "A calm face with a complex mix of emotions in the eyes, set against a bustling city backdrop.",
+      "Text": "Mental health is the silent melody of our inner wellbeing often unheard in the cacophony of life"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "Rising from a titan's lineage, Zeus became the foremost figure of strength and the arbiter of divine law.",
-      "Description": "Young Zeus with the Titans in the background, hinting at his rise to power.",
-      "Text": "Rising from a titans lineage Zeus became the foremost figure of strength and the arbiter of divine law"
+      "VoiceOverText": "It's about understanding our emotions, recognizing stress, and knowing it's okay to seek help.",
+      "Description": "An individual sitting contemplatively by a window, with a raindrop trail reflecting thoughts.",
+      "Text": "Its about understanding our emotions recognizing stress and knowing its okay to seek help"
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
-      "VoiceOverText": "Like,Share and Subscribe for more interesing stories from Greek Mythology",
-      "Description": "A panoramic view of ancient Greece with lightning bolts descending from the heavens.",
-      "Text": "Zeus commands the skies and extends his influence to the mortal realm where his decisions manifest as storms and calm"
+      "VoiceOverText": "Mental health struggles don't discriminate; they can touch the lives of anyone, regardless of age or status.",
+      "Description": "Diverse group of people with different ages and backgrounds, with a subtle overlay of supportive hands.",
+      "Text": "Mental health struggles dont discriminate they can touch the lives of anyone regardless of age or status"
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "7",
+      "VoiceOverText": "Self-care is a journey, not a destination; it's about making time for yourself, your wellbeing, and nourishing your soul.",
+      "Description": "Someone meditating in nature, surrounded by a serene environment.",
+      "Text": "Self care is a journey not a destination its about making time for yourself your wellbeing and nourishing your soul"
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "7",
+      "VoiceOverText": "The strength to reach out for support is a brave step towards healing; remember, you are not alone.",
+      "Description": "Hands reaching out to each other in a gesture of offering and receiving help.",
+      "Text": "The strength to reach out for support is a brave step towards healing remember you are not alone"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "5",
+      "VoiceOverText": "Join us in breaking the stigma around mental health; together, we can build a kinder, more understanding world.",
+      "Description": "A mosaic of smiling faces with different expressions, coming together to form a supportive community.",
+      "Text": "Join us in breaking the stigma around mental health together we can build a kinder more understanding world"
     }
   ]
 }
