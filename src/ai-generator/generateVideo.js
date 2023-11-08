@@ -21,7 +21,8 @@ const createVideoClipWithTextAndAudio = (
   text,
   audioPath,
   duration, // Make sure this is the duration of the audio file
-  sceneNumber
+  sceneNumber,
+  backgroundAudioPath
 ) => {
   const videoClipPath = path.join(
     outputDirectory,
@@ -36,7 +37,7 @@ const createVideoClipWithTextAndAudio = (
     "fonts",
     "Bangers-Regular.ttf"
   );
-  const fontSize = 75;
+  const fontSize = 100;
   const textChunks = text.split(" ");
   let drawTextFilter = "";
   let startTime = 0;
@@ -67,7 +68,10 @@ const createVideoClipWithTextAndAudio = (
     throw new Error(`Watermark file not found at path: ${watermarkPath}`);
   }
 
-  // Construct the filter_complex part
+  // Adjust the volume of the background music, 0.1 is 10% of the original volume
+  const backgroundVolume = "0.1";
+
+  // Modify the filter_complex part to include background music with adjusted volume
   const filters =
     `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=${adjustedDuration}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; ` +
     `[zoomed]scale=1440:1920[scaled]; ` +
@@ -75,17 +79,20 @@ const createVideoClipWithTextAndAudio = (
     `[cropped]${drawTextFilter}[withText]; ` +
     `[1:v]scale=300:-1,format=rgba[watermark]; ` +
     `[watermark]colorchannelmixer=aa=0.9[watermarkTransparent]; ` +
-    `[withText][watermarkTransparent]overlay=50:50[final]; ` + // This line ensures the watermark stays throughout the video
-    `[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[audio]`;
+    `[withText][watermarkTransparent]overlay=50:50[final]; ` +
+    `[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[voiceover]; ` +
+    `[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=${backgroundVolume}[background]; ` +
+    `[voiceover][background]amix=inputs=2:duration=longest[audio]`;
 
   // Execute the ffmpeg command with all filters
-  const command = `ffmpeg -y -loop 1 -i "${imagePath}" -stream_loop -1 -i "${watermarkPath}" -i "${audioPath}" -filter_complex "${filters}" -map "[final]" -map "[audio]" -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${videoClipPath}"`;
+  const command = `ffmpeg -y -loop 1 -i "${imagePath}" -stream_loop -1 -i "${watermarkPath}" -i "${audioPath}" -i "${backgroundAudioPath}" -filter_complex "${filters}" -map "[final]" -map "[audio]" -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${videoClipPath}"`;
 
   execSync(command);
 
   return videoClipPath;
 };
 
+// This function is now only responsible for concatenating the clips
 const concatenateClipsWithAudio = (videoClips) => {
   const fileListPath = path.join(outputDirectory, "file_list.txt");
   const fileListContent = videoClips.map((file) => `file '${file}'`).join("\n");
@@ -97,9 +104,34 @@ const concatenateClipsWithAudio = (videoClips) => {
   fs.unlinkSync(fileListPath);
 };
 
+// New function to add background music to the final video
+const addBackgroundMusic = (finalVideoPath, backgroundAudioPath) => {
+  // Adjust the volume of the background music, 0.1 is 10% of the original volume
+  const backgroundVolume = "0.2";
+  const outputVideoPath = path.join(
+    outputDirectory,
+    "final_video_with_music.mp4"
+  );
+
+  const command = `ffmpeg -y -i "${finalVideoPath}" -i "${backgroundAudioPath}" -filter_complex "[1:a]volume=${backgroundVolume}[background];[0:a][background]amix=inputs=2:duration=first[audio]" -map 0:v -map "[audio]" -c:v copy -c:a aac -shortest "${outputVideoPath}"`;
+
+  execSync(command);
+
+  return outputVideoPath;
+};
+
 // Main function to generate the final video
 const generateVideo = async () => {
   const videoClips = [];
+  const backgroundAudioPath = path.join(
+    __dirname,
+    "..",
+    "data",
+    "input",
+    "audio",
+    "background-audio.mp3"
+  );
+
   for (const scene of videosAndScenes.Scenes) {
     const sceneNumber = scene.SceneNumber;
     const imagePath = path.join(scenesDirectory, `${sceneNumber}-scene.png`);
@@ -114,14 +146,22 @@ const generateVideo = async () => {
       imagePath,
       text,
       audioPath,
-      duration, // Pass the calculated duration here
-      sceneNumber
+      duration,
+      sceneNumber,
+      backgroundAudioPath
     );
     videoClips.push(videoClipPath);
   }
 
   concatenateClipsWithAudio(videoClips);
-  console.log(`Generated video is available at: ${videoOutputPath}`);
+  // After concatenating video clips, add background music
+  const finalVideoPathWithMusic = addBackgroundMusic(
+    videoOutputPath,
+    backgroundAudioPath
+  );
+  console.log(
+    `Generated video with music is available at: ${finalVideoPathWithMusic}`
+  );
 };
 
 const clearOutputDirectory = () => {
