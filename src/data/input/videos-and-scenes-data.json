@@ -1,47 +1,47 @@
 {
-  "Title": "Embracing Minds: Understanding Mental Health",
+  "Title": "Echoes of Ancient Egypt: A Virtual Time Travel",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "7",
-      "VoiceOverText": "Mental health is the silent melody of our inner wellbeing, often unheard in the cacophony of life.",
-      "Description": "A calm face with a complex mix of emotions in the eyes, set against a bustling city backdrop.",
-      "Text": "Mental health is the silent melody of our inner wellbeing often unheard in the cacophony of life"
+      "VoiceOverText": "Embark on a virtual expedition to the land of the Pharaohs, where ancient wonders are brought to life before your eyes.",
+      "Description": "A sweeping view of the Giza pyramids under the golden sky.",
+      "Text": "Embark on a virtual expedition to the land of the Pharaohs where ancient wonders are brought to life before your eyes"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "It's about understanding our emotions, recognizing stress, and knowing it's okay to seek help.",
-      "Description": "An individual sitting contemplatively by a window, with a raindrop trail reflecting thoughts.",
-      "Text": "Its about understanding our emotions recognizing stress and knowing its okay to seek help"
+      "VoiceOverText": "Navigate through the reconstructed city of Thebes, once a bustling hub of ancient life.",
+      "Description": "A flyover animation of Thebes, highlighting temples and the Nile.",
+      "Text": "Navigate through the reconstructed city of Thebes once a bustling hub of ancient life"
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
-      "VoiceOverText": "Mental health struggles don't discriminate; they can touch the lives of anyone, regardless of age or status.",
-      "Description": "Diverse group of people with different ages and backgrounds, with a subtle overlay of supportive hands.",
-      "Text": "Mental health struggles dont discriminate they can touch the lives of anyone regardless of age or status"
+      "VoiceOverText": "Explore a virtual tomb, where ancient stories are depicted on the walls.",
+      "Description": "Inside a pharaoh's tomb, focusing on the detailed hieroglyphs.",
+      "Text": "Explore a virtual tomb where ancient stories are depicted on the walls"
     },
     {
       "SceneNumber": 4,
       "Duration": "7",
-      "VoiceOverText": "Self-care is a journey, not a destination; it's about making time for yourself, your wellbeing, and nourishing your soul.",
-      "Description": "Someone meditating in nature, surrounded by a serene environment.",
-      "Text": "Self care is a journey not a destination its about making time for yourself your wellbeing and nourishing your soul"
+      "VoiceOverText": "Witness the grandeur of the temples of Karnak and Luxor, enduring symbols of a rich past.",
+      "Description": "Inside the grand temples, the camera moves past towering columns and statues.",
+      "Text": "Witness the grandeur of the temples of Karnak and Luxor enduring symbols of a rich past"
     },
     {
       "SceneNumber": 5,
       "Duration": "7",
-      "VoiceOverText": "The strength to reach out for support is a brave step towards healing; remember, you are not alone.",
-      "Description": "Hands reaching out to each other in a gesture of offering and receiving help.",
-      "Text": "The strength to reach out for support is a brave step towards healing remember you are not alone"
+      "VoiceOverText": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife.",
+      "Description": "A simulation of the mummification process in a historical setting.",
+      "Text": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife"
     },
     {
       "SceneNumber": 6,
-      "Duration": "5",
-      "VoiceOverText": "Join us in breaking the stigma around mental health; together, we can build a kinder, more understanding world.",
-      "Description": "A mosaic of smiling faces with different expressions, coming together to form a supportive community.",
-      "Text": "Join us in breaking the stigma around mental health together we can build a kinder more understanding world"
+      "Duration": "7",
+      "VoiceOverText": "As our journey through the sands of time comes to a close, we invite you to continue exploring with us. Show your support by liking, sharing, and subscribing to our channel for more historical discoveries.",
+      "Description": "A compilation of Ancient Egyptian imagery fades into a call to action for viewers to like, share, and subscribe.",
+      "Text": "As our journey through the sands of time comes to a close we invite you to continue exploring with us Show your support by liking sharing and subscribing to our channel for more historical discoveries"
     }
   ]
 }

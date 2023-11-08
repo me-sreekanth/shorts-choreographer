@@ -7,7 +7,7 @@ const scenesDirectory = path.join(outputDirectory, "scenes");
 const voiceoversDirectory = path.join(outputDirectory, "voiceovers");
 const videoOutputPath = path.join(outputDirectory, "final_video.mp4");
 const videosAndScenes = require("../data/input/videos-and-scenes-data.json");
-const colors = ["white", "yellow"];
+const colors = ["white", "yellow", "red"];
 
 // Function to get the duration of an MP3 file
 const getDuration = (filePath) => {
@@ -35,52 +35,65 @@ const createVideoClipWithTextAndAudio = (
     "input",
     "fonts",
     "Bangers-Regular.ttf"
-  ); // Ensure this path is correct
-  const fontSize = 75; // Increase this value to make the font larger
-  const textChunks = text.split(" "); // Split the text into chunks (simplified example)
+  );
+  const fontSize = 75;
+  const textChunks = text.split(" ");
   let drawTextFilter = "";
   let startTime = 0;
 
-  // Create drawtext filter string for each chunk
   textChunks.forEach((chunk, index) => {
-    // For simplicity, this example will show each word for an equal portion of the duration
     const endTime = startTime + duration / textChunks.length;
-    const color = colors[index % colors.length].toUpperCase(); // Cycle through colors
+    const color = colors[index % colors.length].toUpperCase();
     drawTextFilter += `drawtext=text='${chunk.toUpperCase()}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':borderw=1:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,${startTime},${endTime})',`;
-    startTime = endTime; // Update startTime for the next chunk
+    startTime = endTime;
   });
 
-  // Remove the trailing comma from the filter chain
-  drawTextFilter = drawTextFilter.replace(/,$/, "");
+  drawTextFilter = drawTextFilter.slice(0, -1); // Remove trailing comma
 
-  // Assuming a frame rate of 25 fps, calculate the number of frames for the entire duration
-  const frameRate = 25; // Change this according to your actual frame rate
-  const totalFrames = Math.ceil(duration * frameRate);
+  const adjustedDuration = Math.ceil(duration * 50); // Assuming duration is in seconds and fps is 50
 
-  // Apply the zoom effect over the total number of frames
-  const zoomEffect = `zoompan=z='min(zoom+0.0015,1.5)':d=${totalFrames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024:fps=${frameRate}`;
+  // Assuming your watermark image and desired video scale and crop values are correct
+  const watermarkPath = path.join(
+    __dirname,
+    "..",
+    "data",
+    "output",
+    "watermarks",
+    "code_worthy_channel_logo.png"
+  );
 
-  // Combine the zoom effect with the text filters
-  const filters = `${zoomEffect},${drawTextFilter}`;
-  const filtered = filters.slice(0, -1); // Remove the trailing comma
+  // Ensure the watermark path exists
+  if (!fs.existsSync(watermarkPath)) {
+    throw new Error(`Watermark file not found at path: ${watermarkPath}`);
+  }
 
-  const command = `ffmpeg -y -loop 1 -i "${imagePath}" -i "${audioPath}" -filter_complex "${filtered}" -t ${duration} -c:v libx264 -c:a aac -strict experimental "${videoClipPath}"`;
+  // Construct the filter_complex part
+  const filters =
+    `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=${adjustedDuration}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; ` +
+    `[zoomed]scale=1440:1920[scaled]; ` +
+    `[scaled]crop=1080:1920:((1440-1080)/2):0[cropped]; ` +
+    `[cropped]${drawTextFilter}[withText]; ` +
+    `[1:v]scale=300:-1,format=rgba[watermark]; ` +
+    `[watermark]colorchannelmixer=aa=0.9[watermarkTransparent]; ` +
+    `[withText][watermarkTransparent]overlay=50:50[final]; ` + // This line ensures the watermark stays throughout the video
+    `[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[audio]`;
+
+  // Execute the ffmpeg command with all filters
+  const command = `ffmpeg -y -loop 1 -i "${imagePath}" -stream_loop -1 -i "${watermarkPath}" -i "${audioPath}" -filter_complex "${filters}" -map "[final]" -map "[audio]" -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${videoClipPath}"`;
+
   execSync(command);
 
   return videoClipPath;
 };
 
-// Function to concatenate video clips with voiceovers
 const concatenateClipsWithAudio = (videoClips) => {
   const fileListPath = path.join(outputDirectory, "file_list.txt");
   const fileListContent = videoClips.map((file) => `file '${file}'`).join("\n");
   fs.writeFileSync(fileListPath, fileListContent);
 
-  // Command that re-encodes the streams
   const command = `ffmpeg -y -f concat -safe 0 -i "${fileListPath}" -c:v libx264 -preset medium -crf 22 -c:a aac -b:a 192k "${videoOutputPath}"`;
   execSync(command);
 
-  // Clean up
   fs.unlinkSync(fileListPath);
 };
 
