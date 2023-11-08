@@ -12,28 +12,28 @@
       "SceneNumber": 2,
       "Duration": "7",
       "VoiceOverText": "Navigate through the reconstructed city of Thebes, once a bustling hub of ancient life.",
-      "Description": "A flyover animation of Thebes, highlighting temples and the Nile.",
+      "Description": "Nile",
       "Text": "Navigate through the reconstructed city of Thebes once a bustling hub of ancient life"
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
       "VoiceOverText": "Explore a virtual tomb, where ancient stories are depicted on the walls.",
-      "Description": "Inside a pharaoh's tomb, focusing on the detailed hieroglyphs.",
+      "Description": "tomb",
       "Text": "Explore a virtual tomb where ancient stories are depicted on the walls"
     },
     {
       "SceneNumber": 4,
       "Duration": "7",
       "VoiceOverText": "Witness the grandeur of the temples of Karnak and Luxor, enduring symbols of a rich past.",
-      "Description": "Inside the grand temples, the camera moves past towering columns and statues.",
+      "Description": "temples",
       "Text": "Witness the grandeur of the temples of Karnak and Luxor enduring symbols of a rich past"
     },
     {
       "SceneNumber": 5,
       "Duration": "7",
       "VoiceOverText": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife.",
-      "Description": "A simulation of the mummification process in a historical setting.",
+      "Description": "mummification",
       "Text": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife"
     },
     {

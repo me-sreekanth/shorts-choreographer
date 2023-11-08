@@ -32,7 +32,11 @@ const generateImagesForScenes = async () => {
       const responseData = await sendRequest(scene);
 
       if (responseData && responseData.data.process_id) {
-        await fetchStatus(responseData.data.process_id, scene); // Pass scene object here
+        await fetchStatus(
+          responseData.data.process_id,
+          scene,
+          scenes.length - 1
+        ); // Pass scene object here
       }
     }
   } catch (error) {

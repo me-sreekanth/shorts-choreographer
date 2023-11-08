@@ -120,4 +120,7 @@ const generateAllVoiceOvers = async () => {
   }
 };
 
-generateAllVoiceOvers();
+module.exports = {
+  generateAllVoiceOvers,
+};
+// generateAllVoiceOvers();

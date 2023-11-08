@@ -1,8 +1,10 @@
 const axios = require("axios");
 const fs = require("fs");
+const { generateAllVoiceOvers } = require("../ai-generator/generateVoiceovers");
 require("dotenv").config();
 
 const BEARER_TOKEN = process.env.BEARER_TOKEN;
+let COMPLETED = 0;
 
 // Function to send a request for image data
 const sendRequest = async (scene) => {
@@ -13,7 +15,7 @@ const sendRequest = async (scene) => {
       samples: 1,
       steps: 50,
       aspect_ratio: "portrait",
-      guidance_scale: 35,
+      guidance_scale: 20,
       seed: 8265801,
       prompt: scene.Description, // This uses the Description key as intended
       style: "realism",
@@ -41,7 +43,8 @@ const sendRequest = async (scene) => {
 };
 
 // Function to fetch request status
-const fetchStatus = async (process_id, scene) => {
+const fetchStatus = async (process_id, scene, totalScenes) => {
+  console.log("Completed", COMPLETED);
   const payload = {
     process_id: process_id,
   };
@@ -63,8 +66,8 @@ const fetchStatus = async (process_id, scene) => {
       response.data.data.data.status === "IN_PROGRESS" ||
       response.data.data.data.status === "IN_QUEUE"
     ) {
-      setTimeout(() => {
-        fetchStatus(process_id, scene);
+      setTimeout(async () => {
+        await fetchStatus(process_id, scene, totalScenes);
       }, 10000);
     }
 
@@ -88,6 +91,13 @@ const fetchStatus = async (process_id, scene) => {
         responseType: "stream",
       });
       imageResponse.data.pipe(imageStream);
+      COMPLETED += 1;
+      if (COMPLETED === totalScenes) {
+        generateAllVoiceOvers();
+      }
+    } else if (response.data.data.data.status === "FAILED") {
+      console.log("FAILED:", scene.SceneNumber);
+      const res = await sendRequest(scene);
     }
 
     console.log("fetchStatus :: ", response.data);
