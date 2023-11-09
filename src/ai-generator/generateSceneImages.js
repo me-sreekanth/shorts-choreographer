@@ -31,7 +31,14 @@ const generateImage = async (description, sceneNumber, retries = 3) => {
     const formData = new FormData();
     formData.append("prompt", description);
     formData.append("aspect_ratio", "portrait");
-    formData.append("guidance_scale", "12.5");
+    formData.append("guidance_scale", "40");
+    formData.append("style", "realism");
+    formData.append("samples", "1");
+    formData.append("steps", "50");
+    formData.append(
+      "negprompt",
+      "unreal,fake,meme,joke,disfigured,poor quality,bad,ugly"
+    );
 
     const response = await axios.post(API_ENDPOINT, formData, {
       headers: {

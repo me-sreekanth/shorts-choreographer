@@ -1,47 +1,40 @@
 {
-  "Title": "Echoes of Ancient Egypt: A Virtual Time Travel",
+  "Title": "Genghis Khan: Conqueror of the World",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "7",
-      "VoiceOverText": "Embark on a virtual expedition to the land of the Pharaohs, where ancient wonders are brought to life before your eyes.",
-      "Description": "A sweeping view of the Giza pyramids under the golden sky.",
-      "Text": "Embark on a virtual expedition to the land of the Pharaohs where ancient wonders are brought to life before your eyes"
+      "Duration": "8",
+      "VoiceOverText": "Genghis Khan, a name that echoes through history, began as Temujin in the steppes of Mongolia, uniting tribes with visionary leadership.",
+      "Description": "Mongolian steppe with a figure of young Temujin on horseback.",
+      "Text": "Genghis Khan a name that echoes through history began as Temujin in the steppes of Mongolia uniting tribes with visionary leadership"
     },
     {
       "SceneNumber": 2,
-      "Duration": "7",
-      "VoiceOverText": "Navigate through the reconstructed city of Thebes, once a bustling hub of ancient life.",
-      "Description": "Nile",
-      "Text": "Navigate through the reconstructed city of Thebes once a bustling hub of ancient life"
+      "Duration": "8",
+      "VoiceOverText": "His empire stretched from the Pacific to Europe, built on groundbreaking military tactics and a merit-based society.",
+      "Description": "Mongol horsemen demonstrating archery and a map showing the vast Mongol Empire.",
+      "Text": "His empire stretched from the Pacific to Europe built on groundbreaking military tactics and a merit-based society"
     },
     {
       "SceneNumber": 3,
-      "Duration": "7",
-      "VoiceOverText": "Explore a virtual tomb, where ancient stories are depicted on the walls.",
-      "Description": "tomb",
-      "Text": "Explore a virtual tomb where ancient stories are depicted on the walls"
+      "Duration": "8",
+      "VoiceOverText": "The Pax Mongolica under Genghis Khan saw the Silk Road thrive, enhancing trade and cultural exchanges across continents.",
+      "Description": "Caravans on the Silk Road under the protection of Mongol envoys.",
+      "Text": "The Pax Mongolica under Genghis Khan saw the Silk Road thrive enhancing trade and cultural exchanges across continents"
     },
     {
       "SceneNumber": 4,
-      "Duration": "7",
-      "VoiceOverText": "Witness the grandeur of the temples of Karnak and Luxor, enduring symbols of a rich past.",
-      "Description": "temples",
-      "Text": "Witness the grandeur of the temples of Karnak and Luxor enduring symbols of a rich past"
+      "Duration": "8",
+      "VoiceOverText": "Genghis Khan's legacy is a testament to the power of strategic innovation and cultural integration that shaped the modern world.",
+      "Description": "A legacy montage of Genghis Khan's empire and influences.",
+      "Text": "Genghis Khans legacy is a testament to the power of strategic innovation and cultural integration that shaped the modern world"
     },
     {
       "SceneNumber": 5,
-      "Duration": "7",
-      "VoiceOverText": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife.",
-      "Description": "mummification",
-      "Text": "Behold the ancient art of mummification and its role in the Egyptian belief in an afterlife"
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "7",
-      "VoiceOverText": "As our journey through the sands of time comes to a close, we invite you to continue exploring with us. Show your support by liking, sharing, and subscribing to our channel for more historical discoveries.",
-      "Description": "A compilation of Ancient Egyptian imagery fades into a call to action for viewers to like, share, and subscribe.",
-      "Text": "As our journey through the sands of time comes to a close we invite you to continue exploring with us Show your support by liking sharing and subscribing to our channel for more historical discoveries"
+      "Duration": "8",
+      "VoiceOverText": "Uncover the story of Genghis Khan with us. Like, share, and subscribe for more historical insights.",
+      "Description": "A call to action with historical artifacts and the emblem of Genghis Khan.",
+      "Text": "Uncover the story of Genghis Khan with us Like share and subscribe for more historical insights"
     }
   ]
 }

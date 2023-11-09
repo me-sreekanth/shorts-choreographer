@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generateImages": "node ./src/app.js"
+    "cleanAssets": "chmod +x src/ai-generator/cleanAssests.sh && ./src/ai-generator/cleanAssests.sh",
+    "generateShorts": "node ./src/ai-generator/index.js"
   },
   "keywords": [],
   "author": "",

@@ -77,9 +77,9 @@ const createVideoClipWithTextAndAudio = (
     `[zoomed]scale=1440:1920[scaled]; ` +
     `[scaled]crop=1080:1920:((1440-1080)/2):0[cropped]; ` +
     `[cropped]${drawTextFilter}[withText]; ` +
-    `[1:v]scale=300:-1,format=rgba[watermark]; ` +
-    `[watermark]colorchannelmixer=aa=0.9[watermarkTransparent]; ` +
-    `[withText][watermarkTransparent]overlay=50:50[final]; ` +
+    `[1:v]scale=200:106,format=rgba[watermark]; ` +
+    `[watermark]colorchannelmixer=aa=0.8[watermarkTransparent]; ` +
+    `[withText][watermarkTransparent]overlay=80:80[final]; ` +
     `[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[voiceover]; ` +
     `[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=${backgroundVolume}[background]; ` +
     `[voiceover][background]amix=inputs=2:duration=longest[audio]`;
