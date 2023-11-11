@@ -7,7 +7,6 @@ const scenesDirectory = path.join(outputDirectory, "scenes");
 const voiceoversDirectory = path.join(outputDirectory, "voiceovers");
 const videoOutputPath = path.join(outputDirectory, "final_video.mp4");
 const videosAndScenes = require("../data/input/videos-and-scenes-data.json");
-const colors = ["white", "yellow", "red"];
 
 // Function to get the duration of an MP3 file
 const getDuration = (filePath) => {
@@ -15,9 +14,22 @@ const getDuration = (filePath) => {
   return parseFloat(execSync(command).toString().trim());
 };
 
-// Helper function to split text into sentences
-const splitTextIntoSentences = (text) => {
-  return text.match(/[^.!?]+[.!?]+/g) || [];
+// Function to split text into lines with max 3 words per line
+const splitTextIntoLines = (text, maxWordsPerLine = 3) => {
+  const words = text.split(/\s+/); // Split by any whitespace
+  let lines = [];
+  let currentLine = [];
+
+  words.forEach((word, index) => {
+    currentLine.push(word);
+    // Check if the current line has reached the max words or it's the last word
+    if (currentLine.length === maxWordsPerLine || index === words.length - 1) {
+      lines.push(currentLine.join(" "));
+      currentLine = [];
+    }
+  });
+
+  return lines;
 };
 
 // Function to create a video clip from an image, add text with animations and set duration
@@ -48,43 +60,6 @@ const createVideoClipWithTextAndAudio = (
   const lineHeight = fontSize * 1.5;
   const wordSpacing = 1;
 
-  // Function to split text into lines based on word length
-  const splitTextIntoLines = (text) => {
-    const words = text.split(" ");
-    let lines = [];
-    let currentLine = [];
-    let currentSet = [];
-
-    words.forEach((word) => {
-      // Check if the current word can be added to the current line
-      if (currentLine.length < 3 && word.length <= 5) {
-        currentLine.push(word);
-      } else if (currentLine.length < 2 && word.length > 5) {
-        currentLine.push(word);
-      } else {
-        // Current line is full, add it to the current set
-        currentSet.push(currentLine.join(" "));
-        currentLine = [word];
-      }
-
-      // Check if the current set has 2 lines, if so, add it to the lines array
-      if (currentSet.length === 2) {
-        lines.push([...currentSet]);
-        currentSet = [];
-      }
-    });
-
-    // Add any remaining words to the last line and last set
-    if (currentLine.length > 0) {
-      currentSet.push(currentLine.join(" "));
-    }
-    if (currentSet.length > 0) {
-      lines.push([...currentSet]);
-    }
-
-    return lines;
-  };
-
   const calculateLineWidth = (line, fontSize) => {
     if (!Array.isArray(line)) {
       console.error("calculateLineWidth: Expected an array, got:", line);
@@ -104,7 +79,16 @@ const createVideoClipWithTextAndAudio = (
     return word.length * averageCharWidth;
   };
 
-  const lineSets = splitTextIntoLines(text);
+  let lineSets = splitTextIntoLines(text);
+  console.log("Line sets:", lineSets); // Check what lineSets contains
+  if (!Array.isArray(lineSets)) {
+    console.error(
+      "Expected an array from splitTextIntoLines, received:",
+      lineSets
+    );
+    return;
+  }
+
   let drawTextFilters = [];
   const setDisplayDuration = duration / lineSets.length;
 
@@ -115,35 +99,30 @@ const createVideoClipWithTextAndAudio = (
 
   // Calculate the display duration for each word
   const wordDisplayDuration = duration / totalWordCount;
-  let currentTime = 0;
-  lineSets.forEach((lines, setIndex) => {
-    let setStartTime = setIndex * setDisplayDuration;
-    let setEndTime = setStartTime + setDisplayDuration;
-    let currentStartTime = setStartTime;
+  lineSets.forEach((line, lineIndex) => {
+    let words = line.split(" ");
+    let totalLineWidth = calculateLineWidth(words, fontSize);
 
-    let yPosBase = (videoHeight - lines.length * lineHeight) / 2;
+    // Calculate the starting X position for the line
+    let xPosStart =
+      (videoWidth - totalLineWidth - wordSpacing * (words.length - 1)) / 2;
 
-    lines.forEach((line, lineIndex) => {
-      const words = line.split(" ");
-      let totalLineWidth =
-        calculateLineWidth(words, fontSize) + (words.length - 1) * wordSpacing;
-      let xPosStart = (videoWidth - totalLineWidth) / 2;
-      let yPos = yPosBase + lineIndex * lineHeight;
+    let yPos = (videoHeight - lineHeight) / 2; // Adjust this as needed
+    let currentStartTime = lineIndex * setDisplayDuration;
+    let setEndTime = currentStartTime + setDisplayDuration;
 
-      const wordDisplayDuration = setDisplayDuration / words.length;
+    words.forEach((word, wordIndex) => {
+      const sanitizedWord = word.replace(/'/g, "'\\''");
+      const color =
+        word.length > 4 ? (wordIndex % 2 === 0 ? "yellow" : "red") : "white";
 
-      words.forEach((word, wordIndex) => {
-        const sanitizedWord = word.replace(/'/g, "'\\''");
-        const color =
-          word.length > 4 ? (wordIndex % 2 === 0 ? "yellow" : "red") : "white";
+      drawTextFilters.push(
+        `drawtext=text='${sanitizedWord}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':x=${xPosStart}:y=${yPos}:enable='between(t,${currentStartTime},${setEndTime})'`
+      );
 
-        drawTextFilters.push(
-          `drawtext=text='${sanitizedWord}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':x=${xPosStart}:y=${yPos}:enable='between(t,${currentStartTime},${setEndTime})'`
-        );
-
-        xPosStart += measureWordWidth(word, fontSize) + wordSpacing;
-        currentStartTime += wordDisplayDuration; // Update start time for the next word
-      });
+      // Update xPosStart for the next word, including word spacing
+      xPosStart += measureWordWidth(word, fontSize) + wordSpacing;
+      currentStartTime += wordDisplayDuration;
     });
   });
 
@@ -271,6 +250,12 @@ const clearOutputDirectory = () => {
   }
 };
 
-// Call this before generateVideo()
-clearOutputDirectory();
-generateVideo().catch((error) => console.error(error));
+// Execute the video generation process
+(async () => {
+  try {
+    clearOutputDirectory();
+    await generateVideo();
+  } catch (error) {
+    console.error("Error generating video:", error);
+  }
+})();
