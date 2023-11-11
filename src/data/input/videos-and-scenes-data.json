@@ -1,40 +1,40 @@
 {
-  "Title": "Genghis Khan: Conqueror of the World",
+  "Title": "Bodhi Dharma: The Legendary Journey from Monk to Master",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "Genghis Khan, a name that echoes through history, began as Temujin in the steppes of Mongolia, uniting tribes with visionary leadership.",
-      "Description": "Mongolian steppe with a figure of young Temujin on horseback.",
-      "Text": "Genghis Khan a name that echoes through history began as Temujin in the steppes of Mongolia uniting tribes with visionary leadership"
+      "Duration": "12",
+      "VoiceOverText": "In a time shrouded by the mists of history, Bodhi Dharma embarked on a journey from India's tranquil monasteries to the legendary Shaolin Temple of China.",
+      "Description": "An ancient map tracing the journey from India to China, with animated footsteps marking the path.",
+      "Text": "In a time shrouded by the mists of history Bodhi Dharma embarked on a journey from Indias tranquil monasteries to the legendary Shaolin Temple of China"
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "His empire stretched from the Pacific to Europe, built on groundbreaking military tactics and a merit-based society.",
-      "Description": "Mongol horsemen demonstrating archery and a map showing the vast Mongol Empire.",
-      "Text": "His empire stretched from the Pacific to Europe built on groundbreaking military tactics and a merit-based society"
+      "Duration": "12",
+      "VoiceOverText": "His teachings would meld the spiritual with the physical, laying the foundations for Shaolin Kung Fu, and his legend would echo through the ages.",
+      "Description": "Scenes of Shaolin monks practicing Kung Fu with interspersed ancient scrolls of Bodhi Dharma’s teachings.",
+      "Text": "His teachings would meld the spiritual with the physical laying the foundations for Shaolin Kung Fu and his legend would echo through the ages"
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "The Pax Mongolica under Genghis Khan saw the Silk Road thrive, enhancing trade and cultural exchanges across continents.",
-      "Description": "Caravans on the Silk Road under the protection of Mongol envoys.",
-      "Text": "The Pax Mongolica under Genghis Khan saw the Silk Road thrive enhancing trade and cultural exchanges across continents"
+      "Duration": "12",
+      "VoiceOverText": "Through meditation and martial arts, Bodhi Dharma taught the monks the balance of body and mind, principles that would transcend the temple's walls to influence the world.",
+      "Description": "A montage of meditation and martial arts training in serene temple settings.",
+      "Text": "Through meditation and martial arts Bodhi Dharma taught the monks the balance of body and mind principles that would transcend the temples walls to influence the world"
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Genghis Khan's legacy is a testament to the power of strategic innovation and cultural integration that shaped the modern world.",
-      "Description": "A legacy montage of Genghis Khan's empire and influences.",
-      "Text": "Genghis Khans legacy is a testament to the power of strategic innovation and cultural integration that shaped the modern world"
+      "Duration": "12",
+      "VoiceOverText": "The tales of his life are woven with miracles and mystery, from meditating facing a wall for nine years to passing on his knowledge to the chosen disciples.",
+      "Description": "Artistic interpretations of Bodhi Dharma’s legendary feats and the passing of wisdom to his disciples.",
+      "Text": "The tales of his life are woven with miracles and mystery from meditating facing a wall for nine years to passing on his knowledge to the chosen disciples"
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Uncover the story of Genghis Khan with us. Like, share, and subscribe for more historical insights.",
-      "Description": "A call to action with historical artifacts and the emblem of Genghis Khan.",
-      "Text": "Uncover the story of Genghis Khan with us Like share and subscribe for more historical insights"
+      "Duration": "12",
+      "VoiceOverText": "Join us in uncovering the saga of Bodhi Dharma, the sage who journeyed West to spread enlightenment and martial mastery. Like, share, and subscribe for more tales of ancient wisdom.",
+      "Description": "A call to action with visuals of ancient texts, the Shaolin Temple, and a serene Bodhi Dharma in meditation.",
+      "Text": "Join us in uncovering the saga of Bodhi Dharma the sage who journeyed West to spread enlightenment and martial mastery Like share and subscribe for more tales of ancient wisdom"
     }
   ]
 }

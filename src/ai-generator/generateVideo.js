@@ -15,6 +15,11 @@ const getDuration = (filePath) => {
   return parseFloat(execSync(command).toString().trim());
 };
 
+// Helper function to split text into sentences
+const splitTextIntoSentences = (text) => {
+  return text.match(/[^.!?]+[.!?]+/g) || [];
+};
+
 // Function to create a video clip from an image, add text with animations and set duration
 const createVideoClipWithTextAndAudio = (
   imagePath,
@@ -38,15 +43,55 @@ const createVideoClipWithTextAndAudio = (
     "Bangers-Regular.ttf"
   );
   const fontSize = 100;
-  const textChunks = text.split(" ");
-  let drawTextFilter = "";
-  let startTime = 0;
 
-  textChunks.forEach((chunk, index) => {
-    const endTime = startTime + duration / textChunks.length;
-    const color = colors[index % colors.length].toUpperCase();
-    drawTextFilter += `drawtext=text='${chunk.toUpperCase()}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':borderw=1:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,${startTime},${endTime})',`;
-    startTime = endTime;
+  // Function to split text into lines based on word length
+  const splitTextIntoLines = (text) => {
+    const words = text.split(" ");
+    let lines = [];
+    let currentLine = "";
+    let currentSet = [];
+
+    words.forEach((word) => {
+      if (
+        (currentLine.split(" ").length < 3 && word.length <= 5) ||
+        (currentLine.split(" ").length < 2 && word.length > 5)
+      ) {
+        currentLine += `${word} `;
+      } else {
+        currentSet.push(currentLine.trim());
+        currentLine = `${word} `;
+
+        if (currentSet.length === 2) {
+          lines.push([...currentSet]);
+          currentSet = [];
+        }
+      }
+    });
+
+    if (currentLine) {
+      currentSet.push(currentLine.trim());
+    }
+    if (currentSet.length) {
+      lines.push([...currentSet]);
+    }
+
+    return lines;
+  };
+
+  const linesSets = splitTextIntoLines(text);
+  let drawTextFilter = "";
+  const lineHeight = fontSize * 1.5; // Adjust for line spacing
+  const setDisplayDuration = duration / linesSets.length; // Divide total duration by number of line sets
+
+  linesSets.forEach((set, setIndex) => {
+    set.forEach((line, lineIndex) => {
+      const sanitizedLine = line.replace(/'/g, "'\\''"); // Escaping single quotes
+      const startTime = setIndex * setDisplayDuration;
+      const endTime = startTime + setDisplayDuration;
+      const yPos = `(h-text_h)/2-${(2 / 2 - lineIndex) * lineHeight}`;
+
+      drawTextFilter += `drawtext=text='${sanitizedLine}':fontcolor=white:fontsize=${fontSize}:fontfile='${fontPath}':borderw=1:bordercolor=black:x=(w-text_w)/2:y=${yPos}:enable='between(t,${startTime},${endTime})',`;
+    });
   });
 
   drawTextFilter = drawTextFilter.slice(0, -1); // Remove trailing comma
