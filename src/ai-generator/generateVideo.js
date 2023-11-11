@@ -43,58 +43,111 @@ const createVideoClipWithTextAndAudio = (
     "Bangers-Regular.ttf"
   );
   const fontSize = 100;
+  const videoWidth = 1080;
+  const videoHeight = 1920; // Replace with your actual video height
+  const lineHeight = fontSize * 1.5;
+  const wordSpacing = 1;
 
   // Function to split text into lines based on word length
   const splitTextIntoLines = (text) => {
     const words = text.split(" ");
     let lines = [];
-    let currentLine = "";
+    let currentLine = [];
     let currentSet = [];
 
     words.forEach((word) => {
-      if (
-        (currentLine.split(" ").length < 3 && word.length <= 5) ||
-        (currentLine.split(" ").length < 2 && word.length > 5)
-      ) {
-        currentLine += `${word} `;
+      // Check if the current word can be added to the current line
+      if (currentLine.length < 3 && word.length <= 5) {
+        currentLine.push(word);
+      } else if (currentLine.length < 2 && word.length > 5) {
+        currentLine.push(word);
       } else {
-        currentSet.push(currentLine.trim());
-        currentLine = `${word} `;
+        // Current line is full, add it to the current set
+        currentSet.push(currentLine.join(" "));
+        currentLine = [word];
+      }
 
-        if (currentSet.length === 2) {
-          lines.push([...currentSet]);
-          currentSet = [];
-        }
+      // Check if the current set has 2 lines, if so, add it to the lines array
+      if (currentSet.length === 2) {
+        lines.push([...currentSet]);
+        currentSet = [];
       }
     });
 
-    if (currentLine) {
-      currentSet.push(currentLine.trim());
+    // Add any remaining words to the last line and last set
+    if (currentLine.length > 0) {
+      currentSet.push(currentLine.join(" "));
     }
-    if (currentSet.length) {
+    if (currentSet.length > 0) {
       lines.push([...currentSet]);
     }
 
     return lines;
   };
 
-  const linesSets = splitTextIntoLines(text);
-  let drawTextFilter = "";
-  const lineHeight = fontSize * 1.5; // Adjust for line spacing
-  const setDisplayDuration = duration / linesSets.length; // Divide total duration by number of line sets
+  const calculateLineWidth = (line, fontSize) => {
+    if (!Array.isArray(line)) {
+      console.error("calculateLineWidth: Expected an array, got:", line);
+      return 0;
+    }
 
-  linesSets.forEach((set, setIndex) => {
-    set.forEach((line, lineIndex) => {
-      const sanitizedLine = line.replace(/'/g, "'\\''"); // Escaping single quotes
-      const startTime = setIndex * setDisplayDuration;
-      const endTime = startTime + setDisplayDuration;
-      const yPos = `(h-text_h)/2-${(2 / 2 - lineIndex) * lineHeight}`;
+    let totalWidth = 0;
+    line.forEach((word) => {
+      totalWidth += measureWordWidth(word, fontSize);
+    });
+    return totalWidth;
+  };
 
-      drawTextFilter += `drawtext=text='${sanitizedLine}':fontcolor=white:fontsize=${fontSize}:fontfile='${fontPath}':borderw=1:bordercolor=black:x=(w-text_w)/2:y=${yPos}:enable='between(t,${startTime},${endTime})',`;
+  // Function to estimate the width of a single word
+  const measureWordWidth = (word, fontSize) => {
+    const averageCharWidth = fontSize * 0.5; // This is an approximation
+    return word.length * averageCharWidth;
+  };
+
+  const lineSets = splitTextIntoLines(text);
+  let drawTextFilters = [];
+  const setDisplayDuration = duration / lineSets.length;
+
+  // Calculate the total number of words
+  const totalWordCount = lineSets.flat().reduce((total, line) => {
+    return total + line.split(" ").length;
+  }, 0);
+
+  // Calculate the display duration for each word
+  const wordDisplayDuration = duration / totalWordCount;
+  let currentTime = 0;
+  lineSets.forEach((lines, setIndex) => {
+    let setStartTime = setIndex * setDisplayDuration;
+    let setEndTime = setStartTime + setDisplayDuration;
+    let currentStartTime = setStartTime;
+
+    let yPosBase = (videoHeight - lines.length * lineHeight) / 2;
+
+    lines.forEach((line, lineIndex) => {
+      const words = line.split(" ");
+      let totalLineWidth =
+        calculateLineWidth(words, fontSize) + (words.length - 1) * wordSpacing;
+      let xPosStart = (videoWidth - totalLineWidth) / 2;
+      let yPos = yPosBase + lineIndex * lineHeight;
+
+      const wordDisplayDuration = setDisplayDuration / words.length;
+
+      words.forEach((word, wordIndex) => {
+        const sanitizedWord = word.replace(/'/g, "'\\''");
+        const color =
+          word.length > 4 ? (wordIndex % 2 === 0 ? "yellow" : "red") : "white";
+
+        drawTextFilters.push(
+          `drawtext=text='${sanitizedWord}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':x=${xPosStart}:y=${yPos}:enable='between(t,${currentStartTime},${setEndTime})'`
+        );
+
+        xPosStart += measureWordWidth(word, fontSize) + wordSpacing;
+        currentStartTime += wordDisplayDuration; // Update start time for the next word
+      });
     });
   });
 
-  drawTextFilter = drawTextFilter.slice(0, -1); // Remove trailing comma
+  const drawTextFilter = drawTextFilters.join(",");
 
   const adjustedDuration = Math.ceil(duration * 50); // Assuming duration is in seconds and fps is 50
 
