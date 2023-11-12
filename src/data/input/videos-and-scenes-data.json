@@ -1,47 +1,41 @@
 {
-  "Title": "AI Revolution: How Artificial Intelligence Is Changing Our World",
+  "Title": "Cosmic Timelines: The Age of the Universe, Earth, and Sun",
+  "Description": "Travel back in time to witness the birth of the universe, the formation of our Sun, and the coalescing of Earth. This video takes you on an awe-inspiring journey, from the fiery origins of the Big Bang to the creation of our Moon. Uncover the cosmic events that shaped our history and join us in exploring the astronomical wonders that define our existence.",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "6",
-      "VoiceOverText": "Artificial Intelligence, once a sci-fi dream, is now a reality transforming our world.",
-      "Description": "Futuristic cityscape with digital networks and AI interfaces.",
-      "Text": "Artificial Intelligence once a sci fi dream is now a reality transforming our world"
+      "VoiceOverText": "The universe, an expansive tapestry, began with the Big Bang, around 13.8 billion years ago.",
+      "Description": "Visualization of the Big Bang, with galaxies",
+      "Text": "The universe began with the Big Bang around 138 billion years ago"
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "VoiceOverText": "AI in healthcare, revolutionizing diagnoses and treatments, saving lives.",
-      "Description": "Robotic arms performing surgery and AI analyzing medical data.",
-      "Text": "AI in healthcare revolutionizing diagnoses and treatments saving lives"
+      "VoiceOverText": "Our Sun, a glowing sphere of hot plasma, formed about 4.6 billion years ago, giving light to our solar system.",
+      "Description": "Formation of the Sun in a cloud of gas and dust.",
+      "Text": "Our Sun formed about 46 billion years ago giving light to our solar system"
     },
     {
       "SceneNumber": 3,
       "Duration": "6",
-      "VoiceOverText": "Self-driving cars, an AI marvel, promise safer, more efficient roads.",
-      "Description": "Autonomous cars navigating seamlessly through city streets.",
-      "Text": "Self driving cars an AI marvel promise safer more efficient roads"
+      "VoiceOverText": "Earth, our blue home, coalesced from cosmic dust around the same time, about 4.5 billion years ago.",
+      "Description": "The early Earth forming in the solar nebula.",
+      "Text": "Earth our blue home formed about 45 billion years ago"
     },
     {
       "SceneNumber": 4,
       "Duration": "6",
-      "VoiceOverText": "AI in entertainment, creating immersive experiences like never before.",
-      "Description": "Virtual reality headset and AI-generated movies.",
-      "Text": "AI in entertainment creating immersive experiences like never before"
+      "VoiceOverText": "The Moon, Earth's constant companion, was born from a cataclysmic impact soon after Earth's formation.",
+      "Description": "The giant impact that led to the Moon's formation.",
+      "Text": "The Moon Earths constant companion was born from a cataclysmic impact"
     },
     {
       "SceneNumber": 5,
       "Duration": "6",
-      "VoiceOverText": "Smart homes powered by AI, making life more convenient and connected.",
-      "Description": "A smart home interior with AI-controlled devices.",
-      "Text": "Smart homes powered by AI making life more convenient and connected"
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "6",
-      "VoiceOverText": "Discover the AI revolution with us. Like, share, and subscribe for future insights.",
-      "Description": "A digital globe with neural networks and a call to action.",
-      "Text": "Discover the AI revolution with us Like share and subscribe for future insights"
+      "VoiceOverText": "Uncover the secrets of our cosmic past with us. Like, share, and subscribe for more astronomical wonders.",
+      "Description": "A montage of celestial events with a call to action.",
+      "Text": "Uncover the secrets of our cosmic past with us Like share and subscribe for more astronomical wonders"
     }
   ]
 }

@@ -15,19 +15,33 @@ const getDuration = (filePath) => {
 };
 
 // Function to split text into lines with max 3 words per line
-const splitTextIntoLines = (text, maxWordsPerLine = 3) => {
+const splitTextIntoLines = (text, maxWordsPerLine = 2) => {
   const words = text.split(/\s+/); // Split by any whitespace
   let lines = [];
   let currentLine = [];
 
-  words.forEach((word, index) => {
-    currentLine.push(word);
-    // Check if the current line has reached the max words or it's the last word
-    if (currentLine.length === maxWordsPerLine || index === words.length - 1) {
+  words.forEach((word) => {
+    if (word.length > 4) {
+      // If the word has more than 4 letters, start a new line
+      if (currentLine.length > 0) {
+        lines.push(currentLine.join(" "));
+        currentLine = [];
+      }
+      lines.push(word);
+    } else if (currentLine.length < maxWordsPerLine) {
+      // Add word to the current line if it has space
+      currentLine.push(word);
+    } else {
+      // Start a new line if the current line is full
       lines.push(currentLine.join(" "));
-      currentLine = [];
+      currentLine = [word];
     }
   });
+
+  // Add the last line if it contains any words
+  if (currentLine.length > 0) {
+    lines.push(currentLine.join(" "));
+  }
 
   return lines;
 };

@@ -1,75 +1,156 @@
-const http = require('http');
-const url = require('url');
-const readline = require('readline');
-const destroyer = require('server-destroy');
-const { google } = require('googleapis');
+require("dotenv").config();
+const { google } = require("googleapis");
+const express = require("express");
+const path = require("path");
+const fs = require("fs");
+const app = express();
+const port = 8080;
 
-// Load client secrets from a local file
-const credentials = require('../../youtube-web.json');
-
+// Load client secrets and video details
+const credentials = require("../../youtube-web.json");
+const videoDetails = require("../../src/data/input/videos-and-scenes-data.json");
 const { client_secret, client_id, redirect_uris } = credentials.web;
+
 const oauth2Client = new google.auth.OAuth2(
-  client_id, client_secret, redirect_uris[0]
+  client_id,
+  client_secret,
+  redirect_uris[0]
 );
 
-// Generate a URL for the user to visit to authenticate
-const authUrl = oauth2Client.generateAuthUrl({
-  access_type: 'offline',
-  scope: ['https://www.googleapis.com/auth/youtube']
-});
+// Check if there is a valid access token
+// Parse the expiry time as an integer and compare
+const tokenExpiry = parseInt(process.env.TOKEN_EXPIRY, 10);
+if (process.env.ACCESS_TOKEN && new Date(tokenExpiry) > new Date()) {
+  oauth2Client.setCredentials({
+    access_token: process.env.ACCESS_TOKEN,
+    refresh_token: process.env.REFRESH_TOKEN,
+    expiry_date: tokenExpiry,
+  });
 
-console.log('Authorize this app by visiting this url:', authUrl);
+  uploadVideo();
+} else {
+  console.log(
+    "Authorize this app by visiting this url:",
+    oauth2Client.generateAuthUrl({
+      access_type: "offline",
+      scope: ["https://www.googleapis.com/auth/youtube"],
+    })
+  );
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+  // Open the authorization URL in the user's browser
+  (async () => {
+    const open = (await import("open")).default;
+    open(
+      oauth2Client.generateAuthUrl({
+        access_type: "offline",
+        scope: ["https://www.googleapis.com/auth/youtube"],
+      })
+    );
+  })();
+}
 
-rl.question('Enter the code from that page here: ', (code) => {
-  rl.close();
-  oauth2Client.getToken(code, (err, token) => {
-    if (err) {
-      console.error('Error retrieving access token', err);
-      return;
+async function uploadVideo() {
+  try {
+    const youtube = google.youtube({ version: "v3", auth: oauth2Client });
+    const videoFilePath = path.join(
+      __dirname,
+      "../data/output/final_video_with_music.mp4"
+    );
+    const videoResponse = await youtube.videos.insert({
+      part: "id,snippet,status",
+      requestBody: {
+        snippet: {
+          title: videoDetails.Title,
+          description: videoDetails.Description,
+          tags: ["shorts"],
+          categoryId: "22",
+        },
+        status: {
+          privacyStatus: "public",
+        },
+      },
+      media: {
+        body: fs.createReadStream(videoFilePath),
+      },
+    });
+
+    const videoId = videoResponse.data.id;
+    const youtubeVideoUrl = `https://www.youtube.com/watch?v=${videoId}`;
+    console.log(`Video uploaded, video URL: ${youtubeVideoUrl}`);
+  } catch (error) {
+    console.error("Error uploading video: ", error);
+  }
+}
+
+const updateEnvFile = (newValues) => {
+  let envContent = fs.readFileSync(".env", "utf8");
+  Object.entries(newValues).forEach(([key, value]) => {
+    const regex = new RegExp(`^${key}=.*`, "gm");
+    if (envContent.match(regex)) {
+      // Replace existing line
+      envContent = envContent.replace(regex, `${key}=${value}`);
+    } else {
+      // Add new line
+      envContent += `\n${key}=${value}`;
     }
-    console.log('Access Token:', token.access_token);
-    console.log('Refresh Token:', token.refresh_token);
-    // Store the refresh token in your environment variables or a secure place
   });
+  fs.writeFileSync(".env", envContent);
+};
+
+app.get("/", async (req, res) => {
+  try {
+    const { code } = req.query;
+    if (code) {
+      // Use the code to obtain tokens
+      const { tokens } = await oauth2Client.getToken(code);
+      oauth2Client.setCredentials(tokens);
+
+      // Update the .env file with the new tokens
+      updateEnvFile({
+        ACCESS_TOKEN: tokens.access_token,
+        REFRESH_TOKEN: tokens.refresh_token,
+        TOKEN_EXPIRY: tokens.expiry_date,
+      });
+    }
+
+    // Upload the video
+    const youtube = google.youtube({ version: "v3", auth: oauth2Client });
+    const videoFilePath = path.join(
+      __dirname,
+      "../data/output/final_video_with_music.mp4"
+    );
+    const videoResponse = await youtube.videos.insert({
+      part: "id,snippet,status",
+      requestBody: {
+        snippet: {
+          title: videoDetails.Title,
+          description: videoDetails.Description,
+          tags: ["shorts"],
+          categoryId: "22",
+        },
+        status: {
+          privacyStatus: "public",
+          madeForKids: false,
+        },
+      },
+      media: {
+        body: fs.createReadStream(videoFilePath),
+      },
+    });
+
+    console.log(
+      "Video uploaded privatly to YouTube: ",
+      `https://www.youtube.com/watch?v=${videoResponse.data.id}`
+    );
+    res.send(
+      `Video uploaded, video ID: <a>https://www.youtube.com/watch?v=${videoResponse.data.id}</a>`
+    );
+  } catch (error) {
+    console.error("Error: ", error);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
-// Create a local server to listen for the OAuth2 callback
-const server = http.createServer(async (req, res) => {
-    try {
-      if (req.url.indexOf('/oauth2callback') > -1) {
-        const qs = new url.URL(req.url, 'http://localhost:8080').searchParams;
-        res.end('Authentication successful! Please return to the console.');
-        server.destroy();
-  
-        const { tokens } = await oauth2Client.getToken(qs.get('code'));
-        oauth2Client.setCredentials(tokens);
-  
-        // Here, tokens are available for use in your application
-        console.log('Tokens:', tokens);
-      }
-    } catch (e) {
-      res.end(`Error: ${e}`);
-    }
-  });
-  
-  server.listen(8080, () => {
-    // Open the browser to the authorize url to start the authentication process
-    startProcess().catch(console.error);
-  });
-  
-  const startProcess = async () => {
-    const open = (await import('open')).default;
-  
-    open(oauth2Client.generateAuthUrl({
-        access_type: 'offline',
-        scope: ['https://www.googleapis.com/auth/youtube']
-      }));
-  };
-  
-  // Destroy the server once we're done
-  destroyer(server);
+app.listen(port, () => {
+  console.log(`Server listening at http://localhost:${port}`);
+});
