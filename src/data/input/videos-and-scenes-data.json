@@ -1,40 +1,47 @@
 {
-  "Title": "Bodhi Dharma: The Legendary Journey from Monk to Master",
+  "Title": "AI Revolution: How Artificial Intelligence Is Changing Our World",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "12",
-      "VoiceOverText": "In a time shrouded by the mists of history, Bodhi Dharma embarked on a journey from India's tranquil monasteries to the legendary Shaolin Temple of China.",
-      "Description": "An ancient map tracing the journey from India to China, with animated footsteps marking the path.",
-      "Text": "In a time shrouded by the mists of history Bodhi Dharma embarked on a journey from Indias tranquil monasteries to the legendary Shaolin Temple of China"
+      "Duration": "6",
+      "VoiceOverText": "Artificial Intelligence, once a sci-fi dream, is now a reality transforming our world.",
+      "Description": "Futuristic cityscape with digital networks and AI interfaces.",
+      "Text": "Artificial Intelligence once a sci fi dream is now a reality transforming our world"
     },
     {
       "SceneNumber": 2,
-      "Duration": "12",
-      "VoiceOverText": "His teachings would meld the spiritual with the physical, laying the foundations for Shaolin Kung Fu, and his legend would echo through the ages.",
-      "Description": "Scenes of Shaolin monks practicing Kung Fu with interspersed ancient scrolls of Bodhi Dharma’s teachings.",
-      "Text": "His teachings would meld the spiritual with the physical laying the foundations for Shaolin Kung Fu and his legend would echo through the ages"
+      "Duration": "6",
+      "VoiceOverText": "AI in healthcare, revolutionizing diagnoses and treatments, saving lives.",
+      "Description": "Robotic arms performing surgery and AI analyzing medical data.",
+      "Text": "AI in healthcare revolutionizing diagnoses and treatments saving lives"
     },
     {
       "SceneNumber": 3,
-      "Duration": "12",
-      "VoiceOverText": "Through meditation and martial arts, Bodhi Dharma taught the monks the balance of body and mind, principles that would transcend the temple's walls to influence the world.",
-      "Description": "A montage of meditation and martial arts training in serene temple settings.",
-      "Text": "Through meditation and martial arts Bodhi Dharma taught the monks the balance of body and mind principles that would transcend the temples walls to influence the world"
+      "Duration": "6",
+      "VoiceOverText": "Self-driving cars, an AI marvel, promise safer, more efficient roads.",
+      "Description": "Autonomous cars navigating seamlessly through city streets.",
+      "Text": "Self driving cars an AI marvel promise safer more efficient roads"
     },
     {
       "SceneNumber": 4,
-      "Duration": "12",
-      "VoiceOverText": "The tales of his life are woven with miracles and mystery, from meditating facing a wall for nine years to passing on his knowledge to the chosen disciples.",
-      "Description": "Artistic interpretations of Bodhi Dharma’s legendary feats and the passing of wisdom to his disciples.",
-      "Text": "The tales of his life are woven with miracles and mystery from meditating facing a wall for nine years to passing on his knowledge to the chosen disciples"
+      "Duration": "6",
+      "VoiceOverText": "AI in entertainment, creating immersive experiences like never before.",
+      "Description": "Virtual reality headset and AI-generated movies.",
+      "Text": "AI in entertainment creating immersive experiences like never before"
     },
     {
       "SceneNumber": 5,
-      "Duration": "12",
-      "VoiceOverText": "Join us in uncovering the saga of Bodhi Dharma, the sage who journeyed West to spread enlightenment and martial mastery. Like, share, and subscribe for more tales of ancient wisdom.",
-      "Description": "A call to action with visuals of ancient texts, the Shaolin Temple, and a serene Bodhi Dharma in meditation.",
-      "Text": "Join us in uncovering the saga of Bodhi Dharma the sage who journeyed West to spread enlightenment and martial mastery Like share and subscribe for more tales of ancient wisdom"
+      "Duration": "6",
+      "VoiceOverText": "Smart homes powered by AI, making life more convenient and connected.",
+      "Description": "A smart home interior with AI-controlled devices.",
+      "Text": "Smart homes powered by AI making life more convenient and connected"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "6",
+      "VoiceOverText": "Discover the AI revolution with us. Like, share, and subscribe for future insights.",
+      "Description": "A digital globe with neural networks and a call to action.",
+      "Text": "Discover the AI revolution with us Like share and subscribe for future insights"
     }
   ]
 }

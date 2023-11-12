@@ -3,7 +3,7 @@ const execSync = require("child_process").execSync;
 try {
   // Run the generateSceneImages.js script and wait for it to finish
   console.log("Starting scene image generation...");
-  execSync("node ./src/ai-generator/generateSceneImages.js", {
+  execSync("node ./src/ai-generator/generateImages.js", {
     stdio: "inherit",
   });
 
