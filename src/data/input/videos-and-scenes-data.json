@@ -1,41 +1,55 @@
 {
-  "Title": "Cosmic Timelines: The Age of the Universe, Earth, and Sun",
-  "Description": "Travel back in time to witness the birth of the universe, the formation of our Sun, and the coalescing of Earth. This video takes you on an awe-inspiring journey, from the fiery origins of the Big Bang to the creation of our Moon. Uncover the cosmic events that shaped our history and join us in exploring the astronomical wonders that define our existence.",
+  "Title": "Poseidon: The Mighty God of the Seas",
+  "Description": "Dive into the depths of ancient Greek mythology with our captivating video on Poseidon, the formidable god of the sea. Known for his mighty trident and command over the oceans, Poseidon is a central figure in the tales of the Olympian gods. Discover his powerful influence over the seas, his role as the god of earthquakes and horses, and his legendary temper that could unleash storms and tsunamis. Witness his involvement in epic myths, including the Odyssey, and learn about his famed contest with Athena for the patronage of Athens. Join us in exploring the fascinating stories of this influential deity. Don't forget to like, share, and subscribe for more enthralling mythological journeys",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "6",
-      "VoiceOverText": "The universe, an expansive tapestry, began with the Big Bang, around 13.8 billion years ago.",
-      "Description": "Visualization of the Big Bang, with galaxies",
-      "Text": "The universe began with the Big Bang around 138 billion years ago"
+      "Duration": "5",
+      "VoiceOverText": "Poseidon, the Greek god of the sea, wielded the power of the oceans with his mighty trident.",
+      "Description": "Poseidon holding his trident amidst the churning ocean.",
+      "Text": "Poseidon the Greek god of the sea wielded the power of the oceans with his mighty trident"
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "Our Sun, a glowing sphere of hot plasma, formed about 4.6 billion years ago, giving light to our solar system.",
-      "Description": "Formation of the Sun in a cloud of gas and dust.",
-      "Text": "Our Sun formed about 46 billion years ago giving light to our solar system"
+      "Duration": "5",
+      "VoiceOverText": "Brother to Zeus and Hades, Poseidon was one of the most influential Olympian gods.",
+      "Description": "A grand depiction of Poseidon with Zeus and Hades, showcasing their divine realm.",
+      "Text": "Brother to Zeus and Hades Poseidon was one of the most influential Olympian gods"
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "Earth, our blue home, coalesced from cosmic dust around the same time, about 4.5 billion years ago.",
-      "Description": "The early Earth forming in the solar nebula.",
-      "Text": "Earth our blue home formed about 45 billion years ago"
+      "Duration": "5",
+      "VoiceOverText": "His realm was not just the sea, but he was also known as the god of earthquakes and horses.",
+      "Description": "Poseidon causing an earthquake and riding a chariot pulled by horses.",
+      "Text": "His realm was not just the sea but he was also known as the god of earthquakes and horses"
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "The Moon, Earth's constant companion, was born from a cataclysmic impact soon after Earth's formation.",
-      "Description": "The giant impact that led to the Moon's formation.",
-      "Text": "The Moon Earths constant companion was born from a cataclysmic impact"
+      "Duration": "5",
+      "VoiceOverText": "Poseidon's temper could unleash storms and tsunamis, striking awe and fear into the hearts of mortals.",
+      "Description": "Stormy seas and towering waves, a display of Poseidon's wrath.",
+      "Text": "Poseidons temper could unleash storms and tsunamis striking awe and fear into the hearts of mortals"
     },
     {
       "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "Uncover the secrets of our cosmic past with us. Like, share, and subscribe for more astronomical wonders.",
-      "Description": "A montage of celestial events with a call to action.",
-      "Text": "Uncover the secrets of our cosmic past with us Like share and subscribe for more astronomical wonders"
+      "Duration": "5",
+      "VoiceOverText": "He played a pivotal role in numerous Greek myths, including the epic tale of the Odyssey.",
+      "Description": "Scenes from the Odyssey with Poseidon influencing the events.",
+      "Text": "He played a pivotal role in numerous Greek myths including the epic tale of the Odyssey"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "5",
+      "VoiceOverText": "The city of Athens, named in honor of Athena, was a result of Poseidon's famous contest with her.",
+      "Description": "Depiction of Poseidon's contest with Athena over the patronage of Athens.",
+      "Text": "The city of Athens named in honor of Athena was a result of Poseidons famous contest with her"
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "5",
+      "VoiceOverText": "Explore the mighty tales of Poseidon with us. Like, share, and subscribe for more mythological adventures.",
+      "Description": "A call to action with ancient Greek motifs and symbols of Poseidon.",
+      "Text": "Explore the mighty tales of Poseidon with us Like share and subscribe for more mythological adventures"
     }
   ]
 }
