@@ -1,41 +1,41 @@
 {
-  "Title": "The Enigmatic Giant Squid: A Deep Sea Mystery",
-  "Description": "Plunge into the abyss as we unravel the secrets of the giant squid, one of the ocean's most mysterious creatures. Learn about its elusive nature, gigantic size, and the rare sightings that have fascinated scientists for centuries. #DeepSeaMysteries #GiantSquid #MarineBiology #OceanExploration",
+  "Title": "Petra: The Rose City of the Desert",
+  "Description": "Unearth the secrets of Petra, the ancient city carved into the rose-colored cliffs of Jordan. Known for its architectural marvels and mysterious history, Petra reveals the ingenuity of the Nabateans. Explore this UNESCO World Heritage site with us and discover its hidden wonders. #LostCities #Petra #AncientCivilizations #Archaeology",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "The giant squid, a mysterious denizen of the deep, has captivated our imagination with its elusive nature.",
-      "Description": "An artistic depiction of a giant squid in the dark depths of the ocean, highlighting its enormous size and elusive appearance.",
-      "Text": "The giant squid a mysterious denizen of the deep has captivated our imagination with its elusive nature"
+      "Duration": "9",
+      "VoiceOverText": "Nestled in the heart of Jordan's desert, Petra stands as a testament to ancient ingenuity and mystery.",
+      "Description": "A panoramic view of Petra, showcasing its iconic rose-colored cliffs and vast desert surroundings.",
+      "Text": "Nestled in the heart of Jordans desert Petra stands as a testament to ancient ingenuity and mystery"
     },
     {
       "SceneNumber": 2,
-      "Duration": "9",
-      "VoiceOverText": "Dwelling in the ocean's twilight zone, they remain one of the least observed creatures on Earth.",
-      "Description": "A scene showing the giant squid in the dimly lit ocean depths, emphasizing the vast and unexplored marine environment.",
-      "Text": "Dwelling in the oceans twilight zone they remain one of the least observed creatures on Earth"
+      "Duration": "8",
+      "VoiceOverText": "Carved directly into vibrant red sandstone, the city's structures have survived thousands of years.",
+      "Description": "Close-up shots of Petra's intricate rock-cut architecture, highlighting the craftsmanship of the Nabateans.",
+      "Text": "Carved directly into vibrant red sandstone the citys structures have survived thousands of years"
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Their tentacles can span over 40 feet, making them one of the largest living organisms in the sea.",
-      "Description": "A close-up of the giant squid's tentacles, showcasing their impressive length and dexterity.",
-      "Text": "Their tentacles can span over 40 feet making them one of the largest living organisms in the sea"
+      "VoiceOverText": "The most famous monument, Al-Khazneh, is known for its grand facade and ornate design.",
+      "Description": "A view of Al-Khazneh (The Treasury) in Petra, focusing on its elaborate facade and artistic details.",
+      "Text": "The most famous monument Al-Khazneh is known for its grand facade and ornate design"
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Rare sightings and strandings have provided glimpses into their existence, fueling scientific curiosity.",
-      "Description": "A montage of rare photographic evidence of giant squids, including beach strandings and underwater sightings.",
-      "Text": "Rare sightings and strandings have provided glimpses into their existence fueling scientific curiosity"
+      "Duration": "10",
+      "VoiceOverText": "Once a bustling trade center, Petra's history is filled with tales of wealth, culture, and forgotten eras.",
+      "Description": "Artistic reenactments of Petra in its prime, depicting bustling markets, traders, and cultural activities.",
+      "Text": "Once a bustling trade center Petras history is filled with tales of wealth culture and forgotten eras"
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Join us as we dive deeper into the ocean's mysteries. Like, share, and subscribe for more fascinating deep-sea discoveries.",
-      "Description": "A call to action with captivating underwater imagery and icons symbolizing exploration and discovery.",
-      "Text": "Join us as we dive deeper into the oceans mysteries Like share and subscribe for more fascinating deep-sea discoveries"
+      "VoiceOverText": "Join us on this journey through time. Like, share, and subscribe to explore more lost cities with us.",
+      "Description": "A call to action featuring a montage of various lost cities, encouraging viewers to engage and discover more.",
+      "Text": "Join us on this journey through time Like share and subscribe to explore more lost cities with us"
     }
   ]
 }

@@ -145,6 +145,7 @@ app.get("/", async (req, res) => {
     res.send(
       `Video uploaded, video ID: <a>https://www.youtube.com/watch?v=${videoResponse.data.id}</a>`
     );
+    process.exit(0);
   } catch (error) {
     console.error("Error: ", error);
     res.status(500).send("Internal Server Error");
