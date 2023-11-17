@@ -1,13 +1,62 @@
 {
-  "Title": "Nikola Tesla: The Master of Electricity",
-  "Description": "Embark on a journey to discover the life and legacy of Nikola Tesla, the genius who revolutionized the way we use electricity. Uncover the story of his groundbreaking inventions and his vision for a world powered by sustainable energy. #Innovators #NikolaTesla #Electricity #HistoryOfScience",
+  "Title": "The Lost City of Atlantis: The Sunken Civilization",
+  "Description": "Submerge into the legend of Atlantis, the fabled sunken city first mentioned by Plato. Join us as we navigate through the theories, searches, and debates surrounding this enduring mystery. #HistoricalMysteries #LostCity #Atlantis #UnderwaterArchaeology",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "Nikola Tesla, a visionary inventor, changed the world with his revolutionary electrical innovations.",
-      "Description": "A portrait of Nikola Tesla with a backdrop of electrical sparks, symbolizing his work with electricity.",
-      "Text": "Nikola Tesla a visionary inventor changed the world with his revolutionary electrical innovations"
+      "VoiceOverText": "The legend of Atlantis, a prosperous civilization said to have sunk into the ocean, has intrigued scholars for centuries.",
+      "Description": "An artistic depiction of Atlantis in its prime, with grand architecture and advanced technology, before its fall.",
+      "Text": "The legend of Atlantis a prosperous civilization said to have sunk into the ocean has intrigued scholars for centuries"
+    },
+    {
+      "SceneNumber": 2,
+      "Duration": "9",
+      "VoiceOverText": "First mentioned by the philosopher Plato, Atlantis is described as an antagonist naval power that besieged Ancient Athens.",
+      "Description": "Illustrations from Plato's texts showing Atlantis and Ancient Athens, highlighting their supposed conflict.",
+      "Text": "First mentioned by the philosopher Plato Atlantis is described as an antagonist naval power that besieged Ancient Athens"
+    },
+    {
+      "SceneNumber": 3,
+      "Duration": "9",
+      "VoiceOverText": "Many have speculated on the location of Atlantis, from the Mediterranean Sea to the Caribbean and beyond.",
+      "Description": "A world map with various theorized locations of Atlantis marked, showing the global scope of the legend.",
+      "Text": "Many have speculated on the location of Atlantis from the Mediterranean Sea to the Caribbean and beyond"
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "10",
+      "VoiceOverText": "Some theories suggest Atlantis was a real city-state that was destroyed by a natural disaster like a tsunami or earthquake.",
+      "Description": "Scenes depicting a catastrophic natural disaster like a tsunami or earthquake, impacting an ancient city.",
+      "Text": "Some theories suggest Atlantis was a real city-state that was destroyed by a natural disaster like a tsunami or earthquake"
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "10",
+      "VoiceOverText": "Archaeological expeditions have searched for evidence of Atlantis, yet its existence remains a hotly debated topic.",
+      "Description": "Underwater archaeologists exploring ruins and artifacts, representing the search for physical evidence of Atlantis.",
+      "Text": "Archaeological expeditions have searched for evidence of Atlantis yet its existence remains a hotly debated topic"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "9",
+      "VoiceOverText": "Atlantis has inspired countless books, movies, and theories, becoming a symbol of lost civilizations and human imagination.",
+      "Description": "A collage of Atlantis-inspired media, from books and films to artistic interpretations, showcasing its cultural impact.",
+      "Text": "Atlantis has inspired countless books movies and theories becoming a symbol of lost civilizations and human imagination"
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "9",
+      "VoiceOverText": "The mystery of Atlantis continues to capture the imagination, a testament to the enduring allure of ancient legends.",
+      "Description": "An enigmatic image of a sunken city with a question mark, symbolizing the ongoing mystery and fascination with Atlantis.",
+      "Text": "The mystery of Atlantis continues to capture the imagination a testament to the enduring allure of ancient legends"
+    },
+    {
+      "SceneNumber": 8,
+      "Duration": "9",
+      "VoiceOverText": "Dive deeper into history's enigmas with us. Like, share, and subscribe for more explorations into the past's unsolved mysteries.",
+      "Description": "A call to action with images of other historical enigmas, encouraging viewers to engage with more mysteries.",
+      "Text": "Dive deeper into historys enigmas with us Like share and subscribe for more explorations into the pasts unsolved mysteries"
     }
   ]
 }

@@ -77,6 +77,7 @@ async function uploadVideo() {
     const videoId = videoResponse.data.id;
     const youtubeVideoUrl = `https://www.youtube.com/watch?v=${videoId}`;
     console.log(`Video uploaded, video URL: ${youtubeVideoUrl}`);
+    process.exit(0);
   } catch (error) {
     console.error("Error uploading video: ", error);
   }
