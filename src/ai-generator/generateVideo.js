@@ -14,9 +14,9 @@ const getDuration = (filePath) => {
   return parseFloat(execSync(command).toString().trim());
 };
 
-// Function to split text into lines with max 3 words per line
+// Function to split text into lines with max 2-3 words per line
 const splitTextIntoLines = (text, maxWordsPerLine = 2) => {
-  const words = text.split(/\s+/); // Split by any whitespace
+  const words = text.split(/\s+/);
   let lines = [];
   let currentLine = [];
 
@@ -66,7 +66,7 @@ const createVideoClipWithTextAndAudio = (
     "data",
     "input",
     "fonts",
-    "Bangers-Regular.ttf"
+    "impact.ttf"
   );
   const fontSize = 100;
   const videoWidth = 1080;
@@ -89,7 +89,7 @@ const createVideoClipWithTextAndAudio = (
 
   // Function to estimate the width of a single word
   const measureWordWidth = (word, fontSize) => {
-    const averageCharWidth = fontSize * 0.5; // This is an approximation
+    const averageCharWidth = fontSize * 0.45; // Adjust this based on your specific font
     return word.length * averageCharWidth;
   };
 
@@ -116,27 +116,43 @@ const createVideoClipWithTextAndAudio = (
   lineSets.forEach((line, lineIndex) => {
     let words = line.split(" ");
     let totalLineWidth = calculateLineWidth(words, fontSize);
-
-    // Calculate the starting X position for the line
     let xPosStart =
       (videoWidth - totalLineWidth - wordSpacing * (words.length - 1)) / 2;
+    let yPos = (videoHeight - lineHeight) / 2;
 
-    let yPos = (videoHeight - lineHeight) / 2; // Adjust this as needed
     let currentStartTime = lineIndex * setDisplayDuration;
-    let setEndTime = currentStartTime + setDisplayDuration;
 
     words.forEach((word, wordIndex) => {
+      const wordDuration = wordDisplayDuration * word.split(" ").length;
+      const wordEndTime = currentStartTime + wordDuration; // Define wordEndTime here
+
+      const wordWidth = measureWordWidth(word, fontSize);
+      const padding = 20; // Padding around the text
+      const boxWidth = wordWidth + padding;
+      const boxHeight = fontSize + padding - 6;
+      const boxX = xPosStart - padding / 2;
+      const boxY = yPos - padding / 2;
+
       const sanitizedWord = word.replace(/'/g, "'\\''");
       const color =
-        word.length > 4 ? (wordIndex % 2 === 0 ? "yellow" : "red") : "white";
+        word.length > 4 ? (Math.random() > 0.5 ? "yellow" : "red") : "white";
 
+      // Draw semi-transparent black background box
       drawTextFilters.push(
-        `drawtext=text='${sanitizedWord}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':x=${xPosStart}:y=${yPos}:enable='between(t,${currentStartTime},${setEndTime})'`
+        `drawbox=x=${boxX}:y=${boxY}:w=${boxWidth}:h=${boxHeight}:t=fill:color=black@0.5:enable='between(t,${currentStartTime},${wordEndTime})'`
       );
 
-      // Update xPosStart for the next word, including word spacing
-      xPosStart += measureWordWidth(word, fontSize) + wordSpacing;
-      currentStartTime += wordDisplayDuration;
+      // Center the text within the box
+      const textX = boxX + (boxWidth - wordWidth) / 2;
+      const textY = yPos;
+
+      // Draw text
+      drawTextFilters.push(
+        `drawtext=text='${sanitizedWord}':fontcolor=${color}:fontsize=${fontSize}:fontfile='${fontPath}':x=${textX}:y=${textY}:enable='between(t,${currentStartTime},${wordEndTime})'`
+      );
+
+      xPosStart += wordWidth + wordSpacing;
+      currentStartTime = wordEndTime; // Update currentStartTime for the next word
     });
   });
 

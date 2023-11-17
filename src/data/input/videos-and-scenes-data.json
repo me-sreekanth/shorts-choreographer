@@ -1,41 +1,13 @@
 {
-  "Title": "Petra: The Rose City of the Desert",
-  "Description": "Unearth the secrets of Petra, the ancient city carved into the rose-colored cliffs of Jordan. Known for its architectural marvels and mysterious history, Petra reveals the ingenuity of the Nabateans. Explore this UNESCO World Heritage site with us and discover its hidden wonders. #LostCities #Petra #AncientCivilizations #Archaeology",
+  "Title": "Nikola Tesla: The Master of Electricity",
+  "Description": "Embark on a journey to discover the life and legacy of Nikola Tesla, the genius who revolutionized the way we use electricity. Uncover the story of his groundbreaking inventions and his vision for a world powered by sustainable energy. #Innovators #NikolaTesla #Electricity #HistoryOfScience",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "9",
-      "VoiceOverText": "Nestled in the heart of Jordan's desert, Petra stands as a testament to ancient ingenuity and mystery.",
-      "Description": "A panoramic view of Petra, showcasing its iconic rose-colored cliffs and vast desert surroundings.",
-      "Text": "Nestled in the heart of Jordans desert Petra stands as a testament to ancient ingenuity and mystery"
-    },
-    {
-      "SceneNumber": 2,
       "Duration": "8",
-      "VoiceOverText": "Carved directly into vibrant red sandstone, the city's structures have survived thousands of years.",
-      "Description": "Close-up shots of Petra's intricate rock-cut architecture, highlighting the craftsmanship of the Nabateans.",
-      "Text": "Carved directly into vibrant red sandstone the citys structures have survived thousands of years"
-    },
-    {
-      "SceneNumber": 3,
-      "Duration": "10",
-      "VoiceOverText": "The most famous monument, Al-Khazneh, is known for its grand facade and ornate design.",
-      "Description": "A view of Al-Khazneh (The Treasury) in Petra, focusing on its elaborate facade and artistic details.",
-      "Text": "The most famous monument Al-Khazneh is known for its grand facade and ornate design"
-    },
-    {
-      "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "Once a bustling trade center, Petra's history is filled with tales of wealth, culture, and forgotten eras.",
-      "Description": "Artistic reenactments of Petra in its prime, depicting bustling markets, traders, and cultural activities.",
-      "Text": "Once a bustling trade center Petras history is filled with tales of wealth culture and forgotten eras"
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "Join us on this journey through time. Like, share, and subscribe to explore more lost cities with us.",
-      "Description": "A call to action featuring a montage of various lost cities, encouraging viewers to engage and discover more.",
-      "Text": "Join us on this journey through time Like share and subscribe to explore more lost cities with us"
+      "VoiceOverText": "Nikola Tesla, a visionary inventor, changed the world with his revolutionary electrical innovations.",
+      "Description": "A portrait of Nikola Tesla with a backdrop of electrical sparks, symbolizing his work with electricity.",
+      "Text": "Nikola Tesla a visionary inventor changed the world with his revolutionary electrical innovations"
     }
   ]
 }
