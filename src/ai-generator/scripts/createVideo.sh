@@ -93,7 +93,7 @@ generate_scene_video() {
        -i "$IMG_DIR/$filename" \
        -i "$WATERMARK_PATH" \
        -filter_complex \
-       "[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=$duration*50:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; \
+       "[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=$adjusted_duration*50:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed]; \
         [zoomed]scale=1440:1920[scaled]; \
         [scaled]crop=1080:1920:((1440-1080)/2):0[cropped]; \
         [cropped]$filters[withText]; \
@@ -114,7 +114,8 @@ add_pauses_to_audio() {
     local voiceover_with_pauses=$4
 
     # This adds a pause of 1 second at the beginning and end of the audio file
-    ffmpeg -y -i $voiceover -af "apad=pad_dur=$pause_duration:whole_dur=$(($duration + $pause_duration))" $voiceover_with_pauses
+    ffmpeg -y -i "$voiceover" -af "apad=pad_dur=$pause_duration:whole_dur=$(($duration + 2*$pause_duration))" "$voiceover_with_pauses"
+    check_command_success "adding pauses to audio"
 }
 
 # Error checking function
@@ -169,15 +170,15 @@ for scene in $(seq 1 $total_scenes); do
 
     # Generate voiceover if it doesn't exist
     if [ ! -f "$voiceover" ]; then
-        generate_voiceover $scene "$voiceover_text" $voiceover
+        generate_voiceover $scene "$voiceover_text" "$voiceover"
     fi
 
-    # Add pauses to the voiceover
-    add_pauses_to_audio $voiceover 1 # Pass only the voiceover and pause duration
-    # The duration of the scene will be determined by the voiceover with pauses
-    duration=$(get_audio_duration "$voiceover_with_pauses")
-duration_rounded=$(echo "$duration" | awk '{printf("%d\n",$1 + 0.5)}') # rounds to the nearest integer
-
+    # Add pauses to the voiceover and check if it's successful
+    if [ ! -f "$voiceover_with_pauses" ]; then
+        duration=$(get_audio_duration "$voiceover")
+        duration_rounded=$(echo "$duration" | awk '{printf("%d\n",$1 + 0.5)}') # rounds to the nearest integer
+        add_pauses_to_audio "$voiceover" 1 "$duration_rounded" "$voiceover_with_pauses"
+    fi
 
     if [ ! -f "$voiceover_with_pauses" ]; then
         echo "Error: Failed to create voiceover with pauses at path $voiceover_with_pauses"

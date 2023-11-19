@@ -1,47 +1,55 @@
 {
-  "Title": "Ancient India: Epics and Inventions",
+  "Title": "The Riddle of the Sphinx: Egypt's Ancient Guardian",
+  "Description": "Unearth the secrets of the Great Sphinx of Giza, an iconic symbol of ancient Egypt shrouded in mystery. Explore its historical significance, the mysteries of its origin, and the debates about its purpose. #HistoricalMysteries #Sphinx #Egyptology #AncientEgypt",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "7",
-      "VoiceOverText": "Discover Ancient India, where the roots of modern civilization and knowledge systems took hold.",
-      "Description": "A serene panorama of the Indus Valley blending into ancient manuscripts.",
-      "Text": "Discover Ancient India where the roots of modern civilization and knowledge systems took hold"
+      "Duration": "8",
+      "VoiceOverText": "The Great Sphinx of Giza, a monumental sculpture, has gazed upon the Egyptian desert for thousands of years.",
+      "Description": "A panoramic view of the Sphinx with the Pyramids in the background, highlighting its majestic presence.",
+      "Text": "The Great Sphinx of Giza a monumental sculpture has gazed upon the Egyptian desert for thousands of years"
     },
     {
       "SceneNumber": 2,
-      "Duration": "7",
-      "VoiceOverText": "Marvel at the Indus Valley Civilization's urban planning and the Sanskrit language's contributions to science and literature.",
-      "Description": "Ruins of Mohenjo-daro and Harappa transitioning to ancient texts in Sanskrit.",
-      "Text": "Marvel at the Indus Valley Civilizations urban planning and the Sanskrit languages contributions to science and literature"
+      "Duration": "9",
+      "VoiceOverText": "Carved from limestone, the Sphinx with its lion's body and human head is a symbol of strength and wisdom.",
+      "Description": "A close-up of the Sphinx showing the details of its lion's body and the enigmatic human face.",
+      "Text": "Carved from limestone the Sphinx with its lions body and human head is a symbol of strength and wisdom"
     },
     {
       "SceneNumber": 3,
-      "Duration": "7",
-      "VoiceOverText": "Witness the origin of zero in mathematics, the holistic healing of Ayurveda, and the timeless tales of the Ramayana and Mahabharata.",
-      "Description": "Symbols of mathematics and zero leading to Ayurvedic herbs and epic illustrations.",
-      "Text": "Witness the origin of zero in mathematics the holistic healing of Ayurveda and the timeless tales of the Ramayana and Mahabharata"
+      "Duration": "9",
+      "VoiceOverText": "Its origins and purpose remain debated, with theories ranging from a pharaoh's monument to astronomical alignments.",
+      "Description": "Various illustrations depicting different theories about the Sphinx's origin and purpose.",
+      "Text": "Its origins and purpose remain debated with theories ranging from a pharaohs monument to astronomical alignments"
     },
     {
       "SceneNumber": 4,
-      "Duration": "7",
-      "VoiceOverText": "From the ancient practice of Yoga to the strategic game of Chess, India's legacy continues to enrich global culture.",
-      "Description": "Statues in yoga poses with a backdrop of an ancient Chaturanga game.",
-      "Text": "From the ancient practice of Yoga to the strategic game of Chess Indias legacy continues to enrich global culture"
+      "Duration": "9",
+      "VoiceOverText": "Mystery surrounds the missing nose, with legends attributing its loss to everything from cannon fire to erosion.",
+      "Description": "The Sphinx's face showing the missing nose, alongside depictions of various legends explaining its loss.",
+      "Text": "Mystery surrounds the missing nose with legends attributing its loss to everything from cannon fire to erosion"
     },
     {
       "SceneNumber": 5,
-      "Duration": "5",
-      "VoiceOverText": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations.",
-      "Description": "Montage of ancient Indian achievements fading into a call to action.",
-      "Text": "Join us in exploring the profound impact of ancient Indian wisdom and its enduring innovations"
+      "Duration": "8",
+      "VoiceOverText": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt.",
+      "Description": "Archaeologists at work near the Sphinx, highlighting ongoing research and excavations.",
+      "Text": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt"
     },
     {
       "SceneNumber": 6,
-      "Duration": "3",
-      "VoiceOverText": "Subscribe and delve into more historical mysteries and achievements with us.",
-      "Description": "Like, Share and Subscribe animation.",
-      "Text": "Subscribe and delve into more historical mysteries and achievements with us"
+      "Duration": "9",
+      "VoiceOverText": "The Sphinx remains a source of fascination, embodying the mystery and grandeur of Egypt's ancient civilization.",
+      "Description": "An evocative image of the Sphinx at sunset, symbolizing its enduring mystery and the grandeur of ancient Egypt.",
+      "Text": "The Sphinx remains a source of fascination embodying the mystery and grandeur of Egypts ancient civilization"
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "8",
+      "VoiceOverText": "Explore more ancient enigmas with us. Like, share, and subscribe for more historical adventures.",
+      "Description": "A call to action featuring images of other historical mysteries, inviting viewers to explore more enigmas.",
+      "Text": "Explore more ancient enigmas with us Like share and subscribe for more historical adventures"
     }
   ]
 }

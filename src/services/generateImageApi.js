@@ -13,7 +13,7 @@ const sendRequest = async (scene) => {
       samples: 1,
       steps: 50,
       aspect_ratio: "portrait",
-      guidance_scale: 25,
+      guidance_scale: 35,
       seed: 8265801,
       prompt: scene.Description, // This uses the Description key as intended
       style: "realism",
