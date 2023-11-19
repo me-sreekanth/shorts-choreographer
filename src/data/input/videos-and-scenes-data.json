@@ -1,62 +1,55 @@
 {
-  "Title": "The Lost City of Atlantis: The Sunken Civilization",
-  "Description": "Submerge into the legend of Atlantis, the fabled sunken city first mentioned by Plato. Join us as we navigate through the theories, searches, and debates surrounding this enduring mystery. #HistoricalMysteries #LostCity #Atlantis #UnderwaterArchaeology",
+  "Title": "The Riddle of the Sphinx: Egypt's Ancient Guardian",
+  "Description": "Unearth the secrets of the Great Sphinx of Giza, an iconic symbol of ancient Egypt shrouded in mystery. Explore its historical significance, the mysteries of its origin, and the debates about its purpose. #HistoricalMysteries #Sphinx #Egyptology #AncientEgypt",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "The legend of Atlantis, a prosperous civilization said to have sunk into the ocean, has intrigued scholars for centuries.",
-      "Description": "An artistic depiction of Atlantis in its prime, with grand architecture and advanced technology, before its fall.",
-      "Text": "The legend of Atlantis a prosperous civilization said to have sunk into the ocean has intrigued scholars for centuries"
+      "VoiceOverText": "The Great Sphinx of Giza, a monumental sculpture, has gazed upon the Egyptian desert for thousands of years.",
+      "Description": "A panoramic view of the Sphinx with the Pyramids in the background, highlighting its majestic presence.",
+      "Text": "The Great Sphinx of Giza a monumental sculpture has gazed upon the Egyptian desert for thousands of years"
     },
     {
       "SceneNumber": 2,
       "Duration": "9",
-      "VoiceOverText": "First mentioned by the philosopher Plato, Atlantis is described as an antagonist naval power that besieged Ancient Athens.",
-      "Description": "Illustrations from Plato's texts showing Atlantis and Ancient Athens, highlighting their supposed conflict.",
-      "Text": "First mentioned by the philosopher Plato Atlantis is described as an antagonist naval power that besieged Ancient Athens"
+      "VoiceOverText": "Carved from limestone, the Sphinx with its lion's body and human head is a symbol of strength and wisdom.",
+      "Description": "A close-up of the Sphinx showing the details of its lion's body and the enigmatic human face.",
+      "Text": "Carved from limestone the Sphinx with its lions body and human head is a symbol of strength and wisdom"
     },
     {
       "SceneNumber": 3,
       "Duration": "9",
-      "VoiceOverText": "Many have speculated on the location of Atlantis, from the Mediterranean Sea to the Caribbean and beyond.",
-      "Description": "A world map with various theorized locations of Atlantis marked, showing the global scope of the legend.",
-      "Text": "Many have speculated on the location of Atlantis from the Mediterranean Sea to the Caribbean and beyond"
+      "VoiceOverText": "Its origins and purpose remain debated, with theories ranging from a pharaoh's monument to astronomical alignments.",
+      "Description": "Various illustrations depicting different theories about the Sphinx's origin and purpose.",
+      "Text": "Its origins and purpose remain debated with theories ranging from a pharaohs monument to astronomical alignments"
     },
     {
       "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "Some theories suggest Atlantis was a real city-state that was destroyed by a natural disaster like a tsunami or earthquake.",
-      "Description": "Scenes depicting a catastrophic natural disaster like a tsunami or earthquake, impacting an ancient city.",
-      "Text": "Some theories suggest Atlantis was a real city-state that was destroyed by a natural disaster like a tsunami or earthquake"
+      "Duration": "9",
+      "VoiceOverText": "Mystery surrounds the missing nose, with legends attributing its loss to everything from cannon fire to erosion.",
+      "Description": "The Sphinx's face showing the missing nose, alongside depictions of various legends explaining its loss.",
+      "Text": "Mystery surrounds the missing nose with legends attributing its loss to everything from cannon fire to erosion"
     },
     {
       "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "Archaeological expeditions have searched for evidence of Atlantis, yet its existence remains a hotly debated topic.",
-      "Description": "Underwater archaeologists exploring ruins and artifacts, representing the search for physical evidence of Atlantis.",
-      "Text": "Archaeological expeditions have searched for evidence of Atlantis yet its existence remains a hotly debated topic"
+      "Duration": "8",
+      "VoiceOverText": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt.",
+      "Description": "Archaeologists at work near the Sphinx, highlighting ongoing research and excavations.",
+      "Text": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt"
     },
     {
       "SceneNumber": 6,
       "Duration": "9",
-      "VoiceOverText": "Atlantis has inspired countless books, movies, and theories, becoming a symbol of lost civilizations and human imagination.",
-      "Description": "A collage of Atlantis-inspired media, from books and films to artistic interpretations, showcasing its cultural impact.",
-      "Text": "Atlantis has inspired countless books movies and theories becoming a symbol of lost civilizations and human imagination"
+      "VoiceOverText": "The Sphinx remains a source of fascination, embodying the mystery and grandeur of Egypt's ancient civilization.",
+      "Description": "An evocative image of the Sphinx at sunset, symbolizing its enduring mystery and the grandeur of ancient Egypt.",
+      "Text": "The Sphinx remains a source of fascination embodying the mystery and grandeur of Egypts ancient civilization"
     },
     {
       "SceneNumber": 7,
-      "Duration": "9",
-      "VoiceOverText": "The mystery of Atlantis continues to capture the imagination, a testament to the enduring allure of ancient legends.",
-      "Description": "An enigmatic image of a sunken city with a question mark, symbolizing the ongoing mystery and fascination with Atlantis.",
-      "Text": "The mystery of Atlantis continues to capture the imagination a testament to the enduring allure of ancient legends"
-    },
-    {
-      "SceneNumber": 8,
-      "Duration": "9",
-      "VoiceOverText": "Dive deeper into history's enigmas with us. Like, share, and subscribe for more explorations into the past's unsolved mysteries.",
-      "Description": "A call to action with images of other historical enigmas, encouraging viewers to engage with more mysteries.",
-      "Text": "Dive deeper into historys enigmas with us Like share and subscribe for more explorations into the pasts unsolved mysteries"
+      "Duration": "8",
+      "VoiceOverText": "Explore more ancient enigmas with us. Like, share, and subscribe for more historical adventures.",
+      "Description": "A call to action featuring images of other historical mysteries, inviting viewers to explore more enigmas.",
+      "Text": "Explore more ancient enigmas with us Like share and subscribe for more historical adventures"
     }
   ]
 }
