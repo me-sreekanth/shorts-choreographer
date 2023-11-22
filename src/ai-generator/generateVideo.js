@@ -62,7 +62,7 @@ const createVideoClipWithTextAudioAndSubtitles = (
     `ffmpeg -y -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map "[watermarked]" -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`
   );
   execSync(
-    `ffmpeg -y -i "${intermediateVideoClipPath}" -vf "subtitles='${subtitlesPath}':force_style='FontName=${fontPath},FontSize=12,PrimaryColour=&H00ffffff,SecondaryColour=&H000000ff,OutlineColour=&H00000000,BackColour=&H40000000,BorderStyle=3,Shadow=0,Alignment=2,MarginV=100'" -c:v libx264 -c:a copy "${videoClipPath}"`
+    `ffmpeg -y -i "${intermediateVideoClipPath}" -vf "ass='${subtitlesPath}'" -c:v libx264 -c:a copy "${videoClipPath}"`
   );
 
   return videoClipPath;
@@ -107,7 +107,7 @@ const generateVideo = async () => {
       const subtitlesPath = path.join(
         outputDirectory,
         "subtitles",
-        "output.srt"
+        "output.ass"
       );
       return createVideoClipWithTextAudioAndSubtitles(
         imagePath,
