@@ -2,6 +2,13 @@ import sys
 import random
 import whisper
 
+# Constants
+AUDIO_PATH = sys.argv[1]
+OUTPUT_ASS_PATH = sys.argv[2]
+FONT_PATH = "Impact"
+FONT_SIZE = 18
+BOTTOM_MARGIN = 90
+
 def format_time(seconds):
     """
     Converts time in seconds to the format 'hh:mm:ss.cc'.
@@ -12,7 +19,7 @@ def format_time(seconds):
     centiseconds = int((seconds - int(seconds)) * 100)
     return f"{hours:02}:{minutes:02}:{int(seconds):02}.{centiseconds:02}"
 
-def create_ass_header(font_size=18, bottom_margin=50, font_path="Impact"):
+def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN, font_path=FONT_PATH):
     header = [
         "[Script Info]",
         "Title: Whisper Transcription",
@@ -35,7 +42,7 @@ def random_color():
     colors = ["&H00FFFFFF", "&H0000FFFF", "&H000000FF"]  # White, Yellow, Red in BGR Hex
     return random.choice(colors)
 
-def transcribe(audio_path, output_file_path):
+def transcribe(audio_path=AUDIO_PATH, output_file_path=OUTPUT_ASS_PATH):
     model = whisper.load_model("base")
     print("Whisper model loaded successfully.")
     result = model.transcribe(audio_path, verbose=False)
@@ -64,6 +71,4 @@ def transcribe(audio_path, output_file_path):
                 file.write(subtitle_line)
 
 if __name__ == "__main__":
-    audio_path = sys.argv[1]
-    output_ass_path = sys.argv[2]
-    transcribe(audio_path, output_ass_path)
+    transcribe()

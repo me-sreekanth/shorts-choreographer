@@ -7,18 +7,20 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 50, 1
+Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.38,Default,,0000,0000,0000,,{\1c&H0000FFFF}The
-Dialogue: 0,00:00:00.38,00:00:01.16,Default,,0000,0000,0000,,{\1c&H00FFFFFF}great sphinx
-Dialogue: 0,00:00:01.16,00:00:01.55,Default,,0000,0000,0000,,{\1c&H0000FFFF}of
+Dialogue: 0,00:00:00.00,00:00:00.77,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The great
+Dialogue: 0,00:00:00.77,00:00:01.16,Default,,0000,0000,0000,,{\1c&H000000FF}sphinx
+Dialogue: 0,00:00:01.16,00:00:01.55,Default,,0000,0000,0000,,{\1c&H000000FF}of
 Dialogue: 0,00:00:01.55,00:00:02.33,Default,,0000,0000,0000,,{\1c&H000000FF}Giza, a
-Dialogue: 0,00:00:02.33,00:00:03.11,Default,,0000,0000,0000,,{\1c&H000000FF}monumental sculpture,
-Dialogue: 0,00:00:03.11,00:00:03.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}has
-Dialogue: 0,00:00:03.50,00:00:03.88,Default,,0000,0000,0000,,{\1c&H0000FFFF}gazed
-Dialogue: 0,00:00:03.88,00:00:04.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}upon the
-Dialogue: 0,00:00:04.66,00:00:05.44,Default,,0000,0000,0000,,{\1c&H000000FF}Egyptian desert
-Dialogue: 0,00:00:05.44,00:00:06.22,Default,,0000,0000,0000,,{\1c&H000000FF}for thousands
-Dialogue: 0,00:00:06.22,00:00:07.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of years.
+Dialogue: 0,00:00:02.33,00:00:02.72,Default,,0000,0000,0000,,{\1c&H00FFFFFF}monumental
+Dialogue: 0,00:00:02.72,00:00:03.11,Default,,0000,0000,0000,,{\1c&H000000FF}sculpture,
+Dialogue: 0,00:00:03.11,00:00:03.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}has
+Dialogue: 0,00:00:03.50,00:00:04.27,Default,,0000,0000,0000,,{\1c&H0000FFFF}gazed upon
+Dialogue: 0,00:00:04.27,00:00:05.05,Default,,0000,0000,0000,,{\1c&H000000FF}the Egyptian
+Dialogue: 0,00:00:05.05,00:00:05.83,Default,,0000,0000,0000,,{\1c&H0000FFFF}desert for
+Dialogue: 0,00:00:05.83,00:00:06.22,Default,,0000,0000,0000,,{\1c&H000000FF}thousands
+Dialogue: 0,00:00:06.22,00:00:06.61,Default,,0000,0000,0000,,{\1c&H0000FFFF}of
+Dialogue: 0,00:00:06.61,00:00:07.00,Default,,0000,0000,0000,,{\1c&H000000FF}years.
