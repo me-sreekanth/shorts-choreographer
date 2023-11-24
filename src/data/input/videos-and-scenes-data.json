@@ -1,55 +1,55 @@
 {
-  "Title": "The Enigmatic Nazca Lines: Peru's Ancient Geoglyphs",
-  "Description": "Journey to the Nazca Desert to uncover the mystery of the Nazca Lines, enormous geoglyphs etched into the earth. Explore their creation, meaning, and the theories about this ancient wonder. #HistoricalMysteries #NazcaLines #AncientCivilizations #ArchaeologicalMysteries",
+  "Title": "The Legend of El Dorado: The City of Gold",
+  "Description": "Embark on a journey into the heart of the legendary El Dorado, the fabled city of gold that lured explorers and adventurers with its promise of riches. Uncover the myths, expeditions, and the truth behind this enduring legend. #HistoricalMysteries #ElDorado #LostCities #Adventure",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "The Nazca Lines, sprawling across Peru's barren plains, are a collection of giant figures and shapes created over 2,000 years ago.",
-      "Description": "An aerial view of the Nazca desert showing various geoglyphs, emphasizing their size and the mystery of their creation.",
-      "Text": "The Nazca Lines sprawling across Perus barren plains are a collection of giant figures and shapes created over 2000 years ago"
+      "VoiceOverText": "El Dorado, the legendary city of gold, has been a source of fascination and obsession for explorers since the 16th century.",
+      "Description": "An illustrative map of South America showing the supposed location of El Dorado, with adventurers and mythical imagery.",
+      "Text": "El Dorado the legendary city of gold has been a source of fascination and obsession for explorers since the 16th century"
     },
     {
       "SceneNumber": 2,
       "Duration": "9",
-      "VoiceOverText": "These geoglyphs range from simple lines and geometric shapes to intricate depictions of animals and humans.",
-      "Description": "Close-up shots of different Nazca Lines, showcasing their diversity from simple lines to complex animal figures.",
-      "Text": "These geoglyphs range from simple lines and geometric shapes to intricate depictions of animals and humans"
+      "VoiceOverText": "Originating from South American indigenous folklore, the myth spoke of a king covered in gold dust and vast riches.",
+      "Description": "A depiction of the Muisca ritual, showing the golden king and his subjects, set against a backdrop of a rich and lush city.",
+      "Text": "Originating from South American indigenous folklore the myth spoke of a king covered in gold dust and vast riches"
     },
     {
       "SceneNumber": 3,
       "Duration": "9",
-      "VoiceOverText": "Theories about their purpose vary from astronomical calendars to religious or ceremonial sites.",
-      "Description": "Illustrations representing different theories about the Nazca Lines, including astronomical alignments and religious rituals.",
-      "Text": "Theories about their purpose vary from astronomical calendars to religious or ceremonial sites"
+      "VoiceOverText": "Countless expeditions were launched to find El Dorado, often leading to fruitless endeavors and hardships.",
+      "Description": "Explorers trekking through dense jungles and over mountains, showing the challenging quest for El Dorado.",
+      "Text": "Countless expeditions were launched to find El Dorado often leading to fruitless endeavors and hardships"
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "Some suggest the lines were created to be seen by deities in the sky, while others believe they guided water sources.",
-      "Description": "Artistic depictions of ancient Nazca people creating the lines for celestial beings or aligning them with water sources.",
-      "Text": "Some suggest the lines were created to be seen by deities in the sky while others believe they guided water sources"
+      "VoiceOverText": "The legend evolved over time, with El Dorado shifting from a man, to a city, and finally to a kingdom or empire.",
+      "Description": "Transformation of the legend shown through a series of images: a golden king, a splendid city, and a vast empire.",
+      "Text": "The legend evolved over time with El Dorado shifting from a man to a city and finally to a kingdom or empire"
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Despite modern research, the exact methods used to construct these precise figures remain largely a mystery.",
-      "Description": "Archaeologists examining the lines, with tools and diagrams, highlighting the complexity and precision of the geoglyphs.",
-      "Text": "Despite modern research the exact methods used to construct these precise figures remain largely a mystery"
+      "VoiceOverText": "Modern archaeological discoveries suggest that the myth may have roots in ancient civilizations' rituals and gold craftsmanship.",
+      "Description": "Archaeologists uncovering ancient artifacts and gold crafts, hinting at the cultural basis for the El Dorado legend.",
+      "Text": "Modern archaeological discoveries suggest that the myth may have roots in ancient civilizations rituals and gold craftsmanship"
     },
     {
       "SceneNumber": 6,
       "Duration": "9",
-      "VoiceOverText": "The Nazca Lines stand as a testament to the ingenuity of ancient cultures, captivating archaeologists and historians alike.",
-      "Description": "A panoramic view of the desert with the Nazca Lines, symbolizing their enduring mystery and the ingenuity of the Nazca culture.",
-      "Text": "The Nazca Lines stand as a testament to the ingenuity of ancient cultures captivating archaeologists and historians alike"
+      "VoiceOverText": "Despite its elusive nature, the quest for El Dorado significantly impacted the exploration and history of South America.",
+      "Description": "A montage showing the impact of the El Dorado legend on South American exploration, including cultural and geographical changes.",
+      "Text": "Despite its elusive nature the quest for El Dorado significantly impacted the exploration and history of South America"
     },
     {
       "SceneNumber": 7,
       "Duration": "8",
-      "VoiceOverText": "Explore more of history's intriguing puzzles with us. Like, share, and subscribe for more journeys into the past.",
-      "Description": "A call to action with images of other historical mysteries and archaeological sites, inviting viewers to continue exploring.",
-      "Text": "Explore more of historys intriguing puzzles with us Like share and subscribe for more journeys into the past"
+      "VoiceOverText": "Embark on more historical adventures with us. Like, share, and subscribe for tales of mystery and exploration.",
+      "Description": "A call to action with images of maps, treasures, and ancient ruins, inviting viewers on further historical journeys.",
+      "Text": "Embark on more historical adventures with us Like share and subscribe for tales of mystery and exploration"
     }
   ]
 }
