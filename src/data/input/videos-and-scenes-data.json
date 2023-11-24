@@ -1,41 +1,34 @@
 {
-  "Title": "The Secret of Oak Island: Treasure or Tragedy?",
-  "Description": "Explore the enigma of Oak Island's Money Pit, a site of legends and relentless treasure hunts. Discover the allure and mystery in just 30 seconds. #HistoricalMysteries #OakIsland #TreasureHunt #UnsolvedMysteries",
+  "Title": "The Ghost Ship: The Mary Celeste",
+  "Description": "Uncover the chilling tale of the Mary Celeste, the infamous ghost ship found adrift with no soul on board. Delve into this 30-second mystery. #HistoricalMysteries #GhostShip #MaritimeHistory #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "6",
-      "VoiceOverText": "For centuries, Oak Island has tantalized treasure hunters with its infamous Money Pit, rumored to hide vast riches.",
-      "Description": "A view of Oak Island, focusing on the mysterious Money Pit area, hinting at hidden treasures below.",
-      "Text": "For centuries Oak Island has tantalized treasure hunters with its infamous Money Pit rumored to hide vast riches"
+      "Duration": "7",
+      "VoiceOverText": "The Mary Celeste, found adrift in 1872, was eerily intact but mysteriously abandoned.",
+      "Description": "The Mary Celeste adrift at sea, emphasizing its intact condition but ghostly emptiness.",
+      "Text": "The Mary Celeste found adrift in 1872 was eerily intact but mysteriously abandoned"
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "Despite many expeditions, the island keeps its secrets, fueling legends of pirate gold and ancient artifacts.",
-      "Description": "Depictions of explorers and digging equipment on Oak Island, showcasing the extensive but fruitless searches.",
-      "Text": "Despite many expeditions the island keeps its secrets fueling legends of pirate gold and ancient artifacts"
+      "Duration": "8",
+      "VoiceOverText": "No sign of the crew, a lifeboat missing, and a meal set – the scene was set for a maritime enigma.",
+      "Description": "Inside the Mary Celeste showing an undisturbed setting, a missing lifeboat, and a meal left untouched.",
+      "Text": "No sign of the crew a lifeboat missing and a meal set – the scene was set for a maritime enigma"
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "The quest has seen its share of tragedy, with lives lost and fortunes spent in pursuit of elusive treasure.",
-      "Description": "A somber reminder of the risks involved, showing memorials on Oak Island against a backdrop of ongoing searches.",
-      "Text": "The quest has seen its share of tragedy with lives lost and fortunes spent in pursuit of elusive treasure"
+      "Duration": "8",
+      "VoiceOverText": "Theories abound, but the fate of her crew remains one of the sea's greatest unsolved mysteries.",
+      "Description": "Images of various theories like a storm or a pirate flag, juxtaposed with the ship's wheel abandoned.",
+      "Text": "Theories abound but the fate of her crew remains one of the seas greatest unsolved mysteries"
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "The allure of Oak Island endures, a symbol of the unquenchable human spirit to solve the unsolvable.",
-      "Description": "A captivating scene of Oak Island at dusk, evoking the mystery and allure that continues to draw seekers and dreamers.",
-      "Text": "The allure of Oak Island endures a symbol of the unquenchable human spirit to solve the unsolvable"
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "Discover more mysteries with us. Like, share, and subscribe for more enigmatic stories.",
-      "Description": "A call to action, inviting viewers to delve deeper into other historical mysteries with visuals of maps and hidden treasures.",
-      "Text": "Discover more mysteries with us Like share and subscribe for more enigmatic stories"
+      "Duration": "7",
+      "VoiceOverText": "Join us for more enigmas of the past. Like, share, and subscribe for intriguing historical tales.",
+      "Description": "A call to action with a montage of other historical mysteries, inviting further exploration.",
+      "Text": "Join us for more enigmas of the past Like share and subscribe for intriguing historical tales"
     }
   ]
 }
