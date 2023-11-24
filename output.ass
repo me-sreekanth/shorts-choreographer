@@ -1,29 +1,31 @@
 [Script Info]
-Title: Custom Subtitles
+Title: Whisper Transcription
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
-YCbCr Matrix: None
-PlayResX: 1080
-PlayResY: 1920
+YCbCr Matrix: TV.601
 
 [V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default, Arial, 48, &H00FFFFFF, &H000000FF, &H00000000, &H64000000, 1, 0, 0, 0, 100, 100, 0, 0, 1, 4, 0, 2, 10, 10, 100, 0
+Format: Name, Fontname, Fontsize, PrimaryColour, ...
+Style: Default, Arial,20,&H00FFFFFF,&H00FFFFFF,...
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.000,00:00:01.500,Default,,0000,0000,0000,,{\pos(500,1820)\1c&H0000FF&\3c&H000000&\bord4\shad0}FOR
-Dialogue: 0,00:00:00.000,00:00:01.500,Default,,0000,0000,0000,,{\pos(600,1820)\1c&H00FFFFFF\3c&H000000&\bord4\shad0}WWW.FOROM.COM
-Dialogue: 0,00:00:01.500,00:00:02.500,Default,,0000,0000,0000,,{\pos(500,1820)\1c&H00FFFFFF\3c&H000000&\bord4\shad0}TONIGHT'S
-Dialogue: 0,00:00:01.500,00:00:02.500,Default,,0000,0000,0000,,{\pos(600,1820)\1c&H0000FF&\3c&H000000&\bord4\shad0}THE
-Dialogue: 0,00:00:01.500,00:00:02.500,Default,,0000,0000,0000,,{\pos(700,1820)\1c&H00FFFF\3c&H000000&\bord4\shad0}NIGHT.
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(500,1820)\1c&H0000FF&\3c&H000000&\bord4\shad0}AND
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(600,1820)\1c&H00FFFF\3c&H000000&\bord4\shad0}IT'S
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(700,1820)\1c&H00FFFF\3c&H000000&\bord4\shad0}GOING
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(500,1820)\1c&H0000FF&\3c&H000000&\bord4\shad0}TO
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(600,1820)\1c&H0000FF&\3c&H000000&\bord4\shad0}HAPPEN
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(700,1820)\1c&H00FFFFFF\3c&H000000&\bord4\shad0}AGAIN
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(500,1820)\1c&H00FFFF\3c&H000000&\bord4\shad0}AND
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(600,1820)\1c&H00FFFF\3c&H000000&\bord4\shad0}AGAIN
-Dialogue: 0,00:00:03.000,00:00:15.000,Default,,0000,0000,0000,,{\pos(700,1820)\1c&H00FFFFFF\3c&H000000&\bord4\shad0}--
+Dialogue: 0,00:00:00,000,00:00:00,388,Default,,0000,0000,0000,,The
+Dialogue: 0,00:00:00,388,00:00:00,777,Default,,0000,0000,0000,,Great
+Dialogue: 0,00:00:00,777,00:00:01,166,Default,,0000,0000,0000,,Sphinx
+Dialogue: 0,00:00:01,166,00:00:01,555,Default,,0000,0000,0000,,of
+Dialogue: 0,00:00:01,555,00:00:01,944,Default,,0000,0000,0000,,Giza,
+Dialogue: 0,00:00:01,944,00:00:02,333,Default,,0000,0000,0000,,a
+Dialogue: 0,00:00:02,333,00:00:02,722,Default,,0000,0000,0000,,monumental
+Dialogue: 0,00:00:02,722,00:00:03,111,Default,,0000,0000,0000,,sculpture,
+Dialogue: 0,00:00:03,111,00:00:03,500,Default,,0000,0000,0000,,has
+Dialogue: 0,00:00:03,500,00:00:03,888,Default,,0000,0000,0000,,gazed
+Dialogue: 0,00:00:03,888,00:00:04,277,Default,,0000,0000,0000,,upon
+Dialogue: 0,00:00:04,277,00:00:04,666,Default,,0000,0000,0000,,the
+Dialogue: 0,00:00:04,666,00:00:05,055,Default,,0000,0000,0000,,Egyptian
+Dialogue: 0,00:00:05,055,00:00:05,444,Default,,0000,0000,0000,,desert
+Dialogue: 0,00:00:05,444,00:00:05,833,Default,,0000,0000,0000,,for
+Dialogue: 0,00:00:05,833,00:00:06,222,Default,,0000,0000,0000,,thousands
+Dialogue: 0,00:00:06,222,00:00:06,611,Default,,0000,0000,0000,,of
+Dialogue: 0,00:00:06,611,00:00:07,000,Default,,0000,0000,0000,,years.

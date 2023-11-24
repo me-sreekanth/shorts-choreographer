@@ -1,0 +1,31 @@
+[Script Info]
+Title: Whisper Transcription
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default, Arial, 20, &H00FFFFFF, &H00FFFFFF, &H00000000, &H00000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 0, 2, 10, 10, 10, 1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:00.38,Default,,0000,0000,0000,,The
+Dialogue: 0,00:00:00.38,00:00:00.77,Default,,0000,0000,0000,,great
+Dialogue: 0,00:00:00.77,00:00:01.16,Default,,0000,0000,0000,,sphinx
+Dialogue: 0,00:00:01.16,00:00:01.55,Default,,0000,0000,0000,,of
+Dialogue: 0,00:00:01.55,00:00:01.94,Default,,0000,0000,0000,,Giza,
+Dialogue: 0,00:00:01.94,00:00:02.33,Default,,0000,0000,0000,,a
+Dialogue: 0,00:00:02.33,00:00:02.72,Default,,0000,0000,0000,,monumental
+Dialogue: 0,00:00:02.72,00:00:03.11,Default,,0000,0000,0000,,sculpture,
+Dialogue: 0,00:00:03.11,00:00:03.50,Default,,0000,0000,0000,,has
+Dialogue: 0,00:00:03.50,00:00:03.88,Default,,0000,0000,0000,,gazed
+Dialogue: 0,00:00:03.88,00:00:04.27,Default,,0000,0000,0000,,upon
+Dialogue: 0,00:00:04.27,00:00:04.66,Default,,0000,0000,0000,,the
+Dialogue: 0,00:00:04.66,00:00:05.05,Default,,0000,0000,0000,,Egyptian
+Dialogue: 0,00:00:05.05,00:00:05.44,Default,,0000,0000,0000,,desert
+Dialogue: 0,00:00:05.44,00:00:05.83,Default,,0000,0000,0000,,for
+Dialogue: 0,00:00:05.83,00:00:06.22,Default,,0000,0000,0000,,thousands
+Dialogue: 0,00:00:06.22,00:00:06.61,Default,,0000,0000,0000,,of
+Dialogue: 0,00:00:06.61,00:00:07.00,Default,,0000,0000,0000,,years.
