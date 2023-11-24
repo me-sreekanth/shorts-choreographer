@@ -1,55 +1,55 @@
 {
-  "Title": "The Riddle of the Sphinx: Egypt's Ancient Guardian",
-  "Description": "Unearth the secrets of the Great Sphinx of Giza, an iconic symbol of ancient Egypt shrouded in mystery. Explore its historical significance, the mysteries of its origin, and the debates about its purpose. #HistoricalMysteries #Sphinx #Egyptology #AncientEgypt",
+  "Title": "The Lost Colony of Roanoke: America's Oldest Unsolved Mystery",
+  "Description": "Discover the haunting tale of the Lost Colony of Roanoke, the first English settlement in the New World that vanished without a trace. Explore the theories and ongoing fascination with this enduring mystery. #HistoricalMysteries #RoanokeColony #AmericanHistory #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "The Great Sphinx of Giza, a monumental sculpture, has gazed upon the Egyptian desert for thousands of years.",
-      "Description": "A panoramic view of the Sphinx with the Pyramids in the background, highlighting its majestic presence.",
-      "Text": "The Great Sphinx of Giza a monumental sculpture has gazed upon the Egyptian desert for thousands of years"
+      "VoiceOverText": "In the late 16th century, the Roanoke Colony was established on an island off the coast of North Carolina, only to mysteriously disappear.",
+      "Description": "A scenic view of Roanoke Island as it might have looked in the 1580s, with the settlement's structures in the background.",
+      "Text": "In the late 16th century the Roanoke Colony was established on an island off the coast of North Carolina only to mysteriously disappear"
     },
     {
       "SceneNumber": 2,
       "Duration": "9",
-      "VoiceOverText": "Carved from limestone, the Sphinx with its lion's body and human head is a symbol of strength and wisdom.",
-      "Description": "A close-up of the Sphinx showing the details of its lion's body and the enigmatic human face.",
-      "Text": "Carved from limestone the Sphinx with its lions body and human head is a symbol of strength and wisdom"
+      "VoiceOverText": "When a supply ship returned in 1590, it found the colony abandoned, with no sign of the settlers or struggle.",
+      "Description": "An image of a deserted Roanoke, showing empty houses and overgrown vegetation, symbolizing abandonment.",
+      "Text": "When a supply ship returned in 1590 it found the colony abandoned with no sign of the settlers or struggle"
     },
     {
       "SceneNumber": 3,
       "Duration": "9",
-      "VoiceOverText": "Its origins and purpose remain debated, with theories ranging from a pharaoh's monument to astronomical alignments.",
-      "Description": "Various illustrations depicting different theories about the Sphinx's origin and purpose.",
-      "Text": "Its origins and purpose remain debated with theories ranging from a pharaohs monument to astronomical alignments"
+      "VoiceOverText": "The only clue left behind was the word 'Croatoan' carved into a wooden post, leading to speculation about its meaning.",
+      "Description": "A close-up of the 'Croatoan' carving on a post, with a shadowy forest in the background, adding to the mystery.",
+      "Text": "The only clue left behind was the word 'Croatoan' carved into a wooden post leading to speculation about its meaning"
     },
     {
       "SceneNumber": 4,
-      "Duration": "9",
-      "VoiceOverText": "Mystery surrounds the missing nose, with legends attributing its loss to everything from cannon fire to erosion.",
-      "Description": "The Sphinx's face showing the missing nose, alongside depictions of various legends explaining its loss.",
-      "Text": "Mystery surrounds the missing nose with legends attributing its loss to everything from cannon fire to erosion"
+      "Duration": "10",
+      "VoiceOverText": "Theories range from integration with local Native American tribes to devastating disease or famine.",
+      "Description": "Depictions of various theories, including settlers joining Native Americans, and scenes of hardship like famine or disease.",
+      "Text": "Theories range from integration with local Native American tribes to devastating disease or famine"
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt.",
-      "Description": "Archaeologists at work near the Sphinx, highlighting ongoing research and excavations.",
-      "Text": "Recent excavations and research continue to uncover new insights about this ancient guardian of Egypt"
+      "Duration": "10",
+      "VoiceOverText": "Some suggest more sinister fates, such as hostile encounters with native tribes or even Spanish forces.",
+      "Description": "Imagery suggesting conflict, with armed settlers and natives, or the shadow of a Spanish galleon approaching the island.",
+      "Text": "Some suggest more sinister fates such as hostile encounters with native tribes or even Spanish forces"
     },
     {
       "SceneNumber": 6,
       "Duration": "9",
-      "VoiceOverText": "The Sphinx remains a source of fascination, embodying the mystery and grandeur of Egypt's ancient civilization.",
-      "Description": "An evocative image of the Sphinx at sunset, symbolizing its enduring mystery and the grandeur of ancient Egypt.",
-      "Text": "The Sphinx remains a source of fascination embodying the mystery and grandeur of Egypts ancient civilization"
+      "VoiceOverText": "Despite extensive archaeological efforts, the fate of the Roanoke colonists remains one of America's oldest unsolved mysteries.",
+      "Description": "Archaeologists excavating on Roanoke Island, uncovering artifacts, but no conclusive answers.",
+      "Text": "Despite extensive archaeological efforts the fate of the Roanoke colonists remains one of Americas oldest unsolved mysteries"
     },
     {
       "SceneNumber": 7,
       "Duration": "8",
-      "VoiceOverText": "Explore more ancient enigmas with us. Like, share, and subscribe for more historical adventures.",
-      "Description": "A call to action featuring images of other historical mysteries, inviting viewers to explore more enigmas.",
-      "Text": "Explore more ancient enigmas with us Like share and subscribe for more historical adventures"
+      "VoiceOverText": "Unravel more historical puzzles with us. Like, share, and subscribe for deeper dives into the mysteries of the past.",
+      "Description": "A call to action with visuals of other historical mysteries and archaeological sites, inviting further exploration.",
+      "Text": "Unravel more historical puzzles with us Like share and subscribe for deeper dives into the mysteries of the past"
     }
   ]
 }
