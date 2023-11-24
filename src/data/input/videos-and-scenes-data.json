@@ -1,55 +1,55 @@
 {
-  "Title": "The Legend of El Dorado: The City of Gold",
-  "Description": "Embark on a journey into the heart of the legendary El Dorado, the fabled city of gold that lured explorers and adventurers with its promise of riches. Uncover the myths, expeditions, and the truth behind this enduring legend. #HistoricalMysteries #ElDorado #LostCities #Adventure",
+  "Title": "The Secret of Oak Island: Treasure or Tragedy?",
+  "Description": "Embark on a journey to Oak Island, where legends of buried treasure and historical artifacts have captivated treasure hunters for over two centuries. Explore the thrilling and sometimes tragic history of the Money Pit. #HistoricalMysteries #OakIsland #TreasureHunt #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "El Dorado, the legendary city of gold, has been a source of fascination and obsession for explorers since the 16th century.",
-      "Description": "An illustrative map of South America showing the supposed location of El Dorado, with adventurers and mythical imagery.",
-      "Text": "El Dorado the legendary city of gold has been a source of fascination and obsession for explorers since the 16th century"
+      "VoiceOverText": "Oak Island, in Nova Scotia, has been at the center of treasure hunting lore since the late 1700s, with the infamous Money Pit offering promises of vast riches.",
+      "Description": "An aerial view of Oak Island, highlighting its mysterious landscape and the famed Money Pit area.",
+      "Text": "Oak Island in Nova Scotia has been at the center of treasure hunting lore since the late 1700s with the infamous Money Pit offering promises of vast riches"
     },
     {
       "SceneNumber": 2,
       "Duration": "9",
-      "VoiceOverText": "Originating from South American indigenous folklore, the myth spoke of a king covered in gold dust and vast riches.",
-      "Description": "A depiction of the Muisca ritual, showing the golden king and his subjects, set against a backdrop of a rich and lush city.",
-      "Text": "Originating from South American indigenous folklore the myth spoke of a king covered in gold dust and vast riches"
+      "VoiceOverText": "Legends suggest that the island hides a great treasure, from pirate gold to sacred artifacts, luring adventurers and fortune-seekers.",
+      "Description": "Artistic depictions of various legendary treasures, like pirate chests and ancient relics, rumored to be hidden on the island.",
+      "Text": "Legends suggest that the island hides a great treasure from pirate gold to sacred artifacts luring adventurers and fortune-seekers"
     },
     {
       "SceneNumber": 3,
       "Duration": "9",
-      "VoiceOverText": "Countless expeditions were launched to find El Dorado, often leading to fruitless endeavors and hardships.",
-      "Description": "Explorers trekking through dense jungles and over mountains, showing the challenging quest for El Dorado.",
-      "Text": "Countless expeditions were launched to find El Dorado often leading to fruitless endeavors and hardships"
+      "VoiceOverText": "Despite numerous expeditions and significant investments, no substantial treasure has been uncovered, only deepening the island's mystery.",
+      "Description": "Images of various excavation attempts on Oak Island, showing complex machinery and dug pits, but no significant discovery.",
+      "Text": "Despite numerous expeditions and significant investments no substantial treasure has been uncovered only deepening the islands mystery"
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "The legend evolved over time, with El Dorado shifting from a man, to a city, and finally to a kingdom or empire.",
-      "Description": "Transformation of the legend shown through a series of images: a golden king, a splendid city, and a vast empire.",
-      "Text": "The legend evolved over time with El Dorado shifting from a man to a city and finally to a kingdom or empire"
+      "VoiceOverText": "Tragedy has also struck the island, with several lives lost in the quest to uncover its secrets, adding a somber note to the legend.",
+      "Description": "A somber scene depicting memorials or markers for those who lost their lives, set against the backdrop of Oak Island.",
+      "Text": "Tragedy has also struck the island with several lives lost in the quest to uncover its secrets adding a somber note to the legend"
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Modern archaeological discoveries suggest that the myth may have roots in ancient civilizations' rituals and gold craftsmanship.",
-      "Description": "Archaeologists uncovering ancient artifacts and gold crafts, hinting at the cultural basis for the El Dorado legend.",
-      "Text": "Modern archaeological discoveries suggest that the myth may have roots in ancient civilizations rituals and gold craftsmanship"
+      "VoiceOverText": "Theories about the Money Pit range from natural geological formations to elaborate hoaxes or ingeniously booby-trapped treasure vaults.",
+      "Description": "Illustrations showing different theories, including natural sinkholes, pirate treasure vaults, and complex booby traps.",
+      "Text": "Theories about the Money Pit range from natural geological formations to elaborate hoaxes or ingeniously booby-trapped treasure vaults"
     },
     {
       "SceneNumber": 6,
       "Duration": "9",
-      "VoiceOverText": "Despite its elusive nature, the quest for El Dorado significantly impacted the exploration and history of South America.",
-      "Description": "A montage showing the impact of the El Dorado legend on South American exploration, including cultural and geographical changes.",
-      "Text": "Despite its elusive nature the quest for El Dorado significantly impacted the exploration and history of South America"
+      "VoiceOverText": "Oak Island's allure continues to inspire, a symbol of the eternal human quest for discovery and the mysteries that remain just out of reach.",
+      "Description": "A twilight scene of Oak Island, evoking a sense of mystery and the allure of the unknown, with treasure hunters looking on.",
+      "Text": "Oak Islands allure continues to inspire a symbol of the eternal human quest for discovery and the mysteries that remain just out of reach"
     },
     {
       "SceneNumber": 7,
       "Duration": "8",
-      "VoiceOverText": "Embark on more historical adventures with us. Like, share, and subscribe for tales of mystery and exploration.",
-      "Description": "A call to action with images of maps, treasures, and ancient ruins, inviting viewers on further historical journeys.",
-      "Text": "Embark on more historical adventures with us Like share and subscribe for tales of mystery and exploration"
+      "VoiceOverText": "Dive deeper into the world's enduring enigmas with us. Like, share, and subscribe for more captivating tales of mystery.",
+      "Description": "A call to action featuring icons of other historical mysteries, inviting viewers to continue their journey into the unknown.",
+      "Text": "Dive deeper into the worlds enduring enigmas with us Like share and subscribe for more captivating tales of mystery"
     }
   ]
 }
