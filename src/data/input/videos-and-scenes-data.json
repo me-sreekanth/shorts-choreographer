@@ -1,13 +1,55 @@
 {
-  "Title": "The Riddle of the Sphinx: Egypt's Ancient Guardian",
-  "Description": "Unearth the secrets of the Great Sphinx of Giza, an iconic symbol of ancient Egypt shrouded in mystery. Explore its historical significance, the mysteries of its origin, and the debates about its purpose. #HistoricalMysteries #Sphinx #Egyptology #AncientEgypt",
+  "Title": "The Enigmatic Nazca Lines: Peru's Ancient Geoglyphs",
+  "Description": "Journey to the Nazca Desert to uncover the mystery of the Nazca Lines, enormous geoglyphs etched into the earth. Explore their creation, meaning, and the theories about this ancient wonder. #HistoricalMysteries #NazcaLines #AncientCivilizations #ArchaeologicalMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "The Great Sphinx of Giza, a monumental sculpture, has gazed upon the Egyptian desert for thousands of years.",
-      "Description": "A panoramic view of the Sphinx with the Pyramids in the background, highlighting its majestic presence.",
-      "Text": "The Great Sphinx of Giza a monumental sculpture has gazed upon the Egyptian desert for thousands of years"
+      "VoiceOverText": "The Nazca Lines, sprawling across Peru's barren plains, are a collection of giant figures and shapes created over 2,000 years ago.",
+      "Description": "An aerial view of the Nazca desert showing various geoglyphs, emphasizing their size and the mystery of their creation.",
+      "Text": "The Nazca Lines sprawling across Perus barren plains are a collection of giant figures and shapes created over 2000 years ago"
+    },
+    {
+      "SceneNumber": 2,
+      "Duration": "9",
+      "VoiceOverText": "These geoglyphs range from simple lines and geometric shapes to intricate depictions of animals and humans.",
+      "Description": "Close-up shots of different Nazca Lines, showcasing their diversity from simple lines to complex animal figures.",
+      "Text": "These geoglyphs range from simple lines and geometric shapes to intricate depictions of animals and humans"
+    },
+    {
+      "SceneNumber": 3,
+      "Duration": "9",
+      "VoiceOverText": "Theories about their purpose vary from astronomical calendars to religious or ceremonial sites.",
+      "Description": "Illustrations representing different theories about the Nazca Lines, including astronomical alignments and religious rituals.",
+      "Text": "Theories about their purpose vary from astronomical calendars to religious or ceremonial sites"
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "10",
+      "VoiceOverText": "Some suggest the lines were created to be seen by deities in the sky, while others believe they guided water sources.",
+      "Description": "Artistic depictions of ancient Nazca people creating the lines for celestial beings or aligning them with water sources.",
+      "Text": "Some suggest the lines were created to be seen by deities in the sky while others believe they guided water sources"
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "10",
+      "VoiceOverText": "Despite modern research, the exact methods used to construct these precise figures remain largely a mystery.",
+      "Description": "Archaeologists examining the lines, with tools and diagrams, highlighting the complexity and precision of the geoglyphs.",
+      "Text": "Despite modern research the exact methods used to construct these precise figures remain largely a mystery"
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "9",
+      "VoiceOverText": "The Nazca Lines stand as a testament to the ingenuity of ancient cultures, captivating archaeologists and historians alike.",
+      "Description": "A panoramic view of the desert with the Nazca Lines, symbolizing their enduring mystery and the ingenuity of the Nazca culture.",
+      "Text": "The Nazca Lines stand as a testament to the ingenuity of ancient cultures captivating archaeologists and historians alike"
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "8",
+      "VoiceOverText": "Explore more of history's intriguing puzzles with us. Like, share, and subscribe for more journeys into the past.",
+      "Description": "A call to action with images of other historical mysteries and archaeological sites, inviting viewers to continue exploring.",
+      "Text": "Explore more of historys intriguing puzzles with us Like share and subscribe for more journeys into the past"
     }
   ]
 }

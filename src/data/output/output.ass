@@ -11,16 +11,81 @@ Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.77,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The great
-Dialogue: 0,00:00:00.77,00:00:01.16,Default,,0000,0000,0000,,{\1c&H000000FF}sphinx
-Dialogue: 0,00:00:01.16,00:00:01.55,Default,,0000,0000,0000,,{\1c&H000000FF}of
-Dialogue: 0,00:00:01.55,00:00:02.33,Default,,0000,0000,0000,,{\1c&H000000FF}Giza, a
-Dialogue: 0,00:00:02.33,00:00:02.72,Default,,0000,0000,0000,,{\1c&H00FFFFFF}monumental
-Dialogue: 0,00:00:02.72,00:00:03.11,Default,,0000,0000,0000,,{\1c&H000000FF}sculpture,
-Dialogue: 0,00:00:03.11,00:00:03.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}has
-Dialogue: 0,00:00:03.50,00:00:04.27,Default,,0000,0000,0000,,{\1c&H0000FFFF}gazed upon
-Dialogue: 0,00:00:04.27,00:00:05.05,Default,,0000,0000,0000,,{\1c&H000000FF}the Egyptian
-Dialogue: 0,00:00:05.05,00:00:05.83,Default,,0000,0000,0000,,{\1c&H0000FFFF}desert for
-Dialogue: 0,00:00:05.83,00:00:06.22,Default,,0000,0000,0000,,{\1c&H000000FF}thousands
-Dialogue: 0,00:00:06.22,00:00:06.61,Default,,0000,0000,0000,,{\1c&H0000FFFF}of
-Dialogue: 0,00:00:06.61,00:00:07.00,Default,,0000,0000,0000,,{\1c&H000000FF}years.
+Dialogue: 0,00:00:00.00,00:00:00.75,Default,,0000,0000,0000,,{\1c&H000000FF}The great
+Dialogue: 0,00:00:00.75,00:00:01.50,Default,,0000,0000,0000,,{\1c&H000000FF}sphinx of
+Dialogue: 0,00:00:01.50,00:00:01.87,Default,,0000,0000,0000,,{\1c&H0000FFFF}Giza,
+Dialogue: 0,00:00:01.87,00:00:02.25,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:02.25,00:00:03.00,Default,,0000,0000,0000,,{\1c&H000000FF}monumental sculpture,
+Dialogue: 0,00:00:03.00,00:00:03.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}has
+Dialogue: 0,00:00:03.50,00:00:04.50,Default,,0000,0000,0000,,{\1c&H000000FF}gazed upon
+Dialogue: 0,00:00:04.50,00:00:05.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the Egyptian
+Dialogue: 0,00:00:05.50,00:00:06.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}desert for
+Dialogue: 0,00:00:06.50,00:00:07.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}thousands of
+Dialogue: 0,00:00:07.50,00:00:08.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}years.
+Dialogue: 0,00:00:08.00,00:00:08.66,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Carve from
+Dialogue: 0,00:00:08.66,00:00:09.33,Default,,0000,0000,0000,,{\1c&H0000FFFF}limestone, the
+Dialogue: 0,00:00:09.33,00:00:09.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}sphinx
+Dialogue: 0,00:00:09.66,00:00:10.33,Default,,0000,0000,0000,,{\1c&H000000FF}with its
+Dialogue: 0,00:00:10.33,00:00:10.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}lion's body
+Dialogue: 0,00:00:11.00,00:00:11.59,Default,,0000,0000,0000,,{\1c&H000000FF}and human
+Dialogue: 0,00:00:11.59,00:00:11.90,Default,,0000,0000,0000,,{\1c&H000000FF}head
+Dialogue: 0,00:00:11.90,00:00:12.20,Default,,0000,0000,0000,,{\1c&H000000FF}is
+Dialogue: 0,00:00:12.20,00:00:12.80,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a symbol
+Dialogue: 0,00:00:12.80,00:00:13.40,Default,,0000,0000,0000,,{\1c&H000000FF}of strength
+Dialogue: 0,00:00:13.40,00:00:13.70,Default,,0000,0000,0000,,{\1c&H00FFFFFF}and
+Dialogue: 0,00:00:13.70,00:00:14.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}wisdom.
+Dialogue: 0,00:00:14.00,00:00:14.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}Its
+Dialogue: 0,00:00:14.50,00:00:15.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}origins
+Dialogue: 0,00:00:15.00,00:00:15.50,Default,,0000,0000,0000,,{\1c&H000000FF}and
+Dialogue: 0,00:00:15.50,00:00:16.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}purpose
+Dialogue: 0,00:00:16.00,00:00:16.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}remain
+Dialogue: 0,00:00:16.50,00:00:17.00,Default,,0000,0000,0000,,{\1c&H000000FF}debated,
+Dialogue: 0,00:00:17.00,00:00:17.42,Default,,0000,0000,0000,,{\1c&H000000FF}with
+Dialogue: 0,00:00:17.42,00:00:18.28,Default,,0000,0000,0000,,{\1c&H0000FFFF}theories ranging
+Dialogue: 0,00:00:18.28,00:00:18.71,Default,,0000,0000,0000,,{\1c&H000000FF}from
+Dialogue: 0,00:00:18.71,00:00:19.14,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:19.14,00:00:19.99,Default,,0000,0000,0000,,{\1c&H0000FFFF}Pharaoh's monument
+Dialogue: 0,00:00:20.00,00:00:22.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}to astronomical
+Dialogue: 0,00:00:22.00,00:00:23.00,Default,,0000,0000,0000,,{\1c&H000000FF}alignments.
+Dialogue: 0,00:00:23.00,00:00:23.39,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Mystery
+Dialogue: 0,00:00:23.39,00:00:24.19,Default,,0000,0000,0000,,{\1c&H0000FFFF}surrounds the
+Dialogue: 0,00:00:24.19,00:00:24.59,Default,,0000,0000,0000,,{\1c&H00FFFFFF}missing
+Dialogue: 0,00:00:24.59,00:00:24.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}nose
+Dialogue: 0,00:00:25.00,00:00:25.57,Default,,0000,0000,0000,,{\1c&H00FFFFFF}with legends
+Dialogue: 0,00:00:25.57,00:00:25.85,Default,,0000,0000,0000,,{\1c&H000000FF}attributing
+Dialogue: 0,00:00:25.85,00:00:26.42,Default,,0000,0000,0000,,{\1c&H0000FFFF}its loss
+Dialogue: 0,00:00:26.42,00:00:27.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}to everything
+Dialogue: 0,00:00:27.00,00:00:27.60,Default,,0000,0000,0000,,{\1c&H00FFFFFF}from
+Dialogue: 0,00:00:27.60,00:00:28.20,Default,,0000,0000,0000,,{\1c&H000000FF}cannon
+Dialogue: 0,00:00:28.20,00:00:28.80,Default,,0000,0000,0000,,{\1c&H0000FFFF}fire
+Dialogue: 0,00:00:28.80,00:00:30.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}to erosion.
+Dialogue: 0,00:00:30.00,00:00:30.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}Recent excavations
+Dialogue: 0,00:00:30.66,00:00:31.00,Default,,0000,0000,0000,,{\1c&H000000FF}and
+Dialogue: 0,00:00:31.00,00:00:31.66,Default,,0000,0000,0000,,{\1c&H00FFFFFF}research continue
+Dialogue: 0,00:00:31.66,00:00:32.33,Default,,0000,0000,0000,,{\1c&H0000FFFF}to uncover
+Dialogue: 0,00:00:32.33,00:00:33.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}new insights
+Dialogue: 0,00:00:33.00,00:00:33.66,Default,,0000,0000,0000,,{\1c&H00FFFFFF}about
+Dialogue: 0,00:00:33.66,00:00:34.33,Default,,0000,0000,0000,,{\1c&H00FFFFFF}this
+Dialogue: 0,00:00:34.33,00:00:35.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}ancient guardian
+Dialogue: 0,00:00:35.66,00:00:37.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}of Egypt.
+Dialogue: 0,00:00:37.00,00:00:37.28,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The
+Dialogue: 0,00:00:37.28,00:00:37.57,Default,,0000,0000,0000,,{\1c&H0000FFFF}sphinx
+Dialogue: 0,00:00:37.57,00:00:38.14,Default,,0000,0000,0000,,{\1c&H000000FF}remains a
+Dialogue: 0,00:00:38.14,00:00:38.71,Default,,0000,0000,0000,,{\1c&H000000FF}source of
+Dialogue: 0,00:00:38.71,00:00:38.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}fascination,
+Dialogue: 0,00:00:39.00,00:00:40.11,Default,,0000,0000,0000,,{\1c&H00FFFFFF}embodying the
+Dialogue: 0,00:00:40.11,00:00:41.22,Default,,0000,0000,0000,,{\1c&H0000FFFF}mystery and
+Dialogue: 0,00:00:41.22,00:00:42.33,Default,,0000,0000,0000,,{\1c&H000000FF}grandeur of
+Dialogue: 0,00:00:42.33,00:00:43.44,Default,,0000,0000,0000,,{\1c&H000000FF}Egypt's ancient
+Dialogue: 0,00:00:43.44,00:00:44.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}civilization.
+Dialogue: 0,00:00:44.00,00:00:44.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}Explore more
+Dialogue: 0,00:00:44.66,00:00:45.00,Default,,0000,0000,0000,,{\1c&H000000FF}ancient
+Dialogue: 0,00:00:45.00,00:00:45.33,Default,,0000,0000,0000,,{\1c&H0000FFFF}enigmas
+Dialogue: 0,00:00:45.33,00:00:46.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}with us,
+Dialogue: 0,00:00:46.00,00:00:47.25,Default,,0000,0000,0000,,{\1c&H00FFFFFF}like share
+Dialogue: 0,00:00:47.25,00:00:47.87,Default,,0000,0000,0000,,{\1c&H000000FF}and
+Dialogue: 0,00:00:47.87,00:00:48.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}subscribe
+Dialogue: 0,00:00:48.50,00:00:49.12,Default,,0000,0000,0000,,{\1c&H0000FFFF}for
+Dialogue: 0,00:00:49.12,00:00:49.75,Default,,0000,0000,0000,,{\1c&H0000FFFF}more
+Dialogue: 0,00:00:49.75,00:00:50.37,Default,,0000,0000,0000,,{\1c&H00FFFFFF}historical
+Dialogue: 0,00:00:50.37,00:00:51.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}adventures.

@@ -17,6 +17,12 @@ try {
   console.log("Starting video generation...");
   execSync("node ./src/ai-generator/generateVideo.js", { stdio: "inherit" });
 
+  // Generate transcription
+  console.log("Starting video generation...");
+  execSync("node ./src/ai-generator/generateTranscription.js", {
+    stdio: "inherit",
+  });
+
   //Upload the generated shorts video to YouTube
   console.log("Uploading video to YouTube...");
   execSync("node ./src/scripts/uploadVideo.js", { stdio: "inherit" });

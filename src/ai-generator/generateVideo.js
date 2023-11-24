@@ -17,17 +17,8 @@ const createVideoClipWithTextAudioAndSubtitles = (
   imagePath,
   audioPath,
   duration,
-  sceneNumber,
-  subtitlesPath
+  sceneNumber
 ) => {
-  const fontPath = path.join(
-    __dirname,
-    "..",
-    "data",
-    "input",
-    "fonts",
-    "RobotoBoldCondensed.ttf"
-  );
   const watermarkPath = path.join(
     __dirname,
     "..",
@@ -62,7 +53,7 @@ const createVideoClipWithTextAudioAndSubtitles = (
     `ffmpeg -y -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map "[watermarked]" -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`
   );
   execSync(
-    `ffmpeg -y -i "${intermediateVideoClipPath}" -vf "ass='${subtitlesPath}'" -c:v libx264 -c:a copy "${videoClipPath}"`
+    `ffmpeg -y -i "${intermediateVideoClipPath}" -c:v libx264 -c:a copy "${videoClipPath}"`
   );
 
   return videoClipPath;
@@ -104,17 +95,11 @@ const generateVideo = async () => {
         `${scene.SceneNumber}-scene-voiceover.mp3`
       );
       const duration = getDuration(audioPath);
-      const subtitlesPath = path.join(
-        outputDirectory,
-        "subtitles",
-        "output.ass"
-      );
       return createVideoClipWithTextAudioAndSubtitles(
         imagePath,
         audioPath,
         duration,
-        scene.SceneNumber,
-        subtitlesPath
+        scene.SceneNumber
       );
     });
 
