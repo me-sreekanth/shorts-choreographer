@@ -1,55 +1,41 @@
 {
   "Title": "The Secret of Oak Island: Treasure or Tragedy?",
-  "Description": "Embark on a journey to Oak Island, where legends of buried treasure and historical artifacts have captivated treasure hunters for over two centuries. Explore the thrilling and sometimes tragic history of the Money Pit. #HistoricalMysteries #OakIsland #TreasureHunt #UnsolvedMysteries",
+  "Description": "Explore the enigma of Oak Island's Money Pit, a site of legends and relentless treasure hunts. Discover the allure and mystery in just 30 seconds. #HistoricalMysteries #OakIsland #TreasureHunt #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "Oak Island, in Nova Scotia, has been at the center of treasure hunting lore since the late 1700s, with the infamous Money Pit offering promises of vast riches.",
-      "Description": "An aerial view of Oak Island, highlighting its mysterious landscape and the famed Money Pit area.",
-      "Text": "Oak Island in Nova Scotia has been at the center of treasure hunting lore since the late 1700s with the infamous Money Pit offering promises of vast riches"
+      "Duration": "6",
+      "VoiceOverText": "For centuries, Oak Island has tantalized treasure hunters with its infamous Money Pit, rumored to hide vast riches.",
+      "Description": "A view of Oak Island, focusing on the mysterious Money Pit area, hinting at hidden treasures below.",
+      "Text": "For centuries Oak Island has tantalized treasure hunters with its infamous Money Pit rumored to hide vast riches"
     },
     {
       "SceneNumber": 2,
-      "Duration": "9",
-      "VoiceOverText": "Legends suggest that the island hides a great treasure, from pirate gold to sacred artifacts, luring adventurers and fortune-seekers.",
-      "Description": "Artistic depictions of various legendary treasures, like pirate chests and ancient relics, rumored to be hidden on the island.",
-      "Text": "Legends suggest that the island hides a great treasure from pirate gold to sacred artifacts luring adventurers and fortune-seekers"
+      "Duration": "6",
+      "VoiceOverText": "Despite many expeditions, the island keeps its secrets, fueling legends of pirate gold and ancient artifacts.",
+      "Description": "Depictions of explorers and digging equipment on Oak Island, showcasing the extensive but fruitless searches.",
+      "Text": "Despite many expeditions the island keeps its secrets fueling legends of pirate gold and ancient artifacts"
     },
     {
       "SceneNumber": 3,
-      "Duration": "9",
-      "VoiceOverText": "Despite numerous expeditions and significant investments, no substantial treasure has been uncovered, only deepening the island's mystery.",
-      "Description": "Images of various excavation attempts on Oak Island, showing complex machinery and dug pits, but no significant discovery.",
-      "Text": "Despite numerous expeditions and significant investments no substantial treasure has been uncovered only deepening the islands mystery"
+      "Duration": "6",
+      "VoiceOverText": "The quest has seen its share of tragedy, with lives lost and fortunes spent in pursuit of elusive treasure.",
+      "Description": "A somber reminder of the risks involved, showing memorials on Oak Island against a backdrop of ongoing searches.",
+      "Text": "The quest has seen its share of tragedy with lives lost and fortunes spent in pursuit of elusive treasure"
     },
     {
       "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "Tragedy has also struck the island, with several lives lost in the quest to uncover its secrets, adding a somber note to the legend.",
-      "Description": "A somber scene depicting memorials or markers for those who lost their lives, set against the backdrop of Oak Island.",
-      "Text": "Tragedy has also struck the island with several lives lost in the quest to uncover its secrets adding a somber note to the legend"
+      "Duration": "6",
+      "VoiceOverText": "The allure of Oak Island endures, a symbol of the unquenchable human spirit to solve the unsolvable.",
+      "Description": "A captivating scene of Oak Island at dusk, evoking the mystery and allure that continues to draw seekers and dreamers.",
+      "Text": "The allure of Oak Island endures a symbol of the unquenchable human spirit to solve the unsolvable"
     },
     {
       "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "Theories about the Money Pit range from natural geological formations to elaborate hoaxes or ingeniously booby-trapped treasure vaults.",
-      "Description": "Illustrations showing different theories, including natural sinkholes, pirate treasure vaults, and complex booby traps.",
-      "Text": "Theories about the Money Pit range from natural geological formations to elaborate hoaxes or ingeniously booby-trapped treasure vaults"
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "9",
-      "VoiceOverText": "Oak Island's allure continues to inspire, a symbol of the eternal human quest for discovery and the mysteries that remain just out of reach.",
-      "Description": "A twilight scene of Oak Island, evoking a sense of mystery and the allure of the unknown, with treasure hunters looking on.",
-      "Text": "Oak Islands allure continues to inspire a symbol of the eternal human quest for discovery and the mysteries that remain just out of reach"
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "8",
-      "VoiceOverText": "Dive deeper into the world's enduring enigmas with us. Like, share, and subscribe for more captivating tales of mystery.",
-      "Description": "A call to action featuring icons of other historical mysteries, inviting viewers to continue their journey into the unknown.",
-      "Text": "Dive deeper into the worlds enduring enigmas with us Like share and subscribe for more captivating tales of mystery"
+      "Duration": "6",
+      "VoiceOverText": "Discover more mysteries with us. Like, share, and subscribe for more enigmatic stories.",
+      "Description": "A call to action, inviting viewers to delve deeper into other historical mysteries with visuals of maps and hidden treasures.",
+      "Text": "Discover more mysteries with us Like share and subscribe for more enigmatic stories"
     }
   ]
 }
