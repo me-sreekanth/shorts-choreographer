@@ -1,41 +1,41 @@
 {
-  "Title": "Decoding the Rosetta Stone: Unlocking Ancient Egypt",
-  "Description": "In a 60-second journey, explore the Rosetta Stone, the key to deciphering ancient Egyptian hieroglyphs. Discover how this artifact bridged the past and the present. #RosettaStone #AncientEgypt #Hieroglyphs #HistoricalDiscovery",
+  "Title": "Mysteries of Mars: Unveiling the Red Planet",
+  "Description": "Embark on a cosmic journey in 60 seconds to uncover the secrets of Mars. From ancient water channels to potential life forms, join us as we explore the mysteries of the Red Planet. #SpaceExploration #MarsMystery #ScienceShorts #CodeWorthy",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "12",
-      "VoiceOverText": "The Rosetta Stone, discovered in 1799, was the breakthrough in translating Egyptian hieroglyphs.",
-      "Description": "Animated depiction of the Rosetta Stone with highlights on its inscriptions.",
-      "Text": "The Rosetta Stone, discovered in 1799, was the breakthrough in translating Egyptian hieroglyphs."
+      "VoiceOverText": "Mars, our enigmatic neighbor, has captivated humanity for centuries with its mysterious allure.",
+      "Description": "A captivating view of Mars from space, highlighting its distinct red appearance.",
+      "Text": "Mars, our enigmatic neighbor, has captivated humanity for centuries with its mysterious allure."
     },
     {
       "SceneNumber": 2,
       "Duration": "12",
-      "VoiceOverText": "It features three scripts: Hieroglyphic, Demotic, and Greek, making translation possible.",
-      "Description": "Visual comparison of the three scripts on the stone.",
-      "Text": "It features three scripts: Hieroglyphic, Demotic, and Greek, making translation possible."
+      "VoiceOverText": "Evidence suggests ancient rivers once flowed here. Could Mars have harbored life?",
+      "Description": "Animated visuals of ancient Martian rivers and landscapes, hinting at the possibility of past life.",
+      "Text": "Evidence suggests ancient rivers once flowed here. Could Mars have harbored life?"
     },
     {
       "SceneNumber": 3,
       "Duration": "12",
-      "VoiceOverText": "Jean-François Champollion decoded it in 1822, unveiling centuries of Egyptian history.",
-      "Description": "Illustration of Champollion working on the translation with ancient Egyptian imagery in the background.",
-      "Text": "Jean-François Champollion decoded it in 1822, unveiling centuries of Egyptian history."
+      "VoiceOverText": "Recent missions like the Perseverance rover seek clues of past microbial life, testing the limits of science.",
+      "Description": "Footage of the Perseverance rover on Mars, showcasing its exploration and experiments.",
+      "Text": "Recent missions like the Perseverance rover seek clues of past microbial life, testing the limits of science."
     },
     {
       "SceneNumber": 4,
       "Duration": "12",
-      "VoiceOverText": "This discovery bridged ancient and modern worlds, revealing rich cultural and historical insights.",
-      "Description": "Montage of ancient Egyptian scenes transitioning into modern interpretations.",
-      "Text": "This discovery bridged ancient and modern worlds, revealing rich cultural and historical insights."
+      "VoiceOverText": "The discovery of methane spikes in the atmosphere raises questions about active life forms on Mars.",
+      "Description": "Graphical representation of methane levels on Mars with a question mark, symbolizing the mystery.",
+      "Text": "The discovery of methane spikes in the atmosphere raises questions about active life forms on Mars."
     },
     {
       "SceneNumber": 5,
       "Duration": "12",
-      "VoiceOverText": "Join us in more historical adventures. Don’t forget to like, share, and subscribe to Code Worthy!",
-      "Description": "Call to action with visuals of other historical artifacts and mysteries.",
-      "Text": "Join us in more historical adventures. Don’t forget to like, share, and subscribe to Code Worthy!"
+      "VoiceOverText": "Join the cosmic quest with Code Worthy. Like, share, and subscribe for more interstellar mysteries!",
+      "Description": "A call to action with a backdrop of the Martian surface and stars, inspiring viewers to explore further.",
+      "Text": "Join the cosmic quest with Code Worthy. Like, share, and subscribe for more interstellar mysteries!"
     }
   ]
 }
