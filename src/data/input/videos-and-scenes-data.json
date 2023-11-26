@@ -1,41 +1,41 @@
 {
-  "Title": "The Curse of the Pharaohs: Myth or Reality?",
-  "Description": "Step into the shadows of ancient Egypt's tombs and unravel the tales of the Curse of the Pharaohs. In just 30 seconds, explore the line between myth and reality surrounding these legendary curses. #HistoricalMysteries #AncientEgypt #PharaohsCurse #UnsolvedMysteries",
+  "Title": "Decoding the Rosetta Stone: Unlocking Ancient Egypt",
+  "Description": "In a 60-second journey, explore the Rosetta Stone, the key to deciphering ancient Egyptian hieroglyphs. Discover how this artifact bridged the past and the present. #RosettaStone #AncientEgypt #Hieroglyphs #HistoricalDiscovery",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "6",
-      "VoiceOverText": "The Curse of the Pharaohs, a legend that arose from the tombs of ancient Egypt, speaks of dire consequences for disturbing the dead.",
-      "Description": "Eerie images of Egyptian tombs with hieroglyphics, setting a mysterious and ominous tone.",
-      "Text": "The Curse of the Pharaohs a legend that arose from the tombs of ancient Egypt speaks of dire consequences for disturbing the dead"
+      "Duration": "12",
+      "VoiceOverText": "The Rosetta Stone, discovered in 1799, was the breakthrough in translating Egyptian hieroglyphs.",
+      "Description": "Animated depiction of the Rosetta Stone with highlights on its inscriptions.",
+      "Text": "The Rosetta Stone, discovered in 1799, was the breakthrough in translating Egyptian hieroglyphs."
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "The discovery of Tutankhamun's tomb in 1922 ignited global fascination, followed by mysterious deaths, fueling curse rumors.",
-      "Description": "A montage showing the discovery of Tutankhamun’s tomb and news headlines about subsequent deaths of involved individuals.",
-      "Text": "The discovery of Tutankhamuns tomb in 1922 ignited global fascination followed by mysterious deaths fueling curse rumors"
+      "Duration": "12",
+      "VoiceOverText": "It features three scripts: Hieroglyphic, Demotic, and Greek, making translation possible.",
+      "Description": "Visual comparison of the three scripts on the stone.",
+      "Text": "It features three scripts: Hieroglyphic, Demotic, and Greek, making translation possible."
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "Skeptics argue these curses are mere superstitions, often pointing to scientific explanations for the deaths.",
-      "Description": "Contrasting images of an archaeologist examining artifacts and a scientist analyzing data, representing differing views.",
-      "Text": "Skeptics argue these curses are mere superstitions often pointing to scientific explanations for the deaths"
+      "Duration": "12",
+      "VoiceOverText": "Jean-François Champollion decoded it in 1822, unveiling centuries of Egyptian history.",
+      "Description": "Illustration of Champollion working on the translation with ancient Egyptian imagery in the background.",
+      "Text": "Jean-François Champollion decoded it in 1822, unveiling centuries of Egyptian history."
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "Yet, the allure of the Pharaohs' curse continues, a blend of ancient beliefs and modern-day myths.",
-      "Description": "A haunting image of an Egyptian mask with shadows and light, symbolizing the enduring mystery of the curse.",
-      "Text": "Yet the allure of the Pharaohs curse continues a blend of ancient beliefs and modern-day myths"
+      "Duration": "12",
+      "VoiceOverText": "This discovery bridged ancient and modern worlds, revealing rich cultural and historical insights.",
+      "Description": "Montage of ancient Egyptian scenes transitioning into modern interpretations.",
+      "Text": "This discovery bridged ancient and modern worlds, revealing rich cultural and historical insights."
     },
     {
       "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "Unearth more mysteries with us. Like, share, and subscribe for intriguing historical explorations.",
-      "Description": "A call to action with visuals of other ancient Egyptian mysteries, inviting viewers to continue their journey into the past.",
-      "Text": "Unearth more mysteries with us Like share and subscribe for intriguing historical explorations"
+      "Duration": "12",
+      "VoiceOverText": "Join us in more historical adventures. Don’t forget to like, share, and subscribe to Code Worthy!",
+      "Description": "Call to action with visuals of other historical artifacts and mysteries.",
+      "Text": "Join us in more historical adventures. Don’t forget to like, share, and subscribe to Code Worthy!"
     }
   ]
 }
