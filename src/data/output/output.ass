@@ -11,57 +11,52 @@ Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.56,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Discovered
-Dialogue: 0,00:00:00.56,00:00:01.12,Default,,0000,0000,0000,,{\1c&H0000FFFF}in
-Dialogue: 0,00:00:01.12,00:00:02.25,Default,,0000,0000,0000,,{\1c&H0000FFFF}a shipwreck,
-Dialogue: 0,00:00:02.25,00:00:02.81,Default,,0000,0000,0000,,{\1c&H0000FFFF}the
-Dialogue: 0,00:00:02.81,00:00:03.37,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Antikythera
-Dialogue: 0,00:00:03.37,00:00:04.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}mechanism is
-Dialogue: 0,00:00:04.50,00:00:05.62,Default,,0000,0000,0000,,{\1c&H000000FF}an ancient
-Dialogue: 0,00:00:05.62,00:00:06.18,Default,,0000,0000,0000,,{\1c&H0000FFFF}Greek
-Dialogue: 0,00:00:06.18,00:00:07.31,Default,,0000,0000,0000,,{\1c&H000000FF}device showcasing
-Dialogue: 0,00:00:07.31,00:00:07.87,Default,,0000,0000,0000,,{\1c&H000000FF}astonishing
-Dialogue: 0,00:00:07.87,00:00:09.00,Default,,0000,0000,0000,,{\1c&H000000FF}astronomical precision.
-Dialogue: 0,00:00:09.00,00:00:09.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Dating
-Dialogue: 0,00:00:09.50,00:00:10.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}back
-Dialogue: 0,00:00:10.00,00:00:11.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}to around
-Dialogue: 0,00:00:11.00,00:00:12.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}100 BC,
-Dialogue: 0,00:00:12.00,00:00:13.00,Default,,0000,0000,0000,,{\1c&H000000FF}it's considered
-Dialogue: 0,00:00:13.00,00:00:14.00,Default,,0000,0000,0000,,{\1c&H000000FF}the world's
-Dialogue: 0,00:00:14.00,00:00:14.50,Default,,0000,0000,0000,,{\1c&H000000FF}first
-Dialogue: 0,00:00:14.50,00:00:15.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}analog computer
-Dialogue: 0,00:00:15.50,00:00:16.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}used
-Dialogue: 0,00:00:16.00,00:00:16.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}to
-Dialogue: 0,00:00:16.50,00:00:17.50,Default,,0000,0000,0000,,{\1c&H000000FF}predict astronomical
-Dialogue: 0,00:00:17.50,00:00:18.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}positions.
-Dialogue: 0,00:00:18.00,00:00:18.46,Default,,0000,0000,0000,,{\1c&H0000FFFF}Its
-Dialogue: 0,00:00:18.46,00:00:19.39,Default,,0000,0000,0000,,{\1c&H000000FF}intricate design
-Dialogue: 0,00:00:19.39,00:00:19.86,Default,,0000,0000,0000,,{\1c&H0000FFFF}and
-Dialogue: 0,00:00:19.86,00:00:20.79,Default,,0000,0000,0000,,{\1c&H0000FFFF}gears led
-Dialogue: 0,00:00:20.79,00:00:21.73,Default,,0000,0000,0000,,{\1c&H000000FF}to debates
-Dialogue: 0,00:00:21.73,00:00:22.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}about the
-Dialogue: 0,00:00:22.66,00:00:23.13,Default,,0000,0000,0000,,{\1c&H00FFFFFF}technological
-Dialogue: 0,00:00:23.13,00:00:24.06,Default,,0000,0000,0000,,{\1c&H000000FF}capabilities of
-Dialogue: 0,00:00:24.06,00:00:24.53,Default,,0000,0000,0000,,{\1c&H0000FFFF}ancient
-Dialogue: 0,00:00:24.53,00:00:24.99,Default,,0000,0000,0000,,{\1c&H000000FF}civilizations.
-Dialogue: 0,00:00:25.00,00:00:25.85,Default,,0000,0000,0000,,{\1c&H000000FF}The device's
-Dialogue: 0,00:00:25.85,00:00:26.28,Default,,0000,0000,0000,,{\1c&H000000FF}true
-Dialogue: 0,00:00:26.28,00:00:27.14,Default,,0000,0000,0000,,{\1c&H00FFFFFF}purpose and
-Dialogue: 0,00:00:27.14,00:00:27.57,Default,,0000,0000,0000,,{\1c&H0000FFFF}creators
-Dialogue: 0,00:00:27.57,00:00:27.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}remain
-Dialogue: 0,00:00:27.99,00:00:28.42,Default,,0000,0000,0000,,{\1c&H000000FF}a
-Dialogue: 0,00:00:28.42,00:00:29.28,Default,,0000,0000,0000,,{\1c&H00FFFFFF}subject of
-Dialogue: 0,00:00:29.28,00:00:30.14,Default,,0000,0000,0000,,{\1c&H000000FF}ongoing research
-Dialogue: 0,00:00:30.14,00:00:30.57,Default,,0000,0000,0000,,{\1c&H0000FFFF}and
-Dialogue: 0,00:00:30.57,00:00:30.99,Default,,0000,0000,0000,,{\1c&H000000FF}fascination.
-Dialogue: 0,00:00:31.00,00:00:31.46,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Join
-Dialogue: 0,00:00:31.46,00:00:31.93,Default,,0000,0000,0000,,{\1c&H000000FF}us
-Dialogue: 0,00:00:31.93,00:00:32.39,Default,,0000,0000,0000,,{\1c&H000000FF}in
-Dialogue: 0,00:00:32.39,00:00:32.86,Default,,0000,0000,0000,,{\1c&H0000FFFF}uncovering
-Dialogue: 0,00:00:32.86,00:00:33.33,Default,,0000,0000,0000,,{\1c&H000000FF}the
-Dialogue: 0,00:00:33.33,00:00:34.26,Default,,0000,0000,0000,,{\1c&H0000FFFF}past's marvels
-Dialogue: 0,00:00:34.26,00:00:35.19,Default,,0000,0000,0000,,{\1c&H0000FFFF}like, share
-Dialogue: 0,00:00:35.19,00:00:35.66,Default,,0000,0000,0000,,{\1c&H0000FFFF}and
-Dialogue: 0,00:00:35.66,00:00:36.59,Default,,0000,0000,0000,,{\1c&H0000FFFF}subscribe for
-Dialogue: 0,00:00:36.59,00:00:37.06,Default,,0000,0000,0000,,{\1c&H00FFFFFF}more
-Dialogue: 0,00:00:37.06,00:00:37.99,Default,,0000,0000,0000,,{\1c&H000000FF}historical mysteries.
+Dialogue: 0,00:00:00.00,00:00:00.61,Default,,0000,0000,0000,,{\1c&H0000FFFF}The curse
+Dialogue: 0,00:00:00.61,00:00:00.92,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:00.92,00:00:01.54,Default,,0000,0000,0000,,{\1c&H0000FFFF}the Pharaohs,
+Dialogue: 0,00:00:01.54,00:00:02.15,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a legend
+Dialogue: 0,00:00:02.15,00:00:02.77,Default,,0000,0000,0000,,{\1c&H00FFFFFF}that arose
+Dialogue: 0,00:00:02.77,00:00:03.08,Default,,0000,0000,0000,,{\1c&H0000FFFF}from
+Dialogue: 0,00:00:03.08,00:00:03.69,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the tombs
+Dialogue: 0,00:00:03.69,00:00:04.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}of
+Dialogue: 0,00:00:04.00,00:00:04.31,Default,,0000,0000,0000,,{\1c&H000000FF}ancient
+Dialogue: 0,00:00:04.31,00:00:04.62,Default,,0000,0000,0000,,{\1c&H0000FFFF}Egypt,
+Dialogue: 0,00:00:04.62,00:00:05.71,Default,,0000,0000,0000,,{\1c&H00FFFFFF}speaks of
+Dialogue: 0,00:00:05.71,00:00:06.80,Default,,0000,0000,0000,,{\1c&H000000FF}dire consequences
+Dialogue: 0,00:00:06.80,00:00:07.35,Default,,0000,0000,0000,,{\1c&H00FFFFFF}for
+Dialogue: 0,00:00:07.35,00:00:07.90,Default,,0000,0000,0000,,{\1c&H000000FF}disturbing
+Dialogue: 0,00:00:07.90,00:00:08.45,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:08.45,00:00:09.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}dead.
+Dialogue: 0,00:00:09.00,00:00:10.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The discovery
+Dialogue: 0,00:00:10.00,00:00:11.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}of Tutankhamun's
+Dialogue: 0,00:00:11.00,00:00:11.50,Default,,0000,0000,0000,,{\1c&H000000FF}tomb
+Dialogue: 0,00:00:11.50,00:00:12.00,Default,,0000,0000,0000,,{\1c&H000000FF}in
+Dialogue: 0,00:00:12.00,00:00:12.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}1922
+Dialogue: 0,00:00:12.50,00:00:13.00,Default,,0000,0000,0000,,{\1c&H000000FF}ignited
+Dialogue: 0,00:00:13.00,00:00:13.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}global
+Dialogue: 0,00:00:13.50,00:00:14.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}fascination,
+Dialogue: 0,00:00:14.00,00:00:14.71,Default,,0000,0000,0000,,{\1c&H00FFFFFF}followed
+Dialogue: 0,00:00:14.71,00:00:16.14,Default,,0000,0000,0000,,{\1c&H000000FF}by mysterious
+Dialogue: 0,00:00:16.14,00:00:16.85,Default,,0000,0000,0000,,{\1c&H000000FF}deaths,
+Dialogue: 0,00:00:16.85,00:00:18.28,Default,,0000,0000,0000,,{\1c&H000000FF}fueling curse
+Dialogue: 0,00:00:18.28,00:00:19.00,Default,,0000,0000,0000,,{\1c&H000000FF}roars.
+Dialogue: 0,00:00:19.00,00:00:19.42,Default,,0000,0000,0000,,{\1c&H0000FFFF}Skeptics
+Dialogue: 0,00:00:19.42,00:00:19.85,Default,,0000,0000,0000,,{\1c&H000000FF}argue
+Dialogue: 0,00:00:19.85,00:00:20.28,Default,,0000,0000,0000,,{\1c&H00FFFFFF}these
+Dialogue: 0,00:00:20.28,00:00:21.14,Default,,0000,0000,0000,,{\1c&H00FFFFFF}curses are
+Dialogue: 0,00:00:21.14,00:00:21.99,Default,,0000,0000,0000,,{\1c&H0000FFFF}mere superstitions,
+Dialogue: 0,00:00:22.00,00:00:22.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}often
+Dialogue: 0,00:00:22.50,00:00:23.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}pointing to
+Dialogue: 0,00:00:23.50,00:00:24.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}scientific explanations
+Dialogue: 0,00:00:24.50,00:00:25.00,Default,,0000,0000,0000,,{\1c&H000000FF}for
+Dialogue: 0,00:00:25.00,00:00:25.50,Default,,0000,0000,0000,,{\1c&H000000FF}the
+Dialogue: 0,00:00:25.50,00:00:26.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}deaths.
+Dialogue: 0,00:00:26.00,00:00:26.75,Default,,0000,0000,0000,,{\1c&H000000FF}Yet the
+Dialogue: 0,00:00:26.75,00:00:27.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}allure of
+Dialogue: 0,00:00:27.50,00:00:27.87,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:27.87,00:00:28.62,Default,,0000,0000,0000,,{\1c&H0000FFFF}Pharaohs curse
+Dialogue: 0,00:00:28.62,00:00:29.00,Default,,0000,0000,0000,,{\1c&H000000FF}continues,
+Dialogue: 0,00:00:29.00,00:00:30.00,Default,,0000,0000,0000,,{\1c&H000000FF}a blend
+Dialogue: 0,00:00:30.00,00:00:31.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}of ancient
+Dialogue: 0,00:00:31.00,00:00:32.00,Default,,0000,0000,0000,,{\1c&H000000FF}beliefs and
+Dialogue: 0,00:00:32.00,00:00:33.00,Default,,0000,0000,0000,,{\1c&H000000FF}modern-day myths.

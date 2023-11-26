@@ -24,8 +24,8 @@ try {
   });
 
   //Upload the generated shorts video to YouTube
-  console.log("Uploading video to YouTube...");
-  execSync("node ./src/scripts/uploadVideo.js", { stdio: "inherit" });
+  // console.log("Uploading video to YouTube...");
+  // execSync("node ./src/scripts/uploadVideo.js", { stdio: "inherit" });
 
   console.log("All processes completed successfully.");
 } catch (error) {

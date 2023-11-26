@@ -1,41 +1,41 @@
 {
-  "Title": "The Enigma of the Antikythera Mechanism: Ancient World's Computer",
-  "Description": "Dive into the mystery of the Antikythera Mechanism, an advanced ancient Greek device that astounds modern scientists with its precision. Unravel the secrets of what is often called the world's first computer in just 30 seconds. #HistoricalMysteries #AntikytheraMechanism #AncientInventions #UnsolvedMysteries",
+  "Title": "The Curse of the Pharaohs: Myth or Reality?",
+  "Description": "Step into the shadows of ancient Egypt's tombs and unravel the tales of the Curse of the Pharaohs. In just 30 seconds, explore the line between myth and reality surrounding these legendary curses. #HistoricalMysteries #AncientEgypt #PharaohsCurse #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "6",
-      "VoiceOverText": "Discovered in a shipwreck, the Antikythera Mechanism is an ancient Greek device, showcasing astonishing astronomical precision.",
-      "Description": "The Antikythera Mechanism amidst underwater ruins, highlighting its discovery in an ancient shipwreck.",
-      "Text": "Discovered in a shipwreck the Antikythera Mechanism is an ancient Greek device showcasing astonishing astronomical precision"
+      "VoiceOverText": "The Curse of the Pharaohs, a legend that arose from the tombs of ancient Egypt, speaks of dire consequences for disturbing the dead.",
+      "Description": "Eerie images of Egyptian tombs with hieroglyphics, setting a mysterious and ominous tone.",
+      "Text": "The Curse of the Pharaohs a legend that arose from the tombs of ancient Egypt speaks of dire consequences for disturbing the dead"
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "VoiceOverText": "Dating back to around 100 BC, it's considered the world's first analog computer, used to predict astronomical positions.",
-      "Description": "A visualization of the mechanism's gears and dials, emphasizing its complexity and advanced design.",
-      "Text": "Dating back to around 100 BC its considered the worlds first analog computer used to predict astronomical positions"
+      "VoiceOverText": "The discovery of Tutankhamun's tomb in 1922 ignited global fascination, followed by mysterious deaths, fueling curse rumors.",
+      "Description": "A montage showing the discovery of Tutankhamun’s tomb and news headlines about subsequent deaths of involved individuals.",
+      "Text": "The discovery of Tutankhamuns tomb in 1922 ignited global fascination followed by mysterious deaths fueling curse rumors"
     },
     {
       "SceneNumber": 3,
       "Duration": "6",
-      "VoiceOverText": "Its intricate design and gears led to debates about the technological capabilities of ancient civilizations.",
-      "Description": "Close-up of the gear system, juxtaposed with images of ancient Greek scholars, illustrating the era's technological prowess.",
-      "Text": "Its intricate design and gears led to debates about the technological capabilities of ancient civilizations"
+      "VoiceOverText": "Skeptics argue these curses are mere superstitions, often pointing to scientific explanations for the deaths.",
+      "Description": "Contrasting images of an archaeologist examining artifacts and a scientist analyzing data, representing differing views.",
+      "Text": "Skeptics argue these curses are mere superstitions often pointing to scientific explanations for the deaths"
     },
     {
       "SceneNumber": 4,
       "Duration": "6",
-      "VoiceOverText": "The device's true purpose and creators remain a subject of ongoing research and fascination.",
-      "Description": "Researchers examining the mechanism, surrounded by ancient Greek artifacts, symbolizing the ongoing mystery.",
-      "Text": "The devices true purpose and creators remain a subject of ongoing research and fascination"
+      "VoiceOverText": "Yet, the allure of the Pharaohs' curse continues, a blend of ancient beliefs and modern-day myths.",
+      "Description": "A haunting image of an Egyptian mask with shadows and light, symbolizing the enduring mystery of the curse.",
+      "Text": "Yet the allure of the Pharaohs curse continues a blend of ancient beliefs and modern-day myths"
     },
     {
       "SceneNumber": 5,
       "Duration": "6",
-      "VoiceOverText": "Join us in uncovering the past's marvels. Like, share, and subscribe for more historical mysteries.",
-      "Description": "A call to action with images of other ancient inventions and mysteries, beckoning viewers to explore further.",
-      "Text": "Join us in uncovering the pasts marvels Like share and subscribe for more historical mysteries"
+      "VoiceOverText": "Unearth more mysteries with us. Like, share, and subscribe for intriguing historical explorations.",
+      "Description": "A call to action with visuals of other ancient Egyptian mysteries, inviting viewers to continue their journey into the past.",
+      "Text": "Unearth more mysteries with us Like share and subscribe for intriguing historical explorations"
     }
   ]
 }
