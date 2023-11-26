@@ -6,7 +6,7 @@ console.log('Received arguments:', args);
 const shouldRunStep = (step) => {
   const shouldRun = args.includes(step);
   console.log(`Should run step '${step}': ${shouldRun}`);
-  return shouldRun;
+  return args.length === 0 || args.includes(`--${step}`);
 };
 
 try {
