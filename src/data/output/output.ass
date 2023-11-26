@@ -12,50 +12,51 @@ Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,00:00:00.00,00:00:00.85,Default,,0000,0000,0000,,{\1c&H0000FFFF}Mars, our
-Dialogue: 0,00:00:00.85,00:00:01.28,Default,,0000,0000,0000,,{\1c&H0000FFFF}enigmatic
-Dialogue: 0,00:00:01.28,00:00:02.13,Default,,0000,0000,0000,,{\1c&H0000FFFF}neighbor, has
-Dialogue: 0,00:00:02.13,00:00:02.56,Default,,0000,0000,0000,,{\1c&H00FFFFFF}captivated
-Dialogue: 0,00:00:02.56,00:00:02.98,Default,,0000,0000,0000,,{\1c&H0000FFFF}humanity
-Dialogue: 0,00:00:02.98,00:00:03.84,Default,,0000,0000,0000,,{\1c&H0000FFFF}for centuries
-Dialogue: 0,00:00:03.84,00:00:04.26,Default,,0000,0000,0000,,{\1c&H000000FF}with
+Dialogue: 0,00:00:00.85,00:00:01.28,Default,,0000,0000,0000,,{\1c&H00FFFFFF}enigmatic
+Dialogue: 0,00:00:01.28,00:00:02.13,Default,,0000,0000,0000,,{\1c&H000000FF}neighbor, has
+Dialogue: 0,00:00:02.13,00:00:02.56,Default,,0000,0000,0000,,{\1c&H000000FF}captivated
+Dialogue: 0,00:00:02.56,00:00:03.41,Default,,0000,0000,0000,,{\1c&H00FFFFFF}humanity for
+Dialogue: 0,00:00:03.41,00:00:03.84,Default,,0000,0000,0000,,{\1c&H000000FF}centuries
+Dialogue: 0,00:00:03.84,00:00:04.26,Default,,0000,0000,0000,,{\1c&H00FFFFFF}with
 Dialogue: 0,00:00:04.26,00:00:05.12,Default,,0000,0000,0000,,{\1c&H0000FFFF}its mysterious
-Dialogue: 0,00:00:05.12,00:00:07.12,Default,,0000,0000,0000,,{\1c&H000000FF}allure.
-Dialogue: 0,00:00:07.12,00:00:07.67,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Evidence
-Dialogue: 0,00:00:07.67,00:00:08.22,Default,,0000,0000,0000,,{\1c&H000000FF}suggests
+Dialogue: 0,00:00:05.12,00:00:07.12,Default,,0000,0000,0000,,{\1c&H0000FFFF}allure.
+Dialogue: 0,00:00:07.12,00:00:07.67,Default,,0000,0000,0000,,{\1c&H0000FFFF}Evidence
+Dialogue: 0,00:00:07.67,00:00:08.22,Default,,0000,0000,0000,,{\1c&H0000FFFF}suggests
 Dialogue: 0,00:00:08.22,00:00:09.33,Default,,0000,0000,0000,,{\1c&H000000FF}ancient rivers
 Dialogue: 0,00:00:09.33,00:00:09.89,Default,,0000,0000,0000,,{\1c&H000000FF}once
-Dialogue: 0,00:00:09.89,00:00:10.44,Default,,0000,0000,0000,,{\1c&H0000FFFF}flowed
-Dialogue: 0,00:00:10.44,00:00:11.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}here.
-Dialogue: 0,00:00:11.00,00:00:11.99,Default,,0000,0000,0000,,{\1c&H000000FF}Good Mars
-Dialogue: 0,00:00:11.99,00:00:12.48,Default,,0000,0000,0000,,{\1c&H00FFFFFF}have
-Dialogue: 0,00:00:12.48,00:00:13.48,Default,,0000,0000,0000,,{\1c&H0000FFFF}harbored life?
-Dialogue: 0,00:00:13.48,00:00:13.84,Default,,0000,0000,0000,,{\1c&H000000FF}Recent
-Dialogue: 0,00:00:13.84,00:00:14.57,Default,,0000,0000,0000,,{\1c&H0000FFFF}missions like
-Dialogue: 0,00:00:14.57,00:00:15.31,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the Perseverance
-Dialogue: 0,00:00:15.31,00:00:16.04,Default,,0000,0000,0000,,{\1c&H0000FFFF}Rover seek
-Dialogue: 0,00:00:16.04,00:00:16.40,Default,,0000,0000,0000,,{\1c&H000000FF}clues
-Dialogue: 0,00:00:16.40,00:00:16.77,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:16.77,00:00:17.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}past microbial
-Dialogue: 0,00:00:17.50,00:00:18.24,Default,,0000,0000,0000,,{\1c&H000000FF}life, testing
-Dialogue: 0,00:00:18.24,00:00:19.62,Default,,0000,0000,0000,,{\1c&H0000FFFF}the limits
-Dialogue: 0,00:00:19.62,00:00:21.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of science.
-Dialogue: 0,00:00:21.00,00:00:21.40,Default,,0000,0000,0000,,{\1c&H0000FFFF}The
-Dialogue: 0,00:00:21.40,00:00:22.20,Default,,0000,0000,0000,,{\1c&H000000FF}discovery of
-Dialogue: 0,00:00:22.20,00:00:22.60,Default,,0000,0000,0000,,{\1c&H00FFFFFF}methane
-Dialogue: 0,00:00:22.60,00:00:23.01,Default,,0000,0000,0000,,{\1c&H00FFFFFF}spikes
-Dialogue: 0,00:00:23.01,00:00:23.41,Default,,0000,0000,0000,,{\1c&H000000FF}in
-Dialogue: 0,00:00:23.41,00:00:24.21,Default,,0000,0000,0000,,{\1c&H000000FF}the atmosphere
-Dialogue: 0,00:00:24.21,00:00:25.02,Default,,0000,0000,0000,,{\1c&H000000FF}raises questions
-Dialogue: 0,00:00:25.02,00:00:25.82,Default,,0000,0000,0000,,{\1c&H0000FFFF}about active
-Dialogue: 0,00:00:25.82,00:00:26.63,Default,,0000,0000,0000,,{\1c&H000000FF}life forms
-Dialogue: 0,00:00:26.63,00:00:27.43,Default,,0000,0000,0000,,{\1c&H0000FFFF}on Mars.
-Dialogue: 0,00:00:27.44,00:00:28.01,Default,,0000,0000,0000,,{\1c&H0000FFFF}Join the
-Dialogue: 0,00:00:28.01,00:00:28.29,Default,,0000,0000,0000,,{\1c&H0000FFFF}Cosmic
-Dialogue: 0,00:00:28.29,00:00:28.58,Default,,0000,0000,0000,,{\1c&H000000FF}Quest
-Dialogue: 0,00:00:28.58,00:00:29.15,Default,,0000,0000,0000,,{\1c&H00FFFFFF}with code
-Dialogue: 0,00:00:29.15,00:00:29.44,Default,,0000,0000,0000,,{\1c&H00FFFFFF}worthy.
-Dialogue: 0,00:00:29.44,00:00:30.31,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Like, share
-Dialogue: 0,00:00:30.31,00:00:31.18,Default,,0000,0000,0000,,{\1c&H000000FF}and subscribe
-Dialogue: 0,00:00:31.18,00:00:31.61,Default,,0000,0000,0000,,{\1c&H000000FF}for
-Dialogue: 0,00:00:31.61,00:00:32.48,Default,,0000,0000,0000,,{\1c&H0000FFFF}more interstellar
-Dialogue: 0,00:00:32.48,00:00:32.92,Default,,0000,0000,0000,,{\1c&H0000FFFF}mysteries.
+Dialogue: 0,00:00:09.89,00:00:10.99,Default,,0000,0000,0000,,{\1c&H000000FF}flowed here.
+Dialogue: 0,00:00:11.00,00:00:11.49,Default,,0000,0000,0000,,{\1c&H0000FFFF}Good
+Dialogue: 0,00:00:11.49,00:00:12.48,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Mars have
+Dialogue: 0,00:00:12.48,00:00:12.98,Default,,0000,0000,0000,,{\1c&H0000FFFF}harbored
+Dialogue: 0,00:00:12.98,00:00:13.48,Default,,0000,0000,0000,,{\1c&H00FFFFFF}life?
+Dialogue: 0,00:00:13.48,00:00:14.21,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Recent missions
+Dialogue: 0,00:00:14.21,00:00:14.94,Default,,0000,0000,0000,,{\1c&H0000FFFF}like the
+Dialogue: 0,00:00:14.94,00:00:15.31,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Perseverance
+Dialogue: 0,00:00:15.31,00:00:16.04,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Rover seek
+Dialogue: 0,00:00:16.04,00:00:16.77,Default,,0000,0000,0000,,{\1c&H0000FFFF}clues of
+Dialogue: 0,00:00:16.77,00:00:17.14,Default,,0000,0000,0000,,{\1c&H00FFFFFF}past
+Dialogue: 0,00:00:17.14,00:00:17.87,Default,,0000,0000,0000,,{\1c&H000000FF}microbial life,
+Dialogue: 0,00:00:17.87,00:00:18.24,Default,,0000,0000,0000,,{\1c&H000000FF}testing
+Dialogue: 0,00:00:18.24,00:00:18.92,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:18.92,00:00:20.30,Default,,0000,0000,0000,,{\1c&H00FFFFFF}limits of
+Dialogue: 0,00:00:20.30,00:00:21.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}science.
+Dialogue: 0,00:00:21.00,00:00:21.80,Default,,0000,0000,0000,,{\1c&H0000FFFF}The discovery
+Dialogue: 0,00:00:21.80,00:00:22.60,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of methane
+Dialogue: 0,00:00:22.60,00:00:23.41,Default,,0000,0000,0000,,{\1c&H00FFFFFF}spikes in
+Dialogue: 0,00:00:23.41,00:00:23.81,Default,,0000,0000,0000,,{\1c&H000000FF}the
+Dialogue: 0,00:00:23.81,00:00:24.21,Default,,0000,0000,0000,,{\1c&H00FFFFFF}atmosphere
+Dialogue: 0,00:00:24.21,00:00:25.02,Default,,0000,0000,0000,,{\1c&H00FFFFFF}raises questions
+Dialogue: 0,00:00:25.02,00:00:25.42,Default,,0000,0000,0000,,{\1c&H000000FF}about
+Dialogue: 0,00:00:25.42,00:00:26.23,Default,,0000,0000,0000,,{\1c&H0000FFFF}active life
+Dialogue: 0,00:00:26.23,00:00:27.03,Default,,0000,0000,0000,,{\1c&H000000FF}forms on
+Dialogue: 0,00:00:27.03,00:00:27.43,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Mars.
+Dialogue: 0,00:00:27.44,00:00:27.72,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Join
+Dialogue: 0,00:00:27.72,00:00:28.29,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the Cosmic
+Dialogue: 0,00:00:28.29,00:00:28.86,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Quest with
+Dialogue: 0,00:00:28.86,00:00:29.15,Default,,0000,0000,0000,,{\1c&H000000FF}code
+Dialogue: 0,00:00:29.15,00:00:29.44,Default,,0000,0000,0000,,{\1c&H0000FFFF}worthy.
+Dialogue: 0,00:00:29.44,00:00:29.87,Default,,0000,0000,0000,,{\1c&H000000FF}Like,
+Dialogue: 0,00:00:29.87,00:00:30.74,Default,,0000,0000,0000,,{\1c&H000000FF}share and
+Dialogue: 0,00:00:30.74,00:00:31.61,Default,,0000,0000,0000,,{\1c&H00FFFFFF}subscribe for
+Dialogue: 0,00:00:31.61,00:00:32.05,Default,,0000,0000,0000,,{\1c&H000000FF}more
+Dialogue: 0,00:00:32.05,00:00:32.92,Default,,0000,0000,0000,,{\1c&H000000FF}interstellar mysteries.
