@@ -54,7 +54,7 @@ async function uploadVideo() {
     const youtube = google.youtube({ version: "v3", auth: oauth2Client });
     const videoFilePath = path.join(
       __dirname,
-      "../data/output/final_video_with_music.mp4"
+      "../data/output/final_output.mp4"
     );
     const videoResponse = await youtube.videos.insert({
       part: "id,snippet,status",

@@ -1,34 +1,41 @@
 {
-  "Title": "The Ghost Ship: The Mary Celeste",
-  "Description": "Uncover the chilling tale of the Mary Celeste, the infamous ghost ship found adrift with no soul on board. Delve into this 30-second mystery. #HistoricalMysteries #GhostShip #MaritimeHistory #UnsolvedMysteries",
+  "Title": "The Enigma of the Antikythera Mechanism: Ancient World's Computer",
+  "Description": "Dive into the mystery of the Antikythera Mechanism, an advanced ancient Greek device that astounds modern scientists with its precision. Unravel the secrets of what is often called the world's first computer in just 30 seconds. #HistoricalMysteries #AntikytheraMechanism #AncientInventions #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "7",
-      "VoiceOverText": "The Mary Celeste, found adrift in 1872, was eerily intact but mysteriously abandoned.",
-      "Description": "The Mary Celeste adrift at sea, emphasizing its intact condition but ghostly emptiness.",
-      "Text": "The Mary Celeste found adrift in 1872 was eerily intact but mysteriously abandoned"
+      "Duration": "6",
+      "VoiceOverText": "Discovered in a shipwreck, the Antikythera Mechanism is an ancient Greek device, showcasing astonishing astronomical precision.",
+      "Description": "The Antikythera Mechanism amidst underwater ruins, highlighting its discovery in an ancient shipwreck.",
+      "Text": "Discovered in a shipwreck the Antikythera Mechanism is an ancient Greek device showcasing astonishing astronomical precision"
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "No sign of the crew, a lifeboat missing, and a meal set – the scene was set for a maritime enigma.",
-      "Description": "Inside the Mary Celeste showing an undisturbed setting, a missing lifeboat, and a meal left untouched.",
-      "Text": "No sign of the crew a lifeboat missing and a meal set – the scene was set for a maritime enigma"
+      "Duration": "6",
+      "VoiceOverText": "Dating back to around 100 BC, it's considered the world's first analog computer, used to predict astronomical positions.",
+      "Description": "A visualization of the mechanism's gears and dials, emphasizing its complexity and advanced design.",
+      "Text": "Dating back to around 100 BC its considered the worlds first analog computer used to predict astronomical positions"
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Theories abound, but the fate of her crew remains one of the sea's greatest unsolved mysteries.",
-      "Description": "Images of various theories like a storm or a pirate flag, juxtaposed with the ship's wheel abandoned.",
-      "Text": "Theories abound but the fate of her crew remains one of the seas greatest unsolved mysteries"
+      "Duration": "6",
+      "VoiceOverText": "Its intricate design and gears led to debates about the technological capabilities of ancient civilizations.",
+      "Description": "Close-up of the gear system, juxtaposed with images of ancient Greek scholars, illustrating the era's technological prowess.",
+      "Text": "Its intricate design and gears led to debates about the technological capabilities of ancient civilizations"
     },
     {
       "SceneNumber": 4,
-      "Duration": "7",
-      "VoiceOverText": "Join us for more enigmas of the past. Like, share, and subscribe for intriguing historical tales.",
-      "Description": "A call to action with a montage of other historical mysteries, inviting further exploration.",
-      "Text": "Join us for more enigmas of the past Like share and subscribe for intriguing historical tales"
+      "Duration": "6",
+      "VoiceOverText": "The device's true purpose and creators remain a subject of ongoing research and fascination.",
+      "Description": "Researchers examining the mechanism, surrounded by ancient Greek artifacts, symbolizing the ongoing mystery.",
+      "Text": "The devices true purpose and creators remain a subject of ongoing research and fascination"
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "6",
+      "VoiceOverText": "Join us in uncovering the past's marvels. Like, share, and subscribe for more historical mysteries.",
+      "Description": "A call to action with images of other ancient inventions and mysteries, beckoning viewers to explore further.",
+      "Text": "Join us in uncovering the pasts marvels Like share and subscribe for more historical mysteries"
     }
   ]
 }

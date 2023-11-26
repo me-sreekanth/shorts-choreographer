@@ -1,8 +1,17 @@
 const { exec } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-const videoPath =
-  "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/final_video_with_music.mp4";
+
+// Define base directories
+const baseDir = path.join(__dirname, "..", ".."); // Adjust as needed
+const dataOutputDir = path.join(baseDir, "src", "data", "output");
+const aiGeneratorScriptsDir = path.join(baseDir, "src", "ai-generator", "scripts");
+
+// File paths
+const videoPath = path.join(dataOutputDir, "final_video_with_music.mp4");
+const transcriptionScriptPath = path.join(aiGeneratorScriptsDir, "whisper_transcribe.py");
+const assFilePath = path.join(dataOutputDir, "output.ass");
+const finalOutputPath = path.join(dataOutputDir, "final_output.mp4");
 
 function extractAudioAndTranscribe(videoPath) {
   return new Promise((resolve, reject) => {
@@ -19,12 +28,9 @@ function extractAudioAndTranscribe(videoPath) {
         }
 
         console.log("Audio extracted, starting transcription...");
-        const transcriptionScriptPath =
-          "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/ai-generator/scripts/whisper_transcribe.py";
-        const assFilePath =
-          "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/output.ass";
+
         exec(
-          `python3 "${transcriptionScriptPath}" "${audioPath}" "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/output.ass"`,
+          `python3 "${transcriptionScriptPath}" "${audioPath}" "${assFilePath}"`,
           (err) => {
             if (err) {
               console.error("Error in transcription:", err);
@@ -51,31 +57,34 @@ function extractAudioAndTranscribe(videoPath) {
 
 function overlaySubtitles(videoPath, subtitlesPath, outputPath) {
   return new Promise((resolve, reject) => {
-    exec(
-      `ffmpeg -y -i "${videoPath}" -vf "ass=${subtitlesPath}" -c:v libx264 -c:a aac "${outputPath}"`,
-      (err, stdout, stderr) => {
-        if (err) {
-          console.error("Error in overlaying subtitles:", err);
-          console.error("ffmpeg stderr:", stderr);
-          reject(err);
-          return;
-        }
-        console.log("ffmpeg stdout:", stdout);
-        console.log("Subtitles overlay completed.");
-        resolve();
+    // Escape backslashes and the colon for the subtitles path
+    const escapedSubtitlesPath = subtitlesPath.replace(/\\/g, '\\\\\\').replace(':', '\\:');
+
+    // Update the command to use the 'subtitles' filter
+    const command = `ffmpeg -y -i "${videoPath}" -vf "subtitles='${escapedSubtitlesPath}'" -c:v libx264 -c:a aac "${outputPath}"`;
+
+    console.log(`Executing command: ${command}`);
+
+    exec(command, (err, stdout, stderr) => {
+      if (err) {
+        console.error("Error in overlaying subtitles:", err);
+        console.error("ffmpeg stderr:", stderr);
+        reject(err);
+        return;
       }
-    );
+      console.log("ffmpeg stdout:", stdout);
+      console.log("Subtitles overlay completed.");
+      resolve();
+    });
   });
 }
 
-extractAudioAndTranscribe(videoPath)
-  .then(() =>
-    overlaySubtitles(
-      videoPath,
-      "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/output.ass",
-      "/Users/sreekantht/Desktop/Sreekanth/GitHub/shorts-choreographer/src/data/output/final_output.mp4"
-    )
-  )
-  .catch((error) => {
-    console.error("Error:", error);
-  });
+
+
+setTimeout(() => {
+  console.log("Generating Transcription. .");
+  extractAudioAndTranscribe(videoPath)
+    .then(() => overlaySubtitles(videoPath, assFilePath, finalOutputPath))
+    .catch((error) => console.error("Error:", error));
+}, 2000);
+

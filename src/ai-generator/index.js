@@ -18,7 +18,7 @@ try {
   execSync("node ./src/ai-generator/generateVideo.js", { stdio: "inherit" });
 
   // Generate transcription
-  console.log("Starting video generation...");
+  console.log("Starting transcription...");
   execSync("node ./src/ai-generator/generateTranscription.js", {
     stdio: "inherit",
   });
