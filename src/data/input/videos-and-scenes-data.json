@@ -1,41 +1,41 @@
 {
-  "Title": "Mysteries of Mars: Unveiling the Red Planet",
-  "Description": "Embark on a cosmic journey in 60 seconds to uncover the secrets of Mars. From ancient water channels to potential life forms, join us as we explore the mysteries of the Red Planet. #SpaceExploration #MarsMystery #ScienceShorts #CodeWorthy",
+  "Title": "Decrypting Da Vinci: The Genius Behind the Art",
+  "Description": "In just 60 seconds, unlock the secrets of Leonardo da Vinci's genius. Explore his groundbreaking inventions, mysterious artworks, and timeless impact on art and science. #DaVinci #ArtMeetsScience #CodeWorthy #Shorts",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "12",
-      "VoiceOverText": "Mars, our enigmatic neighbor, has captivated humanity for centuries with its mysterious allure.",
-      "Description": "A captivating view of Mars from space, highlighting its distinct red appearance.",
-      "Text": "Mars, our enigmatic neighbor, has captivated humanity for centuries with its mysterious allure."
+      "VoiceOverText": "Leonardo da Vinci, a name synonymous with genius, but what secrets lie behind his enigmatic artworks?",
+      "Description": "Intriguing montage of da Vinci's famous artworks, like the Mona Lisa and The Last Supper.",
+      "Text": "Leonardo da Vinci, a name synonymous with genius, but what secrets lie behind his enigmatic artworks?"
     },
     {
       "SceneNumber": 2,
       "Duration": "12",
-      "VoiceOverText": "Evidence suggests ancient rivers once flowed here. Could Mars have harbored life?",
-      "Description": "Animated visuals of ancient Martian rivers and landscapes, hinting at the possibility of past life.",
-      "Text": "Evidence suggests ancient rivers once flowed here. Could Mars have harbored life?"
+      "VoiceOverText": "Da Vinci wasn't just an artist; he was a visionary scientist, inventor, and ahead of his time.",
+      "Description": "Animations showcasing da Vinci's sketches and inventions like the Vitruvian Man and flying machines.",
+      "Text": "Da Vinci wasn't just an artist; he was a visionary scientist, inventor, and ahead of his time."
     },
     {
       "SceneNumber": 3,
       "Duration": "12",
-      "VoiceOverText": "Recent missions like the Perseverance rover seek clues of past microbial life, testing the limits of science.",
-      "Description": "Footage of the Perseverance rover on Mars, showcasing its exploration and experiments.",
-      "Text": "Recent missions like the Perseverance rover seek clues of past microbial life, testing the limits of science."
+      "VoiceOverText": "His works hold hidden codes and theories, centuries ahead, blending art with scientific thought.",
+      "Description": "Close-ups of hidden symbols and sketches in his paintings, hinting at deeper meanings.",
+      "Text": "His works hold hidden codes and theories, centuries ahead, blending art with scientific thought."
     },
     {
       "SceneNumber": 4,
       "Duration": "12",
-      "VoiceOverText": "The discovery of methane spikes in the atmosphere raises questions about active life forms on Mars.",
-      "Description": "Graphical representation of methane levels on Mars with a question mark, symbolizing the mystery.",
-      "Text": "The discovery of methane spikes in the atmosphere raises questions about active life forms on Mars."
+      "VoiceOverText": "Da Vinci's curiosity led him to explore anatomy, flight, and even robotics, leaving a legacy that transcends time.",
+      "Description": "Visuals of da Vinci's anatomical studies, early concepts of human flight, and robotic designs.",
+      "Text": "Da Vinci's curiosity led him to explore anatomy, flight, and even robotics, leaving a legacy that transcends time."
     },
     {
       "SceneNumber": 5,
       "Duration": "12",
-      "VoiceOverText": "Join the cosmic quest with Code Worthy. Like, share, and subscribe for more interstellar mysteries!",
-      "Description": "A call to action with a backdrop of the Martian surface and stars, inspiring viewers to explore further.",
-      "Text": "Join the cosmic quest with Code Worthy. Like, share, and subscribe for more interstellar mysteries!"
+      "VoiceOverText": "Discover more about the mastermind who merged art with science. Stay curious with Code Worthy!",
+      "Description": "Call to action with an inspiring backdrop of da Vinci's work and an invitation to explore more.",
+      "Text": "Discover more about the mastermind who merged art with science. Stay curious with Code Worthy!"
     }
   ]
 }
