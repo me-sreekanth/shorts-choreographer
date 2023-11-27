@@ -1,48 +1,48 @@
 {
-  "Title": "Greek Gods: The Powers of Olympus",
-  "Description": "In just 60 seconds, climb the heights of Mount Olympus and meet the mighty Greek gods. Uncover their powers, myths, and influence in ancient Greek culture. #Mythology #GreekGods #Olympus #CodeWorthy",
+  "Title": "The Mystery of Black Holes: A Cosmic Enigma",
+  "Description": "In 60 seconds, journey into the depths of space to unravel the secrets of black holes. Discover their mysterious nature and the scientific quest to understand these cosmic phenomena. #BlackHoles #SpaceMysteries #CodeWorthy",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "10",
-      "VoiceOverText": "Mount Olympus: the mythical home to the powerful pantheon of Greek gods.",
-      "Description": "A majestic view of Mount Olympus with clouds swirling around its peak, evoking a sense of mystery and grandeur.",
-      "Text": "Mount Olympus: the mythical home to the powerful pantheon of Greek gods."
+      "VoiceOverText": "Black holes, the enigmatic devourers of the cosmos, have puzzled astronomers for decades.",
+      "Description": "A stunning visual of a black hole in space, illustrating its gravitational pull on nearby stars.",
+      "Text": "Black holes, the enigmatic devourers of the cosmos, have puzzled astronomers for decades."
     },
     {
       "SceneNumber": 2,
       "Duration": "10",
-      "VoiceOverText": "Zeus, the king of gods, wielder of thunder, and ruler of the skies.",
-      "Description": "Artistic depiction of Zeus with a thunderbolt in hand, commanding the skies amidst a storm.",
-      "Text": "Zeus, the king of gods, wielder of thunder, and ruler of the skies."
+      "VoiceOverText": "Formed from collapsed stars, these gravitational giants warp space and time.",
+      "Description": "Animation showing the collapse of a star into a black hole, demonstrating the distortion of space-time around it.",
+      "Text": "Formed from collapsed stars, these gravitational giants warp space and time."
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Athena, goddess of wisdom, known for her strategic skill in warfare and patronage of the arts.",
-      "Description": "Illustration of Athena in battle armor, with an owl perched on her shoulder, symbolizing wisdom.",
-      "Text": "Athena, goddess of wisdom, known for her strategic skill in warfare and patronage of the arts."
+      "VoiceOverText": "The event horizon, the point of no return, marks the boundary where escape from a black hole's pull becomes impossible.",
+      "Description": "Graphic representation of a black hole's event horizon, with light bending around it.",
+      "Text": "The event horizon, the point of no return."
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "Poseidon, the formidable god of the sea, stirring storms and calming waves.",
-      "Description": "Dynamic image of Poseidon with his trident, surrounded by ocean waves and sea creatures.",
-      "Text": "Poseidon, the formidable god of the sea, stirring storms and calming waves."
+      "VoiceOverText": "Scientists use advanced technology to observe these cosmic phenomena and decode their mysteries.",
+      "Description": "Footage of telescopes and scientific instruments used in black hole research.",
+      "Text": "Scientists use advanced technology to observe these cosmic phenomena and decode their mysteries."
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Discover the myths that shaped ancient Greek culture and still captivate us today.",
-      "Description": "Montage of various Greek gods and goddesses, with ancient Greek art and temples in the background.",
-      "Text": "Discover the myths that shaped ancient Greek culture and still captivate us today."
+      "VoiceOverText": "Join the journey with Code Worthy as we delve into the universe's most profound mysteries.",
+      "Description": "A call to action with a backdrop of the galaxy, inviting viewers to explore more with Code Worthy.",
+      "Text": "Join the journey with Code Worthy as we delve into the universe's most profound mysteries."
     },
     {
       "SceneNumber": 6,
       "Duration": "10",
-      "VoiceOverText": "Join us at Code Worthy for more fascinating tales from mythology. Like, share, and subscribe!",
-      "Description": "A call to action with the Code Worthy logo, encouraging viewers to engage and explore more mythological stories.",
-      "Text": "Join us at Code Worthy for more fascinating tales from mythology. Like, share, and subscribe!"
+      "VoiceOverText": "Like, share, and subscribe for more captivating space adventures and scientific explorations!",
+      "Description": "Engaging end screen with the Code Worthy logo and a visual of space exploration, encouraging viewer interaction.",
+      "Text": "Like, share, and subscribe for more captivating space adventures and scientific explorations!"
     }
   ]
 }
