@@ -1,55 +1,48 @@
 {
-  "Title": "Unlocking Egypt's Secrets: A Minute in the Land of Pharaohs",
-  "Description": "Dive into the heart of ancient Egypt in just 60 seconds! Explore the wonders of the pyramids, the mysteries of the pharaohs, and the secrets of hieroglyphs. Discover a civilization that has captivated the world for millennia. #AncientEgypt #HistoryShorts #MysteriesUnveiled #CodeWorthy",
+  "Title": "Decoding the Secrets of the Egyptian Pyramids",
+  "Description": "Dive into the ancient world in just 60 seconds! Unravel the mysteries behind Egypt's iconic pyramids. Discover how they were built, their hidden chambers, and the legends that surround them. #AncientHistory #EgyptianPyramids #CodeWorthy",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "Step back in time to ancient Egypt, a land of pharaohs, pyramids, and incredible mysteries.",
-      "Description": "A sweeping aerial view of the Giza pyramid complex at sunrise.",
-      "Text": "Step back in time to ancient Egypt, a land of pharaohs, pyramids, and incredible mysteries."
+      "Duration": "10",
+      "VoiceOverText": "The Egyptian pyramids, grand structures shrouded in mystery and awe.",
+      "Description": "A sweeping aerial view of the Giza pyramid complex at sunrise, showcasing their magnificent scale.",
+      "Text": "The Egyptian pyramids, grand structures shrouded in mystery and awe."
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "The Great Pyramid of Giza, one of the Seven Wonders of the Ancient World, still holds secrets yet to be unraveled.",
-      "Description": "Close-up shots of the Great Pyramid, highlighting its architectural complexity.",
-      "Text": "The Great Pyramid of Giza, one of the Seven Wonders of the Ancient World, still holds secrets yet to be unraveled."
+      "Duration": "10",
+      "VoiceOverText": "Built over 4,500 years ago, they stand as a testament to ancient engineering and design.",
+      "Description": "Animations illustrating the construction process of the pyramids, with workers and ancient tools.",
+      "Text": "Built over 4,500 years ago, they stand as a testament to ancient engineering and design."
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Hieroglyphs, Egypt's ancient script, are keys to unlocking stories of gods, pharaohs, and everyday life.",
-      "Description": "Intricate hieroglyphs carved on temple walls, with digital animations illustrating their meanings.",
-      "Text": "Hieroglyphs, Egypt's ancient script, are keys to unlocking stories of gods, pharaohs, and everyday life."
+      "Duration": "10",
+      "VoiceOverText": "Mysteries linger about their construction, purpose, and the secrets they may still hold.",
+      "Description": "Mysterious visuals of the pyramid interiors, highlighting hieroglyphs and hidden chambers.",
+      "Text": "Mysteries linger about their construction, purpose, and the secrets they may still hold."
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "The discovery of Tutankhamun's tomb in 1922 revealed a treasure trove of artifacts and sparked a global fascination with Egyptology.",
-      "Description": "Footage of Tutankhamun's golden mask and other artifacts, transitioning to images of the tomb's discovery.",
-      "Text": "The discovery of Tutankhamun's tomb in 1922 revealed a treasure trove of artifacts and sparked a global fascination with Egyptology."
+      "Duration": "10",
+      "VoiceOverText": "Legends speak of hidden treasures and curses that protect these ancient tombs.",
+      "Description": "Artistic depictions of ancient Egyptian treasures and mythical curses associated with the pyramids.",
+      "Text": "Legends speak of hidden treasures and curses that protect these ancient tombs."
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Today, Egypt continues to reveal its secrets, with new archaeological discoveries shedding light on this ancient civilization.",
-      "Description": "Recent footage of archaeological digs and newly discovered artifacts.",
-      "Text": "Today, Egypt continues to reveal its secrets, with new archaeological discoveries shedding light on this ancient civilization."
+      "Duration": "10",
+      "VoiceOverText": "Join Code Worthy in exploring the enduring legacy of these architectural marvels.",
+      "Description": "Dynamic montage of the pyramids with the Code Worthy logo, inviting viewers to explore more mysteries.",
+      "Text": "Join Code Worthy in exploring the enduring legacy of these architectural marvels."
     },
     {
       "SceneNumber": 6,
-      "Duration": "8",
-      "VoiceOverText": "The Sphinx of Giza, with its enigmatic smile, has been a silent witness to millennia of history.",
-      "Description": "Dramatic view of the Sphinx at dusk, emphasizing its mysterious aura.",
-      "Text": "The Sphinx of Giza, with its enigmatic smile, has been a silent witness to millennia of history."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "8",
-      "VoiceOverText": "Join us on this journey through time, and discover the enduring legacy of ancient Egypt.",
-      "Description": "Montage of various Egyptian monuments, concluding with a starry night sky over the desert.",
-      "Text": "Join us on this journey through time, and discover the enduring legacy of ancient Egypt."
+      "Duration": "10",
+      "VoiceOverText": "Like, share, and subscribe to journey through time and uncover ancient secrets with us!",
+      "Description": "Engaging call to action with visuals of the pyramids under the stars, encouraging viewers to engage.",
+      "Text": "Like, share, and subscribe to journey through time and uncover ancient secrets with us!"
     }
   ]
 }
