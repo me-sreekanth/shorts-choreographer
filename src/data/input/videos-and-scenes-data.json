@@ -1,48 +1,48 @@
 {
-  "Title": "Decoding the Secrets of the Egyptian Pyramids",
-  "Description": "Dive into the ancient world in just 60 seconds! Unravel the mysteries behind Egypt's iconic pyramids. Discover how they were built, their hidden chambers, and the legends that surround them. #AncientHistory #EgyptianPyramids #CodeWorthy",
+  "Title": "Greek Gods: The Powers of Olympus",
+  "Description": "In just 60 seconds, climb the heights of Mount Olympus and meet the mighty Greek gods. Uncover their powers, myths, and influence in ancient Greek culture. #Mythology #GreekGods #Olympus #CodeWorthy",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "10",
-      "VoiceOverText": "The Egyptian pyramids, grand structures shrouded in mystery and awe.",
-      "Description": "A sweeping aerial view of the Giza pyramid complex at sunrise, showcasing their magnificent scale.",
-      "Text": "The Egyptian pyramids, grand structures shrouded in mystery and awe."
+      "VoiceOverText": "Mount Olympus: the mythical home to the powerful pantheon of Greek gods.",
+      "Description": "A majestic view of Mount Olympus with clouds swirling around its peak, evoking a sense of mystery and grandeur.",
+      "Text": "Mount Olympus: the mythical home to the powerful pantheon of Greek gods."
     },
     {
       "SceneNumber": 2,
       "Duration": "10",
-      "VoiceOverText": "Built over 4,500 years ago, they stand as a testament to ancient engineering and design.",
-      "Description": "Animations illustrating the construction process of the pyramids, with workers and ancient tools.",
-      "Text": "Built over 4,500 years ago, they stand as a testament to ancient engineering and design."
+      "VoiceOverText": "Zeus, the king of gods, wielder of thunder, and ruler of the skies.",
+      "Description": "Artistic depiction of Zeus with a thunderbolt in hand, commanding the skies amidst a storm.",
+      "Text": "Zeus, the king of gods, wielder of thunder, and ruler of the skies."
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Mysteries linger about their construction, purpose, and the secrets they may still hold.",
-      "Description": "Mysterious visuals of the pyramid interiors, highlighting hieroglyphs and hidden chambers.",
-      "Text": "Mysteries linger about their construction, purpose, and the secrets they may still hold."
+      "VoiceOverText": "Athena, goddess of wisdom, known for her strategic skill in warfare and patronage of the arts.",
+      "Description": "Illustration of Athena in battle armor, with an owl perched on her shoulder, symbolizing wisdom.",
+      "Text": "Athena, goddess of wisdom, known for her strategic skill in warfare and patronage of the arts."
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "Legends speak of hidden treasures and curses that protect these ancient tombs.",
-      "Description": "Artistic depictions of ancient Egyptian treasures and mythical curses associated with the pyramids.",
-      "Text": "Legends speak of hidden treasures and curses that protect these ancient tombs."
+      "VoiceOverText": "Poseidon, the formidable god of the sea, stirring storms and calming waves.",
+      "Description": "Dynamic image of Poseidon with his trident, surrounded by ocean waves and sea creatures.",
+      "Text": "Poseidon, the formidable god of the sea, stirring storms and calming waves."
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Join Code Worthy in exploring the enduring legacy of these architectural marvels.",
-      "Description": "Dynamic montage of the pyramids with the Code Worthy logo, inviting viewers to explore more mysteries.",
-      "Text": "Join Code Worthy in exploring the enduring legacy of these architectural marvels."
+      "VoiceOverText": "Discover the myths that shaped ancient Greek culture and still captivate us today.",
+      "Description": "Montage of various Greek gods and goddesses, with ancient Greek art and temples in the background.",
+      "Text": "Discover the myths that shaped ancient Greek culture and still captivate us today."
     },
     {
       "SceneNumber": 6,
       "Duration": "10",
-      "VoiceOverText": "Like, share, and subscribe to journey through time and uncover ancient secrets with us!",
-      "Description": "Engaging call to action with visuals of the pyramids under the stars, encouraging viewers to engage.",
-      "Text": "Like, share, and subscribe to journey through time and uncover ancient secrets with us!"
+      "VoiceOverText": "Join us at Code Worthy for more fascinating tales from mythology. Like, share, and subscribe!",
+      "Description": "A call to action with the Code Worthy logo, encouraging viewers to engage and explore more mythological stories.",
+      "Text": "Join us at Code Worthy for more fascinating tales from mythology. Like, share, and subscribe!"
     }
   ]
 }
