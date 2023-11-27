@@ -7,11 +7,11 @@ try {
     stdio: "inherit",
   });
 
-  // After the above script completes, run the generateVoiceovers.js script
-  console.log("Starting voiceover generation...");
-  execSync("node ./src/ai-generator/generateVoiceovers.js", {
-    stdio: "inherit",
-  });
+  // // After the above script completes, run the generateVoiceovers.js script
+  // console.log("Starting voiceover generation...");
+  // execSync("node ./src/ai-generator/generateVoiceovers.js", {
+  //   stdio: "inherit",
+  // });
 
   // Finally, run the generateVideo.js script
   console.log("Starting video generation...");
