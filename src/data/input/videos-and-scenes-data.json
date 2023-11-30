@@ -1,41 +1,41 @@
 {
-  "Title": "Voyage Through the Cosmos: Beyond Mars",
-  "Description": "Join us for a 60-second interstellar journey beyond Mars. Explore the mysteries of outer planets and distant galaxies. #SpaceExploration #CosmosShorts #CodeWorthy",
+  "Title": "Atlantis: The Lost Civilization",
+  "Description": "Plunge into the depths of the Atlantis mystery, the legendary civilization lost beneath the waves. In 30 seconds, explore the theories and allure of this ancient enigma. #HistoricalMysteries #Atlantis #LostCivilizations #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "12",
-      "VoiceOverText": "Embark on a voyage beyond Mars, venturing further into the mysteries of our solar system and beyond.",
-      "Description": "A stunning visualization of a spacecraft journeying past Mars towards the outer planets.",
-      "Text": "Embark on a voyage beyond Mars, venturing further into the mysteries of our solar system and beyond."
+      "Duration": "6",
+      "VoiceOverText": "Atlantis, the fabled ancient civilization, was first described by Plato as a powerful and advanced society.",
+      "Description": "Artistic depiction of a thriving Atlantis, showcasing its grandeur and advanced technology, set against the backdrop of the sea.",
+      "Text": "Atlantis the fabled ancient civilization was first described by Plato as a powerful and advanced society"
     },
     {
       "SceneNumber": 2,
-      "Duration": "12",
-      "VoiceOverText": "Witness the majestic beauty of Jupiter, the largest planet in our solar system, with its swirling storms and moons.",
-      "Description": "Spectacular footage of Jupiter and its moons, focusing on the Great Red Spot.",
-      "Text": "Witness the majestic beauty of Jupiter, the largest planet in our solar system, with its swirling storms and moons."
+      "Duration": "6",
+      "VoiceOverText": "Said to have sunk into the ocean, this mythical city has captivated historians and adventurers for centuries.",
+      "Description": "Imagery of a majestic city sinking into the sea, symbolizing the dramatic demise of Atlantis.",
+      "Text": "Said to have sunk into the ocean this mythical city has captivated historians and adventurers for centuries"
     },
     {
       "SceneNumber": 3,
-      "Duration": "12",
-      "VoiceOverText": "Sail past Saturn, admiring its magnificent rings and uncovering the secrets they hold.",
-      "Description": "Close-up visuals of Saturn's rings, with a backdrop of the vast cosmos.",
-      "Text": "Sail past Saturn, admiring its magnificent rings and uncovering the secrets they hold."
+      "Duration": "6",
+      "VoiceOverText": "Theories about Atlantis range from a lost continent to allegorical fiction, with no concrete evidence found.",
+      "Description": "A collage of various Atlantis theories, including ancient maps and underwater exploration imagery.",
+      "Text": "Theories about Atlantis range from a lost continent to allegorical fiction with no concrete evidence found"
     },
     {
       "SceneNumber": 4,
-      "Duration": "12",
-      "VoiceOverText": "Explore the icy mysteries of Uranus and Neptune, the outermost giants, shrouded in cold and mystery.",
-      "Description": "Animations showing the unique features of Uranus and Neptune, highlighting their cold, blue appearances.",
-      "Text": "Explore the icy mysteries of Uranus and Neptune, the outermost giants, shrouded in cold and mystery."
+      "Duration": "6",
+      "VoiceOverText": "Despite numerous searches, Atlantis remains a mystery, inspiring countless stories and speculations.",
+      "Description": "Scenes of modern explorations and fictional representations, illustrating the ongoing fascination with Atlantis.",
+      "Text": "Despite numerous searches Atlantis remains a mystery inspiring countless stories and speculations"
     },
     {
       "SceneNumber": 5,
-      "Duration": "12",
-      "VoiceOverText": "Venture beyond our solar system, where countless galaxies and mysteries await. The cosmos is calling!",
-      "Description": "A breathtaking journey through a starfield, showcasing distant galaxies and nebulae.",
-      "Text": "Venture beyond our solar system, where countless galaxies and mysteries await. The cosmos is calling!"
+      "Duration": "6",
+      "VoiceOverText": "Dive into more enigmatic tales. Like, share, and subscribe for a journey through history's mysteries.",
+      "Description": "A call to action with images of other mysterious historical sites and legends, beckoning viewers to explore more.",
+      "Text": "Dive into more enigmatic tales Like share and subscribe for a journey through historys mysteries"
     }
   ]
 }
