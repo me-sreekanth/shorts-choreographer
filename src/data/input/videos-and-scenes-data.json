@@ -1,41 +1,41 @@
 {
-  "Title": "Atlantis: The Lost Civilization",
-  "Description": "Plunge into the depths of the Atlantis mystery, the legendary civilization lost beneath the waves. In 30 seconds, explore the theories and allure of this ancient enigma. #HistoricalMysteries #Atlantis #LostCivilizations #UnsolvedMysteries",
+  "Title": "The Disappearance of the USS Cyclops",
+  "Description": "Venture into the mysterious disappearance of the USS Cyclops, one of the largest naval losses in U.S. history. This short video delves into the theories and mysteries surrounding this baffling vanishing act at sea. #HistoricalMysteries #USSCyclops #MaritimeMystery #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "6",
-      "VoiceOverText": "Atlantis, the fabled ancient civilization, was first described by Plato as a powerful and advanced society.",
-      "Description": "Artistic depiction of a thriving Atlantis, showcasing its grandeur and advanced technology, set against the backdrop of the sea.",
-      "Text": "Atlantis the fabled ancient civilization was first described by Plato as a powerful and advanced society"
+      "VoiceOverText": "The USS Cyclops, a massive Navy supply ship, vanished in 1918 with over 300 souls on board.",
+      "Description": "Footage of the USS Cyclops, showing its immense size and capacity, setting sail on a fateful journey.",
+      "Text": "The USS Cyclops a massive Navy supply ship vanished in 1918 with over 300 souls on board"
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "VoiceOverText": "Said to have sunk into the ocean, this mythical city has captivated historians and adventurers for centuries.",
-      "Description": "Imagery of a majestic city sinking into the sea, symbolizing the dramatic demise of Atlantis.",
-      "Text": "Said to have sunk into the ocean this mythical city has captivated historians and adventurers for centuries"
+      "VoiceOverText": "Last seen leaving Barbados, the ship never arrived in Baltimore, leaving no trace nor distress signal.",
+      "Description": "A map tracing the Cyclops' last known route from Barbados to Baltimore, with a mysterious fog engulfing its path.",
+      "Text": "Last seen leaving Barbados the ship never arrived in Baltimore leaving no trace nor distress signal"
     },
     {
       "SceneNumber": 3,
       "Duration": "6",
-      "VoiceOverText": "Theories about Atlantis range from a lost continent to allegorical fiction, with no concrete evidence found.",
-      "Description": "A collage of various Atlantis theories, including ancient maps and underwater exploration imagery.",
-      "Text": "Theories about Atlantis range from a lost continent to allegorical fiction with no concrete evidence found"
+      "VoiceOverText": "Theories abound from extreme weather to enemy attack, but the ship's fate remains one of the sea's greatest enigmas.",
+      "Description": "Illustrations depicting various theories like a violent storm at sea, a submarine attack, or a Bermuda Triangle mystery.",
+      "Text": "Theories abound from extreme weather to enemy attack but the ships fate remains one of the seas greatest enigmas"
     },
     {
       "SceneNumber": 4,
       "Duration": "6",
-      "VoiceOverText": "Despite numerous searches, Atlantis remains a mystery, inspiring countless stories and speculations.",
-      "Description": "Scenes of modern explorations and fictional representations, illustrating the ongoing fascination with Atlantis.",
-      "Text": "Despite numerous searches Atlantis remains a mystery inspiring countless stories and speculations"
+      "VoiceOverText": "The disappearance of the Cyclops continues to intrigue, a haunting reminder of the ocean's mysteries.",
+      "Description": "A haunting image of the ocean at night, symbolizing the deep, unsolved mystery of the Cyclops' disappearance.",
+      "Text": "The disappearance of the Cyclops continues to intrigue a haunting reminder of the oceans mysteries"
     },
     {
       "SceneNumber": 5,
       "Duration": "6",
-      "VoiceOverText": "Dive into more enigmatic tales. Like, share, and subscribe for a journey through history's mysteries.",
-      "Description": "A call to action with images of other mysterious historical sites and legends, beckoning viewers to explore more.",
-      "Text": "Dive into more enigmatic tales Like share and subscribe for a journey through historys mysteries"
+      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for journeys into the unknown.",
+      "Description": "A call to action inviting viewers to explore more mysteries, featuring images of other maritime enigmas and historical secrets.",
+      "Text": "Dive into more historical secrets Like share and subscribe for journeys into the unknown"
     }
   ]
 }
