@@ -1,41 +1,41 @@
 {
-  "Title": "The Disappearance of the USS Cyclops",
-  "Description": "Venture into the mysterious disappearance of the USS Cyclops, one of the largest naval losses in U.S. history. This short video delves into the theories and mysteries surrounding this baffling vanishing act at sea. #HistoricalMysteries #USSCyclops #MaritimeMystery #UnsolvedMysteries",
+  "Title": "The Lost City of Z: Percy Fawcett's Obsession",
+  "Description": "Journey into the heart of the Amazon with explorer Percy Fawcett and his quest for the Lost City of Z. This short video explores the mystery surrounding one of history's most tantalizing tales of exploration. #HistoricalMysteries #LostCityOfZ #PercyFawcett #AmazonMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "6",
-      "VoiceOverText": "The USS Cyclops, a massive Navy supply ship, vanished in 1918 with over 300 souls on board.",
-      "Description": "Footage of the USS Cyclops, showing its immense size and capacity, setting sail on a fateful journey.",
-      "Text": "The USS Cyclops a massive Navy supply ship vanished in 1918 with over 300 souls on board"
+      "VoiceOverText": "British explorer Percy Fawcett was consumed by the legend of the Lost City of Z, an advanced civilization hidden in the Amazon.",
+      "Description": "An image of Percy Fawcett, with maps and sketches of a mythical city in the background, setting the stage for his quest.",
+      "Text": "British explorer Percy Fawcett was consumed by the legend of the Lost City of Z an advanced civilization hidden in the Amazon"
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "VoiceOverText": "Last seen leaving Barbados, the ship never arrived in Baltimore, leaving no trace nor distress signal.",
-      "Description": "A map tracing the Cyclops' last known route from Barbados to Baltimore, with a mysterious fog engulfing its path.",
-      "Text": "Last seen leaving Barbados the ship never arrived in Baltimore leaving no trace nor distress signal"
+      "VoiceOverText": "In 1925, Fawcett embarked on an expedition into the uncharted jungles of Brazil, seeking this mysterious city.",
+      "Description": "Footage of dense Amazonian jungle, illustrating the challenging and unknown terrain Fawcett ventured into.",
+      "Text": "In 1925 Fawcett embarked on an expedition into the uncharted jungles of Brazil seeking this mysterious city"
     },
     {
       "SceneNumber": 3,
       "Duration": "6",
-      "VoiceOverText": "Theories abound from extreme weather to enemy attack, but the ship's fate remains one of the sea's greatest enigmas.",
-      "Description": "Illustrations depicting various theories like a violent storm at sea, a submarine attack, or a Bermuda Triangle mystery.",
-      "Text": "Theories abound from extreme weather to enemy attack but the ships fate remains one of the seas greatest enigmas"
+      "VoiceOverText": "Fawcett, along with his son and another companion, vanished without a trace, fueling endless speculation.",
+      "Description": "An image portraying Fawcett and his companions' last known moments before their disappearance, surrounded by the vast jungle.",
+      "Text": "Fawcett along with his son and another companion vanished without a trace fueling endless speculation"
     },
     {
       "SceneNumber": 4,
       "Duration": "6",
-      "VoiceOverText": "The disappearance of the Cyclops continues to intrigue, a haunting reminder of the ocean's mysteries.",
-      "Description": "A haunting image of the ocean at night, symbolizing the deep, unsolved mystery of the Cyclops' disappearance.",
-      "Text": "The disappearance of the Cyclops continues to intrigue a haunting reminder of the oceans mysteries"
+      "VoiceOverText": "Their fate remains one of exploration's greatest mysteries, sparking numerous rescue missions and theories.",
+      "Description": "Various images depicting rescue missions, maps, and hypothetical scenarios of what might have happened to them.",
+      "Text": "Their fate remains one of explorations greatest mysteries sparking numerous rescue missions and theories"
     },
     {
       "SceneNumber": 5,
       "Duration": "6",
-      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for journeys into the unknown.",
-      "Description": "A call to action inviting viewers to explore more mysteries, featuring images of other maritime enigmas and historical secrets.",
-      "Text": "Dive into more historical secrets Like share and subscribe for journeys into the unknown"
+      "VoiceOverText": "Discover more of history's unsolved riddles. Like, share, and subscribe for more exploratory tales.",
+      "Description": "A call to action with visuals of other exploration mysteries and historical riddles, inviting viewers to delve deeper.",
+      "Text": "Discover more of historys unsolved riddles Like share and subscribe for more exploratory tales"
     }
   ]
 }
