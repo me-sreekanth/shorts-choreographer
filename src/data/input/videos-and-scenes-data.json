@@ -1,41 +1,41 @@
 {
-  "Title": "Nikola Tesla: Master of Lightning",
-  "Description": "In just 60 seconds, discover the genius of Nikola Tesla, the inventor who revolutionized electrical engineering. Delve into his life, groundbreaking inventions, and lasting impact on modern technology. #NikolaTesla #Innovation #CodeWorthy",
+  "Title": "Voyage Through the Cosmos: Beyond Mars",
+  "Description": "Join us for a 60-second interstellar journey beyond Mars. Explore the mysteries of outer planets and distant galaxies. #SpaceExploration #CosmosShorts #CodeWorthy",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "10",
-      "VoiceOverText": "Nikola Tesla, a visionary inventor who transformed the world of electrical engineering.",
-      "Description": "An introduction showcasing Nikola Tesla's portraits and his early electrical experiments.",
-      "Text": "Nikola Tesla, a visionary inventor who transformed the world of electrical engineering."
+      "Duration": "12",
+      "VoiceOverText": "Embark on a voyage beyond Mars, venturing further into the mysteries of our solar system and beyond.",
+      "Description": "A stunning visualization of a spacecraft journeying past Mars towards the outer planets.",
+      "Text": "Embark on a voyage beyond Mars, venturing further into the mysteries of our solar system and beyond."
     },
     {
       "SceneNumber": 2,
-      "Duration": "10",
-      "VoiceOverText": "Tesla's creations include the alternating current (AC) system, fundamental to powering our world today.",
-      "Description": "Animations depicting Tesla's work on the alternating current system and its applications in modern society.",
-      "Text": "Tesla's creations include the alternating current (AC) system, fundamental to powering our world today."
+      "Duration": "12",
+      "VoiceOverText": "Witness the majestic beauty of Jupiter, the largest planet in our solar system, with its swirling storms and moons.",
+      "Description": "Spectacular footage of Jupiter and its moons, focusing on the Great Red Spot.",
+      "Text": "Witness the majestic beauty of Jupiter, the largest planet in our solar system, with its swirling storms and moons."
     },
     {
       "SceneNumber": 3,
-      "Duration": "10",
-      "VoiceOverText": "He envisioned wireless communication and energy transmission, ideas far ahead of his time.",
-      "Description": "Illustrations of Tesla's concepts of wireless communication and energy transmission, highlighting their futuristic nature.",
-      "Text": "He envisioned wireless communication and energy transmission, ideas far ahead of his time."
+      "Duration": "12",
+      "VoiceOverText": "Sail past Saturn, admiring its magnificent rings and uncovering the secrets they hold.",
+      "Description": "Close-up visuals of Saturn's rings, with a backdrop of the vast cosmos.",
+      "Text": "Sail past Saturn, admiring its magnificent rings and uncovering the secrets they hold."
     },
     {
       "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "Tesla's legacy includes inventions like the Tesla coil, which still inspire innovation and curiosity.",
-      "Description": "Footage of the Tesla coil in action, demonstrating its electrical power and influence on future inventions.",
-      "Text": "Tesla's legacy includes inventions like the Tesla coil, which still inspire innovation and curiosity."
+      "Duration": "12",
+      "VoiceOverText": "Explore the icy mysteries of Uranus and Neptune, the outermost giants, shrouded in cold and mystery.",
+      "Description": "Animations showing the unique features of Uranus and Neptune, highlighting their cold, blue appearances.",
+      "Text": "Explore the icy mysteries of Uranus and Neptune, the outermost giants, shrouded in cold and mystery."
     },
     {
       "SceneNumber": 5,
-      "Duration": "20",
-      "VoiceOverText": "Join Code Worthy in exploring the lives of history's greatest minds. Like, share, and subscribe for more inspiring tales of innovation!",
-      "Description": "A combined scene with the Code Worthy logo, featuring various Tesla-related innovations, encouraging viewers to explore more and engage with the channel.",
-      "Text": "Join Code Worthy in exploring the lives of history's greatest minds. Like, share, and subscribe for more inspiring tales of innovation!"
+      "Duration": "12",
+      "VoiceOverText": "Venture beyond our solar system, where countless galaxies and mysteries await. The cosmos is calling!",
+      "Description": "A breathtaking journey through a starfield, showcasing distant galaxies and nebulae.",
+      "Text": "Venture beyond our solar system, where countless galaxies and mysteries await. The cosmos is calling!"
     }
   ]
 }
