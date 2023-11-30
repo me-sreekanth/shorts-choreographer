@@ -1,41 +1,41 @@
 {
-  "Title": "The Lost City of Z: Percy Fawcett's Obsession",
-  "Description": "Journey into the heart of the Amazon with explorer Percy Fawcett and his quest for the Lost City of Z. This short video explores the mystery surrounding one of history's most tantalizing tales of exploration. #HistoricalMysteries #LostCityOfZ #PercyFawcett #AmazonMysteries",
+  "Title": "The Riddle of the Sailing Stones in Death Valley",
+  "Description": "Unravel the mystery of the Sailing Stones in Death Valley, a natural phenomenon that has puzzled scientists for decades. In this short video, explore the mysterious movement of these rocks across the desert. #HistoricalMysteries #SailingStones #DeathValley #NaturalPhenomena",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "6",
-      "VoiceOverText": "British explorer Percy Fawcett was consumed by the legend of the Lost City of Z, an advanced civilization hidden in the Amazon.",
-      "Description": "An image of Percy Fawcett, with maps and sketches of a mythical city in the background, setting the stage for his quest.",
-      "Text": "British explorer Percy Fawcett was consumed by the legend of the Lost City of Z an advanced civilization hidden in the Amazon"
+      "VoiceOverText": "In the harsh landscape of Death Valley, rocks mysteriously 'sail' across the dry lake bed, leaving trails behind them.",
+      "Description": "A view of the Death Valley showing the sailing stones with visible trails etched in the desert floor.",
+      "Text": "In the harsh landscape of Death Valley rocks mysteriously 'sail' across the dry lake bed leaving trails behind them"
     },
     {
       "SceneNumber": 2,
       "Duration": "6",
-      "VoiceOverText": "In 1925, Fawcett embarked on an expedition into the uncharted jungles of Brazil, seeking this mysterious city.",
-      "Description": "Footage of dense Amazonian jungle, illustrating the challenging and unknown terrain Fawcett ventured into.",
-      "Text": "In 1925 Fawcett embarked on an expedition into the uncharted jungles of Brazil seeking this mysterious city"
+      "VoiceOverText": "These stones, some weighing hundreds of pounds, move without human or animal intervention.",
+      "Description": "Close-up of the stones varying in size, focusing on the tracks indicating movement across the desert surface.",
+      "Text": "These stones some weighing hundreds of pounds move without human or animal intervention"
     },
     {
       "SceneNumber": 3,
       "Duration": "6",
-      "VoiceOverText": "Fawcett, along with his son and another companion, vanished without a trace, fueling endless speculation.",
-      "Description": "An image portraying Fawcett and his companions' last known moments before their disappearance, surrounded by the vast jungle.",
-      "Text": "Fawcett along with his son and another companion vanished without a trace fueling endless speculation"
+      "VoiceOverText": "Theories have ranged from magnetic fields to playful spirits, but the stones' secret remained hidden.",
+      "Description": "Illustrations showing various theories from scientific explanations like magnetic fields to more mystical ones.",
+      "Text": "Theories have ranged from magnetic fields to playful spirits but the stones' secret remained hidden"
     },
     {
       "SceneNumber": 4,
       "Duration": "6",
-      "VoiceOverText": "Their fate remains one of exploration's greatest mysteries, sparking numerous rescue missions and theories.",
-      "Description": "Various images depicting rescue missions, maps, and hypothetical scenarios of what might have happened to them.",
-      "Text": "Their fate remains one of explorations greatest mysteries sparking numerous rescue missions and theories"
+      "VoiceOverText": "Recent studies suggest a combination of ice, wind, and water might explain this enigmatic sliding of stones.",
+      "Description": "Scientific imagery of the environmental factors like ice formation and wind patterns contributing to the stones' movement.",
+      "Text": "Recent studies suggest a combination of ice wind and water might explain this enigmatic sliding of stones"
     },
     {
       "SceneNumber": 5,
       "Duration": "6",
-      "VoiceOverText": "Discover more of history's unsolved riddles. Like, share, and subscribe for more exploratory tales.",
-      "Description": "A call to action with visuals of other exploration mysteries and historical riddles, inviting viewers to delve deeper.",
-      "Text": "Discover more of historys unsolved riddles Like share and subscribe for more exploratory tales"
+      "VoiceOverText": "Join us for more intriguing natural mysteries. Like, share, and subscribe for a journey into our planet's wonders.",
+      "Description": "A call to action with images of other natural mysteries and phenomena, inviting viewers to explore more wonders of nature.",
+      "Text": "Join us for more intriguing natural mysteries Like share and subscribe for a journey into our planets wonders"
     }
   ]
 }
