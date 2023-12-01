@@ -1,55 +1,48 @@
 {
-  "Title": "The Tunguska Event: Siberia's Big Bang",
-  "Description": "Journey to the heart of Siberia's greatest mystery, the Tunguska Event. This short video unveils the dramatic and puzzling explosion that occurred in 1908, leaving scientists and historians baffled. #HistoricalMysteries #TunguskaEvent #SiberianMystery #UnsolvedMysteries",
+  "Title": "The Secret Tomb of Genghis Khan",
+  "Description": "Embark on a journey to uncover the secret behind Genghis Khan's final resting place. This video takes you through the legends, history, and modern quests to find the elusive tomb of one of history's greatest conquerors. #HistoricalMysteries #GenghisKhan #LostTombs #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "8",
-      "VoiceOverText": "Imagine a peaceful Siberian morning suddenly shattered by an explosion, powerful enough to flatten forests and ignite curiosity worldwide.",
-      "Description": "Peaceful Siberian landscape transforming into a visual representation of the explosion.",
-      "Text": "Imagine a peaceful Siberian morning suddenly shattered by an explosion, powerful enough to flatten forests and ignite curiosity worldwide."
+      "VoiceOverText": "Genghis Khan, a name that echoes through history, left a final mystery - the location of his tomb, a secret that has eluded discovery for centuries.",
+      "Description": "Images of Genghis Khan and the Mongolian empire, setting a historical backdrop.",
+      "Text": "Genghis Khan, a name that echoes through history, left a final mystery - the location of his tomb, a secret that has eluded discovery for centuries."
     },
     {
       "SceneNumber": 2,
       "Duration": "8",
-      "VoiceOverText": "In 1908, an unexplained explosion occurred near the Tunguska River, releasing energy equivalent to 15 million tons of TNT.",
-      "Description": "Historical imagery of the Tunguska region with overlaid explosion animations.",
-      "Text": "In 1908, an unexplained explosion occurred near the Tunguska River, releasing energy equivalent to 15 million tons of TNT."
+      "VoiceOverText": "Legend says his burial site was concealed to protect it from enemies, with soldiers and horses sacrificed to keep it hidden.",
+      "Description": "Artistic representation of Genghis Khan's funeral procession and the alleged concealment of his tomb.",
+      "Text": "Legend says his burial site was concealed to protect it from enemies, with soldiers and horses sacrificed to keep it hidden."
     },
     {
       "SceneNumber": 3,
       "Duration": "8",
-      "VoiceOverText": "Witnesses recall a fireball in the sky, so bright, it turned night into day, followed by a shockwave that knocked people off their feet.",
-      "Description": "Reenactments of eyewitnesses looking at the sky, reacting to the intense light and shockwave.",
-      "Text": "Witnesses recall a fireball in the sky, so bright, it turned night into day, followed by a shockwave that knocked people off their feet."
+      "VoiceOverText": "Over the years, adventurers and archaeologists have scoured Mongolia, driven by the allure of uncovering this ancient secret.",
+      "Description": "Explorers and archaeologists searching in the Mongolian steppes, with maps and historical clues.",
+      "Text": "Over the years, adventurers and archaeologists have scoured Mongolia, driven by the allure of uncovering this ancient secret."
     },
     {
       "SceneNumber": 4,
       "Duration": "8",
-      "VoiceOverText": "For decades, theories have swirled – was it a meteorite, a comet, or something more mysterious, a visitor from another world?",
-      "Description": "Animations depicting various theories, including a meteor, a comet, and an unidentified flying object.",
-      "Text": "For decades, theories have swirled – was it a meteorite, a comet, or something more mysterious, a visitor from another world?"
+      "VoiceOverText": "Modern technology, from satellite imaging to ground-penetrating radar, has renewed the hunt, yet the tomb remains shrouded in mystery.",
+      "Description": "Technological tools being used in the search, highlighting the blend of ancient legend and modern discovery.",
+      "Text": "Modern technology, from satellite imaging to ground-penetrating radar, has renewed the hunt, yet the tomb remains shrouded in mystery."
     },
     {
       "SceneNumber": 5,
       "Duration": "8",
-      "VoiceOverText": "Despite numerous expeditions, no impact crater has been found, deepening the intrigue of this Siberian enigma.",
-      "Description": "Explorers searching the Tunguska site, showing the vast, craterless landscape.",
-      "Text": "Despite numerous expeditions, no impact crater has been found, deepening the intrigue of this Siberian enigma."
+      "VoiceOverText": "The quest continues, a blend of history, legend, and the unending human desire to uncover the past's secrets.",
+      "Description": "A montage of the Mongolian landscape, historical artifacts, and explorers on their quest.",
+      "Text": "The quest continues, a blend of history, legend, and the unending human desire to uncover the past's secrets."
     },
     {
       "SceneNumber": 6,
       "Duration": "8",
-      "VoiceOverText": "Today, the Tunguska Event remains a captivating mystery, a testament to nature's unbridled power and the secrets she keeps.",
-      "Description": "Images of the serene Siberian forest, now recovered, with a hint of mystery in the air.",
-      "Text": "Today, the Tunguska Event remains a captivating mystery, a testament to nature's unbridled power and the secrets she keeps."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "8",
-      "VoiceOverText": "Stay curious and join us for more historical revelations. Like, share, and subscribe for more adventures into the unknown.",
-      "Description": "A call to action with visuals of other historical mysteries and phenomena, encouraging the viewer to stay engaged.",
-      "Text": "Stay curious and join us for more historical revelations. Like, share, and subscribe for more adventures into the unknown."
+      "VoiceOverText": "Join us in unraveling history's greatest tales. Like, share, and subscribe for more explorations into the unknown.",
+      "Description": "A call to action with visuals of other historical mysteries and the channel's logo.",
+      "Text": "Join us in unraveling history's greatest tales. Like, share, and subscribe for more explorations into the unknown."
     }
   ]
 }
