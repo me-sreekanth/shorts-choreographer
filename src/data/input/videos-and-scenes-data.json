@@ -1,55 +1,41 @@
 {
   "Title": "The Enigma of Hitler's Gold: The Lost Nazi Treasure",
-  "Description": "Dive deep into the shadowy tale of Hitler's Gold. Explore the controversies, including rumors of Vatican involvement, in this gripping story mode video. #HistoricalMysteries #HitlersGold #WWII #VaticanMystery",
+  "Description": "Discover the mystery of Hitler's Gold in this short video. Explore the controversies, including rumored Vatican involvement, in a journey through one of WWII's greatest unsolved enigmas. #HistoricalMysteries #HitlersGold #WWII #VaticanMystery",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "30",
-      "VoiceOverText": "Amidst the chaos of World War II, a mystery lingers - the fate of the Nazi's stolen gold. A fortune in gold bars, rumored to have vanished into the vortex of history. What dark secrets does this treasure hold?",
-      "Description": "Eerie WWII footage, glimpses of Nazi gold hoards, shadowy figures moving treasures.",
-      "Text": "Introduction: The haunting mystery of the Nazi gold."
+      "Duration": "12",
+      "VoiceOverText": "Amidst WWII's chaos, a legend emerges of the Nazi's stolen gold, rumored to be hidden or lost in time. Where did this immense treasure vanish?",
+      "Description": "Shadowy visuals of Nazi gold hoards, maps of Europe, and secretive movements.",
+      "Text": "Amidst WWII's chaos, a legend emerges of the Nazi's stolen gold, rumored to be hidden or lost in time. Where did this immense treasure vanish?"
     },
     {
       "SceneNumber": 2,
-      "Duration": "60",
-      "VoiceOverText": "Concealed from the world, the Nazis amassed a treasure trove from Europe's heart. But as their empire crumbled, the gold evaporated, sparking whispers of covert dealings and dark conspiracies. Did it end up in secret vaults, or fall into the hands of the unknown?",
-      "Description": "Scenes of gold and art being looted, secret meetings, and maps highlighting potential secret routes.",
-      "Text": "The accumulation and sudden disappearance of the Nazi gold."
+      "Duration": "12",
+      "VoiceOverText": "Conspiracies abound. Did the Vatican play a role? Was the gold used to forge new secrets, or does it lie forgotten in unknown vaults?",
+      "Description": "Images of the Vatican, mysterious meetings, and hidden vaults.",
+      "Text": "Conspiracies abound. Did the Vatican play a role? Was the gold used to forge new secrets, or does it lie forgotten in unknown vaults?"
     },
     {
       "SceneNumber": 3,
-      "Duration": "60",
-      "VoiceOverText": "One of the most riveting theories involves the Vatican. Allegations swirl of a secret pact, with the gold spirited away to the Vatican's sacred vaults for protection or dark purposes. Could the church hold the key to this age-old enigma?",
-      "Description": "Imagery of the Vatican, shadowy figures, and hidden vaults, suggesting a connection to the mystery.",
-      "Text": "Controversial theory: The Vatican's alleged involvement."
+      "Duration": "12",
+      "VoiceOverText": "Treasure hunters and historians still search, exploring lakes and fortresses, but the gold's fate remains shrouded in mystery.",
+      "Description": "Footage of explorers searching through ruins, and divers in lakes.",
+      "Text": "Treasure hunters and historians still search, exploring lakes and fortresses, but the gold's fate remains shrouded in mystery."
     },
     {
       "SceneNumber": 4,
-      "Duration": "60",
-      "VoiceOverText": "In the post-war chaos, treasure hunters, historians, and fortune seekers scoured the globe. Expeditions launched, diving into the depths of Austrian lakes, excavating Alpine fortresses, yet the golden hoard remained elusive. A treasure, or a ghost of the past?",
-      "Description": "Adventurers searching through ruins and diving in lakes, juxtaposed with empty vaults.",
-      "Text": "The global hunt for the elusive treasure."
+      "Duration": "12",
+      "VoiceOverText": "Hitler's gold, a blend of history and myth, continues to captivate and elude, a hidden chapter of a war that shaped our world.",
+      "Description": "Eerie scenes of hidden treasures, WWII archives, and shadowy figures.",
+      "Text": "Hitler's gold, a blend of history and myth, continues to captivate and elude, a hidden chapter of a war that shaped our world."
     },
     {
       "SceneNumber": 5,
-      "Duration": "60",
-      "VoiceOverText": "Today, the legend of Hitler's gold is a saga of greed and mystery. Did it fund secret Nazi escapes, forge new identities, or sit hidden under our very noses? The whispers of history beckon us to keep searching, to unravel the truth behind the gold.",
-      "Description": "Modern-day treasure hunters, archival photos of Nazis, and scenes suggesting hidden wealth in plain sight.",
-      "Text": "Modern mysteries and lasting legacy of the gold."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "30",
-      "VoiceOverText": "The saga of Hitler's gold is more than a treasure hunt; it's a journey through the shadows of history. A tale woven with secrets, where truth and myth dance in the dark. The quest for answers continues, and the mystery endures.",
-      "Description": "Mystical imagery of gold, shadowy figures, and historical documents, enveloped in a mysterious ambiance.",
-      "Text": "Conclusion: The enduring enigma of Hitler's gold."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "15",
-      "VoiceOverText": "Embark on more adventures into history's hidden corners. Like, share, and subscribe for a voyage into the unknown.",
-      "Description": "Footage of other historical mysteries, treasure maps, and the channel's logo.",
-      "Text": "Call to Action: Engage with more historical mysteries."
+      "Duration": "12",
+      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for a journey into the world's greatest mysteries.",
+      "Description": "A montage of other historical mysteries and the channel's call to action.",
+      "Text": "Dive into more historical secrets. Like, share, and subscribe for a journey into the world's greatest mysteries."
     }
   ]
 }
