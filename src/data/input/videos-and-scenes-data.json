@@ -1,41 +1,41 @@
 {
-  "Title": "The Enigma of Hitler's Gold: The Lost Nazi Treasure",
-  "Description": "Discover the mystery of Hitler's Gold in this short video. Explore the controversies, including rumored Vatican involvement, in a journey through one of WWII's greatest unsolved enigmas. #HistoricalMysteries #HitlersGold #WWII #VaticanMystery",
+  "Title": "The Mystery of the Dancing Plague of 1518",
+  "Description": "Explore the bizarre and unexplained Dancing Plague of 1518, where citizens of Strasbourg danced uncontrollably for days. Dive into this 60-second video unraveling one of history's strangest events. #HistoricalMysteries #DancingPlague #MedievalHistory #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "12",
-      "VoiceOverText": "Amidst WWII's chaos, a legend emerges of the Nazi's stolen gold, rumored to be hidden or lost in time. Where did this immense treasure vanish?",
-      "Description": "Shadowy visuals of Nazi gold hoards, maps of Europe, and secretive movements.",
-      "Text": "Amidst WWII's chaos, a legend emerges of the Nazi's stolen gold, rumored to be hidden or lost in time. Where did this immense treasure vanish?"
+      "VoiceOverText": "In 1518, Strasbourg witnessed a bizarre phenomenon: the Dancing Plague. Hundreds danced uncontrollably, gripped by an inexplicable frenzy.",
+      "Description": "Historical illustrations of people dancing in the streets of Strasbourg, with a sense of chaos and confusion.",
+      "Text": "In 1518, Strasbourg witnessed a bizarre phenomenon: the Dancing Plague. Hundreds danced uncontrollably, gripped by an inexplicable frenzy."
     },
     {
       "SceneNumber": 2,
       "Duration": "12",
-      "VoiceOverText": "Conspiracies abound. Did the Vatican play a role? Was the gold used to forge new secrets, or does it lie forgotten in unknown vaults?",
-      "Description": "Images of the Vatican, mysterious meetings, and hidden vaults.",
-      "Text": "Conspiracies abound. Did the Vatican play a role? Was the gold used to forge new secrets, or does it lie forgotten in unknown vaults?"
+      "VoiceOverText": "The afflicted danced for days without rest, and some even perished from exhaustion, strokes, or heart attacks.",
+      "Description": "Images of medieval dancers, some collapsing, with townsfolk looking on in bewilderment and fear.",
+      "Text": "The afflicted danced for days without rest, and some even perished from exhaustion, strokes, or heart attacks."
     },
     {
       "SceneNumber": 3,
       "Duration": "12",
-      "VoiceOverText": "Treasure hunters and historians still search, exploring lakes and fortresses, but the gold's fate remains shrouded in mystery.",
-      "Description": "Footage of explorers searching through ruins, and divers in lakes.",
-      "Text": "Treasure hunters and historians still search, exploring lakes and fortresses, but the gold's fate remains shrouded in mystery."
+      "VoiceOverText": "Historians have speculated causes from religious ecstasy to mass hysteria, yet the true reason remains a mystery.",
+      "Description": "Depictions of possible causes like religious ceremonies, and medical illustrations suggesting hysteria or illness.",
+      "Text": "Historians have speculated causes from religious ecstasy to mass hysteria, yet the true reason remains a mystery."
     },
     {
       "SceneNumber": 4,
       "Duration": "12",
-      "VoiceOverText": "Hitler's gold, a blend of history and myth, continues to captivate and elude, a hidden chapter of a war that shaped our world.",
-      "Description": "Eerie scenes of hidden treasures, WWII archives, and shadowy figures.",
-      "Text": "Hitler's gold, a blend of history and myth, continues to captivate and elude, a hidden chapter of a war that shaped our world."
+      "VoiceOverText": "Was it due to ergot poisoning from contaminated rye or a psychological response to extreme stress and hardship?",
+      "Description": "Illustrations of rye fields and ergot fungi, juxtaposed with scenes of medieval life and stress.",
+      "Text": "Was it due to ergot poisoning from contaminated rye or a psychological response to extreme stress and hardship?"
     },
     {
       "SceneNumber": 5,
       "Duration": "12",
-      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for a journey into the world's greatest mysteries.",
-      "Description": "A montage of other historical mysteries and the channel's call to action.",
-      "Text": "Dive into more historical secrets. Like, share, and subscribe for a journey into the world's greatest mysteries."
+      "VoiceOverText": "For more captivating history mysteries, ensure you like, share, and subscribe!",
+      "Description": "A montage of other historical mysteries and phenomena, inviting viewers to explore further.",
+      "Text": "For more captivating history mysteries, ensure you like, share, and subscribe!"
     }
   ]
 }
