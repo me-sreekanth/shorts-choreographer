@@ -1,41 +1,55 @@
 {
-  "Title": "The Riddle of the Sailing Stones in Death Valley",
-  "Description": "Unravel the mystery of the Sailing Stones in Death Valley, a natural phenomenon that has puzzled scientists for decades. In this short video, explore the mysterious movement of these rocks across the desert. #HistoricalMysteries #SailingStones #DeathValley #NaturalPhenomena",
+  "Title": "The Enigma of Hitler's Gold: The Lost Nazi Treasure",
+  "Description": "Dive deep into the shadowy tale of Hitler's Gold. Explore the controversies, including rumors of Vatican involvement, in this gripping story mode video. #HistoricalMysteries #HitlersGold #WWII #VaticanMystery",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "6",
-      "VoiceOverText": "In the harsh landscape of Death Valley, rocks mysteriously 'sail' across the dry lake bed, leaving trails behind them.",
-      "Description": "A view of the Death Valley showing the sailing stones with visible trails etched in the desert floor.",
-      "Text": "In the harsh landscape of Death Valley rocks mysteriously 'sail' across the dry lake bed leaving trails behind them"
+      "Duration": "30",
+      "VoiceOverText": "Amidst the chaos of World War II, a mystery lingers - the fate of the Nazi's stolen gold. A fortune in gold bars, rumored to have vanished into the vortex of history. What dark secrets does this treasure hold?",
+      "Description": "Eerie WWII footage, glimpses of Nazi gold hoards, shadowy figures moving treasures.",
+      "Text": "Introduction: The haunting mystery of the Nazi gold."
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "These stones, some weighing hundreds of pounds, move without human or animal intervention.",
-      "Description": "Close-up of the stones varying in size, focusing on the tracks indicating movement across the desert surface.",
-      "Text": "These stones some weighing hundreds of pounds move without human or animal intervention"
+      "Duration": "60",
+      "VoiceOverText": "Concealed from the world, the Nazis amassed a treasure trove from Europe's heart. But as their empire crumbled, the gold evaporated, sparking whispers of covert dealings and dark conspiracies. Did it end up in secret vaults, or fall into the hands of the unknown?",
+      "Description": "Scenes of gold and art being looted, secret meetings, and maps highlighting potential secret routes.",
+      "Text": "The accumulation and sudden disappearance of the Nazi gold."
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "Theories have ranged from magnetic fields to playful spirits, but the stones' secret remained hidden.",
-      "Description": "Illustrations showing various theories from scientific explanations like magnetic fields to more mystical ones.",
-      "Text": "Theories have ranged from magnetic fields to playful spirits but the stones' secret remained hidden"
+      "Duration": "60",
+      "VoiceOverText": "One of the most riveting theories involves the Vatican. Allegations swirl of a secret pact, with the gold spirited away to the Vatican's sacred vaults for protection or dark purposes. Could the church hold the key to this age-old enigma?",
+      "Description": "Imagery of the Vatican, shadowy figures, and hidden vaults, suggesting a connection to the mystery.",
+      "Text": "Controversial theory: The Vatican's alleged involvement."
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "Recent studies suggest a combination of ice, wind, and water might explain this enigmatic sliding of stones.",
-      "Description": "Scientific imagery of the environmental factors like ice formation and wind patterns contributing to the stones' movement.",
-      "Text": "Recent studies suggest a combination of ice wind and water might explain this enigmatic sliding of stones"
+      "Duration": "60",
+      "VoiceOverText": "In the post-war chaos, treasure hunters, historians, and fortune seekers scoured the globe. Expeditions launched, diving into the depths of Austrian lakes, excavating Alpine fortresses, yet the golden hoard remained elusive. A treasure, or a ghost of the past?",
+      "Description": "Adventurers searching through ruins and diving in lakes, juxtaposed with empty vaults.",
+      "Text": "The global hunt for the elusive treasure."
     },
     {
       "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "Join us for more intriguing natural mysteries. Like, share, and subscribe for a journey into our planet's wonders.",
-      "Description": "A call to action with images of other natural mysteries and phenomena, inviting viewers to explore more wonders of nature.",
-      "Text": "Join us for more intriguing natural mysteries Like share and subscribe for a journey into our planets wonders"
+      "Duration": "60",
+      "VoiceOverText": "Today, the legend of Hitler's gold is a saga of greed and mystery. Did it fund secret Nazi escapes, forge new identities, or sit hidden under our very noses? The whispers of history beckon us to keep searching, to unravel the truth behind the gold.",
+      "Description": "Modern-day treasure hunters, archival photos of Nazis, and scenes suggesting hidden wealth in plain sight.",
+      "Text": "Modern mysteries and lasting legacy of the gold."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "30",
+      "VoiceOverText": "The saga of Hitler's gold is more than a treasure hunt; it's a journey through the shadows of history. A tale woven with secrets, where truth and myth dance in the dark. The quest for answers continues, and the mystery endures.",
+      "Description": "Mystical imagery of gold, shadowy figures, and historical documents, enveloped in a mysterious ambiance.",
+      "Text": "Conclusion: The enduring enigma of Hitler's gold."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "15",
+      "VoiceOverText": "Embark on more adventures into history's hidden corners. Like, share, and subscribe for a voyage into the unknown.",
+      "Description": "Footage of other historical mysteries, treasure maps, and the channel's logo.",
+      "Text": "Call to Action: Engage with more historical mysteries."
     }
   ]
 }
