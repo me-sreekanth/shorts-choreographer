@@ -1,48 +1,41 @@
 {
-  "Title": "The Secret Tomb of Genghis Khan",
-  "Description": "Embark on a journey to uncover the secret behind Genghis Khan's final resting place. This video takes you through the legends, history, and modern quests to find the elusive tomb of one of history's greatest conquerors. #HistoricalMysteries #GenghisKhan #LostTombs #UnsolvedMysteries",
+  "Title": "The Lost Civilization of the Sahara",
+  "Description": "Journey into the vast Sahara Desert to uncover the secrets of a lost civilization. This video explores the remnants of a once thriving society, revealed through ancient rock art and ruins. #HistoricalMysteries #SaharaDesert #LostCivilizations #ArchaeologicalDiscoveries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "Genghis Khan, a name that echoes through history, left a final mystery - the location of his tomb, a secret that has eluded discovery for centuries.",
-      "Description": "Images of Genghis Khan and the Mongolian empire, setting a historical backdrop.",
-      "Text": "Genghis Khan, a name that echoes through history, left a final mystery - the location of his tomb, a secret that has eluded discovery for centuries."
+      "Duration": "10",
+      "VoiceOverText": "Beneath the endless sands of the Sahara lies a forgotten chapter of history: a once lush and thriving land, home to a mysterious lost civilization.",
+      "Description": "Aerial shots of the Sahara Desert, transitioning to lush landscapes indicating the past environment.",
+      "Text": "Beneath the endless sands of the Sahara lies a forgotten chapter of history: a once lush and thriving land, home to a mysterious lost civilization."
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "Legend says his burial site was concealed to protect it from enemies, with soldiers and horses sacrificed to keep it hidden.",
-      "Description": "Artistic representation of Genghis Khan's funeral procession and the alleged concealment of his tomb.",
-      "Text": "Legend says his burial site was concealed to protect it from enemies, with soldiers and horses sacrificed to keep it hidden."
+      "Duration": "10",
+      "VoiceOverText": "Ancient rock art scattered across the desert unveils tales of life before the sands, depicting animals and human activities now impossible in this arid expanse.",
+      "Description": "Close-ups of rock art in the Sahara, showing animals and scenes of ancient daily life.",
+      "Text": "Ancient rock art scattered across the desert unveils tales of life before the sands, depicting animals and human activities now impossible in this arid expanse."
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Over the years, adventurers and archaeologists have scoured Mongolia, driven by the allure of uncovering this ancient secret.",
-      "Description": "Explorers and archaeologists searching in the Mongolian steppes, with maps and historical clues.",
-      "Text": "Over the years, adventurers and archaeologists have scoured Mongolia, driven by the allure of uncovering this ancient secret."
+      "Duration": "10",
+      "VoiceOverText": "Archaeologists piece together the puzzle of this enigmatic society, uncovering artifacts that hint at complex social structures and cultural richness.",
+      "Description": "Archaeologists excavating in the desert, discovering pottery, tools, and other artifacts.",
+      "Text": "Archaeologists piece together the puzzle of this enigmatic society, uncovering artifacts that hint at complex social structures and cultural richness."
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Modern technology, from satellite imaging to ground-penetrating radar, has renewed the hunt, yet the tomb remains shrouded in mystery.",
-      "Description": "Technological tools being used in the search, highlighting the blend of ancient legend and modern discovery.",
-      "Text": "Modern technology, from satellite imaging to ground-penetrating radar, has renewed the hunt, yet the tomb remains shrouded in mystery."
+      "Duration": "10",
+      "VoiceOverText": "How did this verdant oasis transform into today's barren desert? Clues lie buried in the sands, telling a story of climatic shifts and human resilience.",
+      "Description": "Images showing the transition from green landscapes to desert, with geological layers representing climate change.",
+      "Text": "How did this verdant oasis transform into today's barren desert? Clues lie buried in the sands, telling a story of climatic shifts and human resilience."
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "The quest continues, a blend of history, legend, and the unending human desire to uncover the past's secrets.",
-      "Description": "A montage of the Mongolian landscape, historical artifacts, and explorers on their quest.",
-      "Text": "The quest continues, a blend of history, legend, and the unending human desire to uncover the past's secrets."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "8",
-      "VoiceOverText": "Join us in unraveling history's greatest tales. Like, share, and subscribe for more explorations into the unknown.",
-      "Description": "A call to action with visuals of other historical mysteries and the channel's logo.",
-      "Text": "Join us in unraveling history's greatest tales. Like, share, and subscribe for more explorations into the unknown."
+      "Duration": "10",
+      "VoiceOverText": "The Sahara's lost civilization invites us to explore its secrets. Join us for more historical adventures by liking, sharing, and subscribing.",
+      "Description": "Panoramic views of the Sahara Desert, intermixed with historical illustrations and a call to action.",
+      "Text": "The Sahara's lost civilization invites us to explore its secrets. Join us for more historical adventures by liking, sharing, and subscribing."
     }
   ]
 }
