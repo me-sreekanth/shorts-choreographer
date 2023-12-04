@@ -6,8 +6,14 @@ const { exec } = require("child_process");
 
 // Load your videos-and-scenes-data.json
 const videosAndScenes = require("../data/input/videos-and-scenes-data.json");
+const config = require("../data/input/config.json");
 
-const voiceID = "pNInz6obpgDQGcFmaJgB"; // Use the voice ID you choose
+const voiceID = config.voices.map((voice)=> {
+  if (voice.name === "Arnold") 
+  return voice.voice_id;
+else return "VR6AewLTigWG4xSOukaG"
+})[0];
+
 const apiKey = process.env.VOICEOVER_API_KEY; // Your API key is read from .env
 const outputDirectory = path.join(
   __dirname,
