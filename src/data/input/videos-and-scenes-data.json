@@ -1,41 +1,48 @@
 {
-  "Title": "The Lost Civilization of the Sahara",
-  "Description": "Journey into the vast Sahara Desert to uncover the secrets of a lost civilization. This video explores the remnants of a once thriving society, revealed through ancient rock art and ruins. #HistoricalMysteries #SaharaDesert #LostCivilizations #ArchaeologicalDiscoveries",
+  "Title": "The Disappearance of Flight MH370",
+  "Description": "Plunge into the baffling mystery of Malaysia Airlines Flight MH370, which vanished without a trace. This short video explores the theories and search efforts behind one of the most perplexing aviation mysteries of modern times. #HistoricalMysteries #FlightMH370 #AviationMystery #UnsolvedMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "10",
-      "VoiceOverText": "Beneath the endless sands of the Sahara lies a forgotten chapter of history: a once lush and thriving land, home to a mysterious lost civilization.",
-      "Description": "Aerial shots of the Sahara Desert, transitioning to lush landscapes indicating the past environment.",
-      "Text": "Beneath the endless sands of the Sahara lies a forgotten chapter of history: a once lush and thriving land, home to a mysterious lost civilization."
+      "VoiceOverText": "March 8, 2014, marked the beginning of one of aviation's greatest mysteries: Malaysia Airlines Flight MH370 disappeared from radar, sparking a global search.",
+      "Description": "Footage of MH370, air traffic radar screens, and news headlines about the disappearance.",
+      "Text": "March 8, 2014, marked the beginning of one of aviation's greatest mysteries: Malaysia Airlines Flight MH370 disappeared from radar, sparking a global search."
     },
     {
       "SceneNumber": 2,
       "Duration": "10",
-      "VoiceOverText": "Ancient rock art scattered across the desert unveils tales of life before the sands, depicting animals and human activities now impossible in this arid expanse.",
-      "Description": "Close-ups of rock art in the Sahara, showing animals and scenes of ancient daily life.",
-      "Text": "Ancient rock art scattered across the desert unveils tales of life before the sands, depicting animals and human activities now impossible in this arid expanse."
+      "VoiceOverText": "The Boeing 777, en route from Kuala Lumpur to Beijing, vanished with 239 people on board, leaving no distress signal, no debris, just silence.",
+      "Description": "Maps showing MH370's flight path, images of the plane, and the faces of passengers and crew.",
+      "Text": "The Boeing 777, en route from Kuala Lumpur to Beijing, vanished with 239 people on board, leaving no distress signal, no debris, just silence."
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Archaeologists piece together the puzzle of this enigmatic society, uncovering artifacts that hint at complex social structures and cultural richness.",
-      "Description": "Archaeologists excavating in the desert, discovering pottery, tools, and other artifacts.",
-      "Text": "Archaeologists piece together the puzzle of this enigmatic society, uncovering artifacts that hint at complex social structures and cultural richness."
+      "VoiceOverText": "Investigators and experts have proposed theories ranging from a catastrophic mechanical failure to a deliberate act, yet no definitive answers have been found.",
+      "Description": "Experts analyzing data, various proposed theories, and scenes of investigation teams.",
+      "Text": "Investigators and experts have proposed theories ranging from a catastrophic mechanical failure to a deliberate act, yet no definitive answers have been found."
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "How did this verdant oasis transform into today's barren desert? Clues lie buried in the sands, telling a story of climatic shifts and human resilience.",
-      "Description": "Images showing the transition from green landscapes to desert, with geological layers representing climate change.",
-      "Text": "How did this verdant oasis transform into today's barren desert? Clues lie buried in the sands, telling a story of climatic shifts and human resilience."
+      "VoiceOverText": "The extensive international search, one of the largest in history, spanned vast oceans but yielded few clues, deepening the enigma of MH370.",
+      "Description": "Ships and planes searching across oceans, maps highlighting the search areas, and underwater search imagery.",
+      "Text": "The extensive international search, one of the largest in history, spanned vast oceans but yielded few clues, deepening the enigma of MH370."
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "The Sahara's lost civilization invites us to explore its secrets. Join us for more historical adventures by liking, sharing, and subscribing.",
-      "Description": "Panoramic views of the Sahara Desert, intermixed with historical illustrations and a call to action.",
-      "Text": "The Sahara's lost civilization invites us to explore its secrets. Join us for more historical adventures by liking, sharing, and subscribing."
+      "VoiceOverText": "MH370's disappearance remains a heart-wrenching mystery, leaving families in limbo and the world in search of answers.",
+      "Description": "Photos of families of the missing passengers, vigils, and memorials.",
+      "Text": "MH370's disappearance remains a heart-wrenching mystery, leaving families in limbo and the world in search of answers."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "10",
+      "VoiceOverText": "Explore more of history's unsolved puzzles. Like, share, and subscribe for a journey through the unknown and unexplained.",
+      "Description": "A call to action with a montage of other historical mysteries and the channel's logo.",
+      "Text": "Explore more of history's unsolved puzzles. Like, share, and subscribe for a journey through the unknown and unexplained."
     }
   ]
 }
