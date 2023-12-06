@@ -90,8 +90,8 @@ const fetchStatus = async (process_id, scene) => {
       imageResponse.data.pipe(imageStream);
     }
 
-    console.log("fetchStatus :: ", response.data);
-    console.log("Result :: ", JSON.stringify(response.data.data.data.result));
+    // console.log("fetchStatus :: ", response.data);
+    // console.log("Result :: ", JSON.stringify(response.data.data.data.result));
   } catch (error) {
     console.error(error);
   }
