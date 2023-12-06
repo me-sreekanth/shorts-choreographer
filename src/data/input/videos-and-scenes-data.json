@@ -1,48 +1,41 @@
 {
-  "Title": "The Disappearance of Flight MH370",
-  "Description": "Plunge into the baffling mystery of Malaysia Airlines Flight MH370, which vanished without a trace. This short video explores the theories and search efforts behind one of the most perplexing aviation mysteries of modern times. #HistoricalMysteries #FlightMH370 #AviationMystery #UnsolvedMysteries",
+  "Title": "The Lost Cosmonauts Theory #shorts #short",
+  "Description": "Dive into the chilling Lost Cosmonauts Theory about secret USSR space missions. Uncover this space enigma in a quick, intriguing video. #LostCosmonauts #SpaceMystery #ColdWarSecrets",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "10",
-      "VoiceOverText": "March 8, 2014, marked the beginning of one of aviation's greatest mysteries: Malaysia Airlines Flight MH370 disappeared from radar, sparking a global search.",
-      "Description": "Footage of MH370, air traffic radar screens, and news headlines about the disappearance.",
-      "Text": "March 8, 2014, marked the beginning of one of aviation's greatest mysteries: Malaysia Airlines Flight MH370 disappeared from radar, sparking a global search."
+      "Duration": "8",
+      "VoiceOverText": "During the space race, a theory surfaced: did the USSR launch secret cosmonauts into space, never to be heard from again?",
+      "Description": "Images of the space race era, Soviet insignia, and early spacecraft.",
+      "Text": "During the space race, a theory surfaced: did the USSR launch secret cosmonauts into space, never to be heard from again?"
     },
     {
       "SceneNumber": 2,
-      "Duration": "10",
-      "VoiceOverText": "The Boeing 777, en route from Kuala Lumpur to Beijing, vanished with 239 people on board, leaving no distress signal, no debris, just silence.",
-      "Description": "Maps showing MH370's flight path, images of the plane, and the faces of passengers and crew.",
-      "Text": "The Boeing 777, en route from Kuala Lumpur to Beijing, vanished with 239 people on board, leaving no distress signal, no debris, just silence."
+      "Duration": "8",
+      "VoiceOverText": "Mysterious recordings and unexplained sightings fuel the speculation of these lost spacefarers.",
+      "Description": "Audio waveforms, shadowy images of cosmonauts, and radar screens.",
+      "Text": "Mysterious recordings and unexplained sightings fuel the speculation of these lost spacefarers."
     },
     {
       "SceneNumber": 3,
-      "Duration": "10",
-      "VoiceOverText": "Investigators and experts have proposed theories ranging from a catastrophic mechanical failure to a deliberate act, yet no definitive answers have been found.",
-      "Description": "Experts analyzing data, various proposed theories, and scenes of investigation teams.",
-      "Text": "Investigators and experts have proposed theories ranging from a catastrophic mechanical failure to a deliberate act, yet no definitive answers have been found."
+      "Duration": "8",
+      "VoiceOverText": "Critics are skeptical, but the gaps in Soviet records suggest the possibility of concealed tragedies in orbit.",
+      "Description": "Contrasting scenes of skeptical analysts and redacted Soviet documents.",
+      "Text": "Critics are skeptical, but the gaps in Soviet records suggest the possibility of concealed tragedies in orbit."
     },
     {
       "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "The extensive international search, one of the largest in history, spanned vast oceans but yielded few clues, deepening the enigma of MH370.",
-      "Description": "Ships and planes searching across oceans, maps highlighting the search areas, and underwater search imagery.",
-      "Text": "The extensive international search, one of the largest in history, spanned vast oceans but yielded few clues, deepening the enigma of MH370."
+      "Duration": "8",
+      "VoiceOverText": "Did some cosmonauts become unsung victims of the Cold War, lost to the vastness of space?",
+      "Description": "Eerie illustrations of astronauts in space, juxtaposed with Cold War imagery.",
+      "Text": "Did some cosmonauts become unsung victims of the Cold War, lost to the vastness of space?"
     },
     {
       "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "MH370's disappearance remains a heart-wrenching mystery, leaving families in limbo and the world in search of answers.",
-      "Description": "Photos of families of the missing passengers, vigils, and memorials.",
-      "Text": "MH370's disappearance remains a heart-wrenching mystery, leaving families in limbo and the world in search of answers."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "10",
-      "VoiceOverText": "Explore more of history's unsolved puzzles. Like, share, and subscribe for a journey through the unknown and unexplained.",
-      "Description": "A call to action with a montage of other historical mysteries and the channel's logo.",
-      "Text": "Explore more of history's unsolved puzzles. Like, share, and subscribe for a journey through the unknown and unexplained."
+      "Duration": "8",
+      "VoiceOverText": "Like, Share and Subscribe for more intriguing explorations into the unknown.",
+      "Description": "A call to action with visuals of other space and historical mysteries.",
+      "Text": "Like, Share and Subscribe for more intriguing explorations into the unknown."
     }
   ]
 }
