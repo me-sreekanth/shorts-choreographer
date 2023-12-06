@@ -1,41 +1,41 @@
 {
-  "Title": "The Lost Cosmonauts Theory #shorts #short",
-  "Description": "Dive into the chilling Lost Cosmonauts Theory about secret USSR space missions. Uncover this space enigma in a quick, intriguing video. #LostCosmonauts #SpaceMystery #ColdWarSecrets",
+  "Title": "The Nazca Lines Enigma #shorts #short",
+  "Description": "Fly over Peru's Nazca Lines and unravel their mystery. Who created them and why? Delve into this aerial enigma in a quick, enthralling video. #NazcaLines #PeruMystery #AncientCivilizations",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "During the space race, a theory surfaced: did the USSR launch secret cosmonauts into space, never to be heard from again?",
-      "Description": "Images of the space race era, Soviet insignia, and early spacecraft.",
-      "Text": "During the space race, a theory surfaced: did the USSR launch secret cosmonauts into space, never to be heard from again?"
+      "Duration": "10",
+      "VoiceOverText": "Imagine soaring above Peru and discovering vast, mysterious geoglyphs etched into the earth - welcome to the Nazca Lines.",
+      "Description": "Aerial views of the Nazca Lines, showing their immense scale and mysterious shapes.",
+      "Text": "Imagine soaring above Peru and discovering vast, mysterious geoglyphs etched into the earth - welcome to the Nazca Lines."
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "Mysterious recordings and unexplained sightings fuel the speculation of these lost spacefarers.",
-      "Description": "Audio waveforms, shadowy images of cosmonauts, and radar screens.",
-      "Text": "Mysterious recordings and unexplained sightings fuel the speculation of these lost spacefarers."
+      "Duration": "10",
+      "VoiceOverText": "Created over 2,000 years ago, these immense drawings range from animals to geometric shapes, visible only from the sky.",
+      "Description": "Zoomed-in views of various Nazca Lines, highlighting their intricate details and designs.",
+      "Text": "Created over 2,000 years ago, these immense drawings range from animals to geometric shapes, visible only from the sky."
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Critics are skeptical, but the gaps in Soviet records suggest the possibility of concealed tragedies in orbit.",
-      "Description": "Contrasting scenes of skeptical analysts and redacted Soviet documents.",
-      "Text": "Critics are skeptical, but the gaps in Soviet records suggest the possibility of concealed tragedies in orbit."
+      "Duration": "10",
+      "VoiceOverText": "Why did an ancient civilization craft such enormous artworks? A message to the gods, an astronomical calendar, or something else?",
+      "Description": "Illustrations of ancient people creating the lines, with celestial bodies in the background.",
+      "Text": "Why did an ancient civilization craft such enormous artworks? A message to the gods, an astronomical calendar, or something else?"
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Did some cosmonauts become unsung victims of the Cold War, lost to the vastness of space?",
-      "Description": "Eerie illustrations of astronauts in space, juxtaposed with Cold War imagery.",
-      "Text": "Did some cosmonauts become unsung victims of the Cold War, lost to the vastness of space?"
+      "Duration": "10",
+      "VoiceOverText": "Their true purpose remains a puzzle. Lost in time, these lines challenge us to think beyond, to marvel at the unknown.",
+      "Description": "Panoramic shots of the desert landscape with the lines, portraying a sense of mystery and timelessness.",
+      "Text": "Their true purpose remains a puzzle. Lost in time, these lines challenge us to think beyond, to marvel at the unknown."
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Like, Share and Subscribe for more intriguing explorations into the unknown.",
-      "Description": "A call to action with visuals of other space and historical mysteries.",
-      "Text": "Like, Share and Subscribe for more intriguing explorations into the unknown."
+      "Duration": "10",
+      "VoiceOverText": "Stay curious about our past. Like, share, and subscribe for more journeys into ancient mysteries.",
+      "Description": "A call to action, featuring other enigmatic historical sites and artifacts, encouraging viewers to explore further.",
+      "Text": "Stay curious about our past. Like, share, and subscribe for more journeys into ancient mysteries."
     }
   ]
 }
