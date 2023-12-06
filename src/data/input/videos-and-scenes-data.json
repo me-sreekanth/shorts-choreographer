@@ -1,41 +1,41 @@
 {
-  "Title": "Mystery of the Honeycomb Caves #shorts #short",
-  "Description": "Unearth the secrets of the Honeycomb Caves. Who carved these intricate caves and why? Join us for a quick delve into this ancient enigma. #HoneycombCaves #AncientMysteries #Archaeology",
+  "Title": "The Ghost Blimp Mystery #shorts #short",
+  "Description": "Delve into the enigma of the Ghost Blimp, a WWII airship that landed with no one onboard. Discover this aerial mystery in a brief, intriguing video. #GhostBlimp #WWIIMysteries #UnsolvedCases",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "10",
-      "VoiceOverText": "Hidden in the rugged landscapes are the Honeycomb Caves, an ancient marvel of countless, meticulously carved niches.",
-      "Description": "Scenic views of the landscapes with the intricate network of honeycomb-like caves.",
-      "Text": "Hidden in the rugged landscapes are the Honeycomb Caves, an ancient marvel of countless, meticulously carved niches."
+      "VoiceOverText": "August 1942, a U.S. Navy blimp fell from the skies over California, mysteriously void of its crew.",
+      "Description": "Footage of the blimp in the air, then descending eerily over California landscapes.",
+      "Text": "August 1942, a U.S. Navy blimp fell from the skies over California, mysteriously void of its crew."
     },
     {
       "SceneNumber": 2,
       "Duration": "10",
-      "VoiceOverText": "Created centuries ago, these caves spark wonder: were they sacred spaces, storerooms, or something more mysterious?",
-      "Description": "Close-ups of the caves' niches, showing their precision and depth.",
-      "Text": "Created centuries ago, these caves spark wonder: were they sacred spaces, storerooms, or something more mysterious?"
+      "VoiceOverText": "Dubbed the 'Ghost Blimp,' its crew vanished mid-mission, leaving behind a ship intact but eerily deserted.",
+      "Description": "Inside views of the empty blimp cockpit, with personal belongings left untouched.",
+      "Text": "Dubbed the 'Ghost Blimp,' its crew vanished mid-mission, leaving behind a ship intact but eerily deserted."
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Each niche tells a story, etched by ancient hands. Their true purpose, however, remains a whisper from the past.",
-      "Description": "Artistic depictions of ancient people carving the caves, with a sense of historical intrigue.",
-      "Text": "Each niche tells a story, etched by ancient hands. Their true purpose, however, remains a whisper from the past."
+      "VoiceOverText": "Did they fall to a tragic fate, or abandon ship for reasons unknown? Theories abound, but answers elude.",
+      "Description": "Images suggesting various theories, including open sea waters and mysterious figures.",
+      "Text": "Did they fall to a tragic fate, or abandon ship for reasons unknown? Theories abound, but answers elude."
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "The mystery of the Honeycomb Caves invites us to ponder and explore the enigmas left by our ancestors.",
-      "Description": "A blend of mystery and admiration, showing explorers and historians studying the caves.",
-      "Text": "The mystery of the Honeycomb Caves invites us to ponder and explore the enigmas left by our ancestors."
+      "VoiceOverText": "This wartime mystery endures, a haunting tale of an unsolved vanishing in the skies.",
+      "Description": "Newspaper headlines about the incident and scenes of search and investigation.",
+      "Text": "This wartime mystery endures, a haunting tale of an unsolved vanishing in the skies."
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "Embark on more historical adventures. Like, share, and subscribe for a glimpse into ancient secrets.",
-      "Description": "A call to action with visuals of other archaeological sites and mysteries, encouraging viewers' curiosity.",
-      "Text": "Embark on more historical adventures. Like, share, and subscribe for a glimpse into ancient secrets."
+      "VoiceOverText": "For more enigmatic stories, like, share, and subscribe. Join us in unraveling history's unsolved tales.",
+      "Description": "A call to action featuring other historical mysteries and the channel's logo.",
+      "Text": "For more enigmatic stories, like, share, and subscribe. Join us in unraveling history's unsolved tales."
     }
   ]
 }
