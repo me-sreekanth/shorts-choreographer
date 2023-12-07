@@ -1,41 +1,55 @@
 {
-  "Title": "The Ghost Fleet of Chuuk Lagoon #shorts #short",
-  "Description": "Uncover the sunken secrets of Chuuk Lagoon's Ghost Fleet, remnants of a fierce WWII battle. This brief video takes you beneath the waves into a hidden underwater war graveyard. #GhostFleet #ChuukLagoon #WWIIHistory #UnderwaterMysteries",
+  "Title": "The Stonehenge Mystery #shorts #short",
+  "Description": "Embark on a quick journey through the enigma of Stonehenge. Discover its ancient secrets and enduring mysteries in this engaging short video. #Stonehenge #AncientMysteries #Archaeology #HistoricalEnigmas",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "10",
-      "VoiceOverText": "Beneath the tranquil waters of Chuuk Lagoon lies a haunting relic of WWII: a sunken fleet of Japanese ships.",
-      "Description": "Aerial view of Chuuk Lagoon, transitioning to underwater scenes of the sunken ships.",
-      "Text": "Beneath the tranquil waters of Chuuk Lagoon lies a haunting relic of WWII: a sunken fleet of Japanese ships."
+      "Duration": "8",
+      "VoiceOverText": "Standing on Salisbury Plain, Stonehenge has intrigued minds for millennia - a circle of towering stones, a prehistoric enigma.",
+      "Description": "Panoramic view of Stonehenge in the golden hour, highlighting its grandeur and mystery.",
+      "Text": "Standing on Salisbury Plain, Stonehenge has intrigued minds for millennia - a circle of towering stones, a prehistoric enigma."
     },
     {
       "SceneNumber": 2,
-      "Duration": "10",
-      "VoiceOverText": "In 1944, Operation Hailstone turned these waters into a graveyard, entombing ships and their stories.",
-      "Description": "Historical footage of Operation Hailstone, showing planes attacking and ships sinking.",
-      "Text": "In 1944, Operation Hailstone turned these waters into a graveyard, entombing ships and their stories."
+      "Duration": "8",
+      "VoiceOverText": "Built by a civilization left without a written record, the monument's true purpose has been lost in the sands of time.",
+      "Description": "Artistic impressions of ancient builders at work, with Stonehenge in various stages of construction.",
+      "Text": "Built by a civilization left without a written record, the monument's true purpose has been lost in the sands of time."
     },
     {
       "SceneNumber": 3,
-      "Duration": "10",
-      "VoiceOverText": "Divers explore these eerie wrecks, a submerged museum of war, each vessel holding echoes of its past.",
-      "Description": "Divers swimming through the ghostly wrecks, with glimpses of encrusted artillery and ghostly corridors.",
-      "Text": "Divers explore these eerie wrecks, a submerged museum of war, each vessel holding echoes of its past."
+      "Duration": "8",
+      "VoiceOverText": "Some theories suggest it was a temple for sun worship, aligned with the solstices, a place where earth and heaven meet.",
+      "Description": "Scenes depicting solstice alignments and ancient ceremonies at Stonehenge.",
+      "Text": "Some theories suggest it was a temple for sun worship, aligned with the solstices, a place where earth and heaven meet."
     },
     {
       "SceneNumber": 4,
-      "Duration": "10",
-      "VoiceOverText": "This underwater sanctuary reveals tragic tales of conflict, a time capsule of history lying in the deep.",
-      "Description": "Images of marine life around the wreckage, juxtaposed with historical photos of the ships' former glory.",
-      "Text": "This underwater sanctuary reveals tragic tales of conflict, a time capsule of history lying in the deep."
+      "Duration": "8",
+      "VoiceOverText": "Others believe it was a grand burial site, a passage to the afterlife, with human remains found in nearby burial mounds.",
+      "Description": "Archaeological digs around Stonehenge, showcasing human remains and burial artifacts.",
+      "Text": "Others believe it was a grand burial site, a passage to the afterlife, with human remains found in nearby burial mounds."
     },
     {
       "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for a journey into the depths of the past.",
-      "Description": "A call to action, featuring other historical and underwater exploration themes.",
-      "Text": "Dive into more historical secrets. Like, share, and subscribe for a journey into the depths of the past."
+      "Duration": "8",
+      "VoiceOverText": "Recent discoveries reveal a complex landscape of shrines and ceremonial paths, suggesting a vast sacred area.",
+      "Description": "Aerial scans and digital reconstructions of the Stonehenge landscape, revealing hidden structures.",
+      "Text": "Recent discoveries reveal a complex landscape of shrines and ceremonial paths, suggesting a vast sacred area."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "8",
+      "VoiceOverText": "The stones of Stonehenge continue to guard their secrets, a timeless monument to human ingenuity and mystery.",
+      "Description": "Dramatic imagery of Stonehenge against the backdrop of a starry sky, evoking a sense of mystery.",
+      "Text": "The stones of Stonehenge continue to guard their secrets, a timeless monument to human ingenuity and mystery."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "8",
+      "VoiceOverText": "Dive into more ancient enigmas. Like, share, and subscribe for intriguing explorations into the past's mysteries.",
+      "Description": "A montage of other historical mysteries and archaeological sites, with a call to action for the viewers.",
+      "Text": "Dive into more ancient enigmas. Like, share, and subscribe for intriguing explorations into the past's mysteries."
     }
   ]
 }
