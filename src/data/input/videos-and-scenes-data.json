@@ -1,41 +1,41 @@
 {
-  "Title": "The Ghost Blimp Mystery #shorts #short",
-  "Description": "Delve into the enigma of the Ghost Blimp, a WWII airship that landed with no one onboard. Discover this aerial mystery in a brief, intriguing video. #GhostBlimp #WWIIMysteries #UnsolvedCases",
+  "Title": "The Ghost Fleet of Chuuk Lagoon #shorts #short",
+  "Description": "Uncover the sunken secrets of Chuuk Lagoon's Ghost Fleet, remnants of a fierce WWII battle. This brief video takes you beneath the waves into a hidden underwater war graveyard. #GhostFleet #ChuukLagoon #WWIIHistory #UnderwaterMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "10",
-      "VoiceOverText": "August 1942, a U.S. Navy blimp fell from the skies over California, mysteriously void of its crew.",
-      "Description": "Footage of the blimp in the air, then descending eerily over California landscapes.",
-      "Text": "August 1942, a U.S. Navy blimp fell from the skies over California, mysteriously void of its crew."
+      "VoiceOverText": "Beneath the tranquil waters of Chuuk Lagoon lies a haunting relic of WWII: a sunken fleet of Japanese ships.",
+      "Description": "Aerial view of Chuuk Lagoon, transitioning to underwater scenes of the sunken ships.",
+      "Text": "Beneath the tranquil waters of Chuuk Lagoon lies a haunting relic of WWII: a sunken fleet of Japanese ships."
     },
     {
       "SceneNumber": 2,
       "Duration": "10",
-      "VoiceOverText": "Dubbed the 'Ghost Blimp,' its crew vanished mid-mission, leaving behind a ship intact but eerily deserted.",
-      "Description": "Inside views of the empty blimp cockpit, with personal belongings left untouched.",
-      "Text": "Dubbed the 'Ghost Blimp,' its crew vanished mid-mission, leaving behind a ship intact but eerily deserted."
+      "VoiceOverText": "In 1944, Operation Hailstone turned these waters into a graveyard, entombing ships and their stories.",
+      "Description": "Historical footage of Operation Hailstone, showing planes attacking and ships sinking.",
+      "Text": "In 1944, Operation Hailstone turned these waters into a graveyard, entombing ships and their stories."
     },
     {
       "SceneNumber": 3,
       "Duration": "10",
-      "VoiceOverText": "Did they fall to a tragic fate, or abandon ship for reasons unknown? Theories abound, but answers elude.",
-      "Description": "Images suggesting various theories, including open sea waters and mysterious figures.",
-      "Text": "Did they fall to a tragic fate, or abandon ship for reasons unknown? Theories abound, but answers elude."
+      "VoiceOverText": "Divers explore these eerie wrecks, a submerged museum of war, each vessel holding echoes of its past.",
+      "Description": "Divers swimming through the ghostly wrecks, with glimpses of encrusted artillery and ghostly corridors.",
+      "Text": "Divers explore these eerie wrecks, a submerged museum of war, each vessel holding echoes of its past."
     },
     {
       "SceneNumber": 4,
       "Duration": "10",
-      "VoiceOverText": "This wartime mystery endures, a haunting tale of an unsolved vanishing in the skies.",
-      "Description": "Newspaper headlines about the incident and scenes of search and investigation.",
-      "Text": "This wartime mystery endures, a haunting tale of an unsolved vanishing in the skies."
+      "VoiceOverText": "This underwater sanctuary reveals tragic tales of conflict, a time capsule of history lying in the deep.",
+      "Description": "Images of marine life around the wreckage, juxtaposed with historical photos of the ships' former glory.",
+      "Text": "This underwater sanctuary reveals tragic tales of conflict, a time capsule of history lying in the deep."
     },
     {
       "SceneNumber": 5,
       "Duration": "10",
-      "VoiceOverText": "For more enigmatic stories, like, share, and subscribe. Join us in unraveling history's unsolved tales.",
-      "Description": "A call to action featuring other historical mysteries and the channel's logo.",
-      "Text": "For more enigmatic stories, like, share, and subscribe. Join us in unraveling history's unsolved tales."
+      "VoiceOverText": "Dive into more historical secrets. Like, share, and subscribe for a journey into the depths of the past.",
+      "Description": "A call to action, featuring other historical and underwater exploration themes.",
+      "Text": "Dive into more historical secrets. Like, share, and subscribe for a journey into the depths of the past."
     }
   ]
 }
