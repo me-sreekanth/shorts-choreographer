@@ -1,41 +1,62 @@
 {
-  "Title": "The Vanished City of Zerzura #shorts #short",
-  "Description": "Embark on a quest to uncover the Vanished City of Zerzura, a legendary oasis lost in the Sahara. Delve into this desert mystery in a swift, mesmerizing video. #Zerzura #LostCities #DesertMysteries #HistoricalEnigmas",
+  "Title": "The Mystical Teachings of Dattatreya #shorts #short",
+  "Description": "Explore the enigmatic teachings of Dattatreya, a revered sage in Indian spirituality. Discover the ancient wisdom that has influenced countless seekers. #Dattatreya #SpiritualWisdom #IndianMysticism #AncientTeachings",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "In the vast Sahara, legends whisper of Zerzura, a city of untold riches, hidden behind walls of white.",
-      "Description": "Panoramic views of the Sahara Desert, transitioning to ancient illustrations depicting Zerzura.",
-      "Text": "In the vast Sahara, legends whisper of Zerzura, a city of untold riches, hidden behind walls of white."
+      "Duration": "5",
+      "VoiceOverText": "Do you know that there is a mysterious book from ancient India, whose author is a non-human entity?",
+      "Description": "Images of ancient Indian scriptures and a mystical figure representing Dattatreya.",
+      "Text": "Do you know that there is a mysterious book from ancient India, whose author is a non-human entity?"
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "Mentioned in ancient texts and travelers' tales, Zerzura tantalized explorers for centuries with its promise of treasure.",
-      "Description": "Scrolls and old maps showing Zerzura, interspersed with imagery of explorers searching the desert.",
-      "Text": "Mentioned in ancient texts and travelers' tales, Zerzura tantalized explorers for centuries with its promise of treasure."
+      "Duration": "5",
+      "VoiceOverText": "This book, known as the 'Song of the Free Soul' or 'Avadhuta Gita,' offers profound spiritual insights.",
+      "Description": "Visuals of the 'Avadhuta Gita,' with Sanskrit verses and translations.",
+      "Text": "This book, known as the 'Song of the Free Soul' or 'Avadhuta Gita,' offers profound spiritual insights."
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Some say it's a mirage, a myth; others believe it's a real city swallowed by the sands, waiting to be found.",
-      "Description": "Contrasting images of a mirage in the desert and hidden ruins beneath the sand.",
-      "Text": "Some say it's a mirage, a myth; others believe it's a real city swallowed by the sands, waiting to be found."
+      "Duration": "5",
+      "VoiceOverText": "It has influenced various ancient traditions, including the Nath tradition, known for its mystical practices.",
+      "Description": "Artwork depicting the Nath tradition practitioners and their spiritual practices.",
+      "Text": "It has influenced various ancient traditions, including the Nath tradition, known for its mystical practices."
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Could this be the remnants of an ancient civilization, or merely a fable born from the desert's unforgiving climes?",
-      "Description": "Faded ruins half-buried in the sand, juxtaposed with desert landscapes.",
-      "Text": "Could this be the remnants of an ancient civilization, or merely a fable born from the desert's unforgiving climes?"
+      "Duration": "5",
+      "VoiceOverText": "The Naths revere Lord Shiva as their first teacher, embracing a path that combines yoga and warrior disciplines.",
+      "Description": "Images of Lord Shiva and Nath yogis practicing rigorous spiritual disciplines.",
+      "Text": "The Naths revere Lord Shiva as their first teacher, embracing a path that combines yoga and warrior disciplines."
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Join us for more enigmatic discoveries. Like, share, and subscribe for intriguing journeys into the unknown.",
-      "Description": "A montage of other mysterious locations and a call to action for the viewers.",
-      "Text": "Join us for more enigmatic discoveries. Like, share, and subscribe for intriguing journeys into the unknown."
+      "Duration": "5",
+      "VoiceOverText": "Amidst historical upheavals, the Naths stood as warrior ascetics, safeguarding their spiritual heritage and teachings.",
+      "Description": "Scenes of Naths training and engaging in spiritual battles during historical upheavals.",
+      "Text": "Amidst historical upheavals, the Naths stood as warrior ascetics, safeguarding their spiritual heritage and teachings."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "5",
+      "VoiceOverText": "The 'Avadhuta Gita' remains a key text for them, promising immediate liberation of the soul through its wisdom.",
+      "Description": "Close-ups of the 'Avadhuta Gita' pages and Naths studying the text.",
+      "Text": "The 'Avadhuta Gita' remains a key text for them, promising immediate liberation of the soul through its wisdom."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "5",
+      "VoiceOverText": "Attributed to sage Dattatreya, revered for his profound knowledge and mastery of Tantra, he still inspires spiritual seekers.",
+      "Description": "Depictions of sage Dattatreya, with symbols of Tantra and spiritual illumination.",
+      "Text": "Attributed to sage Dattatreya, revered for his profound knowledge and mastery of Tantra, he still inspires spiritual seekers."
+    },
+    {
+      "SceneNumber": 8,
+      "Duration": "5",
+      "VoiceOverText": "Follow us for more mystical journeys. Like, share, and subscribe for insights into ancient wisdom.",
+      "Description": "A call to action with visuals of other spiritual teachings and the channel's logo.",
+      "Text": "Follow us for more mystical journeys. Like, share, and subscribe for insights into ancient wisdom."
     }
   ]
 }
