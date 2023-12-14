@@ -1,6 +1,9 @@
 import os
 import subprocess
 import sys
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Get the path of the audio file from the command line arguments
 if len(sys.argv) != 2:
@@ -9,8 +12,11 @@ if len(sys.argv) != 2:
 
 audio_file = sys.argv[1]
 
+logging.info("Starting Python Script Execution")
+
 # Load the audio file using FFmpeg
 def load_audio(audio_file):
+    logging.info(f"Loading audio file: {audio_file}")
     cmd = [
         "ffmpeg",
         "-i", audio_file,
@@ -25,7 +31,10 @@ def load_audio(audio_file):
         out = subprocess.run(cmd, capture_output=True, check=True, text=True)
         return out.stdout
     except subprocess.CalledProcessError as e:
+        logging.error(f"Failed to load audio: {e.stderr}")
         raise RuntimeError(f"Failed to load audio: {e.stderr}") from e
+
+logging.info("Python Script Execution Completed")
 
 # Load the audio
 audio = load_audio(audio_file)

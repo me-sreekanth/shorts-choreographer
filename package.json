@@ -8,6 +8,7 @@
     "cleanAssets": "chmod +x src/ai-generator/cleanAssests.sh && ./src/ai-generator/cleanAssests.sh",
     "generateShorts": "node ./src/ai-generator/index.js",
     "generateVideoTranscription": "node ./src/video-transcriber/index.js",
+    "createTranscription": "node ./src/ai-generator/createTranscription.js",
     "installDependencies": "chmod +x src/scripts/install_dependencies.sh && ./src/scripts/install_dependencies.sh"
   },
   "keywords": [],
