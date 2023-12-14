@@ -1,55 +1,14 @@
 {
-  "Title": "The Stonehenge Mystery #shorts #short",
-  "Description": "Embark on a quick journey through the enigma of Stonehenge. Discover its ancient secrets and enduring mysteries in this engaging short video. #Stonehenge #AncientMysteries #Archaeology #HistoricalEnigmas",
+  "Title": "The Secret City of Shambhala #shorts #short",
+  "Description": "Journey into the myth of Shambhala, a hidden city mentioned in ancient texts. Is it a real place or a spiritual dimension? Explore this enigma in a fascinating short video. #Shambhala #MysticalCities #AncientMysteries #SpiritualDimensions",
   "Scenes": [
-    {
-      "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "Standing on Salisbury Plain, Stonehenge has intrigued minds for millennia - a circle of towering stones, a prehistoric enigma.",
-      "Description": "Panoramic view of Stonehenge in the golden hour, highlighting its grandeur and mystery.",
-      "Text": "Standing on Salisbury Plain, Stonehenge has intrigued minds for millennia - a circle of towering stones, a prehistoric enigma."
-    },
+
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "Built by a civilization left without a written record, the monument's true purpose has been lost in the sands of time.",
-      "Description": "Artistic impressions of ancient builders at work, with Stonehenge in various stages of construction.",
-      "Text": "Built by a civilization left without a written record, the monument's true purpose has been lost in the sands of time."
-    },
-    {
-      "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Some theories suggest it was a temple for sun worship, aligned with the solstices, a place where earth and heaven meet.",
-      "Description": "Scenes depicting solstice alignments and ancient ceremonies at Stonehenge.",
-      "Text": "Some theories suggest it was a temple for sun worship, aligned with the solstices, a place where earth and heaven meet."
-    },
-    {
-      "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Others believe it was a grand burial site, a passage to the afterlife, with human remains found in nearby burial mounds.",
-      "Description": "Archaeological digs around Stonehenge, showcasing human remains and burial artifacts.",
-      "Text": "Others believe it was a grand burial site, a passage to the afterlife, with human remains found in nearby burial mounds."
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Recent discoveries reveal a complex landscape of shrines and ceremonial paths, suggesting a vast sacred area.",
-      "Description": "Aerial scans and digital reconstructions of the Stonehenge landscape, revealing hidden structures.",
-      "Text": "Recent discoveries reveal a complex landscape of shrines and ceremonial paths, suggesting a vast sacred area."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "8",
-      "VoiceOverText": "The stones of Stonehenge continue to guard their secrets, a timeless monument to human ingenuity and mystery.",
-      "Description": "Dramatic imagery of Stonehenge against the backdrop of a starry sky, evoking a sense of mystery.",
-      "Text": "The stones of Stonehenge continue to guard their secrets, a timeless monument to human ingenuity and mystery."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "8",
-      "VoiceOverText": "Dive into more ancient enigmas. Like, share, and subscribe for intriguing explorations into the past's mysteries.",
-      "Description": "A montage of other historical mysteries and archaeological sites, with a call to action for the viewers.",
-      "Text": "Dive into more ancient enigmas. Like, share, and subscribe for intriguing explorations into the past's mysteries."
+      "Duration": "4",
+      "VoiceOverText": "The name of this civilization is mentioned in various ancient writings all over the world.",
+      "Description": "Scrolls, manuscripts, and ancient texts with references to a hidden city.",
+      "Text": "The name of this civilization is mentioned in various ancient writings all over the world."
     }
   ]
 }
