@@ -65,7 +65,7 @@ def transcribe(audio_path=AUDIO_PATH, output_file_path=OUTPUT_ASS_PATH):
                 start_time = format_time(current_time)
                 current_time += time_per_word * len(selected_words)
                 end_time = format_time(current_time)
-                subtitle_text = " ".join(selected_words)
+                subtitle_text = " ".join(selected_words).upper()  # Convert to uppercase
                 color = random_color()
                 subtitle_line = f"Dialogue: 0,{start_time},{end_time},Default,,0000,0000,0000,,{{\\1c{color}}}{subtitle_text}\n"
                 file.write(subtitle_line)

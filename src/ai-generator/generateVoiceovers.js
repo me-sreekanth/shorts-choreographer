@@ -8,10 +8,9 @@ const { exec } = require("child_process");
 const videosAndScenes = require("../data/input/videos-and-scenes-data.json");
 const config = require("../data/input/config.json");
 
-const voiceID = config.voices.map((voice)=> {
-  if (voice.name === "Adam") 
-  return voice.voice_id;
-else return "VR6AewLTigWG4xSOukaG"
+const voiceID = config.voices.map((voice) => {
+  if (voice.name === "Adam") return voice.voice_id;
+  else return "pNInz6obpgDQGcFmaJgB";
 })[0];
 
 const apiKey = process.env.VOICEOVER_API_KEY; // Your API key is read from .env

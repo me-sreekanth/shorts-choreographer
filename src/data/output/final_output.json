@@ -4,59 +4,80 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "6",
-            "VoiceOverText": " What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?",
+            "Duration": "5",
+            "VoiceOverText": " Do you know that there is a mysterious book from ancient India, whose author is in non-human entity?",
             "Description": "",
-            "Text": " What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?"
+            "Text": " Do you know that there is a mysterious book from ancient India, whose author is in non-human entity?"
         },
         {
             "SceneNumber": 2,
             "Duration": "4",
-            "VoiceOverText": " The name of this civilization is mentioned in various ancient writings all over the world",
+            "VoiceOverText": " The book is famously known as the Song of the Free Soul or the Avatar to Geeta.",
             "Description": "",
-            "Text": " The name of this civilization is mentioned in various ancient writings all over the world"
+            "Text": " The book is famously known as the Song of the Free Soul or the Avatar to Geeta."
         },
         {
             "SceneNumber": 3,
-            "Duration": "6",
-            "VoiceOverText": " Many have gone in search for this civilization and some have never returned the name of that place where this civilization",
+            "Duration": "4",
+            "VoiceOverText": " It has single-handedly influenced multiple ancient traditions, including the Nath tradition.",
             "Description": "",
-            "Text": " Many have gone in search for this civilization and some have never returned the name of that place where this civilization"
+            "Text": " It has single-handedly influenced multiple ancient traditions, including the Nath tradition."
         },
         {
             "SceneNumber": 4,
-            "Duration": "6",
-            "VoiceOverText": " Exists is Shambhalla or the city of peace there exist multiple ancient maps which claim to guide you to Shambhalla",
+            "Duration": "5",
+            "VoiceOverText": " The followers of the Nath tradition consider Lord Shiva as their first teacher or adiguru.",
             "Description": "",
-            "Text": " Exists is Shambhalla or the city of peace there exist multiple ancient maps which claim to guide you to Shambhalla"
+            "Text": " The followers of the Nath tradition consider Lord Shiva as their first teacher or adiguru."
         },
         {
             "SceneNumber": 5,
-            "Duration": "4",
-            "VoiceOverText": " But to decode these cryptic maps a person has to be well developed both mentally",
+            "Duration": "5",
+            "VoiceOverText": " The Naths are famous for employing half yoga to master their physical bodies and achieve a superhuman",
             "Description": "",
-            "Text": " But to decode these cryptic maps a person has to be well developed both mentally"
+            "Text": " The Naths are famous for employing half yoga to master their physical bodies and achieve a superhuman"
         },
         {
             "SceneNumber": 6,
-            "Duration": "7",
-            "VoiceOverText": " and spiritually many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance",
+            "Duration": "5",
+            "VoiceOverText": " level of development. When Islamic rulers were taking over various parts of the Southeast Asia,",
             "Description": "",
-            "Text": " and spiritually many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance"
+            "Text": " level of development. When Islamic rulers were taking over various parts of the Southeast Asia,"
         },
         {
             "SceneNumber": 7,
-            "Duration": "8",
-            "VoiceOverText": " But looking from a spiritual perspective the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension",
+            "Duration": "4",
+            "VoiceOverText": " the Naths at his took weapons and defended their culture. That's why they are also known as the",
             "Description": "",
-            "Text": " But looking from a spiritual perspective the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension"
+            "Text": " the Naths at his took weapons and defended their culture. That's why they are also known as the"
         },
         {
             "SceneNumber": 8,
-            "Duration": "7",
-            "VoiceOverText": " Which can only be accessed by powerful spiritual beings. So what do you think? Does this city really exist?",
+            "Duration": "5",
+            "VoiceOverText": " warrior aesthetics. And the Avidyudha Geeta has been one of their primary texts which promises to",
             "Description": "",
-            "Text": " Which can only be accessed by powerful spiritual beings. So what do you think? Does this city really exist?"
+            "Text": " warrior aesthetics. And the Avidyudha Geeta has been one of their primary texts which promises to"
+        },
+        {
+            "SceneNumber": 9,
+            "Duration": "4",
+            "VoiceOverText": " guide the soul to immediate freedom. Researchers think that this powerful book was written by a being",
+            "Description": "",
+            "Text": " guide the soul to immediate freedom. Researchers think that this powerful book was written by a being"
+        },
+        {
+            "SceneNumber": 10,
+            "Duration": "6",
+            "VoiceOverText": " named Dattatria. He is still worshiped to this day and he is revered for his love for sharing knowledge.",
+            "Description": "",
+            "Text": " named Dattatria. He is still worshiped to this day and he is revered for his love for sharing knowledge."
+        },
+        {
+            "SceneNumber": 11,
+            "Duration": "5",
+            "VoiceOverText": " He was also the master of Tantra, the secret knowledge of gaining mastery over universal forces.",
+            "Description": "",
+            "Text": " He was also the master of Tantra, the secret knowledge of gaining mastery over universal forces."
         }
     ]
 }
