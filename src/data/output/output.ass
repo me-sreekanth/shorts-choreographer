@@ -11,58 +11,121 @@ Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.86,Default,,0000,0000,0000,,{\1c&H00FFFFFF}August 1942,
-Dialogue: 0,00:00:00.86,00:00:01.30,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a
-Dialogue: 0,00:00:01.30,00:00:01.73,Default,,0000,0000,0000,,{\1c&H000000FF}US
-Dialogue: 0,00:00:01.73,00:00:02.16,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Navy
-Dialogue: 0,00:00:02.16,00:00:02.60,Default,,0000,0000,0000,,{\1c&H000000FF}blimp
-Dialogue: 0,00:00:02.60,00:00:03.03,Default,,0000,0000,0000,,{\1c&H0000FFFF}fell
-Dialogue: 0,00:00:03.03,00:00:03.90,Default,,0000,0000,0000,,{\1c&H000000FF}from the
-Dialogue: 0,00:00:03.90,00:00:04.76,Default,,0000,0000,0000,,{\1c&H000000FF}skies over
-Dialogue: 0,00:00:04.76,00:00:05.20,Default,,0000,0000,0000,,{\1c&H0000FFFF}California,
-Dialogue: 0,00:00:05.20,00:00:06.51,Default,,0000,0000,0000,,{\1c&H0000FFFF}mysteriously void
-Dialogue: 0,00:00:06.51,00:00:07.16,Default,,0000,0000,0000,,{\1c&H0000FFFF}of
-Dialogue: 0,00:00:07.16,00:00:08.48,Default,,0000,0000,0000,,{\1c&H0000FFFF}its crew.
-Dialogue: 0,00:00:08.48,00:00:09.33,Default,,0000,0000,0000,,{\1c&H0000FFFF}Dubbed the
-Dialogue: 0,00:00:09.33,00:00:10.17,Default,,0000,0000,0000,,{\1c&H0000FFFF}Ghost Blimp,
-Dialogue: 0,00:00:10.17,00:00:11.02,Default,,0000,0000,0000,,{\1c&H000000FF}its crew
-Dialogue: 0,00:00:11.02,00:00:11.87,Default,,0000,0000,0000,,{\1c&H0000FFFF}vanished mid-mission,
-Dialogue: 0,00:00:11.88,00:00:12.88,Default,,0000,0000,0000,,{\1c&H00FFFFFF}leaving behind
-Dialogue: 0,00:00:12.88,00:00:13.88,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a ship
-Dialogue: 0,00:00:13.88,00:00:14.38,Default,,0000,0000,0000,,{\1c&H0000FFFF}intact
-Dialogue: 0,00:00:14.38,00:00:14.88,Default,,0000,0000,0000,,{\1c&H000000FF}but
-Dialogue: 0,00:00:14.88,00:00:15.38,Default,,0000,0000,0000,,{\1c&H00FFFFFF}eerily
-Dialogue: 0,00:00:15.38,00:00:15.88,Default,,0000,0000,0000,,{\1c&H0000FFFF}deserted.
-Dialogue: 0,00:00:15.88,00:00:16.20,Default,,0000,0000,0000,,{\1c&H0000FFFF}Did
-Dialogue: 0,00:00:16.20,00:00:16.84,Default,,0000,0000,0000,,{\1c&H000000FF}they fall
-Dialogue: 0,00:00:16.84,00:00:17.49,Default,,0000,0000,0000,,{\1c&H0000FFFF}to a
-Dialogue: 0,00:00:17.49,00:00:17.81,Default,,0000,0000,0000,,{\1c&H000000FF}tragic
-Dialogue: 0,00:00:17.81,00:00:18.14,Default,,0000,0000,0000,,{\1c&H00FFFFFF}fate
-Dialogue: 0,00:00:18.14,00:00:18.46,Default,,0000,0000,0000,,{\1c&H0000FFFF}or
-Dialogue: 0,00:00:18.46,00:00:18.78,Default,,0000,0000,0000,,{\1c&H00FFFFFF}abandon
-Dialogue: 0,00:00:18.78,00:00:19.11,Default,,0000,0000,0000,,{\1c&H000000FF}ship
-Dialogue: 0,00:00:19.11,00:00:19.75,Default,,0000,0000,0000,,{\1c&H0000FFFF}for reasons
-Dialogue: 0,00:00:19.75,00:00:20.07,Default,,0000,0000,0000,,{\1c&H00FFFFFF}unknown?
-Dialogue: 0,00:00:20.08,00:00:20.76,Default,,0000,0000,0000,,{\1c&H0000FFFF}Theories
-Dialogue: 0,00:00:20.76,00:00:21.44,Default,,0000,0000,0000,,{\1c&H00FFFFFF}abound,
-Dialogue: 0,00:00:21.44,00:00:22.12,Default,,0000,0000,0000,,{\1c&H00FFFFFF}but
-Dialogue: 0,00:00:22.12,00:00:22.80,Default,,0000,0000,0000,,{\1c&H00FFFFFF}answers
-Dialogue: 0,00:00:22.80,00:00:23.48,Default,,0000,0000,0000,,{\1c&H00FFFFFF}allude.
-Dialogue: 0,00:00:23.48,00:00:24.41,Default,,0000,0000,0000,,{\1c&H00FFFFFF}This wartime
-Dialogue: 0,00:00:24.41,00:00:25.35,Default,,0000,0000,0000,,{\1c&H0000FFFF}mystery endures
-Dialogue: 0,00:00:25.35,00:00:26.29,Default,,0000,0000,0000,,{\1c&H0000FFFF}a haunting
-Dialogue: 0,00:00:26.29,00:00:26.75,Default,,0000,0000,0000,,{\1c&H0000FFFF}tale
-Dialogue: 0,00:00:26.76,00:00:27.74,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of an
-Dialogue: 0,00:00:27.74,00:00:28.72,Default,,0000,0000,0000,,{\1c&H00FFFFFF}unsolved vanishing
-Dialogue: 0,00:00:28.72,00:00:29.70,Default,,0000,0000,0000,,{\1c&H00FFFFFF}in the
-Dialogue: 0,00:00:29.70,00:00:30.19,Default,,0000,0000,0000,,{\1c&H00FFFFFF}skies.
-Dialogue: 0,00:00:30.20,00:00:30.64,Default,,0000,0000,0000,,{\1c&H0000FFFF}For
-Dialogue: 0,00:00:30.64,00:00:31.07,Default,,0000,0000,0000,,{\1c&H0000FFFF}more
-Dialogue: 0,00:00:31.07,00:00:31.51,Default,,0000,0000,0000,,{\1c&H000000FF}enigmatic
-Dialogue: 0,00:00:31.51,00:00:32.39,Default,,0000,0000,0000,,{\1c&H00FFFFFF}stories like
-Dialogue: 0,00:00:32.39,00:00:32.83,Default,,0000,0000,0000,,{\1c&H0000FFFF}share
-Dialogue: 0,00:00:32.83,00:00:33.71,Default,,0000,0000,0000,,{\1c&H000000FF}and subscribe,
-Dialogue: 0,00:00:33.71,00:00:34.22,Default,,0000,0000,0000,,{\1c&H000000FF}join
-Dialogue: 0,00:00:34.22,00:00:35.22,Default,,0000,0000,0000,,{\1c&H000000FF}us in
-Dialogue: 0,00:00:35.22,00:00:36.23,Default,,0000,0000,0000,,{\1c&H000000FF}unraveling history's
-Dialogue: 0,00:00:36.23,00:00:37.23,Default,,0000,0000,0000,,{\1c&H000000FF}unsolved tales.
+Dialogue: 0,00:00:00.00,00:00:00.31,Default,,0000,0000,0000,,{\1c&H000000FF}What
+Dialogue: 0,00:00:00.31,00:00:00.93,Default,,0000,0000,0000,,{\1c&H00FFFFFF}if I
+Dialogue: 0,00:00:00.93,00:00:01.24,Default,,0000,0000,0000,,{\1c&H0000FFFF}tell
+Dialogue: 0,00:00:01.24,00:00:01.55,Default,,0000,0000,0000,,{\1c&H00FFFFFF}you
+Dialogue: 0,00:00:01.55,00:00:01.86,Default,,0000,0000,0000,,{\1c&H00FFFFFF}that
+Dialogue: 0,00:00:01.86,00:00:02.48,Default,,0000,0000,0000,,{\1c&H0000FFFF}there is
+Dialogue: 0,00:00:02.48,00:00:02.79,Default,,0000,0000,0000,,{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:02.79,00:00:03.11,Default,,0000,0000,0000,,{\1c&H00FFFFFF}mysterious
+Dialogue: 0,00:00:03.11,00:00:03.42,Default,,0000,0000,0000,,{\1c&H0000FFFF}civilization
+Dialogue: 0,00:00:03.42,00:00:03.73,Default,,0000,0000,0000,,{\1c&H000000FF}on
+Dialogue: 0,00:00:03.73,00:00:04.35,Default,,0000,0000,0000,,{\1c&H000000FF}our planet
+Dialogue: 0,00:00:04.35,00:00:04.66,Default,,0000,0000,0000,,{\1c&H000000FF}where
+Dialogue: 0,00:00:04.66,00:00:04.97,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:04.97,00:00:05.28,Default,,0000,0000,0000,,{\1c&H00FFFFFF}most
+Dialogue: 0,00:00:05.28,00:00:05.59,Default,,0000,0000,0000,,{\1c&H000000FF}advanced
+Dialogue: 0,00:00:05.60,00:00:06.86,Default,,0000,0000,0000,,{\1c&H000000FF}beings of
+Dialogue: 0,00:00:06.86,00:00:08.12,Default,,0000,0000,0000,,{\1c&H0000FFFF}our race
+Dialogue: 0,00:00:08.12,00:00:08.75,Default,,0000,0000,0000,,{\1c&H000000FF}dwell?
+Dialogue: 0,00:00:08.75,00:00:09.59,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The name
+Dialogue: 0,00:00:09.59,00:00:10.00,Default,,0000,0000,0000,,{\1c&H000000FF}of
+Dialogue: 0,00:00:10.00,00:00:10.84,Default,,0000,0000,0000,,{\1c&H000000FF}this civilization
+Dialogue: 0,00:00:10.84,00:00:11.67,Default,,0000,0000,0000,,{\1c&H0000FFFF}is mentioned
+Dialogue: 0,00:00:11.67,00:00:12.08,Default,,0000,0000,0000,,{\1c&H000000FF}in
+Dialogue: 0,00:00:12.08,00:00:12.92,Default,,0000,0000,0000,,{\1c&H000000FF}various ancient
+Dialogue: 0,00:00:12.92,00:00:13.33,Default,,0000,0000,0000,,{\1c&H000000FF}writings
+Dialogue: 0,00:00:13.33,00:00:13.75,Default,,0000,0000,0000,,{\1c&H000000FF}all
+Dialogue: 0,00:00:13.75,00:00:14.16,Default,,0000,0000,0000,,{\1c&H0000FFFF}over
+Dialogue: 0,00:00:14.16,00:00:15.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}the world.
+Dialogue: 0,00:00:15.00,00:00:15.62,Default,,0000,0000,0000,,{\1c&H0000FFFF}Many have
+Dialogue: 0,00:00:15.62,00:00:16.24,Default,,0000,0000,0000,,{\1c&H000000FF}gone in
+Dialogue: 0,00:00:16.24,00:00:16.55,Default,,0000,0000,0000,,{\1c&H00FFFFFF}search
+Dialogue: 0,00:00:16.55,00:00:17.17,Default,,0000,0000,0000,,{\1c&H0000FFFF}of this
+Dialogue: 0,00:00:17.17,00:00:17.48,Default,,0000,0000,0000,,{\1c&H000000FF}civilization
+Dialogue: 0,00:00:17.48,00:00:17.79,Default,,0000,0000,0000,,{\1c&H000000FF}and
+Dialogue: 0,00:00:17.79,00:00:18.10,Default,,0000,0000,0000,,{\1c&H0000FFFF}some
+Dialogue: 0,00:00:18.10,00:00:18.41,Default,,0000,0000,0000,,{\1c&H000000FF}have
+Dialogue: 0,00:00:18.41,00:00:18.72,Default,,0000,0000,0000,,{\1c&H000000FF}ever
+Dialogue: 0,00:00:18.72,00:00:19.04,Default,,0000,0000,0000,,{\1c&H00FFFFFF}returned.
+Dialogue: 0,00:00:19.03,00:00:19.59,Default,,0000,0000,0000,,{\1c&H00FFFFFF}The
+Dialogue: 0,00:00:19.59,00:00:20.71,Default,,0000,0000,0000,,{\1c&H00FFFFFF}name of
+Dialogue: 0,00:00:20.71,00:00:21.83,Default,,0000,0000,0000,,{\1c&H00FFFFFF}that place
+Dialogue: 0,00:00:21.83,00:00:22.39,Default,,0000,0000,0000,,{\1c&H000000FF}where
+Dialogue: 0,00:00:22.39,00:00:23.51,Default,,0000,0000,0000,,{\1c&H00FFFFFF}this civilization
+Dialogue: 0,00:00:23.51,00:00:24.64,Default,,0000,0000,0000,,{\1c&H0000FFFF}exists is
+Dialogue: 0,00:00:24.64,00:00:25.19,Default,,0000,0000,0000,,{\1c&H000000FF}Shambhalla.
+Dialogue: 0,00:00:25.19,00:00:25.55,Default,,0000,0000,0000,,{\1c&H000000FF}Shambhalla
+Dialogue: 0,00:00:25.55,00:00:25.91,Default,,0000,0000,0000,,{\1c&H00FFFFFF}or
+Dialogue: 0,00:00:25.91,00:00:26.26,Default,,0000,0000,0000,,{\1c&H000000FF}the
+Dialogue: 0,00:00:26.26,00:00:26.62,Default,,0000,0000,0000,,{\1c&H0000FFFF}city
+Dialogue: 0,00:00:26.62,00:00:27.33,Default,,0000,0000,0000,,{\1c&H000000FF}of peace
+Dialogue: 0,00:00:27.33,00:00:28.04,Default,,0000,0000,0000,,{\1c&H000000FF}is depicted
+Dialogue: 0,00:00:28.04,00:00:28.40,Default,,0000,0000,0000,,{\1c&H0000FFFF}in
+Dialogue: 0,00:00:28.40,00:00:28.75,Default,,0000,0000,0000,,{\1c&H00FFFFFF}multiple
+Dialogue: 0,00:00:28.75,00:00:29.11,Default,,0000,0000,0000,,{\1c&H000000FF}ancient
+Dialogue: 0,00:00:29.11,00:00:29.82,Default,,0000,0000,0000,,{\1c&H000000FF}maps which
+Dialogue: 0,00:00:29.82,00:00:30.18,Default,,0000,0000,0000,,{\1c&H000000FF}claim
+Dialogue: 0,00:00:30.18,00:00:30.89,Default,,0000,0000,0000,,{\1c&H000000FF}to guide
+Dialogue: 0,00:00:30.89,00:00:31.60,Default,,0000,0000,0000,,{\1c&H00FFFFFF}you to
+Dialogue: 0,00:00:31.60,00:00:31.96,Default,,0000,0000,0000,,{\1c&H0000FFFF}it.
+Dialogue: 0,00:00:31.96,00:00:32.32,Default,,0000,0000,0000,,{\1c&H000000FF}But
+Dialogue: 0,00:00:32.32,00:00:32.67,Default,,0000,0000,0000,,{\1c&H00FFFFFF}to
+Dialogue: 0,00:00:32.67,00:00:33.39,Default,,0000,0000,0000,,{\1c&H0000FFFF}decode these
+Dialogue: 0,00:00:33.39,00:00:33.75,Default,,0000,0000,0000,,{\1c&H0000FFFF}cryptic
+Dialogue: 0,00:00:33.75,00:00:34.47,Default,,0000,0000,0000,,{\1c&H00FFFFFF}maps the
+Dialogue: 0,00:00:34.47,00:00:34.83,Default,,0000,0000,0000,,{\1c&H0000FFFF}person
+Dialogue: 0,00:00:34.83,00:00:35.19,Default,,0000,0000,0000,,{\1c&H0000FFFF}has
+Dialogue: 0,00:00:35.19,00:00:35.55,Default,,0000,0000,0000,,{\1c&H000000FF}to
+Dialogue: 0,00:00:35.55,00:00:35.91,Default,,0000,0000,0000,,{\1c&H0000FFFF}be
+Dialogue: 0,00:00:35.91,00:00:36.27,Default,,0000,0000,0000,,{\1c&H0000FFFF}well
+Dialogue: 0,00:00:36.27,00:00:36.99,Default,,0000,0000,0000,,{\1c&H000000FF}developed both
+Dialogue: 0,00:00:36.99,00:00:37.35,Default,,0000,0000,0000,,{\1c&H00FFFFFF}mentally.
+Dialogue: 0,00:00:37.35,00:00:37.98,Default,,0000,0000,0000,,{\1c&H000000FF}Many sources
+Dialogue: 0,00:00:37.98,00:00:38.60,Default,,0000,0000,0000,,{\1c&H000000FF}say that
+Dialogue: 0,00:00:38.60,00:00:38.91,Default,,0000,0000,0000,,{\1c&H0000FFFF}this
+Dialogue: 0,00:00:38.91,00:00:39.22,Default,,0000,0000,0000,,{\1c&H0000FFFF}city
+Dialogue: 0,00:00:39.22,00:00:39.53,Default,,0000,0000,0000,,{\1c&H000000FF}might
+Dialogue: 0,00:00:39.53,00:00:40.15,Default,,0000,0000,0000,,{\1c&H0000FFFF}be located
+Dialogue: 0,00:00:40.15,00:00:40.46,Default,,0000,0000,0000,,{\1c&H00FFFFFF}in
+Dialogue: 0,00:00:40.46,00:00:41.08,Default,,0000,0000,0000,,{\1c&H000000FF}the Himalayan
+Dialogue: 0,00:00:41.08,00:00:41.39,Default,,0000,0000,0000,,{\1c&H000000FF}region
+Dialogue: 0,00:00:41.39,00:00:42.01,Default,,0000,0000,0000,,{\1c&H00FFFFFF}or beneath
+Dialogue: 0,00:00:42.01,00:00:42.32,Default,,0000,0000,0000,,{\1c&H0000FFFF}the
+Dialogue: 0,00:00:42.32,00:00:42.64,Default,,0000,0000,0000,,{\1c&H000000FF}earth
+Dialogue: 0,00:00:42.64,00:00:43.52,Default,,0000,0000,0000,,{\1c&H000000FF}and point
+Dialogue: 0,00:00:43.52,00:00:44.41,Default,,0000,0000,0000,,{\1c&H000000FF}to the
+Dialogue: 0,00:00:44.41,00:00:44.86,Default,,0000,0000,0000,,{\1c&H00FFFFFF}North
+Dialogue: 0,00:00:44.86,00:00:45.75,Default,,0000,0000,0000,,{\1c&H000000FF}Pole as
+Dialogue: 0,00:00:45.75,00:00:46.63,Default,,0000,0000,0000,,{\1c&H0000FFFF}its entrance.
+Dialogue: 0,00:00:46.64,00:00:47.37,Default,,0000,0000,0000,,{\1c&H0000FFFF}But looking
+Dialogue: 0,00:00:47.37,00:00:48.11,Default,,0000,0000,0000,,{\1c&H0000FFFF}from a
+Dialogue: 0,00:00:48.11,00:00:48.85,Default,,0000,0000,0000,,{\1c&H00FFFFFF}spiritual perspective,
+Dialogue: 0,00:00:48.85,00:00:49.59,Default,,0000,0000,0000,,{\1c&H000000FF}the ancient
+Dialogue: 0,00:00:49.59,00:00:49.96,Default,,0000,0000,0000,,{\1c&H0000FFFF}documents
+Dialogue: 0,00:00:49.96,00:00:50.33,Default,,0000,0000,0000,,{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:50.33,00:00:51.07,Default,,0000,0000,0000,,{\1c&H000000FF}Hinduism and
+Dialogue: 0,00:00:51.07,00:00:51.43,Default,,0000,0000,0000,,{\1c&H0000FFFF}Buddhism
+Dialogue: 0,00:00:51.43,00:00:52.35,Default,,0000,0000,0000,,{\1c&H00FFFFFF}claim that
+Dialogue: 0,00:00:52.35,00:00:52.80,Default,,0000,0000,0000,,{\1c&H0000FFFF}this
+Dialogue: 0,00:00:52.80,00:00:53.26,Default,,0000,0000,0000,,{\1c&H00FFFFFF}city
+Dialogue: 0,00:00:53.26,00:00:53.72,Default,,0000,0000,0000,,{\1c&H000000FF}exists
+Dialogue: 0,00:00:53.72,00:00:54.17,Default,,0000,0000,0000,,{\1c&H000000FF}altogether
+Dialogue: 0,00:00:54.17,00:00:54.63,Default,,0000,0000,0000,,{\1c&H000000FF}in
+Dialogue: 0,00:00:54.63,00:00:55.54,Default,,0000,0000,0000,,{\1c&H000000FF}a different
+Dialogue: 0,00:00:55.54,00:00:56.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}dimension.
+Dialogue: 0,00:00:56.00,00:00:56.39,Default,,0000,0000,0000,,{\1c&H00FFFFFF}Which
+Dialogue: 0,00:00:56.39,00:00:56.78,Default,,0000,0000,0000,,{\1c&H0000FFFF}can
+Dialogue: 0,00:00:56.78,00:00:57.17,Default,,0000,0000,0000,,{\1c&H00FFFFFF}only
+Dialogue: 0,00:00:57.17,00:00:57.95,Default,,0000,0000,0000,,{\1c&H0000FFFF}be accessed
+Dialogue: 0,00:00:57.95,00:00:58.34,Default,,0000,0000,0000,,{\1c&H00FFFFFF}by
+Dialogue: 0,00:00:58.34,00:00:59.12,Default,,0000,0000,0000,,{\1c&H000000FF}powerful spiritual
+Dialogue: 0,00:00:59.12,00:00:59.51,Default,,0000,0000,0000,,{\1c&H0000FFFF}beings.
+Dialogue: 0,00:00:59.51,00:00:59.85,Default,,0000,0000,0000,,{\1c&H00FFFFFF}So
+Dialogue: 0,00:00:59.85,00:01:00.19,Default,,0000,0000,0000,,{\1c&H0000FFFF}what
+Dialogue: 0,00:01:00.19,00:01:00.86,Default,,0000,0000,0000,,{\1c&H000000FF}do you
+Dialogue: 0,00:01:00.86,00:01:01.53,Default,,0000,0000,0000,,{\1c&H000000FF}think? Does
+Dialogue: 0,00:01:01.53,00:01:01.87,Default,,0000,0000,0000,,{\1c&H00FFFFFF}this
+Dialogue: 0,00:01:01.87,00:01:02.54,Default,,0000,0000,0000,,{\1c&H00FFFFFF}city really
+Dialogue: 0,00:01:02.54,00:01:02.87,Default,,0000,0000,0000,,{\1c&H0000FFFF}exist?

@@ -1,0 +1,62 @@
+{
+    "Title": "Your Video Title",
+    "Description": "Your Video Description",
+    "Scenes": [
+        {
+            "SceneNumber": 1,
+            "Duration": "6",
+            "VoiceOverText": " What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?",
+            "Description": "",
+            "Text": " What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?"
+        },
+        {
+            "SceneNumber": 2,
+            "Duration": "4",
+            "VoiceOverText": " The name of this civilization is mentioned in various ancient writings all over the world",
+            "Description": "",
+            "Text": " The name of this civilization is mentioned in various ancient writings all over the world"
+        },
+        {
+            "SceneNumber": 3,
+            "Duration": "6",
+            "VoiceOverText": " Many have gone in search for this civilization and some have never returned the name of that place where this civilization",
+            "Description": "",
+            "Text": " Many have gone in search for this civilization and some have never returned the name of that place where this civilization"
+        },
+        {
+            "SceneNumber": 4,
+            "Duration": "6",
+            "VoiceOverText": " Exists is Shambhalla or the city of peace there exist multiple ancient maps which claim to guide you to Shambhalla",
+            "Description": "",
+            "Text": " Exists is Shambhalla or the city of peace there exist multiple ancient maps which claim to guide you to Shambhalla"
+        },
+        {
+            "SceneNumber": 5,
+            "Duration": "4",
+            "VoiceOverText": " But to decode these cryptic maps a person has to be well developed both mentally",
+            "Description": "",
+            "Text": " But to decode these cryptic maps a person has to be well developed both mentally"
+        },
+        {
+            "SceneNumber": 6,
+            "Duration": "7",
+            "VoiceOverText": " and spiritually many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance",
+            "Description": "",
+            "Text": " and spiritually many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance"
+        },
+        {
+            "SceneNumber": 7,
+            "Duration": "8",
+            "VoiceOverText": " But looking from a spiritual perspective the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension",
+            "Description": "",
+            "Text": " But looking from a spiritual perspective the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension"
+        },
+        {
+            "SceneNumber": 8,
+            "Duration": "7",
+            "VoiceOverText": " Which can only be accessed by powerful spiritual beings. So what do you think? Does this city really exist?",
+            "Description": "",
+            "Text": " Which can only be accessed by powerful spiritual beings. So what do you think? Does this city really exist?"
+        }
+    ]
+}

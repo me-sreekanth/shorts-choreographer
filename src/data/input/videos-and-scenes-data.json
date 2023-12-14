@@ -2,13 +2,61 @@
   "Title": "The Secret City of Shambhala #shorts #short",
   "Description": "Journey into the myth of Shambhala, a hidden city mentioned in ancient texts. Is it a real place or a spiritual dimension? Explore this enigma in a fascinating short video. #Shambhala #MysticalCities #AncientMysteries #SpiritualDimensions",
   "Scenes": [
-
+    {
+      "SceneNumber": 1,
+      "Duration": "6",
+      "VoiceOverText": "What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?",
+      "Description": "Mystical visuals of a hidden civilization, blending earthly landscapes with ethereal elements.",
+      "Text": "What if I tell you that there is a mysterious civilization on our planet where the most advanced beings of our race dwell?"
+    },
     {
       "SceneNumber": 2,
       "Duration": "4",
       "VoiceOverText": "The name of this civilization is mentioned in various ancient writings all over the world.",
       "Description": "Scrolls, manuscripts, and ancient texts with references to a hidden city.",
       "Text": "The name of this civilization is mentioned in various ancient writings all over the world."
+    },
+    {
+      "SceneNumber": 3,
+      "Duration": "6",
+      "VoiceOverText": "Many have gone in search of this civilization, and some have never returned. The name of that place where this civilization exists is Shambhala.",
+      "Description": "Explorers setting off on expeditions, with maps showing routes towards a mystical destination.",
+      "Text": "Many have gone in search of this civilization, and some have never returned. The name of that place where this civilization exists is Shambhala."
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "6",
+      "VoiceOverText": "Shambhala, or the city of peace, is depicted in multiple ancient maps, which claim to guide you to it.",
+      "Description": "Ancient maps marked with cryptic symbols and the alleged location of Shambhala.",
+      "Text": "Shambhala, or the city of peace, is depicted in multiple ancient maps, which claim to guide you to it."
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "4",
+      "VoiceOverText": "But to decode these cryptic maps, a person has to be well-developed both mentally.",
+      "Description": "Close-up of a cryptic map, with symbols and riddles, highlighting its complexity.",
+      "Text": "But to decode these cryptic maps, a person has to be well-developed both mentally."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "7",
+      "VoiceOverText": "Many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance.",
+      "Description": "Imagery of the Himalayas, underground caves, and a mystical portal at the North Pole.",
+      "Text": "Many sources say that this city might be located in the Himalayan region or beneath the earth and point to the North Pole as its entrance."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "8",
+      "VoiceOverText": "But looking from a spiritual perspective, the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension.",
+      "Description": "Artistic interpretations of Shambhala in a different dimension, with references to Hindu and Buddhist scriptures.",
+      "Text": "But looking from a spiritual perspective, the ancient documents of Hinduism and Buddhism claim that this city exists altogether in a different dimension."
+    },
+    {
+      "SceneNumber": 8,
+      "Duration": "7",
+      "VoiceOverText": "Which can only be accessed by powerful spiritual beings. So, what do you think? Does this city really exist?",
+      "Description": "A montage of spiritual beings and dimensional portals, ending with a thought-provoking question to the viewer.",
+      "Text": "Which can only be accessed by powerful spiritual beings. So, what do you think? Does this city really exist?"
     }
   ]
 }
