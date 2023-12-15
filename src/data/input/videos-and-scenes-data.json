@@ -1,62 +1,48 @@
 {
-  "Title": "The Mystical Teachings of Dattatreya #shorts #short",
-  "Description": "Explore the enigmatic teachings of Dattatreya, a revered sage in Indian spirituality. Discover the ancient wisdom that has influenced countless seekers. #Dattatreya #SpiritualWisdom #IndianMysticism #AncientTeachings",
+  "Title": "Quantum Computing: The Future Is Now #shorts #short",
+  "Description": "Dive into the world of quantum computing, where futuristic technology meets today's challenges. Explore this groundbreaking field in a brief, exciting video. #QuantumComputing #TechRevolution #FutureTech",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5",
-      "VoiceOverText": "Do you know that there is a mysterious book from ancient India, whose author is a non-human entity?",
-      "Description": "Images of ancient Indian scriptures and a mystical figure representing Dattatreya.",
-      "Text": "Do you know that there is a mysterious book from ancient India, whose author is a non-human entity?"
+      "Duration": "10",
+      "VoiceOverText": "Imagine a computer so powerful it can process the impossible. That's the promise of quantum computing.",
+      "Description": "Futuristic visuals of quantum processors and high-tech digital environments.",
+      "Text": "Imagine a computer so powerful it can process the impossible. That's the promise of quantum computing."
     },
     {
       "SceneNumber": 2,
-      "Duration": "5",
-      "VoiceOverText": "This book, known as the 'Song of the Free Soul' or 'Avadhuta Gita,' offers profound spiritual insights.",
-      "Description": "Visuals of the 'Avadhuta Gita,' with Sanskrit verses and translations.",
-      "Text": "This book, known as the 'Song of the Free Soul' or 'Avadhuta Gita,' offers profound spiritual insights."
+      "Duration": "10",
+      "VoiceOverText": "Unlike traditional computing based on bits, quantum computers use qubits, harnessing the peculiar laws of quantum mechanics.",
+      "Description": "Contrasting imagery between classic binary bits and dynamic qubits in action.",
+      "Text": "Unlike traditional computing based on bits, quantum computers use qubits, harnessing the peculiar laws of quantum mechanics."
     },
     {
       "SceneNumber": 3,
-      "Duration": "5",
-      "VoiceOverText": "It has influenced various ancient traditions, including the Nath tradition, known for its mystical practices.",
-      "Description": "Artwork depicting the Nath tradition practitioners and their spiritual practices.",
-      "Text": "It has influenced various ancient traditions, including the Nath tradition, known for its mystical practices."
+      "Duration": "10",
+      "VoiceOverText": "This allows them to solve complex problems in seconds, which would take millennia for today's computers.",
+      "Description": "Visuals depicting complex calculations, quantum computers solving advanced equations.",
+      "Text": "This allows them to solve complex problems in seconds, which would take millennia for today's computers."
     },
     {
       "SceneNumber": 4,
-      "Duration": "5",
-      "VoiceOverText": "The Naths revere Lord Shiva as their first teacher, embracing a path that combines yoga and warrior disciplines.",
-      "Description": "Images of Lord Shiva and Nath yogis practicing rigorous spiritual disciplines.",
-      "Text": "The Naths revere Lord Shiva as their first teacher, embracing a path that combines yoga and warrior disciplines."
+      "Duration": "10",
+      "VoiceOverText": "From drug discovery to climate modeling, quantum computing could unlock new frontiers in various fields.",
+      "Description": "Scenes showing applications in medicine, environmental science, and other technologies.",
+      "Text": "From drug discovery to climate modeling, quantum computing could unlock new frontiers in various fields."
     },
     {
       "SceneNumber": 5,
-      "Duration": "5",
-      "VoiceOverText": "Amidst historical upheavals, the Naths stood as warrior ascetics, safeguarding their spiritual heritage and teachings.",
-      "Description": "Scenes of Naths training and engaging in spiritual battles during historical upheavals.",
-      "Text": "Amidst historical upheavals, the Naths stood as warrior ascetics, safeguarding their spiritual heritage and teachings."
+      "Duration": "10",
+      "VoiceOverText": "But it's not just potential; major tech companies are already racing to build powerful quantum machines.",
+      "Description": "Logos of leading tech companies with glimpses of their quantum computing research.",
+      "Text": "But it's not just potential; major tech companies are already racing to build powerful quantum machines."
     },
     {
       "SceneNumber": 6,
-      "Duration": "5",
-      "VoiceOverText": "The 'Avadhuta Gita' remains a key text for them, promising immediate liberation of the soul through its wisdom.",
-      "Description": "Close-ups of the 'Avadhuta Gita' pages and Naths studying the text.",
-      "Text": "The 'Avadhuta Gita' remains a key text for them, promising immediate liberation of the soul through its wisdom."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "5",
-      "VoiceOverText": "Attributed to sage Dattatreya, revered for his profound knowledge and mastery of Tantra, he still inspires spiritual seekers.",
-      "Description": "Depictions of sage Dattatreya, with symbols of Tantra and spiritual illumination.",
-      "Text": "Attributed to sage Dattatreya, revered for his profound knowledge and mastery of Tantra, he still inspires spiritual seekers."
-    },
-    {
-      "SceneNumber": 8,
-      "Duration": "5",
-      "VoiceOverText": "Follow us for more mystical journeys. Like, share, and subscribe for insights into ancient wisdom.",
-      "Description": "A call to action with visuals of other spiritual teachings and the channel's logo.",
-      "Text": "Follow us for more mystical journeys. Like, share, and subscribe for insights into ancient wisdom."
+      "Duration": "10",
+      "VoiceOverText": "Join us in exploring the tech of tomorrow. Like, share, and subscribe for more insights into cutting-edge innovations.",
+      "Description": "A call to action with sleek, tech-inspired graphics and a glimpse into future tech advancements.",
+      "Text": "Join us in exploring the tech of tomorrow. Like, share, and subscribe for more insights into cutting-edge innovations."
     }
   ]
 }
