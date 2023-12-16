@@ -4,73 +4,101 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "3",
-            "VoiceOverText": " 2000 years ago, there was a shipwreck.",
+            "Duration": "4",
+            "VoiceOverText": " The collision of black holes, the idea that you can detect that.",
             "Description": "",
-            "Text": " 2000 years ago, there was a shipwreck."
+            "Text": " The collision of black holes, the idea that you can detect that."
         },
         {
             "SceneNumber": 2,
-            "Duration": "4",
-            "VoiceOverText": " And in the boat that sank was a device,",
+            "Duration": "5",
+            "VoiceOverText": " Yeah, there are two black holes and there were about 30 times the mass of the sun each.",
             "Description": "",
-            "Text": " And in the boat that sank was a device,"
+            "Text": " Yeah, there are two black holes and there were about 30 times the mass of the sun each."
         },
         {
             "SceneNumber": 3,
             "Duration": "2",
-            "VoiceOverText": " and when you brushed away the dirt and debris,",
+            "VoiceOverText": " And they were all between each other,",
             "Description": "",
-            "Text": " and when you brushed away the dirt and debris,"
+            "Text": " And they were all between each other,"
         },
         {
             "SceneNumber": 4,
             "Duration": "3",
-            "VoiceOverText": " you began to realize that it was a machine,",
+            "VoiceOverText": " and spiraling into towards each other.",
             "Description": "",
-            "Text": " you began to realize that it was a machine,"
+            "Text": " and spiraling into towards each other."
         },
         {
             "SceneNumber": 5,
-            "Duration": "2",
-            "VoiceOverText": " a machine of incredible complexity.",
+            "Duration": "6",
+            "VoiceOverText": " And they accelerated, at one point they were approaching each other at one third the speed of light,",
             "Description": "",
-            "Text": " a machine of incredible complexity."
+            "Text": " And they accelerated, at one point they were approaching each other at one third the speed of light,"
         },
         {
             "SceneNumber": 6,
             "Duration": "4",
-            "VoiceOverText": " It was, in fact, the world's first analog computer.",
+            "VoiceOverText": " and they accelerated to two thirds the speed of light in a tenth of a second.",
             "Description": "",
-            "Text": " It was, in fact, the world's first analog computer."
+            "Text": " and they accelerated to two thirds the speed of light in a tenth of a second."
         },
         {
             "SceneNumber": 7,
-            "Duration": "6",
-            "VoiceOverText": " The question is, why did the ancients create this priceless device?",
+            "Duration": "2",
+            "VoiceOverText": " And then hit each other.",
             "Description": "",
-            "Text": " The question is, why did the ancients create this priceless device?"
+            "Text": " And then hit each other."
         },
         {
             "SceneNumber": 8,
-            "Duration": "5",
-            "VoiceOverText": " We think that the primordiation was for them to simulate reality.",
+            "Duration": "6",
+            "VoiceOverText": " And the explosion, the energy release, it was something like 50 times the energy release,",
             "Description": "",
-            "Text": " We think that the primordiation was for them to simulate reality."
+            "Text": " And the explosion, the energy release, it was something like 50 times the energy release,"
         },
         {
             "SceneNumber": 9,
-            "Duration": "3",
-            "VoiceOverText": " It was designed to map the motion of the moon,",
+            "Duration": "5",
+            "VoiceOverText": " that the power of all the stars in the observable universe glowing.",
             "Description": "",
-            "Text": " It was designed to map the motion of the moon,"
+            "Text": " that the power of all the stars in the observable universe glowing."
         },
         {
             "SceneNumber": 10,
-            "Duration": "5",
-            "VoiceOverText": " the sun, and the planets to simulate the known universe.",
+            "Duration": "6",
+            "VoiceOverText": " And it was something like 50 times that amount of energy for a tiny fraction of a second.",
             "Description": "",
-            "Text": " the sun, and the planets to simulate the known universe."
+            "Text": " And it was something like 50 times that amount of energy for a tiny fraction of a second."
+        },
+        {
+            "SceneNumber": 11,
+            "Duration": "3",
+            "VoiceOverText": " But it's an unimaginably violent event.",
+            "Description": "",
+            "Text": " But it's an unimaginably violent event."
+        },
+        {
+            "SceneNumber": 12,
+            "Duration": "5",
+            "VoiceOverText": " So you can imagine how extreme, like a colliding black holes,",
+            "Description": "",
+            "Text": " So you can imagine how extreme, like a colliding black holes,"
+        },
+        {
+            "SceneNumber": 13,
+            "Duration": "2",
+            "VoiceOverText": " it's an incredibly extreme event.",
+            "Description": "",
+            "Text": " it's an incredibly extreme event."
+        },
+        {
+            "SceneNumber": 14,
+            "Duration": "4",
+            "VoiceOverText": " It takes the fabric of the universe, and the ripples come across the universe.",
+            "Description": "",
+            "Text": " It takes the fabric of the universe, and the ripples come across the universe."
         }
     ]
 }

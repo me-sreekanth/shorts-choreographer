@@ -1,62 +1,55 @@
 {
-  "Title": "Unveiling the Antikythera Mechanism #shorts #short",
-  "Description": "Travel back 2000 years to discover the Antikythera Mechanism, an astonishing ancient Greek invention found in a shipwreck. Explore its secrets in this brief, engaging video. #AntikytheraMechanism #AncientInventions #HistoricalMysteries",
+  "Title": "The Cosmic Dance of Colliding Black Holes #shorts #short",
+  "Description": "Witness the awe-inspiring phenomenon of black holes colliding in space. Explore this extreme cosmic event in a short, fascinating video. #BlackHoles #SpacePhenomenon #Astrophysics #CosmicDance",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "6",
-      "VoiceOverText": "Over 2000 years ago, a ship sank in the Aegean Sea, hiding a remarkable secret lost in time.",
-      "Description": "Underwater visuals of an ancient shipwreck.",
-      "Text": "Over 2000 years ago, a ship sank in the Aegean Sea, hiding a remarkable secret lost in time."
+      "Duration": "4",
+      "VoiceOverText": "Imagine detecting the collision of black holes, a cosmic event of unimaginable scale.",
+      "Description": "Visuals of space with two black holes moving towards each other.",
+      "Text": "Imagine detecting the collision of black holes, a cosmic event of unimaginable scale."
     },
     {
       "SceneNumber": 2,
-      "Duration": "6",
-      "VoiceOverText": "Among the wreckage, a mysterious device was found, covered in centuries of sediment.",
-      "Description": "Close-up of the corroded device being discovered among the ship's remains.",
-      "Text": "Among the wreckage, a mysterious device was found, covered in centuries of sediment."
+      "Duration": "4",
+      "VoiceOverText": "These giants, each with a mass about 30 times that of our sun, spiral towards an inevitable clash.",
+      "Description": "Animations showing two massive black holes spiraling closer.",
+      "Text": "These giants, each with a mass about 30 times that of our sun, spiral towards an inevitable clash."
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "This device was the Antikythera Mechanism, an ancient Greek invention of astounding complexity.",
-      "Description": "Detailed views of the Antikythera Mechanism's gears and inscriptions.",
-      "Text": "This device was the Antikythera Mechanism, an ancient Greek invention of astounding complexity."
+      "Duration": "4",
+      "VoiceOverText": "Accelerating to incredible speeds, they orbit each other, approaching nearly one-third the speed of light.",
+      "Description": "Dynamic visuals depicting the high-speed orbit of the black holes.",
+      "Text": "Accelerating to incredible speeds, they orbit each other, approaching nearly one-third the speed of light."
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "Revealed to be the world's first known analog computer, it was designed to chart celestial bodies.",
-      "Description": "Animations showing how the mechanism could have been used to map astronomical positions.",
-      "Text": "Revealed to be the world's first known analog computer, it was designed to chart celestial bodies."
+      "Duration": "4",
+      "VoiceOverText": "In a final burst of cosmic energy, they collide, unleashing power that dwarfs even the brightest stars.",
+      "Description": "Explosive imagery of the black holes colliding, radiating energy.",
+      "Text": "In a final burst of cosmic energy, they collide, unleashing power that dwarfs even the brightest stars."
     },
     {
       "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "The mechanism tracked the cycles of the solar system, predicting eclipses and the positions of planets.",
-      "Description": "Visual representations of the solar system's movements and eclipse predictions based on the mechanism.",
-      "Text": "The mechanism tracked the cycles of the solar system, predicting eclipses and the positions of planets."
+      "Duration": "4",
+      "VoiceOverText": "The collision ripples through the fabric of space-time, sending gravitational waves across the universe.",
+      "Description": "Visuals of gravitational waves emanating from the collision, distorting the fabric of space.",
+      "Text": "The collision ripples through the fabric of space-time, sending gravitational waves across the universe."
     },
     {
       "SceneNumber": 6,
-      "Duration": "6",
-      "VoiceOverText": "Its discovery challenged our understanding of ancient technology, revealing a sophistication far beyond its time.",
-      "Description": "Scenes juxtaposing the Antikythera Mechanism with other ancient Greek technological achievements.",
-      "Text": "Its discovery challenged our understanding of ancient technology, revealing a sophistication far beyond its time."
+      "Duration": "4",
+      "VoiceOverText": "Astronomers detect these waves, unlocking secrets of these mysterious cosmic giants.",
+      "Description": "Scenes of astronomers and detectors capturing gravitational waves.",
+      "Text": "Astronomers detect these waves, unlocking secrets of these mysterious cosmic giants."
     },
     {
       "SceneNumber": 7,
       "Duration": "6",
-      "VoiceOverText": "The Antikythera Mechanism remains a priceless window into the advanced engineering of the ancient Greeks.",
-      "Description": "Museum display of the mechanism, with visitors marveling at its complexity.",
-      "Text": "The Antikythera Mechanism remains a priceless window into the advanced engineering of the ancient Greeks."
-    },
-    {
-      "SceneNumber": 8,
-      "Duration": "8",
-      "VoiceOverText": "Explore more ancient wonders with us. Like, share, and subscribe for a voyage into historical marvels.",
-      "Description": "A call to action featuring other ancient mysteries and archaeological discoveries.",
-      "Text": "Explore more ancient wonders with us. Like, share, and subscribe for a voyage into historical marvels."
+      "VoiceOverText": "Explore more celestial wonders with us. Like, share, and subscribe for a journey through the cosmos.",
+      "Description": "A call to action with visuals of galaxies, stars, and the channel's logo.",
+      "Text": "Explore more celestial wonders with us. Like, share, and subscribe for a journey through the cosmos."
     }
   ]
 }
