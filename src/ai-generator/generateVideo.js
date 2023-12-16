@@ -13,6 +13,24 @@ const getDuration = (filePath) => {
   return parseFloat(execSync(command).toString().trim());
 };
 
+const getRandomEffect = () => {
+  const effects = ["zoompan", "horizontal_pan", "vertical_pan"]; // Add more effects as needed
+  const randomIndex = Math.floor(Math.random() * effects.length);
+  return effects[randomIndex];
+};
+
+const getVerticalPanFilter = (imageHeight, duration) => {
+  const moveAmount = imageHeight - 1920; // Assuming a target height of 1920
+  const moveRate = moveAmount / (duration * 50); // 50 fps
+  return `[0:v]crop=1080:1920:0:${moveRate}*n[panned]; [panned]scale=1440:1920[scaled]; [2:v]scale=200:-1[wm]; [scaled][wm]overlay=10:10`;
+};
+
+const getHorizontalPanFilter = (imageWidth, duration) => {
+  const moveAmount = imageWidth - 1080; // Assuming a target width of 1080
+  const moveRate = moveAmount / (duration * 50); // 50 fps
+  return `[0:v]crop=1080:1920:${moveRate}*n:0[panned]; [panned]scale=1440:1920[scaled]; [2:v]scale=200:-1[wm]; [scaled][wm]overlay=10:10`;
+};
+
 const createVideoClipWithTextAudioAndSubtitles = (
   imagePath,
   audioPath,
@@ -32,13 +50,26 @@ const createVideoClipWithTextAudioAndSubtitles = (
     throw new Error(`Watermark file not found at path: ${watermarkPath}`);
   }
 
-  const watermarkFilter = `[2:v]scale=200:-1[wm];[cropped][wm]overlay=10:10[watermarked]`;
+  const effect = getRandomEffect();
+  let filters;
 
-  const filters =
-    `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=391:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed];` +
-    `[zoomed]scale=1440:1920[scaled];` +
-    `[scaled]crop=1080:1920:((1440-1080)/2):0[cropped];` +
-    `${watermarkFilter}`;
+  switch (effect) {
+    case "zoompan":
+      filters = `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=391:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024, scale=1440:1920, crop=1080:1920:((1440-1080)/2):0`;
+      break;
+    case "horizontal_pan":
+      // Assuming imageWidth is 1440, adjust as necessary
+      filters = getHorizontalPanFilter(1440, duration);
+      break;
+    case "vertical_pan":
+      // Assuming imageHeight is 1920, adjust as necessary
+      filters = getVerticalPanFilter(1920, duration);
+      break;
+    // Add more cases for additional effects
+  }
+
+  // Add watermark overlay
+  filters += `, scale=200:-1 [wm]; [wm]overlay=10:10`;
 
   const intermediateVideoClipPath = path.join(
     outputDirectory,
@@ -49,12 +80,17 @@ const createVideoClipWithTextAudioAndSubtitles = (
     `${sceneNumber}-scene-with-text.mp4`
   );
 
-  execSync(
-    `ffmpeg -y -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map "[watermarked]" -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`
-  );
-  execSync(
-    `ffmpeg -y -i "${intermediateVideoClipPath}" -c:v libx264 -c:a copy "${videoClipPath}"`
-  );
+  try {
+    const ffmpegCommand = `ffmpeg -y -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map 0:v -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`;
+    console.log("FFmpeg command:", ffmpegCommand);
+    execSync(ffmpegCommand);
+    execSync(
+      `ffmpeg -y -i "${intermediateVideoClipPath}" -c:v libx264 -c:a copy "${videoClipPath}"`
+    );
+  } catch (error) {
+    console.error("Error executing FFmpeg command:", error);
+    throw error;
+  }
 
   return videoClipPath;
 };
