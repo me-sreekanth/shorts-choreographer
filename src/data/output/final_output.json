@@ -4,80 +4,73 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "5",
-            "VoiceOverText": " Do you know that there is a mysterious book from ancient India, whose author is in non-human entity?",
+            "Duration": "3",
+            "VoiceOverText": " 2000 years ago, there was a shipwreck.",
             "Description": "",
-            "Text": " Do you know that there is a mysterious book from ancient India, whose author is in non-human entity?"
+            "Text": " 2000 years ago, there was a shipwreck."
         },
         {
             "SceneNumber": 2,
             "Duration": "4",
-            "VoiceOverText": " The book is famously known as the Song of the Free Soul or the Avatar to Geeta.",
+            "VoiceOverText": " And in the boat that sank was a device,",
             "Description": "",
-            "Text": " The book is famously known as the Song of the Free Soul or the Avatar to Geeta."
+            "Text": " And in the boat that sank was a device,"
         },
         {
             "SceneNumber": 3,
-            "Duration": "4",
-            "VoiceOverText": " It has single-handedly influenced multiple ancient traditions, including the Nath tradition.",
+            "Duration": "2",
+            "VoiceOverText": " and when you brushed away the dirt and debris,",
             "Description": "",
-            "Text": " It has single-handedly influenced multiple ancient traditions, including the Nath tradition."
+            "Text": " and when you brushed away the dirt and debris,"
         },
         {
             "SceneNumber": 4,
-            "Duration": "5",
-            "VoiceOverText": " The followers of the Nath tradition consider Lord Shiva as their first teacher or adiguru.",
+            "Duration": "3",
+            "VoiceOverText": " you began to realize that it was a machine,",
             "Description": "",
-            "Text": " The followers of the Nath tradition consider Lord Shiva as their first teacher or adiguru."
+            "Text": " you began to realize that it was a machine,"
         },
         {
             "SceneNumber": 5,
-            "Duration": "5",
-            "VoiceOverText": " The Naths are famous for employing half yoga to master their physical bodies and achieve a superhuman",
+            "Duration": "2",
+            "VoiceOverText": " a machine of incredible complexity.",
             "Description": "",
-            "Text": " The Naths are famous for employing half yoga to master their physical bodies and achieve a superhuman"
+            "Text": " a machine of incredible complexity."
         },
         {
             "SceneNumber": 6,
-            "Duration": "5",
-            "VoiceOverText": " level of development. When Islamic rulers were taking over various parts of the Southeast Asia,",
+            "Duration": "4",
+            "VoiceOverText": " It was, in fact, the world's first analog computer.",
             "Description": "",
-            "Text": " level of development. When Islamic rulers were taking over various parts of the Southeast Asia,"
+            "Text": " It was, in fact, the world's first analog computer."
         },
         {
             "SceneNumber": 7,
-            "Duration": "4",
-            "VoiceOverText": " the Naths at his took weapons and defended their culture. That's why they are also known as the",
+            "Duration": "6",
+            "VoiceOverText": " The question is, why did the ancients create this priceless device?",
             "Description": "",
-            "Text": " the Naths at his took weapons and defended their culture. That's why they are also known as the"
+            "Text": " The question is, why did the ancients create this priceless device?"
         },
         {
             "SceneNumber": 8,
             "Duration": "5",
-            "VoiceOverText": " warrior aesthetics. And the Avidyudha Geeta has been one of their primary texts which promises to",
+            "VoiceOverText": " We think that the primordiation was for them to simulate reality.",
             "Description": "",
-            "Text": " warrior aesthetics. And the Avidyudha Geeta has been one of their primary texts which promises to"
+            "Text": " We think that the primordiation was for them to simulate reality."
         },
         {
             "SceneNumber": 9,
-            "Duration": "4",
-            "VoiceOverText": " guide the soul to immediate freedom. Researchers think that this powerful book was written by a being",
+            "Duration": "3",
+            "VoiceOverText": " It was designed to map the motion of the moon,",
             "Description": "",
-            "Text": " guide the soul to immediate freedom. Researchers think that this powerful book was written by a being"
+            "Text": " It was designed to map the motion of the moon,"
         },
         {
             "SceneNumber": 10,
-            "Duration": "6",
-            "VoiceOverText": " named Dattatria. He is still worshiped to this day and he is revered for his love for sharing knowledge.",
-            "Description": "",
-            "Text": " named Dattatria. He is still worshiped to this day and he is revered for his love for sharing knowledge."
-        },
-        {
-            "SceneNumber": 11,
             "Duration": "5",
-            "VoiceOverText": " He was also the master of Tantra, the secret knowledge of gaining mastery over universal forces.",
+            "VoiceOverText": " the sun, and the planets to simulate the known universe.",
             "Description": "",
-            "Text": " He was also the master of Tantra, the secret knowledge of gaining mastery over universal forces."
+            "Text": " the sun, and the planets to simulate the known universe."
         }
     ]
 }
