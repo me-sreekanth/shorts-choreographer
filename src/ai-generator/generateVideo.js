@@ -32,13 +32,33 @@ const createVideoClipWithTextAudioAndSubtitles = (
     throw new Error(`Watermark file not found at path: ${watermarkPath}`);
   }
 
-  const watermarkFilter = `[2:v]scale=200:-1[wm];[cropped][wm]overlay=10:10[watermarked]`;
+  // Randomly select an effect: zoom, pan left, or pan right
+  const effects = ['zoom', 'pan_left', 'pan_right'];
+  const selectedEffect = effects[Math.floor(Math.random() * effects.length)];
 
-  const filters =
-    `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=391:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed];` +
-    `[zoomed]scale=1440:1920[scaled];` +
-    `[scaled]crop=1080:1920:((1440-1080)/2):0[cropped];` +
-    `${watermarkFilter}`;
+  let filter;
+  switch (selectedEffect) {
+    case 'zoom':
+      // Zoom effect
+      filter = `[0:v]fps=50,zoompan=z='min(zoom+0.001,1.5)':d=${duration*25}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=768x1024[zoomed];` +
+               `[zoomed]scale=1440:1920[scaled];` +
+               `[scaled]crop=1080:1920:((1440-1080)/2):0[cropped];`;
+      break;
+    case 'pan_left':
+      // Pan left effect
+      filter = `[0:v]scale=-2:1920,` +
+               `crop=1080:1920:x='if(lte(t,${duration}), min(iw-ow, t*50), iw-ow)':y=0[cropped];`;
+      break;
+    case 'pan_right':
+      // Pan right effect
+      filter = `[0:v]scale=-2:1920,` +
+               `crop=1080:1920:x='if(lte(t,${duration}), max(0, iw-ow - t*50), 0)':y=0[cropped];`;
+      break;
+  }
+
+  // Apply watermark
+  const watermarkFilter = `[2:v]scale=200:-1[wm];[cropped][wm]overlay=10:10[watermarked]`;
+  const filters = `${filter}${watermarkFilter}`;
 
   const intermediateVideoClipPath = path.join(
     outputDirectory,
@@ -50,7 +70,7 @@ const createVideoClipWithTextAudioAndSubtitles = (
   );
 
   execSync(
-    `ffmpeg -y -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map "[watermarked]" -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`
+    `ffmpeg -y -loop 1 -i "${imagePath}" -i "${audioPath}" -i "${watermarkPath}" -filter_complex "${filters}" -map "[watermarked]" -map 1:a -pix_fmt yuv420p -c:v libx264 -r 50 -t ${duration} "${intermediateVideoClipPath}"`
   );
   execSync(
     `ffmpeg -y -i "${intermediateVideoClipPath}" -c:v libx264 -c:a copy "${videoClipPath}"`
