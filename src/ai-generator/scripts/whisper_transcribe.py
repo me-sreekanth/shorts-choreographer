@@ -5,8 +5,7 @@ import whisper
 # Constants
 AUDIO_PATH = sys.argv[1]
 OUTPUT_ASS_PATH = sys.argv[2]
-FONT_PATH = "Impact"
-FONT_SIZE = 18
+FONT_SIZE = 30
 BOTTOM_MARGIN = 90
 
 def format_time(seconds):
@@ -19,7 +18,8 @@ def format_time(seconds):
     centiseconds = int((seconds - int(seconds)) * 100)
     return f"{hours:02}:{minutes:02}:{int(seconds):02}.{centiseconds:02}"
 
-def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN, font_path=FONT_PATH):
+def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN):
+    font_name = "Bangers" # or Impact
     header = [
         "[Script Info]",
         "Title: Whisper Transcription",
@@ -30,7 +30,7 @@ def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN, font_pat
         "",
         "[V4+ Styles]",
         "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-        f"Style: Default, {font_path}, {font_size}, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, {bottom_margin}, 1",
+        f"Style: Default, {font_name}, {font_size}, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, {bottom_margin}, 1",
         "",
         "[Events]",
         "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
@@ -39,8 +39,12 @@ def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN, font_pat
     return "\n".join(header)
 
 def random_color():
-    colors = ["&H00FFFFFF", "&H0000FFFF", "&H000000FF"]  # White, Yellow, Red in BGR Hex
+    colors = ["&H00FFFFFF", "&H0000FFFF", "&H000000FF", "&H00FF00"]  # White, Yellow, Red, Green in BGR Hex
     return random.choice(colors)
+
+def random_font_size():
+    sizes = [35, 30]
+    return random.choice(sizes)
 
 def transcribe(audio_path=AUDIO_PATH, output_file_path=OUTPUT_ASS_PATH):
     model = whisper.load_model("base")
@@ -65,9 +69,13 @@ def transcribe(audio_path=AUDIO_PATH, output_file_path=OUTPUT_ASS_PATH):
                 start_time = format_time(current_time)
                 current_time += time_per_word * len(selected_words)
                 end_time = format_time(current_time)
-                subtitle_text = " ".join(selected_words).upper()  # Convert to uppercase
+
+                font_size = random_font_size()  # Get a random font size
+                subtitle_text = " ".join(selected_words)  # Convert to uppercase
                 color = random_color()
-                subtitle_line = f"Dialogue: 0,{start_time},{end_time},Default,,0000,0000,0000,,{{\\1c{color}}}{subtitle_text}\n"
+
+                # Apply the random font size
+                subtitle_line = f"Dialogue: 0,{start_time},{end_time},Default,,0000,0000,0000,,{{\\fs{font_size}}}{{\\1c{color}}}{subtitle_text}\n"
                 file.write(subtitle_line)
 
 if __name__ == "__main__":

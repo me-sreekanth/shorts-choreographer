@@ -7,76 +7,71 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default, Impact, 18, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
+Style: Default, Bangers, 30, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.92,Default,,0000,0000,0000,,{\1c&H000000FF}IMAGINE DETECTING
-Dialogue: 0,00:00:00.92,00:00:01.84,Default,,0000,0000,0000,,{\1c&H000000FF}THE COLLISION
-Dialogue: 0,00:00:01.84,00:00:02.76,Default,,0000,0000,0000,,{\1c&H0000FFFF}OF BLACK
-Dialogue: 0,00:00:02.76,00:00:03.23,Default,,0000,0000,0000,,{\1c&H00FFFFFF}HOLES,
-Dialogue: 0,00:00:03.23,00:00:03.69,Default,,0000,0000,0000,,{\1c&H0000FFFF}A
-Dialogue: 0,00:00:03.69,00:00:04.15,Default,,0000,0000,0000,,{\1c&H0000FFFF}COSMIC
-Dialogue: 0,00:00:04.15,00:00:05.07,Default,,0000,0000,0000,,{\1c&H00FFFFFF}EVENT OF
-Dialogue: 0,00:00:05.07,00:00:06.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}UNIMAGINABLE SCALE.
-Dialogue: 0,00:00:06.00,00:00:06.77,Default,,0000,0000,0000,,{\1c&H0000FFFF}THESE GIANTS,
-Dialogue: 0,00:00:06.77,00:00:07.16,Default,,0000,0000,0000,,{\1c&H0000FFFF}EACH
-Dialogue: 0,00:00:07.16,00:00:07.94,Default,,0000,0000,0000,,{\1c&H000000FF}WITH A
-Dialogue: 0,00:00:07.94,00:00:08.72,Default,,0000,0000,0000,,{\1c&H000000FF}MASS ABOUT
-Dialogue: 0,00:00:08.72,00:00:09.11,Default,,0000,0000,0000,,{\1c&H00FFFFFF}30
-Dialogue: 0,00:00:09.11,00:00:09.50,Default,,0000,0000,0000,,{\1c&H0000FFFF}TIMES
-Dialogue: 0,00:00:09.50,00:00:10.27,Default,,0000,0000,0000,,{\1c&H0000FFFF}THAT OF
-Dialogue: 0,00:00:10.27,00:00:11.05,Default,,0000,0000,0000,,{\1c&H000000FF}OUR SUN,
-Dialogue: 0,00:00:11.05,00:00:11.83,Default,,0000,0000,0000,,{\1c&H00FFFFFF}SPIRAL TOWARDS
-Dialogue: 0,00:00:11.83,00:00:12.61,Default,,0000,0000,0000,,{\1c&H0000FFFF}AN INEVITABLE
-Dialogue: 0,00:00:12.61,00:00:13.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}CLASH.
-Dialogue: 0,00:00:13.00,00:00:13.80,Default,,0000,0000,0000,,{\1c&H00FFFFFF}ACCELERATING TO
-Dialogue: 0,00:00:13.80,00:00:14.20,Default,,0000,0000,0000,,{\1c&H0000FFFF}INCREDIBLE
-Dialogue: 0,00:00:14.20,00:00:15.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}SPEEDS, THEY
-Dialogue: 0,00:00:15.00,00:00:15.40,Default,,0000,0000,0000,,{\1c&H0000FFFF}ORBIT
-Dialogue: 0,00:00:15.40,00:00:15.80,Default,,0000,0000,0000,,{\1c&H000000FF}EACH
-Dialogue: 0,00:00:15.80,00:00:16.60,Default,,0000,0000,0000,,{\1c&H000000FF}OTHER, APPROACHING
-Dialogue: 0,00:00:16.60,00:00:17.40,Default,,0000,0000,0000,,{\1c&H000000FF}NEARLY ONE-THIRD
-Dialogue: 0,00:00:17.40,00:00:17.80,Default,,0000,0000,0000,,{\1c&H0000FFFF}THE
-Dialogue: 0,00:00:17.80,00:00:18.60,Default,,0000,0000,0000,,{\1c&H00FFFFFF}SPEED OF
-Dialogue: 0,00:00:18.60,00:00:19.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}LIGHT.
-Dialogue: 0,00:00:19.00,00:00:19.41,Default,,0000,0000,0000,,{\1c&H0000FFFF}IN
-Dialogue: 0,00:00:19.41,00:00:19.82,Default,,0000,0000,0000,,{\1c&H00FFFFFF}A
-Dialogue: 0,00:00:19.82,00:00:20.23,Default,,0000,0000,0000,,{\1c&H000000FF}FINAL
-Dialogue: 0,00:00:20.23,00:00:20.64,Default,,0000,0000,0000,,{\1c&H0000FFFF}BURST
-Dialogue: 0,00:00:20.64,00:00:21.05,Default,,0000,0000,0000,,{\1c&H0000FFFF}OF
-Dialogue: 0,00:00:21.05,00:00:21.47,Default,,0000,0000,0000,,{\1c&H0000FFFF}COSMIC
-Dialogue: 0,00:00:21.47,00:00:21.88,Default,,0000,0000,0000,,{\1c&H00FFFFFF}ENERGY,
-Dialogue: 0,00:00:21.88,00:00:22.70,Default,,0000,0000,0000,,{\1c&H0000FFFF}THEY COLLIDE,
-Dialogue: 0,00:00:22.70,00:00:23.11,Default,,0000,0000,0000,,{\1c&H0000FFFF}UNLEASHING
-Dialogue: 0,00:00:23.11,00:00:23.94,Default,,0000,0000,0000,,{\1c&H00FFFFFF}POWER THAT
-Dialogue: 0,00:00:23.94,00:00:24.35,Default,,0000,0000,0000,,{\1c&H0000FFFF}DWARFS
-Dialogue: 0,00:00:24.35,00:00:25.17,Default,,0000,0000,0000,,{\1c&H0000FFFF}EVEN THE
-Dialogue: 0,00:00:25.17,00:00:25.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}BRIGHTEST STARS.
-Dialogue: 0,00:00:26.00,00:00:26.42,Default,,0000,0000,0000,,{\1c&H00FFFFFF}THE
-Dialogue: 0,00:00:26.42,00:00:26.85,Default,,0000,0000,0000,,{\1c&H00FFFFFF}COLLISION
-Dialogue: 0,00:00:26.85,00:00:27.28,Default,,0000,0000,0000,,{\1c&H000000FF}RIPPLES
-Dialogue: 0,00:00:27.28,00:00:28.14,Default,,0000,0000,0000,,{\1c&H0000FFFF}THROUGH THE
-Dialogue: 0,00:00:28.14,00:00:28.57,Default,,0000,0000,0000,,{\1c&H0000FFFF}FABRIC
-Dialogue: 0,00:00:28.57,00:00:28.99,Default,,0000,0000,0000,,{\1c&H00FFFFFF}OF
-Dialogue: 0,00:00:28.99,00:00:29.85,Default,,0000,0000,0000,,{\1c&H0000FFFF}SPACE-TIME, SENDING
-Dialogue: 0,00:00:29.85,00:00:30.28,Default,,0000,0000,0000,,{\1c&H000000FF}GRAVITATIONAL
-Dialogue: 0,00:00:30.28,00:00:31.14,Default,,0000,0000,0000,,{\1c&H0000FFFF}WAVES ACROSS
-Dialogue: 0,00:00:31.14,00:00:31.57,Default,,0000,0000,0000,,{\1c&H000000FF}THE
-Dialogue: 0,00:00:31.57,00:00:31.99,Default,,0000,0000,0000,,{\1c&H000000FF}UNIVERSE.
-Dialogue: 0,00:00:32.00,00:00:33.09,Default,,0000,0000,0000,,{\1c&H0000FFFF}ASTRONOMERS DETECT
-Dialogue: 0,00:00:33.09,00:00:33.63,Default,,0000,0000,0000,,{\1c&H0000FFFF}THESE
-Dialogue: 0,00:00:33.63,00:00:34.72,Default,,0000,0000,0000,,{\1c&H00FFFFFF}WAVES, UNLOCKING
-Dialogue: 0,00:00:34.72,00:00:35.27,Default,,0000,0000,0000,,{\1c&H0000FFFF}SECRETS
-Dialogue: 0,00:00:35.27,00:00:36.36,Default,,0000,0000,0000,,{\1c&H0000FFFF}OF THESE
-Dialogue: 0,00:00:36.36,00:00:37.45,Default,,0000,0000,0000,,{\1c&H0000FFFF}MYSTERIOUS COSMIC
-Dialogue: 0,00:00:37.45,00:00:38.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}GIANTS.
-Dialogue: 0,00:00:38.00,00:00:38.75,Default,,0000,0000,0000,,{\1c&H000000FF}EXPLORE MORE
-Dialogue: 0,00:00:38.75,00:00:39.50,Default,,0000,0000,0000,,{\1c&H000000FF}CELESTIAL WONDERS
-Dialogue: 0,00:00:39.50,00:00:39.87,Default,,0000,0000,0000,,{\1c&H000000FF}WITH
-Dialogue: 0,00:00:39.87,00:00:40.25,Default,,0000,0000,0000,,{\1c&H00FFFFFF}US,
-Dialogue: 0,00:00:40.25,00:00:41.00,Default,,0000,0000,0000,,{\1c&H0000FFFF}LIKE SHARE
-Dialogue: 0,00:00:41.00,00:00:41.75,Default,,0000,0000,0000,,{\1c&H0000FFFF}AND SUBSCRIBE
-Dialogue: 0,00:00:41.75,00:00:42.50,Default,,0000,0000,0000,,{\1c&H00FFFFFF}FOR A
-Dialogue: 0,00:00:42.50,00:00:43.25,Default,,0000,0000,0000,,{\1c&H0000FFFF}JOURNEY THROUGH
-Dialogue: 0,00:00:43.25,00:00:44.00,Default,,0000,0000,0000,,{\1c&H00FFFFFF}THE COSMOS.
+Dialogue: 0,00:00:00.00,00:00:00.92,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Imagine detecting
+Dialogue: 0,00:00:00.92,00:00:01.38,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the
+Dialogue: 0,00:00:01.38,00:00:02.30,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}collision of
+Dialogue: 0,00:00:02.30,00:00:03.23,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}black holes,
+Dialogue: 0,00:00:03.23,00:00:04.15,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a cosmic
+Dialogue: 0,00:00:04.15,00:00:05.07,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}event of
+Dialogue: 0,00:00:05.07,00:00:06.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}unimaginable scale.
+Dialogue: 0,00:00:06.00,00:00:06.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}These giants,
+Dialogue: 0,00:00:06.77,00:00:07.55,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}each with
+Dialogue: 0,00:00:07.55,00:00:08.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}a mass
+Dialogue: 0,00:00:08.33,00:00:08.72,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}about
+Dialogue: 0,00:00:08.72,00:00:09.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}30
+Dialogue: 0,00:00:09.11,00:00:09.88,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}times that
+Dialogue: 0,00:00:09.88,00:00:10.27,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:10.27,00:00:11.05,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}our sun,
+Dialogue: 0,00:00:11.05,00:00:11.44,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}spiral
+Dialogue: 0,00:00:11.44,00:00:12.22,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}towards an
+Dialogue: 0,00:00:12.22,00:00:13.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}inevitable clash.
+Dialogue: 0,00:00:13.00,00:00:13.80,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Accelerating to
+Dialogue: 0,00:00:13.80,00:00:14.60,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}incredible speeds,
+Dialogue: 0,00:00:14.60,00:00:15.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}they
+Dialogue: 0,00:00:15.00,00:00:15.40,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}orbit
+Dialogue: 0,00:00:15.40,00:00:16.20,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}each other,
+Dialogue: 0,00:00:16.20,00:00:17.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}approaching nearly
+Dialogue: 0,00:00:17.00,00:00:17.40,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}one-third
+Dialogue: 0,00:00:17.40,00:00:18.20,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}the speed
+Dialogue: 0,00:00:18.20,00:00:19.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of light.
+Dialogue: 0,00:00:19.00,00:00:19.41,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}In
+Dialogue: 0,00:00:19.41,00:00:19.82,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:19.82,00:00:20.64,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}final burst
+Dialogue: 0,00:00:20.64,00:00:21.05,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}of
+Dialogue: 0,00:00:21.05,00:00:21.88,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}cosmic energy,
+Dialogue: 0,00:00:21.88,00:00:22.70,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}they collide,
+Dialogue: 0,00:00:22.70,00:00:23.11,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}unleashing
+Dialogue: 0,00:00:23.11,00:00:23.94,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}power that
+Dialogue: 0,00:00:23.94,00:00:24.76,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}dwarfs even
+Dialogue: 0,00:00:24.76,00:00:25.58,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the brightest
+Dialogue: 0,00:00:25.58,00:00:25.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}stars.
+Dialogue: 0,00:00:26.00,00:00:26.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}The collision
+Dialogue: 0,00:00:26.85,00:00:27.28,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}ripples
+Dialogue: 0,00:00:27.28,00:00:28.14,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}through the
+Dialogue: 0,00:00:28.14,00:00:29.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}fabric of
+Dialogue: 0,00:00:29.00,00:00:29.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}space-time, sending
+Dialogue: 0,00:00:29.85,00:00:30.28,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}gravitational
+Dialogue: 0,00:00:30.28,00:00:30.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}waves
+Dialogue: 0,00:00:30.71,00:00:31.57,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}across the
+Dialogue: 0,00:00:31.57,00:00:31.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}universe.
+Dialogue: 0,00:00:32.00,00:00:32.54,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Astronomers
+Dialogue: 0,00:00:32.54,00:00:33.63,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}detect these
+Dialogue: 0,00:00:33.63,00:00:34.72,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}waves, unlocking
+Dialogue: 0,00:00:34.72,00:00:35.27,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}secrets
+Dialogue: 0,00:00:35.27,00:00:35.81,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}of
+Dialogue: 0,00:00:35.81,00:00:36.90,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}these mysterious
+Dialogue: 0,00:00:36.90,00:00:38.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}cosmic giants.
+Dialogue: 0,00:00:38.00,00:00:38.75,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Explore more
+Dialogue: 0,00:00:38.75,00:00:39.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}celestial wonders
+Dialogue: 0,00:00:39.50,00:00:40.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}with us,
+Dialogue: 0,00:00:40.25,00:00:40.62,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}like
+Dialogue: 0,00:00:40.62,00:00:41.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}share
+Dialogue: 0,00:00:41.00,00:00:41.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and subscribe
+Dialogue: 0,00:00:41.75,00:00:42.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}for
+Dialogue: 0,00:00:42.12,00:00:42.87,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a journey
+Dialogue: 0,00:00:42.87,00:00:43.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}through the
+Dialogue: 0,00:00:43.62,00:00:44.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}cosmos.
