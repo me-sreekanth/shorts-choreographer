@@ -1,48 +1,55 @@
 {
-  "Title": "Hinduism's Cosmic Mysteries #shorts #short",
-  "Description": "Dive into Hinduism's ancient origins and cosmic connections. Explore how one of the world's oldest religions intertwines with extraterrestrial lore in this intriguing short video. #Hinduism #AncientWisdom #CosmicMysteries",
+  "Title": "The Enigma of Egypt's Pyramids: Unveiled #shorts #short",
+  "Description": "Unravel the mysteries of Egypt's pyramids. Explore the unknowns about their construction and the ancient civilization of Egypt in this short, intriguing video. #AncientEgypt #PyramidsMystery #ArcheologicalMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "8",
-      "VoiceOverText": "WHY IS HINDUISM CONSIDERED THE OLDEST RELIGION IN THE WORLD, with roots reaching far beyond known history?",
-      "Description": "Scenes of ancient Hindu temples and scriptures.",
-      "Text": "WHY IS HINDUISM CONSIDERED THE OLDEST RELIGION IN THE WORLD, with roots reaching far beyond known history?"
+      "Duration": "4",
+      "VoiceOverText": "The PYRAMIDS: a MYSTERY like nowhere else, shrouded in UNANSWERED questions.",
+      "Description": "Aerial shots of the Pyramids of Giza.",
+      "Text": "The PYRAMIDS: a MYSTERY like nowhere else, shrouded in UNANSWERED questions."
     },
     {
       "SceneNumber": 2,
-      "Duration": "8",
-      "VoiceOverText": "Its core philosophy, SANATANA DHARMA, or THE ETERNAL WAY, evolves through continuous addition by SAGES.",
-      "Description": "Imagery of Hindu sages and the evolution of Hindu philosophy.",
-      "Text": "Its core philosophy, SANATANA DHARMA, or THE ETERNAL WAY, evolves through continuous addition by SAGES."
+      "Duration": "4",
+      "VoiceOverText": "Despite thousands of HIEROGLYPHS across Egypt, NONE depict the Pyramids' CONSTRUCTION or stone cutting.",
+      "Description": "Close-up views of Egyptian hieroglyphs, contrasting with images of the pyramids.",
+      "Text": "Despite thousands of HIEROGLYPHS across Egypt, NONE depict the Pyramids' CONSTRUCTION or stone cutting."
     },
     {
       "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Hindu texts like the PURANAS talk of INTERPLANETARY TRAVEL, ADVANCED TECHNOLOGIES, and EXTRATERRESTRIAL SPECIES.",
-      "Description": "Depictions of Vedic stories illustrating cosmic events and advanced technology.",
-      "Text": "Hindu texts like the PURANAS talk of INTERPLANETARY TRAVEL, ADVANCED TECHNOLOGIES, and EXTRATERRESTRIAL SPECIES."
+      "Duration": "4",
+      "VoiceOverText": "Egypt's BRONZE AGE tools, like copper saws, FAIL modern tests in replicating pyramid stone work.",
+      "Description": "Recreations of Bronze Age tools alongside modern experimental archaeology.",
+      "Text": "Egypt's BRONZE AGE tools, like copper saws, FAIL modern tests in replicating pyramid stone work."
     },
     {
       "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "Mainstream historians view these as MYTHS, but could they indicate a CONNECTION TO THE COSMOS?",
-      "Description": "Contrasting scenes of historical skepticism and mystical interpretations.",
-      "Text": "Mainstream historians view these as MYTHS, but could they indicate a CONNECTION TO THE COSMOS?"
+      "Duration": "4",
+      "VoiceOverText": "Over 50 MILLION stones were cut with astonishing PRECISION, far beyond what Bronze Age tools could achieve.",
+      "Description": "Panoramic views of the pyramids and detailed shots of the stone work.",
+      "Text": "Over 50 MILLION stones were cut with astonishing PRECISION, far beyond what Bronze Age tools could achieve."
     },
     {
       "SceneNumber": 5,
-      "Duration": "8",
-      "VoiceOverText": "Some theorize Hinduism was introduced by EXTRATERRESTRIAL BEINGS, merging spiritual wisdom with celestial knowledge.",
-      "Description": "Artistic interpretations of extraterrestrial influences in ancient Hindu culture.",
-      "Text": "Some theorize Hinduism was introduced by EXTRATERRESTRIAL BEINGS, merging spiritual wisdom with celestial knowledge."
+      "Duration": "4",
+      "VoiceOverText": "Theories often cite the pyramids as TOMBS, yet this view is contradicted by the lack of BURIAL evidence.",
+      "Description": "Interior shots of the pyramids, highlighting the absence of traditional tomb elements.",
+      "Text": "Theories often cite the pyramids as TOMBS, yet this view is contradicted by the lack of BURIAL evidence."
     },
     {
       "SceneNumber": 6,
-      "Duration": "10",
-      "VoiceOverText": "DISCOVER MORE ANCIENT MYSTERIES. LIKE, SHARE, AND SUBSCRIBE for insights into our spiritual and cosmic past.",
-      "Description": "A call to action with visuals of other ancient religious mysteries and cosmic phenomena.",
-      "Text": "DISCOVER MORE ANCIENT MYSTERIES. LIKE, SHARE, AND SUBSCRIBE for insights into our spiritual and cosmic past."
+      "Duration": "4",
+      "VoiceOverText": "The ENIGMA of the pyramids challenges our understanding of ANCIENT HISTORY and TECHNOLOGY.",
+      "Description": "Images of ancient Egyptian art blended with modern archaeological research.",
+      "Text": "The ENIGMA of the pyramids challenges our understanding of ANCIENT HISTORY and TECHNOLOGY."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "6",
+      "VoiceOverText": "JOIN US in uncovering more HISTORICAL SECRETS. LIKE, SHARE, AND SUBSCRIBE for fascinating journeys into the PAST.",
+      "Description": "A call to action with visuals of other mysterious ancient structures and civilizations.",
+      "Text": "JOIN US in uncovering more HISTORICAL SECRETS. LIKE, SHARE, AND SUBSCRIBE for fascinating journeys into the PAST."
     }
   ]
 }

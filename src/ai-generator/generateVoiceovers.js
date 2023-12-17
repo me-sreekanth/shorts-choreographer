@@ -73,7 +73,7 @@ const addSilence = (filePath) => {
     const silenceFile = `${filePath.replace(".mp3", "_silence.mp3")}`;
     const tempFilePath = `${filePath.replace(".mp3", "_temp.mp3")}`;
 
-    const generateSilenceCommand = `ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -t 0.2 ${silenceFile}`;
+    const generateSilenceCommand = `ffmpeg -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -t 0.1 ${silenceFile}`;
     exec(generateSilenceCommand, (silenceError, stdout, stderr) => {
       if (silenceError) {
         console.error("Error generating silence:", stderr);

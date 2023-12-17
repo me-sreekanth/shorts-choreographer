@@ -7,66 +7,82 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default, Bangers, 30, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
+Style: Default, Impact, 30, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.70,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Why is
-Dialogue: 0,00:00:00.70,00:00:01.05,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Hinduism
-Dialogue: 0,00:00:01.05,00:00:01.76,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}considered the
-Dialogue: 0,00:00:01.76,00:00:02.47,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}oldest religion
-Dialogue: 0,00:00:02.47,00:00:03.17,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in the
-Dialogue: 0,00:00:03.17,00:00:03.88,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}world, with
-Dialogue: 0,00:00:03.88,00:00:04.58,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}roots reaching
-Dialogue: 0,00:00:04.58,00:00:04.94,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}far
-Dialogue: 0,00:00:04.94,00:00:05.64,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}beyond known
-Dialogue: 0,00:00:05.64,00:00:06.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}history?
-Dialogue: 0,00:00:06.00,00:00:06.46,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Its
-Dialogue: 0,00:00:06.46,00:00:06.93,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}core
-Dialogue: 0,00:00:06.93,00:00:07.40,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}philosophy,
-Dialogue: 0,00:00:07.40,00:00:08.33,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Sanatana Dharma
-Dialogue: 0,00:00:08.33,00:00:09.26,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}or the
-Dialogue: 0,00:00:09.26,00:00:10.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Eternal Way,
-Dialogue: 0,00:00:10.20,00:00:10.66,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}evolves
-Dialogue: 0,00:00:10.66,00:00:11.60,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}through continuous
-Dialogue: 0,00:00:11.60,00:00:12.06,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}addition
-Dialogue: 0,00:00:12.06,00:00:12.53,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}by
-Dialogue: 0,00:00:12.53,00:00:13.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}sages.
-Dialogue: 0,00:00:13.00,00:00:14.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Hindu texts,
-Dialogue: 0,00:00:14.00,00:00:15.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}like the
-Dialogue: 0,00:00:15.00,00:00:15.50,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Paranas'
-Dialogue: 0,00:00:15.50,00:00:16.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}talk
-Dialogue: 0,00:00:16.00,00:00:16.50,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:16.50,00:00:17.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}interplanetary
-Dialogue: 0,00:00:17.00,00:00:18.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}travel, advanced
-Dialogue: 0,00:00:18.00,00:00:19.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}technologies, and
-Dialogue: 0,00:00:19.00,00:00:20.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}extraterrestrial species.
-Dialogue: 0,00:00:20.00,00:00:20.39,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Mainstream
-Dialogue: 0,00:00:20.39,00:00:21.19,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}historians view
-Dialogue: 0,00:00:21.19,00:00:21.59,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}these
-Dialogue: 0,00:00:21.59,00:00:21.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}as
-Dialogue: 0,00:00:21.99,00:00:22.79,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}myths, but
-Dialogue: 0,00:00:22.79,00:00:23.19,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}could
-Dialogue: 0,00:00:23.19,00:00:23.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}they indicate
-Dialogue: 0,00:00:23.99,00:00:24.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}a connection
-Dialogue: 0,00:00:24.79,00:00:25.59,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}to the
-Dialogue: 0,00:00:25.59,00:00:25.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}cosmos?
-Dialogue: 0,00:00:26.00,00:00:27.14,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Some theorized
-Dialogue: 0,00:00:27.14,00:00:27.71,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Hinduism
-Dialogue: 0,00:00:27.71,00:00:28.85,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}was introduced
-Dialogue: 0,00:00:28.85,00:00:30.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}by extraterrestrial
-Dialogue: 0,00:00:30.00,00:00:30.57,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}beings,
-Dialogue: 0,00:00:30.57,00:00:31.71,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}merging spiritual
-Dialogue: 0,00:00:31.71,00:00:32.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}wisdom with
-Dialogue: 0,00:00:32.85,00:00:33.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}celestial
-Dialogue: 0,00:00:33.42,00:00:34.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}knowledge.
-Dialogue: 0,00:00:34.00,00:00:34.75,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Discover more
-Dialogue: 0,00:00:34.75,00:00:35.12,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}ancient
-Dialogue: 0,00:00:35.12,00:00:35.87,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}mysteries, like,
-Dialogue: 0,00:00:35.87,00:00:36.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}share, and
-Dialogue: 0,00:00:36.62,00:00:37.37,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subscribe for
-Dialogue: 0,00:00:37.37,00:00:38.12,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}insights into
-Dialogue: 0,00:00:38.12,00:00:38.87,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}our spiritual
-Dialogue: 0,00:00:38.87,00:00:39.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
-Dialogue: 0,00:00:39.25,00:00:39.62,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}cosmic
-Dialogue: 0,00:00:39.62,00:00:40.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}past.
+Dialogue: 0,00:00:00.00,00:00:00.45,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}The
+Dialogue: 0,00:00:00.45,00:00:00.90,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}pyramids,
+Dialogue: 0,00:00:00.90,00:00:01.81,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a mystery
+Dialogue: 0,00:00:01.81,00:00:02.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}like
+Dialogue: 0,00:00:02.27,00:00:02.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}nowhere
+Dialogue: 0,00:00:02.72,00:00:03.18,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}else,
+Dialogue: 0,00:00:03.18,00:00:04.09,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}shrouded in
+Dialogue: 0,00:00:04.09,00:00:05.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}unanswered questions.
+Dialogue: 0,00:00:05.00,00:00:06.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Despite thousands
+Dialogue: 0,00:00:06.00,00:00:07.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of hieroglyphs
+Dialogue: 0,00:00:07.00,00:00:07.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}across
+Dialogue: 0,00:00:07.50,00:00:08.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Egypt,
+Dialogue: 0,00:00:08.00,00:00:08.50,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}none
+Dialogue: 0,00:00:08.50,00:00:09.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}depict the
+Dialogue: 0,00:00:09.50,00:00:10.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}pyramid's
+Dialogue: 0,00:00:10.00,00:00:11.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}construction or
+Dialogue: 0,00:00:11.00,00:00:11.50,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}stone
+Dialogue: 0,00:00:11.50,00:00:12.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}cutting.
+Dialogue: 0,00:00:12.00,00:00:12.28,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}Egypt's
+Dialogue: 0,00:00:12.28,00:00:12.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Bronze Age
+Dialogue: 0,00:00:12.85,00:00:13.14,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}tools
+Dialogue: 0,00:00:13.14,00:00:13.42,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}like
+Dialogue: 0,00:00:13.42,00:00:14.00,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}copper saws,
+Dialogue: 0,00:00:14.00,00:00:14.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}fail
+Dialogue: 0,00:00:14.42,00:00:15.28,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}modern tests
+Dialogue: 0,00:00:15.28,00:00:16.14,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}in replicating
+Dialogue: 0,00:00:16.14,00:00:16.57,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}pyramid
+Dialogue: 0,00:00:16.57,00:00:16.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}stonework.
+Dialogue: 0,00:00:17.00,00:00:17.88,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Over 50
+Dialogue: 0,00:00:17.88,00:00:18.33,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}million
+Dialogue: 0,00:00:18.33,00:00:19.22,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}stones were
+Dialogue: 0,00:00:19.22,00:00:19.66,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}cut
+Dialogue: 0,00:00:19.66,00:00:20.55,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}with astonishing
+Dialogue: 0,00:00:20.55,00:00:20.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}precision,
+Dialogue: 0,00:00:21.00,00:00:21.37,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}far
+Dialogue: 0,00:00:21.37,00:00:21.75,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}beyond
+Dialogue: 0,00:00:21.75,00:00:22.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}what
+Dialogue: 0,00:00:22.12,00:00:22.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Bronze
+Dialogue: 0,00:00:22.50,00:00:23.25,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Age tools
+Dialogue: 0,00:00:23.25,00:00:23.62,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}could
+Dialogue: 0,00:00:23.62,00:00:24.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}achieve.
+Dialogue: 0,00:00:24.00,00:00:24.75,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}There is
+Dialogue: 0,00:00:24.75,00:00:25.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}often sight
+Dialogue: 0,00:00:25.50,00:00:26.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the pyramids
+Dialogue: 0,00:00:26.25,00:00:26.62,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}as
+Dialogue: 0,00:00:26.62,00:00:27.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}tombs,
+Dialogue: 0,00:00:27.00,00:00:27.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}yet
+Dialogue: 0,00:00:27.36,00:00:28.09,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}this view
+Dialogue: 0,00:00:28.09,00:00:28.81,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}is contradicted
+Dialogue: 0,00:00:28.81,00:00:29.18,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}by
+Dialogue: 0,00:00:29.18,00:00:29.90,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the lack
+Dialogue: 0,00:00:29.90,00:00:30.27,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}of
+Dialogue: 0,00:00:30.27,00:00:30.63,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}burial
+Dialogue: 0,00:00:30.63,00:00:30.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}evidence.
+Dialogue: 0,00:00:31.00,00:00:31.76,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}The enigma
+Dialogue: 0,00:00:31.76,00:00:32.15,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}of
+Dialogue: 0,00:00:32.15,00:00:32.92,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the pyramids
+Dialogue: 0,00:00:32.92,00:00:33.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}challenges
+Dialogue: 0,00:00:33.30,00:00:34.07,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}our understanding
+Dialogue: 0,00:00:34.07,00:00:34.46,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
+Dialogue: 0,00:00:34.46,00:00:35.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}ancient history
+Dialogue: 0,00:00:35.23,00:00:35.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and technology.
+Dialogue: 0,00:00:36.00,00:00:36.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Join
+Dialogue: 0,00:00:36.42,00:00:37.28,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}us in
+Dialogue: 0,00:00:37.28,00:00:37.71,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}uncovering
+Dialogue: 0,00:00:37.71,00:00:38.57,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}more historical
+Dialogue: 0,00:00:38.57,00:00:39.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}secrets,
+Dialogue: 0,00:00:39.00,00:00:39.39,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}like
+Dialogue: 0,00:00:39.39,00:00:39.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}share
+Dialogue: 0,00:00:39.79,00:00:40.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}and
+Dialogue: 0,00:00:40.19,00:00:40.99,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}subscribe for
+Dialogue: 0,00:00:40.99,00:00:41.39,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}fascinating
+Dialogue: 0,00:00:41.39,00:00:41.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}journeys
+Dialogue: 0,00:00:41.79,00:00:42.59,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}into the
+Dialogue: 0,00:00:42.59,00:00:42.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}past.
