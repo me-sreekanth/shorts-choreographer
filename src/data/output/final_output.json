@@ -4,101 +4,115 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "4",
-            "VoiceOverText": " The collision of black holes, the idea that you can detect that.",
+            "Duration": "3",
+            "VoiceOverText": " Why It Is The Oldest Religion In The World",
             "Description": "",
-            "Text": " The collision of black holes, the idea that you can detect that."
+            "Text": " Why It Is The Oldest Religion In The World"
         },
         {
             "SceneNumber": 2,
-            "Duration": "5",
-            "VoiceOverText": " Yeah, there are two black holes and there were about 30 times the mass of the sun each.",
+            "Duration": "3",
+            "VoiceOverText": " If we look at and study all the ancient cultures in the world,",
             "Description": "",
-            "Text": " Yeah, there are two black holes and there were about 30 times the mass of the sun each."
+            "Text": " If we look at and study all the ancient cultures in the world,"
         },
         {
             "SceneNumber": 3,
-            "Duration": "2",
-            "VoiceOverText": " And they were all between each other,",
+            "Duration": "3",
+            "VoiceOverText": " we find none so diverse and complex than the Hindu culture.",
             "Description": "",
-            "Text": " And they were all between each other,"
+            "Text": " we find none so diverse and complex than the Hindu culture."
         },
         {
             "SceneNumber": 4,
             "Duration": "3",
-            "VoiceOverText": " and spiraling into towards each other.",
+            "VoiceOverText": " Its practitioners call it Sanatana Dharma,",
             "Description": "",
-            "Text": " and spiraling into towards each other."
+            "Text": " Its practitioners call it Sanatana Dharma,"
         },
         {
             "SceneNumber": 5,
-            "Duration": "6",
-            "VoiceOverText": " And they accelerated, at one point they were approaching each other at one third the speed of light,",
+            "Duration": "5",
+            "VoiceOverText": " or the eternal way of life, which suggests that its roots are beyond the known human history.",
             "Description": "",
-            "Text": " And they accelerated, at one point they were approaching each other at one third the speed of light,"
+            "Text": " or the eternal way of life, which suggests that its roots are beyond the known human history."
         },
         {
             "SceneNumber": 6,
             "Duration": "4",
-            "VoiceOverText": " and they accelerated to two thirds the speed of light in a tenth of a second.",
+            "VoiceOverText": " And the most amazing thing about it is that there are no specific founders of this religion",
             "Description": "",
-            "Text": " and they accelerated to two thirds the speed of light in a tenth of a second."
+            "Text": " And the most amazing thing about it is that there are no specific founders of this religion"
         },
         {
             "SceneNumber": 7,
             "Duration": "2",
-            "VoiceOverText": " And then hit each other.",
+            "VoiceOverText": " unlike many other religions.",
             "Description": "",
-            "Text": " And then hit each other."
+            "Text": " unlike many other religions."
         },
         {
             "SceneNumber": 8,
-            "Duration": "6",
-            "VoiceOverText": " And the explosion, the energy release, it was something like 50 times the energy release,",
+            "Duration": "4",
+            "VoiceOverText": " The Hindu philosophy and culture developed as a process of continuous addition",
             "Description": "",
-            "Text": " And the explosion, the energy release, it was something like 50 times the energy release,"
+            "Text": " The Hindu philosophy and culture developed as a process of continuous addition"
         },
         {
             "SceneNumber": 9,
             "Duration": "5",
-            "VoiceOverText": " that the power of all the stars in the observable universe glowing.",
+            "VoiceOverText": " and modifications of its core literature by prominent sages throughout its history.",
             "Description": "",
-            "Text": " that the power of all the stars in the observable universe glowing."
+            "Text": " and modifications of its core literature by prominent sages throughout its history."
         },
         {
             "SceneNumber": 10,
-            "Duration": "6",
-            "VoiceOverText": " And it was something like 50 times that amount of energy for a tiny fraction of a second.",
+            "Duration": "3",
+            "VoiceOverText": " It has a vast collection of literature known as piranhas,",
             "Description": "",
-            "Text": " And it was something like 50 times that amount of energy for a tiny fraction of a second."
+            "Text": " It has a vast collection of literature known as piranhas,"
         },
         {
             "SceneNumber": 11,
-            "Duration": "3",
-            "VoiceOverText": " But it's an unimaginably violent event.",
+            "Duration": "2",
+            "VoiceOverText": " which literally translates to history.",
             "Description": "",
-            "Text": " But it's an unimaginably violent event."
+            "Text": " which literally translates to history."
         },
         {
             "SceneNumber": 12,
-            "Duration": "5",
-            "VoiceOverText": " So you can imagine how extreme, like a colliding black holes,",
+            "Duration": "4",
+            "VoiceOverText": " They mention interplanetary space travel, nuclear warfare,",
             "Description": "",
-            "Text": " So you can imagine how extreme, like a colliding black holes,"
+            "Text": " They mention interplanetary space travel, nuclear warfare,"
         },
         {
             "SceneNumber": 13,
-            "Duration": "2",
-            "VoiceOverText": " it's an incredibly extreme event.",
+            "Duration": "4",
+            "VoiceOverText": " multiple extraterrestrial species, and their interactions with humans.",
             "Description": "",
-            "Text": " it's an incredibly extreme event."
+            "Text": " multiple extraterrestrial species, and their interactions with humans."
         },
         {
             "SceneNumber": 14,
             "Duration": "4",
-            "VoiceOverText": " It takes the fabric of the universe, and the ripples come across the universe.",
+            "VoiceOverText": " Mainstream historians simply discard them as fictional stories,",
             "Description": "",
-            "Text": " It takes the fabric of the universe, and the ripples come across the universe."
+            "Text": " Mainstream historians simply discard them as fictional stories,"
+        },
+        {
+            "SceneNumber": 15,
+            "Duration": "4",
+            "VoiceOverText": " but is there a possibility that this religion was first introduced to mankind",
+            "Description": "",
+            "Text": " but is there a possibility that this religion was first introduced to mankind"
+        },
+        {
+            "SceneNumber": 16,
+            "Duration": "3",
+            "VoiceOverText": " by some extraterrestrial civilization?",
+            "Description": "",
+            "Text": " by some extraterrestrial civilization?"
         }
     ]
 }
