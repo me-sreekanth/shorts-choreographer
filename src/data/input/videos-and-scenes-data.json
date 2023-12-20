@@ -1,48 +1,55 @@
 {
-  "Title": "String Theory: The Symphony of the Universe #shorts #short",
-  "Description": "Embark on a fascinating journey through string theory, where the universe plays out like a symphony on microscopic strings. Discover the beauty of physics and chemistry in this succinct video. #StringTheory #Physics #UniverseSymphony",
+  "Title": "Paititi: The Lost City, Tragedy of Disease, and the Elusive Gold #shorts #short",
+  "Description": "Unravel the mystery of Paititi, a legendary city hidden in the Amazon. Discover its tragic history intertwined with disease and the endless quest for gold in this short, captivating video. #Paititi #LostCities #AmazonMysteries",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5",
-      "VoiceOverText": "STRING THEORY, a MULTIVERSE theory, redefines our view of particles as VIBRATIONS on tiny strings.",
-      "Description": "Visualizations of vibrating strings representing subatomic particles.",
-      "Text": "STRING THEORY, a MULTIVERSE theory, redefines our view of particles as VIBRATIONS on tiny strings."
+      "Duration": "7",
+      "VoiceOverText": "Journey into the Amazon's heart to uncover Paititi, the lost city, entwined with tragedy, explorers, and the quest for gold.",
+      "Description": "Aerial views of the dense Amazon rainforest.",
+      "Text": "Journey into the Amazon's heart to uncover Paititi, the lost city, entwined with tragedy, explorers, and the quest for gold."
     },
     {
       "SceneNumber": 2,
-      "Duration": "4",
-      "VoiceOverText": "ELECTRONS, PROTONS, and QUARKS are seen as MUSICAL notes on these strings.",
-      "Description": "Illustrations of electrons, protons, and quarks as musical notes.",
-      "Text": "ELECTRONS, PROTONS, and QUARKS are seen as MUSICAL notes on these strings."
+      "Duration": "7",
+      "VoiceOverText": "Paititi, a city of gold, vanished amidst the Amazon, sparking centuries of legends and expeditions.",
+      "Description": "Artistic renderings of the mythical city of Paititi.",
+      "Text": "Paititi, a city of gold, vanished amidst the Amazon, sparking centuries of legends and expeditions."
     },
     {
       "SceneNumber": 3,
-      "Duration": "5",
-      "VoiceOverText": "Oppenheimer, the creator of the ATOMIC BOMB, highlighted the complexity of SUBATOMIC particles.",
-      "Description": "Images of G. Robert Oppenheimer and particles being discovered.",
-      "Text": "Oppenheimer, the creator of the ATOMIC BOMB, highlighted the complexity of SUBATOMIC particles."
+      "Duration": "8",
+      "VoiceOverText": "Disease cast a dark shadow. European explorers introduced devastating illnesses, impacting indigenous populations and Paititi's fate.",
+      "Description": "Depictions of the interaction between European explorers and indigenous people.",
+      "Text": "Disease cast a dark shadow. European explorers introduced devastating illnesses, impacting indigenous populations and Paititi's fate."
     },
     {
       "SceneNumber": 4,
-      "Duration": "5",
-      "VoiceOverText": "PHYSICS is the HARMONIES on strings; CHEMISTRY is the MELODIES played on these strings.",
-      "Description": "Animations showing the connection between physics, chemistry, and string vibrations.",
-      "Text": "PHYSICS is the HARMONIES on strings; CHEMISTRY is the MELODIES played on these strings."
+      "Duration": "8",
+      "VoiceOverText": "The lure of gold drove countless explorers into the perilous Amazon, each yearning to find the fabled Paititi.",
+      "Description": "Reenactments of explorers trekking through the Amazon.",
+      "Text": "The lure of gold drove countless explorers into the perilous Amazon, each yearning to find the fabled Paititi."
     },
     {
       "SceneNumber": 5,
-      "Duration": "5",
-      "VoiceOverText": "The UNIVERSE is a SYMPHONY of strings, each particle playing its part in the cosmic orchestra.",
-      "Description": "Cosmic imagery depicting the universe as a symphony of strings.",
-      "Text": "The UNIVERSE is a SYMPHONY of strings, each particle playing its part in the cosmic orchestra."
+      "Duration": "10",
+      "VoiceOverText": "Modern expeditions continue, fueled by the allure of Paititi. The challenges are immense, mirroring the legend's complexity.",
+      "Description": "Footage of modern explorers and researchers in the Amazon.",
+      "Text": "Modern expeditions continue, fueled by the allure of Paititi. The challenges are immense, mirroring the legend's complexity."
     },
     {
       "SceneNumber": 6,
-      "Duration": "6",
-      "VoiceOverText": "EXPLORE the WONDERS of our universe and the theories that shape our understanding. LIKE, SHARE, AND SUBSCRIBE for more scientific insights.",
-      "Description": "A call to action with a montage of space, subatomic particles, and scientific exploration.",
-      "Text": "EXPLORE the WONDERS of our universe and the theories that shape our understanding. LIKE, SHARE, AND SUBSCRIBE for more scientific insights."
+      "Duration": "10",
+      "VoiceOverText": "The quest for Paititi raises ethical dilemmas. How do we balance treasure hunting with preserving the Amazon's delicate ecosystem?",
+      "Description": "Contrasting images of gold hunting and the Amazon's rich biodiversity.",
+      "Text": "The quest for Paititi raises ethical dilemmas. How do we balance treasure hunting with preserving the Amazon's delicate ecosystem?"
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "10",
+      "VoiceOverText": "Paititi remains a symbol of mystery and the intricate balance between exploration and conservation. Share your thoughts below.",
+      "Description": "A montage of the Amazon rainforest, ancient artifacts, and a call to engage with the content.",
+      "Text": "Paititi remains a symbol of mystery and the intricate balance between exploration and conservation. Share your thoughts below."
     }
   ]
 }
