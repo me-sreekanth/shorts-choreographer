@@ -1,66 +1,69 @@
 {
-  "Title": "Mysteries of the Alaskan Boneyard",
-  "Description": "Explore the astonishing discovery of thousands of woolly mammoth bones and an ancient catastrophe in Alaska.",
+  "Title": "Pyramids Across Continents: A Global Mystery #egypt #peru #pyramid #shorts #short",
+  "Description": "Discover the fascinating connections between ancient pyramids from different continents and the mysteries they hold.",
   "Scenes": [
       {
           "SceneNumber": 1,
           "Duration": "3",
-          "VoiceOverText": "Deep in Alaska lies a mysterious boneyard.",
-          "Text": "Deep in Alaska lies a mysterious boneyard."
+          "VoiceOverText": "Pyramids span across five continents, a global enigma.",
+          "Text": "Pyramids span across five continents, a global enigma.",
+          "Description": "Panoramic view of pyramids in diverse landscapes around the world."
       },
       {
           "SceneNumber": 2,
           "Duration": "4",
-          "VoiceOverText": "A gold miner stumbled upon an ancient treasure: not gold, but fossils.",
-          "Text": "A gold miner stumbled upon an ancient treasure: not gold, but fossils."
+          "VoiceOverText": "Is it mere coincidence that pyramids arose independently worldwide?",
+          "Text": "Is it mere coincidence that pyramids arose independently worldwide?",
+          "Description": "A world map pinpointing pyramid locations on different continents."
       },
       {
           "SceneNumber": 3,
           "Duration": "6",
-          "VoiceOverText": "Thousands of mammoth bones and tusks, relics of megafauna once thought alien to Alaska.",
-          "Text": "Thousands of mammoth bones and tusks, relics of megafauna once thought alien to Alaska."
+          "VoiceOverText": "From Egypt's Giza to Mexico's Teotihuacan, and Cambodia's ancient structures.",
+          "Text": "From Egypt's Giza to Mexico's Teotihuacan, and Cambodia's ancient structures.",
+          "Description": "Montage of the Egyptian, Mexican, and Cambodian pyramids."
       },
       {
           "SceneNumber": 4,
-          "Duration": "5",
-          "VoiceOverText": "Layered in carbon, these fossils hint at a massive, fiery disaster.",
-          "Text": "Layered in carbon, these fossils hint at a massive, fiery disaster."
+          "Duration": "4",
+          "VoiceOverText": "Remarkable similarities between Indonesia's and Mexico's stepped pyramids.",
+          "Text": "Remarkable similarities between Indonesia's and Mexico's stepped pyramids.",
+          "Description": "Side-by-side comparison of Indonesian and Mexican pyramids."
       },
       {
           "SceneNumber": 5,
           "Duration": "6",
-          "VoiceOverText": "Could this be evidence of a cataclysmic event, not human hunting?",
-          "Text": "Could this be evidence of a cataclysmic event, not human hunting?"
+          "VoiceOverText": "Imagine the Great Pyramid of Giza, standing for over 4,500 years.",
+          "Text": "Imagine the Great Pyramid of Giza, standing for over 4,500 years.",
+          "Description": "Time-lapse of the Great Pyramid from ancient times to present."
       },
       {
           "SceneNumber": 6,
-          "Duration": "7",
-          "VoiceOverText": "The Younger Dryas Impact Hypothesis suggests a comet's wrath struck Earth 12,800 years ago.",
-          "Text": "The Younger Dryas Impact Hypothesis suggests a comet's wrath struck Earth 12,800 years ago."
+          "Duration": "5",
+          "VoiceOverText": "Mysteries suggest ancient global connections, long before Columbus.",
+          "Text": "Mysteries suggest ancient global connections, long before Columbus.",
+          "Description": "Animated ancient ships navigating the globe, connecting different cultures."
       },
       {
           "SceneNumber": 7,
           "Duration": "6",
-          "VoiceOverText": "Fragments from the sky, scarring the earth, unraveling a prehistoric mystery.",
-          "Text": "Fragments from the sky, scarring the earth, unraveling a prehistoric mystery."
+          "VoiceOverText": "Evidence of pre-Columbian links: Peru, Egypt, Italy, even a Greek pyramid.",
+          "Text": "Evidence of pre-Columbian links: Peru, Egypt, Italy, even a Greek pyramid.",
+          "Description": "Collage of pyramids and artifacts from Peru, Egypt, Italy, and Greece."
       },
       {
           "SceneNumber": 8,
-          "Duration": "7",
-          "VoiceOverText": "This discovery challenges our understanding of history and extinction.",
-          "Text": "This discovery challenges our understanding of history and extinction."
+          "Duration": "5",
+          "VoiceOverText": "Join us in unraveling these ancient architectural wonders' secrets.",
+          "Text": "Join us in unraveling these ancient architectural wonders' secrets.",
+          "Description": "A curious explorer with a map, tracing pyramid locations worldwide."
       },
       {
           "SceneNumber": 9,
-          "Duration": "6",
-          "VoiceOverText": "What secrets do these ancient bones hold about Earth's dramatic past?",
-          "Text": "What secrets do these ancient bones hold about Earth's dramatic past?"
-      },
-      {
-          "SceneNumber": 10,
           "Duration": "5",
-          "VoiceOverText": "LIKE, SHARE, and SUBSCRIBE for more intriguing discoveries!",
-          "Text": "LIKE, SHARE, and SUBSCRIBE for more intriguing discoveries!"
+          "VoiceOverText": "Like, share, and subscribe for more intriguing discoveries!",
+          "Text": "Like, share, and subscribe for more intriguing discoveries!",
+          "Description": "A vibrant call-to-action screen with engaging graphics inviting viewers to interact."
       }
   ]
 }
