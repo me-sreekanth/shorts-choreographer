@@ -5,7 +5,7 @@ import whisper
 # Constants
 AUDIO_PATH = sys.argv[1]
 OUTPUT_ASS_PATH = sys.argv[2]
-FONT_SIZE = 30
+FONT_SIZE = 14
 BOTTOM_MARGIN = 90
 
 def format_time(seconds):
