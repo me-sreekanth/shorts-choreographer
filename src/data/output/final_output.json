@@ -4,164 +4,87 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "1",
-            "VoiceOverText": " It's a mystery, like nowhere.",
+            "Duration": "2",
+            "VoiceOverText": " The fact that there's pyramids and five continents around the world.",
             "Description": "",
-            "Text": " It's a mystery, like nowhere."
+            "Text": " The fact that there's pyramids and five continents around the world."
         },
         {
             "SceneNumber": 2,
             "Duration": "3",
-            "VoiceOverText": " And all the tens of thousands of hieroglyphs found throughout Ancient Egypt,",
+            "VoiceOverText": " Is it a coincidence that they just happen to start building pyramids on multiple continents?",
             "Description": "",
-            "Text": " And all the tens of thousands of hieroglyphs found throughout Ancient Egypt,"
+            "Text": " Is it a coincidence that they just happen to start building pyramids on multiple continents?"
         },
         {
             "SceneNumber": 3,
-            "Duration": "1",
-            "VoiceOverText": " not one single one of them,",
+            "Duration": "4",
+            "VoiceOverText": " Here you see one from Egypt, one from Mexico, and one from Cambodia.",
             "Description": "",
-            "Text": " not one single one of them,"
+            "Text": " Here you see one from Egypt, one from Mexico, and one from Cambodia."
         },
         {
             "SceneNumber": 4,
-            "Duration": "1",
-            "VoiceOverText": " chose anything about them cutting stone,",
+            "Duration": "3",
+            "VoiceOverText": " If you look at comparisons of the Indonesia pyramids and the ones in Mexico,",
             "Description": "",
-            "Text": " chose anything about them cutting stone,"
+            "Text": " If you look at comparisons of the Indonesia pyramids and the ones in Mexico,"
         },
         {
             "SceneNumber": 5,
             "Duration": "3",
-            "VoiceOverText": " nor does it show anything depicting the construction of a pyramid.",
+            "VoiceOverText": " they have similarities of the stripped steps that go up the middle of it.",
             "Description": "",
-            "Text": " nor does it show anything depicting the construction of a pyramid."
+            "Text": " they have similarities of the stripped steps that go up the middle of it."
         },
         {
             "SceneNumber": 6,
-            "Duration": "2",
-            "VoiceOverText": " The Egyptians were said to be a Bronze Age culture,",
+            "Duration": "3",
+            "VoiceOverText": " The reason why this is significant is if the Great Pyramid is 4,500 years old.",
             "Description": "",
-            "Text": " The Egyptians were said to be a Bronze Age culture,"
+            "Text": " The reason why this is significant is if the Great Pyramid is 4,500 years old."
         },
         {
             "SceneNumber": 7,
-            "Duration": "2",
-            "VoiceOverText": " and by that I'm talking a copper, saw,",
+            "Duration": "4",
+            "VoiceOverText": " My argument is that there are connections across the oceans that are not supposed to exist.",
             "Description": "",
-            "Text": " and by that I'm talking a copper, saw,"
+            "Text": " My argument is that there are connections across the oceans that are not supposed to exist."
         },
         {
             "SceneNumber": 8,
-            "Duration": "2",
-            "VoiceOverText": " and they pour in sand, in water,",
+            "Duration": "1",
+            "VoiceOverText": " According to everything, they're adamant.",
             "Description": "",
-            "Text": " and they pour in sand, in water,"
+            "Text": " According to everything, they're adamant."
         },
         {
             "SceneNumber": 9,
-            "Duration": "2",
-            "VoiceOverText": " and essentially the quartite particles are what's cutting it.",
+            "Duration": "3",
+            "VoiceOverText": " It wasn't until Christopher Columbus, 1492, sailed the ocean blue.",
             "Description": "",
-            "Text": " and essentially the quartite particles are what's cutting it."
+            "Text": " It wasn't until Christopher Columbus, 1492, sailed the ocean blue."
         },
         {
             "SceneNumber": 10,
-            "Duration": "3",
-            "VoiceOverText": " However, when modern tests have been done on testing it on granite and limestone,",
+            "Duration": "4",
+            "VoiceOverText": " But yet there is evidence that goes back more than 1,000 years prior to Peru, Egypt,",
             "Description": "",
-            "Text": " However, when modern tests have been done on testing it on granite and limestone,"
+            "Text": " But yet there is evidence that goes back more than 1,000 years prior to Peru, Egypt,"
         },
         {
             "SceneNumber": 11,
             "Duration": "1",
-            "VoiceOverText": " it's failed miserably.",
+            "VoiceOverText": " places in Italy, Greece.",
             "Description": "",
-            "Text": " it's failed miserably."
+            "Text": " places in Italy, Greece."
         },
         {
             "SceneNumber": 12,
             "Duration": "1",
-            "VoiceOverText": " They were said to be tombs for the pharaohs.",
+            "VoiceOverText": " There's a pyramid in Greece.",
             "Description": "",
-            "Text": " They were said to be tombs for the pharaohs."
-        },
-        {
-            "SceneNumber": 13,
-            "Duration": "2",
-            "VoiceOverText": " They were all said to be done in a chronological order",
-            "Description": "",
-            "Text": " They were all said to be done in a chronological order"
-        },
-        {
-            "SceneNumber": 14,
-            "Duration": "1",
-            "VoiceOverText": " and within a certain period of time.",
-            "Description": "",
-            "Text": " and within a certain period of time."
-        },
-        {
-            "SceneNumber": 15,
-            "Duration": "3",
-            "VoiceOverText": " When we're talking tens of millions of stone blocks in aggregate,",
-            "Description": "",
-            "Text": " When we're talking tens of millions of stone blocks in aggregate,"
-        },
-        {
-            "SceneNumber": 16,
-            "Duration": "2",
-            "VoiceOverText": " the great pyramid is 2.3 million.",
-            "Description": "",
-            "Text": " the great pyramid is 2.3 million."
-        },
-        {
-            "SceneNumber": 17,
-            "Duration": "1",
-            "VoiceOverText": " You have the other couple that are a couple of million a pop,",
-            "Description": "",
-            "Text": " You have the other couple that are a couple of million a pop,"
-        },
-        {
-            "SceneNumber": 18,
-            "Duration": "3",
-            "VoiceOverText": " and then does include all the other tens of millions of blocks of makeup statues,",
-            "Description": "",
-            "Text": " and then does include all the other tens of millions of blocks of makeup statues,"
-        },
-        {
-            "SceneNumber": 19,
-            "Duration": "1",
-            "VoiceOverText": " casing stones, other buildings.",
-            "Description": "",
-            "Text": " casing stones, other buildings."
-        },
-        {
-            "SceneNumber": 20,
-            "Duration": "3",
-            "VoiceOverText": " They have been at least 50 million stones cut throughout ancient Egypt.",
-            "Description": "",
-            "Text": " They have been at least 50 million stones cut throughout ancient Egypt."
-        },
-        {
-            "SceneNumber": 21,
-            "Duration": "3",
-            "VoiceOverText": " When you're doing it with methods that can barely get more than an inch an hour,",
-            "Description": "",
-            "Text": " When you're doing it with methods that can barely get more than an inch an hour,"
-        },
-        {
-            "SceneNumber": 22,
-            "Duration": "3",
-            "VoiceOverText": " it's so slow and not to mention the precision is nowhere near it.",
-            "Description": "",
-            "Text": " it's so slow and not to mention the precision is nowhere near it."
-        },
-        {
-            "SceneNumber": 23,
-            "Duration": "1",
-            "VoiceOverText": " And so it's like,",
-            "Description": "",
-            "Text": " And so it's like,"
+            "Text": " There's a pyramid in Greece."
         }
     ]
 }

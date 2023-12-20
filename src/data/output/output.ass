@@ -7,70 +7,67 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default, Impact, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
+Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 2, 2, 2, 10, 10, 90, 1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.40,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}String
-Dialogue: 0,00:00:00.40,00:00:01.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}theory, a
-Dialogue: 0,00:00:01.20,00:00:02.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}multiverse theory,
-Dialogue: 0,00:00:02.00,00:00:02.39,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}redefines
-Dialogue: 0,00:00:02.39,00:00:03.20,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}our view
-Dialogue: 0,00:00:03.20,00:00:04.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of particles
-Dialogue: 0,00:00:04.00,00:00:04.79,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}as vibrations
-Dialogue: 0,00:00:04.79,00:00:05.20,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}on
-Dialogue: 0,00:00:05.20,00:00:06.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}tiny strings.
-Dialogue: 0,00:00:06.00,00:00:06.41,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Electrons,
-Dialogue: 0,00:00:06.41,00:00:06.83,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}protons,
-Dialogue: 0,00:00:06.83,00:00:07.66,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}and quarks
-Dialogue: 0,00:00:07.66,00:00:08.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}are seen
-Dialogue: 0,00:00:08.50,00:00:08.91,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}as
-Dialogue: 0,00:00:08.91,00:00:09.75,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}musical notes
-Dialogue: 0,00:00:09.75,00:00:10.16,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}on
-Dialogue: 0,00:00:10.16,00:00:10.58,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}these
-Dialogue: 0,00:00:10.58,00:00:10.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}strings.
-Dialogue: 0,00:00:11.00,00:00:11.92,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Oppenheimer, the
-Dialogue: 0,00:00:11.92,00:00:12.38,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}creator
-Dialogue: 0,00:00:12.38,00:00:13.30,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}of the
-Dialogue: 0,00:00:13.30,00:00:13.76,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}atomic
-Dialogue: 0,00:00:13.76,00:00:14.69,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}bomb, highlighted
-Dialogue: 0,00:00:14.69,00:00:15.15,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the
-Dialogue: 0,00:00:15.15,00:00:15.61,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}complexity
-Dialogue: 0,00:00:15.61,00:00:16.07,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}of
-Dialogue: 0,00:00:16.07,00:00:17.00,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subatomic particles.
-Dialogue: 0,00:00:17.00,00:00:17.50,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Physics
-Dialogue: 0,00:00:17.50,00:00:18.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}is the
-Dialogue: 0,00:00:18.50,00:00:19.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}harmonies on
-Dialogue: 0,00:00:19.50,00:00:20.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}strings.
-Dialogue: 0,00:00:20.00,00:00:20.75,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Chemistry is
-Dialogue: 0,00:00:20.75,00:00:21.12,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:21.12,00:00:21.87,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}melodies played
-Dialogue: 0,00:00:21.87,00:00:22.25,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}on
-Dialogue: 0,00:00:22.25,00:00:23.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}these strings.
-Dialogue: 0,00:00:23.00,00:00:23.42,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}The
-Dialogue: 0,00:00:23.42,00:00:23.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}universe
-Dialogue: 0,00:00:23.85,00:00:24.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}is a
-Dialogue: 0,00:00:24.71,00:00:25.57,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}symphony of
-Dialogue: 0,00:00:25.57,00:00:25.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}strings.
-Dialogue: 0,00:00:26.00,00:00:26.66,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Each particle
-Dialogue: 0,00:00:26.66,00:00:27.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}playing its
-Dialogue: 0,00:00:27.33,00:00:27.66,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}part
-Dialogue: 0,00:00:27.66,00:00:28.33,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}in the
-Dialogue: 0,00:00:28.33,00:00:28.66,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}cosmic
-Dialogue: 0,00:00:28.66,00:00:29.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}orchestra.
-Dialogue: 0,00:00:29.00,00:00:29.38,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Explore
-Dialogue: 0,00:00:29.38,00:00:30.15,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the wonders
-Dialogue: 0,00:00:30.15,00:00:30.92,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}of our
-Dialogue: 0,00:00:30.92,00:00:31.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}universe and
-Dialogue: 0,00:00:31.69,00:00:32.07,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the
-Dialogue: 0,00:00:32.07,00:00:32.46,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}theories
-Dialogue: 0,00:00:32.46,00:00:32.84,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}that
-Dialogue: 0,00:00:32.84,00:00:33.23,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}shape
-Dialogue: 0,00:00:33.23,00:00:33.61,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}our
-Dialogue: 0,00:00:33.61,00:00:34.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}understanding.
-Dialogue: 0,00:00:34.00,00:00:34.37,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Like,
-Dialogue: 0,00:00:34.37,00:00:35.12,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}share, and
-Dialogue: 0,00:00:35.12,00:00:35.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}subscribe
-Dialogue: 0,00:00:35.50,00:00:35.87,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}for
-Dialogue: 0,00:00:35.87,00:00:36.62,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}more scientific
-Dialogue: 0,00:00:36.62,00:00:37.00,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}insights.
+Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Pyramids
+Dialogue: 0,00:00:00.52,00:00:01.05,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}span
+Dialogue: 0,00:00:01.05,00:00:01.57,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}across
+Dialogue: 0,00:00:01.57,00:00:02.10,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}five
+Dialogue: 0,00:00:02.10,00:00:03.15,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}continents, a
+Dialogue: 0,00:00:03.15,00:00:04.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}global enigma.
+Dialogue: 0,00:00:04.20,00:00:04.66,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Is
+Dialogue: 0,00:00:04.66,00:00:05.13,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}it
+Dialogue: 0,00:00:05.13,00:00:06.06,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}mere coincidence
+Dialogue: 0,00:00:06.06,00:00:07.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}that pyramids
+Dialogue: 0,00:00:07.00,00:00:07.46,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}arose
+Dialogue: 0,00:00:07.46,00:00:08.40,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}independently worldwide?
+Dialogue: 0,00:00:08.40,00:00:08.85,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}From
+Dialogue: 0,00:00:08.85,00:00:09.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Egypt's Giza
+Dialogue: 0,00:00:09.77,00:00:10.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}to Mexico's
+Dialogue: 0,00:00:10.69,00:00:11.15,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Tio
+Dialogue: 0,00:00:11.15,00:00:11.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
+Dialogue: 0,00:00:11.60,00:00:12.06,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Wakan
+Dialogue: 0,00:00:12.06,00:00:12.98,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}and Cambodia's
+Dialogue: 0,00:00:12.98,00:00:13.90,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}ancient structures,
+Dialogue: 0,00:00:13.90,00:00:15.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}remarkable similarities
+Dialogue: 0,00:00:15.00,00:00:16.10,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}between Indonesia's
+Dialogue: 0,00:00:16.10,00:00:16.65,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}and
+Dialogue: 0,00:00:16.65,00:00:17.20,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Mexico's
+Dialogue: 0,00:00:17.20,00:00:17.75,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}stepped
+Dialogue: 0,00:00:17.75,00:00:18.30,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pyramids.
+Dialogue: 0,00:00:18.30,00:00:19.26,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Imagine the
+Dialogue: 0,00:00:19.26,00:00:20.22,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}great pyramid
+Dialogue: 0,00:00:20.22,00:00:20.70,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
+Dialogue: 0,00:00:20.70,00:00:21.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Giza
+Dialogue: 0,00:00:21.19,00:00:21.67,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}standing
+Dialogue: 0,00:00:21.67,00:00:22.15,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}for
+Dialogue: 0,00:00:22.15,00:00:23.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}over 4,500
+Dialogue: 0,00:00:23.11,00:00:23.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}years.
+Dialogue: 0,00:00:23.60,00:00:24.77,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Mystery suggests
+Dialogue: 0,00:00:24.77,00:00:25.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}ancient
+Dialogue: 0,00:00:25.36,00:00:26.53,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}global connections
+Dialogue: 0,00:00:26.53,00:00:27.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}long
+Dialogue: 0,00:00:27.12,00:00:28.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}before Columbus,
+Dialogue: 0,00:00:28.40,00:00:28.80,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}evidence
+Dialogue: 0,00:00:28.80,00:00:29.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:29.19,00:00:29.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}pre-Columbian
+Dialogue: 0,00:00:29.59,00:00:29.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}lengths
+Dialogue: 0,00:00:29.99,00:00:30.39,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}per
+Dialogue: 0,00:00:30.39,00:00:30.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}week
+Dialogue: 0,00:00:30.79,00:00:31.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Egypt Italy,
+Dialogue: 0,00:00:31.59,00:00:31.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}even
+Dialogue: 0,00:00:31.99,00:00:32.39,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}a
+Dialogue: 0,00:00:32.39,00:00:32.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Greek
+Dialogue: 0,00:00:32.79,00:00:33.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pyramid.
+Dialogue: 0,00:00:33.20,00:00:34.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Join us
+Dialogue: 0,00:00:34.15,00:00:35.11,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in unraveling
+Dialogue: 0,00:00:35.11,00:00:36.06,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}these ancient
+Dialogue: 0,00:00:36.06,00:00:37.02,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}architectural wonders
+Dialogue: 0,00:00:37.02,00:00:37.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}secrets.
+Dialogue: 0,00:00:37.50,00:00:38.25,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like, share
+Dialogue: 0,00:00:38.25,00:00:39.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and subscribe
+Dialogue: 0,00:00:39.00,00:00:39.75,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}for more
+Dialogue: 0,00:00:39.75,00:00:40.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}intriguing
+Dialogue: 0,00:00:40.12,00:00:40.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}discoveries.

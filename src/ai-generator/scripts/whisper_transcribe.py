@@ -19,7 +19,7 @@ def format_time(seconds):
     return f"{hours:02}:{minutes:02}:{int(seconds):02}.{centiseconds:02}"
 
 def create_ass_header(font_size=FONT_SIZE, bottom_margin=BOTTOM_MARGIN):
-    font_name = "Impact" # or Impact
+    font_name = "Bangers" # or Impact
     header = [
         "[Script Info]",
         "Title: Whisper Transcription",
