@@ -1,55 +1,66 @@
 {
-  "Title": "Alien Architects: Unraveling the Allora Caves Controversy #shorts #short",
-  "Description": "Explore the enigmatic Allora Caves and the debate over their origins. Was it human artistry or extraterrestrial influence? Join us in this intriguing short video to delve into this mystery. #AlloraCaves #AlienTheory #HistoricalMysteries",
+  "Title": "Mysteries of the Alaskan Boneyard",
+  "Description": "Explore the astonishing discovery of thousands of woolly mammoth bones and an ancient catastrophe in Alaska.",
   "Scenes": [
-    {
-      "SceneNumber": 1,
-      "Duration": "7",
-      "VoiceOverText": "Venture into Maharashtra's Allora Caves, where ancient architecture might intertwine with extraterrestrial intrigue.",
-      "Description": "Panoramic shots of the Allora Caves.",
-      "Text": "Venture into Maharashtra's Allora Caves, where ancient architecture might intertwine with extraterrestrial intrigue."
-    },
-    {
-      "SceneNumber": 2,
-      "Duration": "7",
-      "VoiceOverText": "A UNESCO site, the Allora Caves' intricate carvings spark debate: A testament to human skill, or a celestial connection?",
-      "Description": "Close-ups of the intricate carvings and architecture in the Allora Caves.",
-      "Text": "A UNESCO site, the Allora Caves' intricate carvings spark debate: A testament to human skill, or a celestial connection?"
-    },
-    {
-      "SceneNumber": 3,
-      "Duration": "8",
-      "VoiceOverText": "Some theorists propose an ALIEN ARTISTRY in the caves' design, citing advanced craftsmanship beyond human capability.",
-      "Description": "Images depicting alien theories juxtaposed with the cave's artistry.",
-      "Text": "Some theorists propose an ALIEN ARTISTRY in the caves' design, citing advanced craftsmanship beyond human capability."
-    },
-    {
-      "SceneNumber": 4,
-      "Duration": "8",
-      "VoiceOverText": "The precision and complexity fuel debates on whether these are marks of human ingenuity or something more otherworldly.",
-      "Description": "Contrasting visuals of archaeological tools and unexplained artistic elements.",
-      "Text": "The precision and complexity fuel debates on whether these are marks of human ingenuity or something more otherworldly."
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "10",
-      "VoiceOverText": "Enigmatic symbols evoke speculation of a COSMIC CONNECTION. Were these left by extraterrestrial beings, or merely human imagination?",
-      "Description": "Focus on mysterious symbols within the caves.",
-      "Text": "Enigmatic symbols evoke speculation of a COSMIC CONNECTION. Were these left by extraterrestrial beings, or merely human imagination?"
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "10",
-      "VoiceOverText": "Ancient astronaut theories ponder the visitation of advanced beings, influencing sites like the Allora Caves.",
-      "Description": "Artistic representations of ancient astronaut theories and their link to the caves.",
-      "Text": "Ancient astronaut theories ponder the visitation of advanced beings, influencing sites like the Allora Caves."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "10",
-      "VoiceOverText": "Contemplate the MYSTERIES of the Allora Caves. SHARE YOUR THOUGHTS in the comments. LIKE, SHARE, AND SUBSCRIBE for more cosmic explorations.",
-      "Description": "Text on screen encouraging viewers to engage, with background imagery of the Allora Caves.",
-      "Text": "Contemplate the MYSTERIES of the Allora Caves. SHARE YOUR THOUGHTS in the comments. LIKE, SHARE, AND SUBSCRIBE for more cosmic explorations."
-    }
+      {
+          "SceneNumber": 1,
+          "Duration": "3",
+          "VoiceOverText": "Deep in Alaska lies a mysterious boneyard.",
+          "Text": "Deep in Alaska lies a mysterious boneyard."
+      },
+      {
+          "SceneNumber": 2,
+          "Duration": "4",
+          "VoiceOverText": "A gold miner stumbled upon an ancient treasure: not gold, but fossils.",
+          "Text": "A gold miner stumbled upon an ancient treasure: not gold, but fossils."
+      },
+      {
+          "SceneNumber": 3,
+          "Duration": "6",
+          "VoiceOverText": "Thousands of mammoth bones and tusks, relics of megafauna once thought alien to Alaska.",
+          "Text": "Thousands of mammoth bones and tusks, relics of megafauna once thought alien to Alaska."
+      },
+      {
+          "SceneNumber": 4,
+          "Duration": "5",
+          "VoiceOverText": "Layered in carbon, these fossils hint at a massive, fiery disaster.",
+          "Text": "Layered in carbon, these fossils hint at a massive, fiery disaster."
+      },
+      {
+          "SceneNumber": 5,
+          "Duration": "6",
+          "VoiceOverText": "Could this be evidence of a cataclysmic event, not human hunting?",
+          "Text": "Could this be evidence of a cataclysmic event, not human hunting?"
+      },
+      {
+          "SceneNumber": 6,
+          "Duration": "7",
+          "VoiceOverText": "The Younger Dryas Impact Hypothesis suggests a comet's wrath struck Earth 12,800 years ago.",
+          "Text": "The Younger Dryas Impact Hypothesis suggests a comet's wrath struck Earth 12,800 years ago."
+      },
+      {
+          "SceneNumber": 7,
+          "Duration": "6",
+          "VoiceOverText": "Fragments from the sky, scarring the earth, unraveling a prehistoric mystery.",
+          "Text": "Fragments from the sky, scarring the earth, unraveling a prehistoric mystery."
+      },
+      {
+          "SceneNumber": 8,
+          "Duration": "7",
+          "VoiceOverText": "This discovery challenges our understanding of history and extinction.",
+          "Text": "This discovery challenges our understanding of history and extinction."
+      },
+      {
+          "SceneNumber": 9,
+          "Duration": "6",
+          "VoiceOverText": "What secrets do these ancient bones hold about Earth's dramatic past?",
+          "Text": "What secrets do these ancient bones hold about Earth's dramatic past?"
+      },
+      {
+          "SceneNumber": 10,
+          "Duration": "5",
+          "VoiceOverText": "LIKE, SHARE, and SUBSCRIBE for more intriguing discoveries!",
+          "Text": "LIKE, SHARE, and SUBSCRIBE for more intriguing discoveries!"
+      }
   ]
 }
