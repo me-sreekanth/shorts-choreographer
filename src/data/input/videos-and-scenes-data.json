@@ -1,69 +1,56 @@
 {
-  "Title": "Pyramids Across Continents: A Global Mystery #egypt #peru #pyramid #shorts #short",
-  "Description": "Discover the fascinating connections between ancient pyramids from different continents and the mysteries they hold.",
-  "Scenes": [
+    "Title": "The Triumph of King Porus: Defeating Alexander the Great #shorts #short",
+    "Description": "Step back in time to witness the legendary battle where King Porus of Paurava triumphed over Alexander the Great. Experience the strategy, bravery, and the historic clash on the Hydaspes River in this thrilling short video. #KingPorus #AlexanderTheGreat #HistoricBattles",
+    "Scenes": [
       {
-          "SceneNumber": 1,
-          "Duration": "3",
-          "VoiceOverText": "Pyramids span across five continents, a global enigma.",
-          "Text": "Pyramids span across five continents, a global enigma.",
-          "Description": "Panoramic view of pyramids in diverse landscapes around the world."
+        "SceneNumber": 1,
+        "Duration": "7",
+        "VoiceOverText": "Welcome to a historic tale of King Porus of Paurava clashing with Alexander the Great on the Hydaspes River's banks.",
+        "Description": "Opening shot of the ancient battlefield set along the Hydaspes River.",
+        "Text": "Welcome to a historic tale of King Porus of Paurava clashing with Alexander the Great on the Hydaspes River's banks."
       },
       {
-          "SceneNumber": 2,
-          "Duration": "4",
-          "VoiceOverText": "Is it mere coincidence that pyramids arose independently worldwide?",
-          "Text": "Is it mere coincidence that pyramids arose independently worldwide?",
-          "Description": "A world map pinpointing pyramid locations on different continents."
+        "SceneNumber": 2,
+        "Duration": "7",
+        "VoiceOverText": "Porus' strategic brilliance shines as he positions his troops and elephants, creating a formidable defense against Alexander's forces.",
+        "Description": "Visuals of King Porus strategically arranging his forces and elephants on the battlefield.",
+        "Text": "Porus' strategic brilliance shines as he positions his troops and elephants, creating a formidable defense against Alexander's forces."
       },
       {
-          "SceneNumber": 3,
-          "Duration": "6",
-          "VoiceOverText": "From Egypt's Giza to Mexico's Teotihuacan, and Cambodia's ancient structures.",
-          "Text": "From Egypt's Giza to Mexico's Teotihuacan, and Cambodia's ancient structures.",
-          "Description": "Montage of the Egyptian, Mexican, and Cambodian pyramids."
+        "SceneNumber": 3,
+        "Duration": "7",
+        "VoiceOverText": "The scene intensifies with the thunderous charge of war elephants, taking Alexander's army by surprise.",
+        "Description": "Dramatic depiction of the war elephants charging into battle.",
+        "Text": "The scene intensifies with the thunderous charge of war elephants, taking Alexander's army by surprise."
       },
       {
-          "SceneNumber": 4,
-          "Duration": "4",
-          "VoiceOverText": "Remarkable similarities between Indonesia's and Mexico's stepped pyramids.",
-          "Text": "Remarkable similarities between Indonesia's and Mexico's stepped pyramids.",
-          "Description": "Side-by-side comparison of Indonesian and Mexican pyramids."
+        "SceneNumber": 4,
+        "Duration": "10",
+        "VoiceOverText": "In the chaos, Porus' infantry engages in fierce combat, showcasing their skill and valor against the relentless advance of the Macedonians.",
+        "Description": "Scenes of intense close-quarter combat between Porus' infantry and Alexander's troops.",
+        "Text": "In the chaos, Porus' infantry engages in fierce combat, showcasing their skill and valor against the relentless advance of the Macedonians."
       },
       {
-          "SceneNumber": 5,
-          "Duration": "6",
-          "VoiceOverText": "Imagine the Great Pyramid of Giza, standing for over 4,500 years.",
-          "Text": "Imagine the Great Pyramid of Giza, standing for over 4,500 years.",
-          "Description": "Time-lapse of the Great Pyramid from ancient times to present."
+        "SceneNumber": 5,
+        "Duration": "9",
+        "VoiceOverText": "King Porus' resilience turns the tide, inspiring his troops to push back against Alexander, leading to a pivotal moment in the battle.",
+        "Description": "Cinematic portrayal of the battle's turning point, highlighting Porus' leadership.",
+        "Text": "King Porus' resilience turns the tide, inspiring his troops to push back against Alexander, leading to a pivotal moment in the battle."
       },
       {
-          "SceneNumber": 6,
-          "Duration": "5",
-          "VoiceOverText": "Mysteries suggest ancient global connections, long before Columbus.",
-          "Text": "Mysteries suggest ancient global connections, long before Columbus.",
-          "Description": "Animated ancient ships navigating the globe, connecting different cultures."
+        "SceneNumber": 6,
+        "Duration": "10",
+        "VoiceOverText": "The battle concludes with Alexander's retreat, marking a monumental triumph for King Porus and his unwavering Pauravan army.",
+        "Description": "Alexander retreating, acknowledging Porus' might. The Pauravan army celebrates their victory.",
+        "Text": "The battle concludes with Alexander's retreat, marking a monumental triumph for King Porus and his unwavering Pauravan army."
       },
       {
-          "SceneNumber": 7,
-          "Duration": "6",
-          "VoiceOverText": "Evidence of pre-Columbian links: Peru, Egypt, Italy, even a Greek pyramid.",
-          "Text": "Evidence of pre-Columbian links: Peru, Egypt, Italy, even a Greek pyramid.",
-          "Description": "Collage of pyramids and artifacts from Peru, Egypt, Italy, and Greece."
-      },
-      {
-          "SceneNumber": 8,
-          "Duration": "5",
-          "VoiceOverText": "Join us in unraveling these ancient architectural wonders' secrets.",
-          "Text": "Join us in unraveling these ancient architectural wonders' secrets.",
-          "Description": "A curious explorer with a map, tracing pyramid locations worldwide."
-      },
-      {
-          "SceneNumber": 9,
-          "Duration": "5",
-          "VoiceOverText": "Like, share, and subscribe for more intriguing discoveries!",
-          "Text": "Like, share, and subscribe for more intriguing discoveries!",
-          "Description": "A vibrant call-to-action screen with engaging graphics inviting viewers to interact."
+        "SceneNumber": 7,
+        "Duration": "10",
+        "VoiceOverText": "Experience more HISTORIC TALES. LIKE, SUBSCRIBE, and HIT THE BELL ICON for captivating narratives from the annals of history.",
+        "Description": "Outro with a call to action, inviting viewers to engage with more historical content.",
+        "Text": "Experience more HISTORIC TALES. LIKE, SUBSCRIBE, and HIT THE BELL ICON for captivating narratives from the annals of history."
       }
-  ]
-}
+    ]
+  }
+  
