@@ -4,94 +4,143 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "5",
-            "VoiceOverText": " You know we have an asteroid headed towards us. It's called a Poffice. The very first calculation showed",
+            "Duration": "9",
+            "VoiceOverText": " The sun is about 400 times wider than the moon, but it also happens to be about 400 times farther away.",
             "Description": "",
-            "Text": " You know we have an asteroid headed towards us. It's called a Poffice. The very first calculation showed"
+            "Text": " The sun is about 400 times wider than the moon, but it also happens to be about 400 times farther away."
         },
         {
             "SceneNumber": 2,
-            "Duration": "3",
-            "VoiceOverText": " that it would collide with Earth on April 13th",
+            "Duration": "0",
+            "VoiceOverText": " Okay.",
             "Description": "",
-            "Text": " that it would collide with Earth on April 13th"
+            "Text": " Okay."
         },
         {
             "SceneNumber": 3,
             "Duration": "5",
-            "VoiceOverText": " 2029. So better day to came along and we learned it would not hit us if it threads a keyhole a",
+            "VoiceOverText": " That's why the sun and moon appear to be the same size in the sky.",
             "Description": "",
-            "Text": " 2029. So better day to came along and we learned it would not hit us if it threads a keyhole a"
+            "Text": " That's why the sun and moon appear to be the same size in the sky."
         },
         {
             "SceneNumber": 4,
-            "Duration": "4",
-            "VoiceOverText": " very narrow set of orbits if it has one of those trajectories",
+            "Duration": "6",
+            "VoiceOverText": " And it's why the moon can fit perfectly over the sun during a total solar eclipse.",
             "Description": "",
-            "Text": " very narrow set of orbits if it has one of those trajectories"
+            "Text": " And it's why the moon can fit perfectly over the sun during a total solar eclipse."
         },
         {
             "SceneNumber": 5,
-            "Duration": "2",
-            "VoiceOverText": " Birth of the rabbit would be just wrong, okay?",
+            "Duration": "3",
+            "VoiceOverText": " The fact that this can happen is just a coincidence.",
             "Description": "",
-            "Text": " Birth of the rabbit would be just wrong, okay?"
+            "Text": " The fact that this can happen is just a coincidence."
         },
         {
             "SceneNumber": 6,
-            "Duration": "4",
-            "VoiceOverText": " To to bend it in such a way so that seven years later it will hit Earth",
+            "Duration": "3",
+            "VoiceOverText": " The dimensions of our solar system just happen to work out for it.",
             "Description": "",
-            "Text": " To to bend it in such a way so that seven years later it will hit Earth"
+            "Text": " The dimensions of our solar system just happen to work out for it."
         },
         {
             "SceneNumber": 7,
-            "Duration": "3",
-            "VoiceOverText": " So you want to make sure this does not go through the keyhole",
+            "Duration": "0",
+            "VoiceOverText": " Wow.",
             "Description": "",
-            "Text": " So you want to make sure this does not go through the keyhole"
+            "Text": " Wow."
         },
         {
             "SceneNumber": 8,
-            "Duration": "3",
-            "VoiceOverText": " If it goes through the keyhole it will hit us April 13th",
+            "Duration": "1",
+            "VoiceOverText": " That's so perfect.",
             "Description": "",
-            "Text": " If it goes through the keyhole it will hit us April 13th"
+            "Text": " That's so perfect."
         },
         {
             "SceneNumber": 9,
-            "Duration": "4",
-            "VoiceOverText": " 2036 the chances of this now our data tell us is several in a million",
+            "Duration": "1",
+            "VoiceOverText": " Yeah.",
             "Description": "",
-            "Text": " 2036 the chances of this now our data tell us is several in a million"
+            "Text": " Yeah."
         },
         {
             "SceneNumber": 10,
-            "Duration": "2",
-            "VoiceOverText": " So you say oh not worry about that",
+            "Duration": "1",
+            "VoiceOverText": " But it won't always be.",
             "Description": "",
-            "Text": " So you say oh not worry about that"
+            "Text": " But it won't always be."
         },
         {
             "SceneNumber": 11,
-            "Duration": "5",
-            "VoiceOverText": " But if it threads the center of the keyhole it'll hit 500 kilometers west of Santa Monica",
+            "Duration": "0",
+            "VoiceOverText": " What do you mean?",
             "Description": "",
-            "Text": " But if it threads the center of the keyhole it'll hit 500 kilometers west of Santa Monica"
+            "Text": " What do you mean?"
         },
         {
             "SceneNumber": 12,
-            "Duration": "2",
-            "VoiceOverText": " Plunge into the ocean to a depth of three miles",
+            "Duration": "4",
+            "VoiceOverText": " Well, it turns out that due to tidal interactions between the moon and Earth,",
             "Description": "",
-            "Text": " Plunge into the ocean to a depth of three miles"
+            "Text": " Well, it turns out that due to tidal interactions between the moon and Earth,"
         },
         {
             "SceneNumber": 13,
-            "Duration": "3",
-            "VoiceOverText": " Cavitating the ocean to a width of three miles. It'll explode",
+            "Duration": "4",
+            "VoiceOverText": " the moon is slowly drifting away from us by about an inch and a half every year.",
             "Description": "",
-            "Text": " Cavitating the ocean to a width of three miles. It'll explode"
+            "Text": " the moon is slowly drifting away from us by about an inch and a half every year."
+        },
+        {
+            "SceneNumber": 14,
+            "Duration": "6",
+            "VoiceOverText": " And there will inevitably come a time when the moon's apparent size is too small to ever cover the sun completely.",
+            "Description": "",
+            "Text": " And there will inevitably come a time when the moon's apparent size is too small to ever cover the sun completely."
+        },
+        {
+            "SceneNumber": 15,
+            "Duration": "3",
+            "VoiceOverText": " Total solar eclipses will no longer be possible.",
+            "Description": "",
+            "Text": " Total solar eclipses will no longer be possible."
+        },
+        {
+            "SceneNumber": 16,
+            "Duration": "1",
+            "VoiceOverText": " Gotta catch one while you still can.",
+            "Description": "",
+            "Text": " Gotta catch one while you still can."
+        },
+        {
+            "SceneNumber": 17,
+            "Duration": "0",
+            "VoiceOverText": " Oh crap.",
+            "Description": "",
+            "Text": " Oh crap."
+        },
+        {
+            "SceneNumber": 18,
+            "Duration": "0",
+            "VoiceOverText": " Yeah.",
+            "Description": "",
+            "Text": " Yeah."
+        },
+        {
+            "SceneNumber": 19,
+            "Duration": "1",
+            "VoiceOverText": " When's the last one gonna be?",
+            "Description": "",
+            "Text": " When's the last one gonna be?"
+        },
+        {
+            "SceneNumber": 20,
+            "Duration": "2",
+            "VoiceOverText": " Uh, about 1 billion years.",
+            "Description": "",
+            "Text": " Uh, about 1 billion years."
         }
     ]
 }

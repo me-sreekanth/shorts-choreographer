@@ -11,82 +11,100 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.74,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Asteroid Apophis
-Dialogue: 0,00:00:00.74,00:00:01.49,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}is on
-Dialogue: 0,00:00:01.49,00:00:01.86,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a
-Dialogue: 0,00:00:01.86,00:00:02.61,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}course towards
-Dialogue: 0,00:00:02.61,00:00:03.35,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Earth, initially
-Dialogue: 0,00:00:03.35,00:00:03.73,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}predicted
-Dialogue: 0,00:00:03.73,00:00:04.48,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}to collide
-Dialogue: 0,00:00:04.48,00:00:05.22,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}on April
-Dialogue: 0,00:00:05.22,00:00:05.60,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}13th,
-Dialogue: 0,00:00:05.60,00:00:07.10,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}2029.
-Dialogue: 0,00:00:07.10,00:00:07.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}However,
-Dialogue: 0,00:00:07.45,00:00:07.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}updated
-Dialogue: 0,00:00:07.79,00:00:08.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}calculations
-Dialogue: 0,00:00:08.15,00:00:08.84,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}show it
-Dialogue: 0,00:00:08.84,00:00:09.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}will
-Dialogue: 0,00:00:09.19,00:00:09.54,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}narrowly
-Dialogue: 0,00:00:09.54,00:00:10.24,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}miss us,
-Dialogue: 0,00:00:10.24,00:00:10.94,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}provided it
-Dialogue: 0,00:00:10.94,00:00:11.64,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}doesn't pass
-Dialogue: 0,00:00:11.64,00:00:11.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}through
-Dialogue: 0,00:00:12.00,00:00:13.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a specific
-Dialogue: 0,00:00:13.12,00:00:13.68,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}orbital
-Dialogue: 0,00:00:13.68,00:00:14.24,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}keyhole.
-Dialogue: 0,00:00:14.24,00:00:14.75,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}If a
-Dialogue: 0,00:00:14.75,00:00:15.01,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pofis
-Dialogue: 0,00:00:15.01,00:00:15.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}travels
-Dialogue: 0,00:00:15.27,00:00:15.53,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}through
-Dialogue: 0,00:00:15.53,00:00:16.05,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}this keyhole,
-Dialogue: 0,00:00:16.05,00:00:16.31,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}it
-Dialogue: 0,00:00:16.31,00:00:16.82,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}could bend
-Dialogue: 0,00:00:16.82,00:00:17.08,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}its
-Dialogue: 0,00:00:17.08,00:00:17.34,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}orbit,
-Dialogue: 0,00:00:17.34,00:00:17.86,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}setting it
-Dialogue: 0,00:00:17.86,00:00:18.38,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}on a
-Dialogue: 0,00:00:18.38,00:00:18.64,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}collision
-Dialogue: 0,00:00:18.64,00:00:19.01,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}course
-Dialogue: 0,00:00:19.01,00:00:19.78,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}with Earth
-Dialogue: 0,00:00:19.78,00:00:20.54,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}seven years
-Dialogue: 0,00:00:20.54,00:00:20.92,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}later.
-Dialogue: 0,00:00:20.92,00:00:21.28,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}The
-Dialogue: 0,00:00:21.28,00:00:22.02,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}chances of
-Dialogue: 0,00:00:22.02,00:00:22.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}this
-Dialogue: 0,00:00:22.38,00:00:23.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}happening are
-Dialogue: 0,00:00:23.12,00:00:23.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}slim, several
-Dialogue: 0,00:00:23.85,00:00:24.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}in a
-Dialogue: 0,00:00:24.59,00:00:25.32,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}million, but
-Dialogue: 0,00:00:25.32,00:00:26.05,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the risk
-Dialogue: 0,00:00:26.05,00:00:26.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}cannot be
-Dialogue: 0,00:00:26.79,00:00:27.16,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}ignored.
-Dialogue: 0,00:00:27.16,00:00:27.94,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}If it
-Dialogue: 0,00:00:27.94,00:00:28.73,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}hits, it's
-Dialogue: 0,00:00:28.73,00:00:29.51,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}projected to
-Dialogue: 0,00:00:29.51,00:00:30.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}land 500
-Dialogue: 0,00:00:30.30,00:00:31.08,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}kilometers west
-Dialogue: 0,00:00:31.08,00:00:31.47,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}of
-Dialogue: 0,00:00:31.47,00:00:32.26,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Santa Monica,
-Dialogue: 0,00:00:32.26,00:00:33.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}creating massive
-Dialogue: 0,00:00:33.04,00:00:33.43,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}oceanic
-Dialogue: 0,00:00:33.43,00:00:35.02,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}disturbances.
-Dialogue: 0,00:00:35.02,00:00:35.80,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}The impact
-Dialogue: 0,00:00:35.80,00:00:36.59,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}would cause
-Dialogue: 0,00:00:36.59,00:00:37.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}a gigantic
-Dialogue: 0,00:00:37.38,00:00:37.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}explosion,
-Dialogue: 0,00:00:37.77,00:00:38.56,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}cavitating the
-Dialogue: 0,00:00:38.56,00:00:39.35,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}ocean to
-Dialogue: 0,00:00:39.35,00:00:40.13,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}a width
-Dialogue: 0,00:00:40.13,00:00:40.53,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:40.53,00:00:41.32,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}three miles.
-Dialogue: 0,00:00:41.32,00:00:42.08,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Discover more
-Dialogue: 0,00:00:42.08,00:00:42.85,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}about our
-Dialogue: 0,00:00:42.85,00:00:43.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}universe's mysteries,
-Dialogue: 0,00:00:43.62,00:00:44.01,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}like
-Dialogue: 0,00:00:44.01,00:00:44.78,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}share and
-Dialogue: 0,00:00:44.78,00:00:45.16,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}subscribe
-Dialogue: 0,00:00:45.16,00:00:45.93,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}for more
-Dialogue: 0,00:00:45.93,00:00:46.31,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}insights
-Dialogue: 0,00:00:46.32,00:00:46.81,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}into
-Dialogue: 0,00:00:46.81,00:00:47.30,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}space
-Dialogue: 0,00:00:47.30,00:00:47.79,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}phenomena.
+Dialogue: 0,00:00:00.00,00:00:00.61,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}Did you
+Dialogue: 0,00:00:00.61,00:00:00.92,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}know
+Dialogue: 0,00:00:00.92,00:00:01.23,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the
+Dialogue: 0,00:00:01.23,00:00:01.53,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}sun
+Dialogue: 0,00:00:01.53,00:00:02.15,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is about
+Dialogue: 0,00:00:02.15,00:00:02.46,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}400
+Dialogue: 0,00:00:02.46,00:00:02.76,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}times
+Dialogue: 0,00:00:02.76,00:00:03.07,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}wider
+Dialogue: 0,00:00:03.07,00:00:03.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}than
+Dialogue: 0,00:00:03.38,00:00:03.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the
+Dialogue: 0,00:00:03.69,00:00:03.99,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}moon,
+Dialogue: 0,00:00:04.00,00:00:04.93,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}but also
+Dialogue: 0,00:00:04.93,00:00:05.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}400
+Dialogue: 0,00:00:05.40,00:00:05.86,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}times
+Dialogue: 0,00:00:05.86,00:00:06.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}farther
+Dialogue: 0,00:00:06.33,00:00:06.80,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}away?
+Dialogue: 0,00:00:06.79,00:00:07.43,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}That's why
+Dialogue: 0,00:00:07.43,00:00:07.75,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}they
+Dialogue: 0,00:00:07.75,00:00:08.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}look the
+Dialogue: 0,00:00:08.40,00:00:08.72,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}same
+Dialogue: 0,00:00:08.72,00:00:09.36,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}size in
+Dialogue: 0,00:00:09.36,00:00:09.68,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}our
+Dialogue: 0,00:00:09.68,00:00:10.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}sky.
+Dialogue: 0,00:00:10.00,00:00:10.61,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}This perfect
+Dialogue: 0,00:00:10.61,00:00:10.91,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}alignment
+Dialogue: 0,00:00:10.91,00:00:11.52,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}is what
+Dialogue: 0,00:00:11.52,00:00:11.83,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}makes
+Dialogue: 0,00:00:11.83,00:00:12.13,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}total
+Dialogue: 0,00:00:12.13,00:00:12.44,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}solar
+Dialogue: 0,00:00:12.44,00:00:12.74,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}eclipse
+Dialogue: 0,00:00:12.74,00:00:13.35,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}as possible.
+Dialogue: 0,00:00:13.35,00:00:13.64,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}The
+Dialogue: 0,00:00:13.64,00:00:14.21,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}moon can
+Dialogue: 0,00:00:14.21,00:00:14.78,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}completely cover
+Dialogue: 0,00:00:14.78,00:00:15.07,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:15.07,00:00:15.36,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}sun,
+Dialogue: 0,00:00:15.35,00:00:16.11,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}but it's
+Dialogue: 0,00:00:16.11,00:00:16.86,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}all just
+Dialogue: 0,00:00:16.86,00:00:17.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}a remarkable
+Dialogue: 0,00:00:17.62,00:00:18.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}coincidence.
+Dialogue: 0,00:00:18.00,00:00:18.74,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Interestingly, the
+Dialogue: 0,00:00:18.74,00:00:19.49,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}moon is
+Dialogue: 0,00:00:19.49,00:00:20.23,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}slowly drifting
+Dialogue: 0,00:00:20.23,00:00:20.61,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}away
+Dialogue: 0,00:00:20.61,00:00:20.98,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}from
+Dialogue: 0,00:00:20.98,00:00:21.36,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}us
+Dialogue: 0,00:00:21.35,00:00:21.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}about
+Dialogue: 0,00:00:21.69,00:00:22.35,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}an inch
+Dialogue: 0,00:00:22.35,00:00:23.01,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}and a
+Dialogue: 0,00:00:23.01,00:00:23.67,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}half each
+Dialogue: 0,00:00:23.67,00:00:24.34,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}year due
+Dialogue: 0,00:00:24.34,00:00:24.67,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}to
+Dialogue: 0,00:00:24.67,00:00:25.33,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}tidal interactions
+Dialogue: 0,00:00:25.33,00:00:25.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}with Earth.
+Dialogue: 0,00:00:26.00,00:00:26.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Eventually, the
+Dialogue: 0,00:00:26.50,00:00:27.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}moon will
+Dialogue: 0,00:00:27.00,00:00:27.50,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}appear too
+Dialogue: 0,00:00:27.50,00:00:28.01,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}small in
+Dialogue: 0,00:00:28.01,00:00:28.51,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the sky
+Dialogue: 0,00:00:28.51,00:00:28.76,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}to
+Dialogue: 0,00:00:28.76,00:00:29.01,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}cover
+Dialogue: 0,00:00:29.01,00:00:29.51,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}the sun.
+Dialogue: 0,00:00:29.51,00:00:30.36,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}That means
+Dialogue: 0,00:00:30.36,00:00:30.78,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}no
+Dialogue: 0,00:00:30.78,00:00:31.21,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}more
+Dialogue: 0,00:00:31.21,00:00:32.05,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}total solar
+Dialogue: 0,00:00:32.05,00:00:32.47,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}eclipses.
+Dialogue: 0,00:00:32.47,00:00:33.05,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}We've got
+Dialogue: 0,00:00:33.05,00:00:33.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}about
+Dialogue: 0,00:00:33.33,00:00:33.62,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}a
+Dialogue: 0,00:00:33.62,00:00:34.20,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}billion years
+Dialogue: 0,00:00:34.20,00:00:34.48,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}until
+Dialogue: 0,00:00:34.48,00:00:34.77,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the
+Dialogue: 0,00:00:34.77,00:00:35.06,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}last
+Dialogue: 0,00:00:35.06,00:00:35.63,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}total solar
+Dialogue: 0,00:00:35.63,00:00:35.92,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}eclipse,
+Dialogue: 0,00:00:35.92,00:00:36.24,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}so
+Dialogue: 0,00:00:36.24,00:00:36.57,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}there's
+Dialogue: 0,00:00:36.57,00:00:36.90,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}still
+Dialogue: 0,00:00:36.90,00:00:37.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}time,
+Dialogue: 0,00:00:37.23,00:00:37.89,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}but don't
+Dialogue: 0,00:00:37.89,00:00:38.22,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}wait
+Dialogue: 0,00:00:38.22,00:00:38.55,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}too
+Dialogue: 0,00:00:38.55,00:00:38.88,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}long.
+Dialogue: 0,00:00:38.87,00:00:39.31,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Join
+Dialogue: 0,00:00:39.31,00:00:40.19,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}us for
+Dialogue: 0,00:00:40.19,00:00:40.63,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}more
+Dialogue: 0,00:00:40.63,00:00:41.07,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Astronomical
+Dialogue: 0,00:00:41.07,00:00:41.51,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Wonders.
+Dialogue: 0,00:00:41.51,00:00:42.41,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Like, share,
+Dialogue: 0,00:00:42.41,00:00:43.31,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and subscribe
+Dialogue: 0,00:00:43.31,00:00:44.21,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}for more
+Dialogue: 0,00:00:44.21,00:00:44.66,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}insights
+Dialogue: 0,00:00:44.66,00:00:45.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}into
+Dialogue: 0,00:00:45.11,00:00:46.01,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the mysteries
+Dialogue: 0,00:00:46.01,00:00:46.91,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of our
+Dialogue: 0,00:00:46.91,00:00:47.35,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}universe.

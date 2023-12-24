@@ -1,55 +1,48 @@
 {
-  "Title": "APOPHIS: The Asteroid Threatening Earth #shorts #short",
-  "Description": "Explore the alarming scenario of the asteroid 'APOPHIS' potentially colliding with Earth. Understand the risks and the cosmic keyhole determining our fate in this short, compelling video. #AsteroidImpact #APOPHIS #SpaceThreats",
+  "Title": "The Cosmic Coincidence: Sun, Moon, and Solar Eclipses #shorts #short",
+  "Description": "Discover the fascinating cosmic coincidence of the sun and moon's sizes and what it means for the future of solar eclipses. Delve into this astronomical marvel in our short, engaging video. #SolarEclipse #Astronomy #CosmicCoincidence",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5",
-      "VoiceOverText": "Asteroid APOPHIS is on a course towards Earth, initially predicted to collide on April 13, 2029.",
-      "Description": "Visuals of asteroid APOPHIS moving through space towards Earth.",
-      "Text": "Asteroid APOPHIS is on a course towards Earth, initially predicted to collide on April 13, 2029."
+      "Duration": "7",
+      "VoiceOverText": "Did you know the sun is about 400 times wider than the moon, but also 400 times farther away? That's why they look the same size in our sky.",
+      "Description": "Visualization of the sun and moon's relative sizes and distances from Earth.",
+      "Text": "Did you know the sun is about 400 times wider than the moon, but also 400 times farther away? That's why they look the same size in our sky."
     },
     {
       "SceneNumber": 2,
-      "Duration": "5",
-      "VoiceOverText": "However, updated calculations show it'll narrowly miss us, provided it doesn't pass through a specific orbital 'keyhole'.",
-      "Description": "Animation showing the asteroid's trajectory in relation to the 'keyhole'.",
-      "Text": "However, updated calculations show it'll narrowly miss us, provided it doesn't pass through a specific orbital 'keyhole'."
+      "Duration": "7",
+      "VoiceOverText": "This perfect alignment is what makes total solar eclipses possible. The moon can completely cover the sun, but it's all just a remarkable coincidence.",
+      "Description": "Footage of a total solar eclipse showing the moon covering the sun.",
+      "Text": "This perfect alignment is what makes total solar eclipses possible. The moon can completely cover the sun, but it's all just a remarkable coincidence."
     },
     {
       "SceneNumber": 3,
-      "Duration": "5",
-      "VoiceOverText": "If APOPHIS travels through this keyhole, it could bend its orbit, setting it on a collision course with Earth seven years later.",
-      "Description": "Graphics illustrating the trajectory change if APOPHIS goes through the keyhole.",
-      "Text": "If APOPHIS travels through this keyhole, it could bend its orbit, setting it on a collision course with Earth seven years later."
+      "Duration": "7",
+      "VoiceOverText": "Interestingly, the moon is slowly drifting away from us, about an inch and a half each year due to tidal interactions with Earth.",
+      "Description": "Animation showing the moon gradually moving away from Earth.",
+      "Text": "Interestingly, the moon is slowly drifting away from us, about an inch and a half each year due to tidal interactions with Earth."
     },
     {
       "SceneNumber": 4,
-      "Duration": "5",
-      "VoiceOverText": "The chances of this happening are slim - several in a million, but the risk cannot be ignored.",
-      "Description": "Visual representation of the probability statistics and Earth in the background.",
-      "Text": "The chances of this happening are slim - several in a million, but the risk cannot be ignored."
+      "Duration": "7",
+      "VoiceOverText": "Eventually, the moon will appear too small in the sky to cover the sun. That means no more total solar eclipses!",
+      "Description": "Graphic depiction of future solar eclipses with the moon not fully covering the sun.",
+      "Text": "Eventually, the moon will appear too small in the sky to cover the sun. That means no more total solar eclipses!"
     },
     {
       "SceneNumber": 5,
-      "Duration": "5",
-      "VoiceOverText": "If it hits, it's projected to land 500 kilometers west of Santa Monica, creating massive oceanic disturbances.",
-      "Description": "Simulation of the asteroid's impact in the ocean, near Santa Monica.",
-      "Text": "If it hits, it's projected to land 500 kilometers west of Santa Monica, creating massive oceanic disturbances."
+      "Duration": "7",
+      "VoiceOverText": "We've got about a billion years until the last total solar eclipse. So there's still time, but don't wait too long!",
+      "Description": "Calendar pages flipping rapidly to indicate the passage of a billion years.",
+      "Text": "We've got about a billion years until the last total solar eclipse. So there's still time, but don't wait too long!"
     },
     {
       "SceneNumber": 6,
-      "Duration": "5",
-      "VoiceOverText": "The impact would cause a gigantic explosion, cavitating the ocean to a width of three miles.",
-      "Description": "Dramatic depiction of the asteroid's impact and the resultant oceanic explosion.",
-      "Text": "The impact would cause a gigantic explosion, cavitating the ocean to a width of three miles."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "5",
-      "VoiceOverText": "DISCOVER MORE about our universe's mysteries. LIKE, SHARE, AND SUBSCRIBE for more insights into space phenomena.",
-      "Description": "Call to action with imagery of space exploration and asteroid tracking systems.",
-      "Text": "DISCOVER MORE about our universe's mysteries. LIKE, SHARE, AND SUBSCRIBE for more insights into space phenomena."
+      "Duration": "7",
+      "VoiceOverText": "Join us for more ASTRONOMICAL WONDERS. LIKE, SHARE, AND SUBSCRIBE for more insights into the mysteries of our universe.",
+      "Description": "A call to action with visuals of space and celestial phenomena.",
+      "Text": "Join us for more ASTRONOMICAL WONDERS. LIKE, SHARE, AND SUBSCRIBE for more insights into the mysteries of our universe."
     }
   ]
 }

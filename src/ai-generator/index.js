@@ -38,6 +38,14 @@ try {
     });
   }
 
+  // Generate transcription
+  if (shouldRunStep("watermarks")) {
+    console.log("Starting watermark generation...");
+    execSync("node ./src/ai-generator/generateWatermarks.js", {
+      stdio: "inherit",
+    });
+  }
+
   //Upload the generated shorts video to YouTube
   if (shouldRunStep("upload")) {
     console.log("Uploading video to YouTube...");
