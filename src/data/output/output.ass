@@ -11,63 +11,82 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Pyramids
-Dialogue: 0,00:00:00.52,00:00:01.05,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}span
-Dialogue: 0,00:00:01.05,00:00:01.57,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}across
-Dialogue: 0,00:00:01.57,00:00:02.10,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}five
-Dialogue: 0,00:00:02.10,00:00:03.15,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}continents, a
-Dialogue: 0,00:00:03.15,00:00:04.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}global enigma.
-Dialogue: 0,00:00:04.20,00:00:04.66,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Is
-Dialogue: 0,00:00:04.66,00:00:05.13,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}it
-Dialogue: 0,00:00:05.13,00:00:06.06,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}mere coincidence
-Dialogue: 0,00:00:06.06,00:00:07.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}that pyramids
-Dialogue: 0,00:00:07.00,00:00:07.46,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}arose
-Dialogue: 0,00:00:07.46,00:00:08.40,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}independently worldwide?
-Dialogue: 0,00:00:08.40,00:00:08.85,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}From
-Dialogue: 0,00:00:08.85,00:00:09.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Egypt's Giza
-Dialogue: 0,00:00:09.77,00:00:10.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}to Mexico's
-Dialogue: 0,00:00:10.69,00:00:11.15,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Tio
-Dialogue: 0,00:00:11.15,00:00:11.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
-Dialogue: 0,00:00:11.60,00:00:12.06,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Wakan
-Dialogue: 0,00:00:12.06,00:00:12.98,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}and Cambodia's
-Dialogue: 0,00:00:12.98,00:00:13.90,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}ancient structures,
-Dialogue: 0,00:00:13.90,00:00:15.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}remarkable similarities
-Dialogue: 0,00:00:15.00,00:00:16.10,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}between Indonesia's
-Dialogue: 0,00:00:16.10,00:00:16.65,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}and
-Dialogue: 0,00:00:16.65,00:00:17.20,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Mexico's
-Dialogue: 0,00:00:17.20,00:00:17.75,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}stepped
-Dialogue: 0,00:00:17.75,00:00:18.30,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pyramids.
-Dialogue: 0,00:00:18.30,00:00:19.26,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Imagine the
-Dialogue: 0,00:00:19.26,00:00:20.22,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}great pyramid
-Dialogue: 0,00:00:20.22,00:00:20.70,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
-Dialogue: 0,00:00:20.70,00:00:21.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Giza
-Dialogue: 0,00:00:21.19,00:00:21.67,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}standing
-Dialogue: 0,00:00:21.67,00:00:22.15,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}for
-Dialogue: 0,00:00:22.15,00:00:23.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}over 4,500
-Dialogue: 0,00:00:23.11,00:00:23.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}years.
-Dialogue: 0,00:00:23.60,00:00:24.77,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Mystery suggests
-Dialogue: 0,00:00:24.77,00:00:25.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}ancient
-Dialogue: 0,00:00:25.36,00:00:26.53,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}global connections
-Dialogue: 0,00:00:26.53,00:00:27.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}long
-Dialogue: 0,00:00:27.12,00:00:28.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}before Columbus,
-Dialogue: 0,00:00:28.40,00:00:28.80,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}evidence
-Dialogue: 0,00:00:28.80,00:00:29.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:29.19,00:00:29.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}pre-Columbian
-Dialogue: 0,00:00:29.59,00:00:29.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}lengths
-Dialogue: 0,00:00:29.99,00:00:30.39,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}per
-Dialogue: 0,00:00:30.39,00:00:30.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}week
-Dialogue: 0,00:00:30.79,00:00:31.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Egypt Italy,
-Dialogue: 0,00:00:31.59,00:00:31.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}even
-Dialogue: 0,00:00:31.99,00:00:32.39,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}a
-Dialogue: 0,00:00:32.39,00:00:32.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Greek
-Dialogue: 0,00:00:32.79,00:00:33.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pyramid.
-Dialogue: 0,00:00:33.20,00:00:34.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Join us
-Dialogue: 0,00:00:34.15,00:00:35.11,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in unraveling
-Dialogue: 0,00:00:35.11,00:00:36.06,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}these ancient
-Dialogue: 0,00:00:36.06,00:00:37.02,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}architectural wonders
-Dialogue: 0,00:00:37.02,00:00:37.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}secrets.
-Dialogue: 0,00:00:37.50,00:00:38.25,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like, share
-Dialogue: 0,00:00:38.25,00:00:39.00,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and subscribe
-Dialogue: 0,00:00:39.00,00:00:39.75,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}for more
-Dialogue: 0,00:00:39.75,00:00:40.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}intriguing
-Dialogue: 0,00:00:40.12,00:00:40.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}discoveries.
+Dialogue: 0,00:00:00.00,00:00:00.74,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Asteroid Apophis
+Dialogue: 0,00:00:00.74,00:00:01.49,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}is on
+Dialogue: 0,00:00:01.49,00:00:01.86,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a
+Dialogue: 0,00:00:01.86,00:00:02.61,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}course towards
+Dialogue: 0,00:00:02.61,00:00:03.35,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Earth, initially
+Dialogue: 0,00:00:03.35,00:00:03.73,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}predicted
+Dialogue: 0,00:00:03.73,00:00:04.48,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}to collide
+Dialogue: 0,00:00:04.48,00:00:05.22,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}on April
+Dialogue: 0,00:00:05.22,00:00:05.60,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}13th,
+Dialogue: 0,00:00:05.60,00:00:07.10,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}2029.
+Dialogue: 0,00:00:07.10,00:00:07.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}However,
+Dialogue: 0,00:00:07.45,00:00:07.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}updated
+Dialogue: 0,00:00:07.79,00:00:08.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}calculations
+Dialogue: 0,00:00:08.15,00:00:08.84,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}show it
+Dialogue: 0,00:00:08.84,00:00:09.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}will
+Dialogue: 0,00:00:09.19,00:00:09.54,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}narrowly
+Dialogue: 0,00:00:09.54,00:00:10.24,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}miss us,
+Dialogue: 0,00:00:10.24,00:00:10.94,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}provided it
+Dialogue: 0,00:00:10.94,00:00:11.64,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}doesn't pass
+Dialogue: 0,00:00:11.64,00:00:11.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}through
+Dialogue: 0,00:00:12.00,00:00:13.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a specific
+Dialogue: 0,00:00:13.12,00:00:13.68,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}orbital
+Dialogue: 0,00:00:13.68,00:00:14.24,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}keyhole.
+Dialogue: 0,00:00:14.24,00:00:14.75,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}If a
+Dialogue: 0,00:00:14.75,00:00:15.01,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}pofis
+Dialogue: 0,00:00:15.01,00:00:15.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}travels
+Dialogue: 0,00:00:15.27,00:00:15.53,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}through
+Dialogue: 0,00:00:15.53,00:00:16.05,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}this keyhole,
+Dialogue: 0,00:00:16.05,00:00:16.31,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}it
+Dialogue: 0,00:00:16.31,00:00:16.82,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}could bend
+Dialogue: 0,00:00:16.82,00:00:17.08,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}its
+Dialogue: 0,00:00:17.08,00:00:17.34,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}orbit,
+Dialogue: 0,00:00:17.34,00:00:17.86,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}setting it
+Dialogue: 0,00:00:17.86,00:00:18.38,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}on a
+Dialogue: 0,00:00:18.38,00:00:18.64,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}collision
+Dialogue: 0,00:00:18.64,00:00:19.01,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}course
+Dialogue: 0,00:00:19.01,00:00:19.78,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}with Earth
+Dialogue: 0,00:00:19.78,00:00:20.54,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}seven years
+Dialogue: 0,00:00:20.54,00:00:20.92,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}later.
+Dialogue: 0,00:00:20.92,00:00:21.28,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}The
+Dialogue: 0,00:00:21.28,00:00:22.02,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}chances of
+Dialogue: 0,00:00:22.02,00:00:22.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}this
+Dialogue: 0,00:00:22.38,00:00:23.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}happening are
+Dialogue: 0,00:00:23.12,00:00:23.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}slim, several
+Dialogue: 0,00:00:23.85,00:00:24.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}in a
+Dialogue: 0,00:00:24.59,00:00:25.32,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}million, but
+Dialogue: 0,00:00:25.32,00:00:26.05,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the risk
+Dialogue: 0,00:00:26.05,00:00:26.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}cannot be
+Dialogue: 0,00:00:26.79,00:00:27.16,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}ignored.
+Dialogue: 0,00:00:27.16,00:00:27.94,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}If it
+Dialogue: 0,00:00:27.94,00:00:28.73,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}hits, it's
+Dialogue: 0,00:00:28.73,00:00:29.51,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}projected to
+Dialogue: 0,00:00:29.51,00:00:30.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}land 500
+Dialogue: 0,00:00:30.30,00:00:31.08,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}kilometers west
+Dialogue: 0,00:00:31.08,00:00:31.47,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}of
+Dialogue: 0,00:00:31.47,00:00:32.26,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Santa Monica,
+Dialogue: 0,00:00:32.26,00:00:33.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}creating massive
+Dialogue: 0,00:00:33.04,00:00:33.43,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}oceanic
+Dialogue: 0,00:00:33.43,00:00:35.02,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}disturbances.
+Dialogue: 0,00:00:35.02,00:00:35.80,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}The impact
+Dialogue: 0,00:00:35.80,00:00:36.59,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}would cause
+Dialogue: 0,00:00:36.59,00:00:37.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}a gigantic
+Dialogue: 0,00:00:37.38,00:00:37.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}explosion,
+Dialogue: 0,00:00:37.77,00:00:38.56,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}cavitating the
+Dialogue: 0,00:00:38.56,00:00:39.35,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}ocean to
+Dialogue: 0,00:00:39.35,00:00:40.13,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}a width
+Dialogue: 0,00:00:40.13,00:00:40.53,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:40.53,00:00:41.32,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}three miles.
+Dialogue: 0,00:00:41.32,00:00:42.08,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Discover more
+Dialogue: 0,00:00:42.08,00:00:42.85,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}about our
+Dialogue: 0,00:00:42.85,00:00:43.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}universe's mysteries,
+Dialogue: 0,00:00:43.62,00:00:44.01,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}like
+Dialogue: 0,00:00:44.01,00:00:44.78,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}share and
+Dialogue: 0,00:00:44.78,00:00:45.16,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}subscribe
+Dialogue: 0,00:00:45.16,00:00:45.93,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}for more
+Dialogue: 0,00:00:45.93,00:00:46.31,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}insights
+Dialogue: 0,00:00:46.32,00:00:46.81,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}into
+Dialogue: 0,00:00:46.81,00:00:47.30,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}space
+Dialogue: 0,00:00:47.30,00:00:47.79,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}phenomena.

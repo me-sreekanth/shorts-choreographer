@@ -4,87 +4,94 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "2",
-            "VoiceOverText": " The fact that there's pyramids and five continents around the world.",
+            "Duration": "5",
+            "VoiceOverText": " You know we have an asteroid headed towards us. It's called a Poffice. The very first calculation showed",
             "Description": "",
-            "Text": " The fact that there's pyramids and five continents around the world."
+            "Text": " You know we have an asteroid headed towards us. It's called a Poffice. The very first calculation showed"
         },
         {
             "SceneNumber": 2,
             "Duration": "3",
-            "VoiceOverText": " Is it a coincidence that they just happen to start building pyramids on multiple continents?",
+            "VoiceOverText": " that it would collide with Earth on April 13th",
             "Description": "",
-            "Text": " Is it a coincidence that they just happen to start building pyramids on multiple continents?"
+            "Text": " that it would collide with Earth on April 13th"
         },
         {
             "SceneNumber": 3,
-            "Duration": "4",
-            "VoiceOverText": " Here you see one from Egypt, one from Mexico, and one from Cambodia.",
+            "Duration": "5",
+            "VoiceOverText": " 2029. So better day to came along and we learned it would not hit us if it threads a keyhole a",
             "Description": "",
-            "Text": " Here you see one from Egypt, one from Mexico, and one from Cambodia."
+            "Text": " 2029. So better day to came along and we learned it would not hit us if it threads a keyhole a"
         },
         {
             "SceneNumber": 4,
-            "Duration": "3",
-            "VoiceOverText": " If you look at comparisons of the Indonesia pyramids and the ones in Mexico,",
+            "Duration": "4",
+            "VoiceOverText": " very narrow set of orbits if it has one of those trajectories",
             "Description": "",
-            "Text": " If you look at comparisons of the Indonesia pyramids and the ones in Mexico,"
+            "Text": " very narrow set of orbits if it has one of those trajectories"
         },
         {
             "SceneNumber": 5,
-            "Duration": "3",
-            "VoiceOverText": " they have similarities of the stripped steps that go up the middle of it.",
+            "Duration": "2",
+            "VoiceOverText": " Birth of the rabbit would be just wrong, okay?",
             "Description": "",
-            "Text": " they have similarities of the stripped steps that go up the middle of it."
+            "Text": " Birth of the rabbit would be just wrong, okay?"
         },
         {
             "SceneNumber": 6,
-            "Duration": "3",
-            "VoiceOverText": " The reason why this is significant is if the Great Pyramid is 4,500 years old.",
+            "Duration": "4",
+            "VoiceOverText": " To to bend it in such a way so that seven years later it will hit Earth",
             "Description": "",
-            "Text": " The reason why this is significant is if the Great Pyramid is 4,500 years old."
+            "Text": " To to bend it in such a way so that seven years later it will hit Earth"
         },
         {
             "SceneNumber": 7,
-            "Duration": "4",
-            "VoiceOverText": " My argument is that there are connections across the oceans that are not supposed to exist.",
+            "Duration": "3",
+            "VoiceOverText": " So you want to make sure this does not go through the keyhole",
             "Description": "",
-            "Text": " My argument is that there are connections across the oceans that are not supposed to exist."
+            "Text": " So you want to make sure this does not go through the keyhole"
         },
         {
             "SceneNumber": 8,
-            "Duration": "1",
-            "VoiceOverText": " According to everything, they're adamant.",
+            "Duration": "3",
+            "VoiceOverText": " If it goes through the keyhole it will hit us April 13th",
             "Description": "",
-            "Text": " According to everything, they're adamant."
+            "Text": " If it goes through the keyhole it will hit us April 13th"
         },
         {
             "SceneNumber": 9,
-            "Duration": "3",
-            "VoiceOverText": " It wasn't until Christopher Columbus, 1492, sailed the ocean blue.",
+            "Duration": "4",
+            "VoiceOverText": " 2036 the chances of this now our data tell us is several in a million",
             "Description": "",
-            "Text": " It wasn't until Christopher Columbus, 1492, sailed the ocean blue."
+            "Text": " 2036 the chances of this now our data tell us is several in a million"
         },
         {
             "SceneNumber": 10,
-            "Duration": "4",
-            "VoiceOverText": " But yet there is evidence that goes back more than 1,000 years prior to Peru, Egypt,",
+            "Duration": "2",
+            "VoiceOverText": " So you say oh not worry about that",
             "Description": "",
-            "Text": " But yet there is evidence that goes back more than 1,000 years prior to Peru, Egypt,"
+            "Text": " So you say oh not worry about that"
         },
         {
             "SceneNumber": 11,
-            "Duration": "1",
-            "VoiceOverText": " places in Italy, Greece.",
+            "Duration": "5",
+            "VoiceOverText": " But if it threads the center of the keyhole it'll hit 500 kilometers west of Santa Monica",
             "Description": "",
-            "Text": " places in Italy, Greece."
+            "Text": " But if it threads the center of the keyhole it'll hit 500 kilometers west of Santa Monica"
         },
         {
             "SceneNumber": 12,
-            "Duration": "1",
-            "VoiceOverText": " There's a pyramid in Greece.",
+            "Duration": "2",
+            "VoiceOverText": " Plunge into the ocean to a depth of three miles",
             "Description": "",
-            "Text": " There's a pyramid in Greece."
+            "Text": " Plunge into the ocean to a depth of three miles"
+        },
+        {
+            "SceneNumber": 13,
+            "Duration": "3",
+            "VoiceOverText": " Cavitating the ocean to a width of three miles. It'll explode",
+            "Description": "",
+            "Text": " Cavitating the ocean to a width of three miles. It'll explode"
         }
     ]
 }

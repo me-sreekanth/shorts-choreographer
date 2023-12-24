@@ -1,56 +1,55 @@
 {
-    "Title": "The Cosmic Puzzle: Neutrinos, Dark Matter, and Dark Energy #shorts #short",
-    "Description": "Dive into the realm of cosmic mysteries with neutrinos, dark matter, and dark energy. Understand how these elusive elements shape our universe in this short, engaging video. #Neutrinos #DarkMatter #CosmicMysteries",
-    "Scenes": [
-      {
-        "SceneNumber": 1,
-        "Duration": "5",
-        "VoiceOverText": "Discover neutrinos: tiny particles, with about 60 billion per cm² from the sun, passing through us unnoticed.",
-        "Description": "Illustrations of neutrinos streaming from the sun and passing through Earth.",
-        "Text": "Discover neutrinos: tiny particles, with about 60 billion per cm² from the sun, passing through us unnoticed."
-      },
-      {
-        "SceneNumber": 2,
-        "Duration": "5",
-        "VoiceOverText": "Generated in nuclear reactions in the sun, neutrinos pass through almost everything, even the Earth itself.",
-        "Description": "Animations showing the generation and journey of neutrinos from the sun.",
-        "Text": "Generated in nuclear reactions in the sun, neutrinos pass through almost everything, even the Earth itself."
-      },
-      {
-        "SceneNumber": 3,
-        "Duration": "5",
-        "VoiceOverText": "Rarely interacting with matter, we detect just a few neutrinos daily, despite their astronomical numbers.",
-        "Description": "Visuals of scientific instruments used to detect neutrinos.",
-        "Text": "Rarely interacting with matter, we detect just a few neutrinos daily, despite their astronomical numbers."
-      },
-      {
-        "SceneNumber": 4,
-        "Duration": "5",
-        "VoiceOverText": "Dark matter forms a staggering 25% of the universe, overshadowing normal matter fivefold.",
-        "Description": "Graphics illustrating the proportion of dark matter in the universe.",
-        "Text": "Dark matter forms a staggering 25% of the universe, overshadowing normal matter fivefold."
-      },
-      {
-        "SceneNumber": 5,
-        "Duration": "5",
-        "VoiceOverText": "Normal matter, like stars and gas, accounts for just 5%, while dark energy constitutes about 70%.",
-        "Description": "Comparison of normal matter, dark matter, and dark energy in the universe.",
-        "Text": "Normal matter, like stars and gas, accounts for just 5%, while dark energy constitutes about 70%."
-      },
-      {
-        "SceneNumber": 6,
-        "Duration": "5",
-        "VoiceOverText": "This cosmic composition challenges our understanding, with dark energy driving the universe's expansion.",
-        "Description": "Visual representation of the universe expanding, influenced by dark energy.",
-        "Text": "This cosmic composition challenges our understanding, with dark energy driving the universe's expansion."
-      },
-      {
-        "SceneNumber": 7,
-        "Duration": "5",
-        "VoiceOverText": "EXPLORE MORE COSMIC SECRETS. LIKE, SHARE, AND SUBSCRIBE for a journey through the mysteries of the universe.",
-        "Description": "A call to action with imagery of space exploration and cosmic phenomena.",
-        "Text": "EXPLORE MORE COSMIC SECRETS. LIKE, SHARE, AND SUBSCRIBE for a journey through the mysteries of the universe."
-      }
-    ]
-  }
-  
+  "Title": "APOPHIS: The Asteroid Threatening Earth #shorts #short",
+  "Description": "Explore the alarming scenario of the asteroid 'APOPHIS' potentially colliding with Earth. Understand the risks and the cosmic keyhole determining our fate in this short, compelling video. #AsteroidImpact #APOPHIS #SpaceThreats",
+  "Scenes": [
+    {
+      "SceneNumber": 1,
+      "Duration": "5",
+      "VoiceOverText": "Asteroid APOPHIS is on a course towards Earth, initially predicted to collide on April 13, 2029.",
+      "Description": "Visuals of asteroid APOPHIS moving through space towards Earth.",
+      "Text": "Asteroid APOPHIS is on a course towards Earth, initially predicted to collide on April 13, 2029."
+    },
+    {
+      "SceneNumber": 2,
+      "Duration": "5",
+      "VoiceOverText": "However, updated calculations show it'll narrowly miss us, provided it doesn't pass through a specific orbital 'keyhole'.",
+      "Description": "Animation showing the asteroid's trajectory in relation to the 'keyhole'.",
+      "Text": "However, updated calculations show it'll narrowly miss us, provided it doesn't pass through a specific orbital 'keyhole'."
+    },
+    {
+      "SceneNumber": 3,
+      "Duration": "5",
+      "VoiceOverText": "If APOPHIS travels through this keyhole, it could bend its orbit, setting it on a collision course with Earth seven years later.",
+      "Description": "Graphics illustrating the trajectory change if APOPHIS goes through the keyhole.",
+      "Text": "If APOPHIS travels through this keyhole, it could bend its orbit, setting it on a collision course with Earth seven years later."
+    },
+    {
+      "SceneNumber": 4,
+      "Duration": "5",
+      "VoiceOverText": "The chances of this happening are slim - several in a million, but the risk cannot be ignored.",
+      "Description": "Visual representation of the probability statistics and Earth in the background.",
+      "Text": "The chances of this happening are slim - several in a million, but the risk cannot be ignored."
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "5",
+      "VoiceOverText": "If it hits, it's projected to land 500 kilometers west of Santa Monica, creating massive oceanic disturbances.",
+      "Description": "Simulation of the asteroid's impact in the ocean, near Santa Monica.",
+      "Text": "If it hits, it's projected to land 500 kilometers west of Santa Monica, creating massive oceanic disturbances."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "5",
+      "VoiceOverText": "The impact would cause a gigantic explosion, cavitating the ocean to a width of three miles.",
+      "Description": "Dramatic depiction of the asteroid's impact and the resultant oceanic explosion.",
+      "Text": "The impact would cause a gigantic explosion, cavitating the ocean to a width of three miles."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "5",
+      "VoiceOverText": "DISCOVER MORE about our universe's mysteries. LIKE, SHARE, AND SUBSCRIBE for more insights into space phenomena.",
+      "Description": "Call to action with imagery of space exploration and asteroid tracking systems.",
+      "Text": "DISCOVER MORE about our universe's mysteries. LIKE, SHARE, AND SUBSCRIBE for more insights into space phenomena."
+    }
+  ]
+}
