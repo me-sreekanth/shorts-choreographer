@@ -11,92 +11,86 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}The scariest
-Dialogue: 0,00:00:00.77,00:00:01.54,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}drug, Devil's
-Dialogue: 0,00:00:01.54,00:00:02.31,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath, is
-Dialogue: 0,00:00:02.31,00:00:02.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a
-Dialogue: 0,00:00:02.69,00:00:03.08,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}dangerous
-Dialogue: 0,00:00:03.08,00:00:03.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}drug produced
-Dialogue: 0,00:00:03.85,00:00:04.23,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}from
-Dialogue: 0,00:00:04.23,00:00:04.62,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:04.62,00:00:05.39,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}seeds of
-Dialogue: 0,00:00:05.39,00:00:06.16,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Dittura SPP,
-Dialogue: 0,00:00:06.16,00:00:07.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a tropane
-Dialogue: 0,00:00:07.23,00:00:07.77,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}alkaloid
-Dialogue: 0,00:00:07.77,00:00:08.30,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}plant.
-Dialogue: 0,00:00:08.30,00:00:09.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}The drug
-Dialogue: 0,00:00:09.38,00:00:10.45,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}contains scopolamine,
-Dialogue: 0,00:00:10.45,00:00:11.53,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}an anticholinergic
-Dialogue: 0,00:00:11.53,00:00:12.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}medication that
-Dialogue: 0,00:00:12.60,00:00:13.68,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}causes amnesia
-Dialogue: 0,00:00:13.67,00:00:14.31,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and loss
-Dialogue: 0,00:00:14.31,00:00:14.62,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:14.62,00:00:15.25,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}inhibitions. Just
-Dialogue: 0,00:00:15.25,00:00:15.89,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}one gram
-Dialogue: 0,00:00:15.89,00:00:16.20,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:16.20,00:00:16.83,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Devil's Breath
-Dialogue: 0,00:00:16.83,00:00:17.15,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}is
-Dialogue: 0,00:00:17.15,00:00:17.46,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}enough
-Dialogue: 0,00:00:17.46,00:00:18.10,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to block
-Dialogue: 0,00:00:18.10,00:00:18.41,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}memories
-Dialogue: 0,00:00:18.41,00:00:19.04,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}for the
-Dialogue: 0,00:00:19.04,00:00:19.36,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}next
-Dialogue: 0,00:00:19.36,00:00:19.67,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}12
-Dialogue: 0,00:00:19.67,00:00:20.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}hours and
-Dialogue: 0,00:00:20.40,00:00:21.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}leave users
-Dialogue: 0,00:00:21.12,00:00:21.85,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}helpless under
-Dialogue: 0,00:00:21.85,00:00:22.57,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the control
-Dialogue: 0,00:00:22.57,00:00:22.94,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
-Dialogue: 0,00:00:22.94,00:00:23.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}others. It
-Dialogue: 0,00:00:23.66,00:00:24.02,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}is
-Dialogue: 0,00:00:24.02,00:00:24.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}commonly used
-Dialogue: 0,00:00:24.75,00:00:25.47,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}by criminals
-Dialogue: 0,00:00:25.47,00:00:25.84,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}for
-Dialogue: 0,00:00:25.83,00:00:26.36,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}robbery,
-Dialogue: 0,00:00:26.36,00:00:27.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}kidnapping and
-Dialogue: 0,00:00:27.42,00:00:28.48,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}sexual assault.
-Dialogue: 0,00:00:28.48,00:00:29.54,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}In 2008,
-Dialogue: 0,00:00:29.54,00:00:30.07,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Colombia's
-Dialogue: 0,00:00:30.07,00:00:30.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}National
-Dialogue: 0,00:00:30.60,00:00:31.13,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Police
-Dialogue: 0,00:00:31.13,00:00:32.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}estimated that
-Dialogue: 0,00:00:32.19,00:00:32.71,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Devil's
-Dialogue: 0,00:00:32.71,00:00:33.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath was
-Dialogue: 0,00:00:33.69,00:00:34.17,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}responsible
-Dialogue: 0,00:00:34.17,00:00:34.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}for
-Dialogue: 0,00:00:34.66,00:00:35.63,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}over 1,200
-Dialogue: 0,00:00:35.63,00:00:36.60,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}crimes in
-Dialogue: 0,00:00:36.60,00:00:37.08,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Colombia
-Dialogue: 0,00:00:37.08,00:00:37.57,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}alone.
-Dialogue: 0,00:00:37.57,00:00:38.54,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}The drug's
-Dialogue: 0,00:00:38.54,00:00:39.02,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}potent
-Dialogue: 0,00:00:39.02,00:00:39.51,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}ability
-Dialogue: 0,00:00:39.51,00:00:40.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to
-Dialogue: 0,00:00:40.00,00:00:40.72,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}erase memory
-Dialogue: 0,00:00:40.72,00:00:41.08,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and
-Dialogue: 0,00:00:41.08,00:00:41.45,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}subdue
-Dialogue: 0,00:00:41.45,00:00:41.81,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}free
-Dialogue: 0,00:00:41.81,00:00:42.53,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}will makes
-Dialogue: 0,00:00:42.53,00:00:42.90,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}it
-Dialogue: 0,00:00:42.90,00:00:43.26,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}terrifyingly
-Dialogue: 0,00:00:43.26,00:00:43.98,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}effective. That's
-Dialogue: 0,00:00:43.98,00:00:44.35,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}why
-Dialogue: 0,00:00:44.35,00:00:44.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Devil's
-Dialogue: 0,00:00:44.71,00:00:45.07,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath
-Dialogue: 0,00:00:45.07,00:00:45.44,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is
-Dialogue: 0,00:00:45.43,00:00:46.11,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}often referred
-Dialogue: 0,00:00:46.11,00:00:46.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to as
-Dialogue: 0,00:00:46.79,00:00:47.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the
-Dialogue: 0,00:00:47.12,00:00:47.80,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}most dangerous
-Dialogue: 0,00:00:47.80,00:00:48.14,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}drug
-Dialogue: 0,00:00:48.14,00:00:48.48,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in
-Dialogue: 0,00:00:48.48,00:00:49.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the world.
-Dialogue: 0,00:00:49.15,00:00:49.49,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Like,
-Dialogue: 0,00:00:49.49,00:00:49.83,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}share
-Dialogue: 0,00:00:49.83,00:00:50.16,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}and
-Dialogue: 0,00:00:50.16,00:00:50.84,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}subscribe for
-Dialogue: 0,00:00:50.84,00:00:51.52,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}more cosmic
-Dialogue: 0,00:00:51.52,00:00:52.18,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}stories
-Dialogue: 0,00:00:52.18,00:00:52.84,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
-Dialogue: 0,00:00:52.84,00:00:53.50,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}astronomical
-Dialogue: 0,00:00:53.50,00:00:54.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}phenomena.
+Dialogue: 0,00:00:00.00,00:00:00.41,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Quanta
+Dialogue: 0,00:00:00.41,00:00:00.82,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker's
+Dialogue: 0,00:00:00.82,00:00:01.23,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}mother,
+Dialogue: 0,00:00:01.23,00:00:01.63,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Cynthia
+Dialogue: 0,00:00:01.63,00:00:02.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Ann
+Dialogue: 0,00:00:02.04,00:00:02.46,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Parker,
+Dialogue: 0,00:00:02.46,00:00:02.77,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}was
+Dialogue: 0,00:00:02.77,00:00:03.41,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}kidnapped by
+Dialogue: 0,00:00:03.41,00:00:04.04,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the Comanche
+Dialogue: 0,00:00:04.04,00:00:04.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
+Dialogue: 0,00:00:04.36,00:00:04.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}eventually became
+Dialogue: 0,00:00:05.00,00:00:05.43,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the
+Dialogue: 0,00:00:05.43,00:00:06.29,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}chief's wife.
+Dialogue: 0,00:00:06.29,00:00:06.95,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Cynthia Ann
+Dialogue: 0,00:00:06.95,00:00:07.28,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker
+Dialogue: 0,00:00:07.28,00:00:07.60,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}was
+Dialogue: 0,00:00:07.60,00:00:07.93,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}white
+Dialogue: 0,00:00:07.93,00:00:08.26,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}and
+Dialogue: 0,00:00:08.26,00:00:08.59,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}had
+Dialogue: 0,00:00:08.59,00:00:09.24,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a half-native
+Dialogue: 0,00:00:09.24,00:00:09.57,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}American
+Dialogue: 0,00:00:09.57,00:00:09.90,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}baby,
+Dialogue: 0,00:00:09.90,00:00:10.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}Quanta
+Dialogue: 0,00:00:10.62,00:00:11.33,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Parker.
+Dialogue: 0,00:00:11.33,00:00:11.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Quanta
+Dialogue: 0,00:00:11.69,00:00:12.41,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker is
+Dialogue: 0,00:00:12.41,00:00:13.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the last
+Dialogue: 0,00:00:13.12,00:00:13.48,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Comanche
+Dialogue: 0,00:00:13.48,00:00:13.83,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}chief.
+Dialogue: 0,00:00:13.83,00:00:14.32,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}The Comanches
+Dialogue: 0,00:00:14.32,00:00:14.80,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}were the
+Dialogue: 0,00:00:14.80,00:00:15.04,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}people
+Dialogue: 0,00:00:15.04,00:00:15.28,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}in
+Dialogue: 0,00:00:15.28,00:00:15.52,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}control
+Dialogue: 0,00:00:15.52,00:00:16.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of the
+Dialogue: 0,00:00:16.00,00:00:16.24,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}planes
+Dialogue: 0,00:00:16.24,00:00:16.59,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
+Dialogue: 0,00:00:16.59,00:00:16.94,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}control
+Dialogue: 0,00:00:16.94,00:00:17.64,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of Texas
+Dialogue: 0,00:00:17.64,00:00:17.99,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
+Dialogue: 0,00:00:17.99,00:00:18.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}were the
+Dialogue: 0,00:00:18.69,00:00:19.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}most
+Dialogue: 0,00:00:19.04,00:00:19.39,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}fierce
+Dialogue: 0,00:00:19.39,00:00:19.74,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}tribe.
+Dialogue: 0,00:00:19.74,00:00:20.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}They
+Dialogue: 0,00:00:20.00,00:00:20.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}were
+Dialogue: 0,00:00:20.27,00:00:20.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the
+Dialogue: 0,00:00:20.54,00:00:21.07,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}most difficult
+Dialogue: 0,00:00:21.07,00:00:21.34,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}to
+Dialogue: 0,00:00:21.34,00:00:21.87,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}get passed,
+Dialogue: 0,00:00:21.87,00:00:22.34,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}preventing
+Dialogue: 0,00:00:22.34,00:00:22.81,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}settlers
+Dialogue: 0,00:00:22.81,00:00:23.28,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}from
+Dialogue: 0,00:00:23.28,00:00:24.21,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}inhabiting the
+Dialogue: 0,00:00:24.21,00:00:24.67,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}area.
+Dialogue: 0,00:00:24.67,00:00:24.95,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}It
+Dialogue: 0,00:00:24.95,00:00:25.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}wasn't until
+Dialogue: 0,00:00:25.50,00:00:26.05,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the Texas
+Dialogue: 0,00:00:26.05,00:00:26.60,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Rangers figured
+Dialogue: 0,00:00:26.60,00:00:26.87,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}out
+Dialogue: 0,00:00:26.87,00:00:27.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}how
+Dialogue: 0,00:00:27.27,00:00:27.67,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
+Dialogue: 0,00:00:27.67,00:00:28.47,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}combat them
+Dialogue: 0,00:00:28.47,00:00:28.87,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}on
+Dialogue: 0,00:00:28.87,00:00:29.67,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}their own
+Dialogue: 0,00:00:29.67,00:00:30.07,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}terms.
+Dialogue: 0,00:00:30.07,00:00:30.47,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}They
+Dialogue: 0,00:00:30.47,00:00:31.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}cold-camped, never
+Dialogue: 0,00:00:31.25,00:00:32.03,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}used fires
+Dialogue: 0,00:00:32.03,00:00:32.81,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and dressed
+Dialogue: 0,00:00:32.81,00:00:33.20,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}like
+Dialogue: 0,00:00:33.20,00:00:33.59,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}civilians
+Dialogue: 0,00:00:33.60,00:00:34.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}living like
+Dialogue: 0,00:00:34.50,00:00:34.95,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:34.95,00:00:35.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Indians.
+Dialogue: 0,00:00:35.39,00:00:35.74,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like,
+Dialogue: 0,00:00:35.74,00:00:36.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}share, and
+Dialogue: 0,00:00:36.42,00:00:37.11,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subscribe for
+Dialogue: 0,00:00:37.11,00:00:37.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}more stories
+Dialogue: 0,00:00:37.79,00:00:38.26,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
+Dialogue: 0,00:00:38.26,00:00:39.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}historical legends
+Dialogue: 0,00:00:39.20,00:00:40.13,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and cultural
+Dialogue: 0,00:00:40.13,00:00:40.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}heritage.

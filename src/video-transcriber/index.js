@@ -40,7 +40,7 @@ const extractAudioAndTranscribeToJson = (videoPath) => {
   });
 };
 
-const videoPath = path.join(__dirname, "../data/output/final_output.mp4"); // Replace with the path to your video file
+const videoPath = path.join(__dirname, "../data/input/input_video.mp4"); // Replace with the path to your video file
 extractAudioAndTranscribeToJson(videoPath)
   .then((jsonFilePath) =>
     console.log(`JSON script created at: ${jsonFilePath}`)

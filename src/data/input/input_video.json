@@ -1,0 +1,83 @@
+{
+    "Title": "Your Video Title",
+    "Description": "Your Video Description",
+    "Scenes": [
+        {
+            "SceneNumber": 1,
+            "Duration": "3",
+            "VoiceOverText": " Quanta Parker is the last Comanche chief.",
+            "Description": "",
+            "Text": " Quanta Parker is the last Comanche chief."
+        },
+        {
+            "SceneNumber": 2,
+            "Duration": "4",
+            "VoiceOverText": " So the Comanches were the people that were in control of the planes in",
+            "Description": "",
+            "Text": " So the Comanches were the people that were in control of the planes in"
+        },
+        {
+            "SceneNumber": 3,
+            "Duration": "3",
+            "VoiceOverText": " control of Texas and they were the most fierce tribe and they were the most",
+            "Description": "",
+            "Text": " control of Texas and they were the most fierce tribe and they were the most"
+        },
+        {
+            "SceneNumber": 4,
+            "Duration": "5",
+            "VoiceOverText": " difficult to get past. They were the reason why people couldn't settle this",
+            "Description": "",
+            "Text": " difficult to get past. They were the reason why people couldn't settle this"
+        },
+        {
+            "SceneNumber": 5,
+            "Duration": "5",
+            "VoiceOverText": " area. It wasn't until the Texas Rangers figured out how to combat them on their",
+            "Description": "",
+            "Text": " area. It wasn't until the Texas Rangers figured out how to combat them on their"
+        },
+        {
+            "SceneNumber": 6,
+            "Duration": "5",
+            "VoiceOverText": " own terms. They cold-camped, they never used fires, they dressed like like normal",
+            "Description": "",
+            "Text": " own terms. They cold-camped, they never used fires, they dressed like like normal"
+        },
+        {
+            "SceneNumber": 7,
+            "Duration": "5",
+            "VoiceOverText": " civilians and they kind of lived like Indians. So Quanta Parker, his mother,",
+            "Description": "",
+            "Text": " civilians and they kind of lived like Indians. So Quanta Parker, his mother,"
+        },
+        {
+            "SceneNumber": 8,
+            "Duration": "6",
+            "VoiceOverText": " Cynthia Ann Parker, was kidnapped by the Comanche and she eventually became the",
+            "Description": "",
+            "Text": " Cynthia Ann Parker, was kidnapped by the Comanche and she eventually became the"
+        },
+        {
+            "SceneNumber": 9,
+            "Duration": "5",
+            "VoiceOverText": " wife of the chief and they had a baby. So she was white and she had a half",
+            "Description": "",
+            "Text": " wife of the chief and they had a baby. So she was white and she had a half"
+        },
+        {
+            "SceneNumber": 10,
+            "Duration": "4",
+            "VoiceOverText": " Native American baby who was Quanta Parker who was the last Comanche",
+            "Description": "",
+            "Text": " Native American baby who was Quanta Parker who was the last Comanche"
+        },
+        {
+            "SceneNumber": 11,
+            "Duration": "2",
+            "VoiceOverText": " chief.",
+            "Description": "",
+            "Text": " chief."
+        }
+    ]
+}
