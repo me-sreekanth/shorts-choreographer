@@ -1,55 +1,62 @@
 {
-  "Title": "Mystery of Oumuamua: A Galactic Enigma #shorts #short",
-  "Description": "Explore the enigmatic journey of 'Oumuamua, the first interstellar visitor observed in our solar system. From its unusual trajectory to the mysteries surrounding its origin, this short delves into the cosmic puzzle of this unique celestial object.",
+  "Title": "Devil's Breath: The World's Scariest Drug #shorts",
+  "Description": "Uncover the terrifying reality of Devil's Breath, a drug with chilling effects on the human mind. Derived from the Datura plant, this video exposes its use in crimes and its alarming impact on memory and free will. #shorts #awareness",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "10",
-      "VoiceOverText": "On October 19th, 2017, Panstar spotted an object moving rapidly between the stars.",
-      "Description": "A telescope scanning the night sky, discovering a fast-moving object among the stars.",
-      "Text": "Mysterious Object Spotted in Space"
+      "Duration": "4",
+      "VoiceOverText": "The scariest drug, Devil's Breath, is a dangerous drug produced from the seeds of Datura SPP, a tropane alkaloid plant.",
+      "Description": "An image of the Datura plant, highlighting its seeds.",
+      "Text": "The scariest drug, Devil's Breath, is a dangerous drug produced from the seeds of Datura SPP, a tropane alkaloid plant."
     },
     {
       "SceneNumber": 2,
-      "Duration": "10",
-      "VoiceOverText": "We had enough data to realize that this object wasn't from our solar system.",
-      "Description": "Scientists analyzing data and realizing the object's extraterrestrial origin.",
-      "Text": "Not From Our Solar System"
+      "Duration": "6",
+      "VoiceOverText": "The drug contains scopolamine, an anticholinergic medication that causes amnesia and loss of inhibitions.",
+      "Description": "A close-up of the chemical structure of scopolamine.",
+      "Text": "The drug contains scopolamine, an anticholinergic medication that causes amnesia and loss of inhibitions."
     },
     {
       "SceneNumber": 3,
-      "Duration": "10",
-      "VoiceOverText": "The interstellar visitor entered our solar system from above the plane of the planets, coming from the direction of the constellation Lyra.",
-      "Description": "A depiction of 'Oumuamua entering the solar system from an unusual angle, with the constellation Lyra in the background.",
-      "Text": "Visitor from Lyra"
+      "Duration": "4",
+      "VoiceOverText": "Just one gram of Devil's Breath is enough to block memories for the next 12 hours and leave users helpless under the control of others.",
+      "Description": "A visual representation of a small amount (one gram) of Devil's Breath.",
+      "Text": "Just one gram of Devil's Breath is enough to block memories for the next 12 hours and leave users helpless under the control of others."
     },
     {
       "SceneNumber": 4,
-"Duration": "10",
-"VoiceOverText": "And it passed closest to the Sun on September 9th, passing inside the orbit of Mercury.",
-"Description": "A visualization of 'Oumuamua's trajectory as it passes close to the Sun, inside Mercury's orbit.",
-"Text": "Close Encounter with the Sun"
+      "Duration": "4",
+      "VoiceOverText": "It is commonly used by criminals for robbery, kidnapping, and sexual assault.",
+      "Description": "A shadowy figure symbolizing a criminal, with icons representing robbery, kidnapping, and assault.",
+      "Text": "It is commonly used by criminals for robbery, kidnapping, and sexual assault."
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "4",
+      "VoiceOverText": "In 2008, Colombia's National Police estimated that Devil's Breath was responsible for over 1,200 crimes in Colombia alone.",
+      "Description": "A map of Colombia with a crime statistics overlay.",
+      "Text": "In 2008, Colombia's National Police estimated that Devil's Breath was responsible for over 1,200 crimes in Colombia alone."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "4",
+      "VoiceOverText": "The drug's potent ability to erase memory and subdue free will makes it terrifyingly effective.",
+      "Description": "An abstract image representing the loss of memory and free will.",
+      "Text": "The drug's potent ability to erase memory and subdue free will makes it terrifyingly effective."
+    },
+    {
+      "SceneNumber": 7,
+"Duration": "4",
+"VoiceOverText": "That's why Devil's Breath is often referred to as the most dangerous drug in the world.",
+"Description": "A foreboding image conveying the ominous nature of Devil's Breath, possibly with a global or cautionary symbol.",
+"Text": "That's why Devil's Breath is often referred to as the most dangerous drug in the world."
 },
 {
-"SceneNumber": 5,
-"Duration": "10",
-"VoiceOverText": "Some mysterious force, we shout without showing any cometary evaporation, no rocket effect to push it. The question is, what was pushing it?",
-"Description": "Illustration of 'Oumuamua moving through space without any visible propulsion or cometary tail.",
-"Text": "Mystery of 'Oumuamua's Propulsion"
-},
-{
-"SceneNumber": 6,
-"Duration": "10",
-"VoiceOverText": "The question is who produced Oumuamua? How bad would this have been? Had it not missed the Earth?",
-"Description": "Image of scientists pondering over 'Oumuamua's origins and its potential impact on Earth.",
-"Text": "Unsolved Mysteries of 'Oumuamua"
-},
-{
-  "SceneNumber": 7,
+  "SceneNumber": 8,
   "Duration": "8",
-  "VoiceOverText": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena.",
+  "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena.",
   "Description": "A call to action with space imagery and nebulae in the background.",
-  "Text": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena."
+  "Text": "LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena."
 }
 ]
 }
