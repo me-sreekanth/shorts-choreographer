@@ -1,97 +1,55 @@
 {
-  "Title": "Your Video Title",
-  "Description": "Your Video Description",
-  "Scenes": [
-    {
-      "SceneNumber": 1,
-      "Duration": "4",
-      "VoiceOverText": " How bad would this have been? Had it not missed the Earth?",
-      "Description": "",
-      "Text": " How bad would this have been? Had it not missed the Earth?"
-    },
-    {
-      "SceneNumber": 2,
-      "Duration": "2",
-      "VoiceOverText": " The question is who produced Omuamua?",
-      "Description": "",
-      "Text": " The question is who produced Omuamua?"
-    },
-    {
-      "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": " On October 19th, 2017, Panstar spotted an object moving rapidly between the stars.",
-      "Description": "",
-      "Text": " On October 19th, 2017, Panstar spotted an object moving rapidly between the stars."
-    },
-    {
-      "SceneNumber": 4,
-      "Duration": "4",
-      "VoiceOverText": " And this time the usual follow-up measurements showed something completely different.",
-      "Description": "",
-      "Text": " And this time the usual follow-up measurements showed something completely different."
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "4",
-      "VoiceOverText": " We had enough data to realize that this object wasn't from our solar system.",
-      "Description": "",
-      "Text": " We had enough data to realize that this object wasn't from our solar system."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "2",
-      "VoiceOverText": " Our own solar system is huge.",
-      "Description": "",
-      "Text": " Our own solar system is huge."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "5",
-      "VoiceOverText": " So even getting a package from the nearest star system, 4.4 light years away,",
-      "Description": "",
-      "Text": " So even getting a package from the nearest star system, 4.4 light years away,"
-    },
-    {
-      "SceneNumber": 8,
-      "Duration": "3",
-      "VoiceOverText": " would take over 50,000 years. So this is a really big deal.",
-      "Description": "",
-      "Text": " would take over 50,000 years. So this is a really big deal."
-    },
-    {
-      "SceneNumber": 9,
-      "Duration": "4",
-      "VoiceOverText": " Some mysterious force, we shout without showing any cometary evaporation,",
-      "Description": "",
-      "Text": " Some mysterious force, we shout without showing any cometary evaporation,"
-    },
-    {
-      "SceneNumber": 10,
-      "Duration": "4",
-      "VoiceOverText": " no rocket effect to push it. The question is, what was pushing it?",
-      "Description": "",
-      "Text": " no rocket effect to push it. The question is, what was pushing it?"
-    },
-    {
-      "SceneNumber": 11,
-      "Duration": "4",
-      "VoiceOverText": " The interstellar visitor entered our solar system from above the plane of the planets,",
-      "Description": "",
-      "Text": " The interstellar visitor entered our solar system from above the plane of the planets,"
-    },
-    {
-      "SceneNumber": 12,
-      "Duration": "2",
-      "VoiceOverText": " coming from the direction of the constellation Lyra,",
-      "Description": "",
-      "Text": " coming from the direction of the constellation Lyra,"
-    },
-    {
-      "SceneNumber": 13,
-      "Duration": "5",
-      "VoiceOverText": " and it passed closest to the Sun on September 9th, passing inside the orbit of Mercury.",
-      "Description": "",
-      "Text": " and it passed closest to the Sun on September 9th, passing inside the orbit of Mercury."
-    }
-  ]
+    "Title": "Your Video Title",
+    "Description": "Your Video Description",
+    "Scenes": [
+        {
+            "SceneNumber": 1,
+            "Duration": "4",
+            "VoiceOverText": " The scariest drug, Tevils breath, is a dangerous drug produced from the seeds of",
+            "Description": "",
+            "Text": " The scariest drug, Tevils breath, is a dangerous drug produced from the seeds of"
+        },
+        {
+            "SceneNumber": 2,
+            "Duration": "6",
+            "VoiceOverText": " Dittura SPP, a tropane alkaline plant. The drug contains scopalamine and antichelinergic medication",
+            "Description": "",
+            "Text": " Dittura SPP, a tropane alkaline plant. The drug contains scopalamine and antichelinergic medication"
+        },
+        {
+            "SceneNumber": 3,
+            "Duration": "4",
+            "VoiceOverText": " that causes amnesia and loss of inhibitions. One gram of Tevils breath is all it takes.",
+            "Description": "",
+            "Text": " that causes amnesia and loss of inhibitions. One gram of Tevils breath is all it takes."
+        },
+        {
+            "SceneNumber": 4,
+            "Duration": "4",
+            "VoiceOverText": " To block memories for the next 12 hours and leave users helpless under the control of others,",
+            "Description": "",
+            "Text": " To block memories for the next 12 hours and leave users helpless under the control of others,"
+        },
+        {
+            "SceneNumber": 5,
+            "Duration": "4",
+            "VoiceOverText": " it is commonly used by criminals for robbery, kidnabbing, and sexual assault.",
+            "Description": "",
+            "Text": " it is commonly used by criminals for robbery, kidnabbing, and sexual assault."
+        },
+        {
+            "SceneNumber": 6,
+            "Duration": "4",
+            "VoiceOverText": " In 2008, Columbia's National Police estimated that Tevils breath was responsible for over",
+            "Description": "",
+            "Text": " In 2008, Columbia's National Police estimated that Tevils breath was responsible for over"
+        },
+        {
+            "SceneNumber": 7,
+            "Duration": "4",
+            "VoiceOverText": " 1,200 crimes in Columbia alone. That's why it's cold.",
+            "Description": "",
+            "Text": " 1,200 crimes in Columbia alone. That's why it's cold."
+        }
+    ]
 }

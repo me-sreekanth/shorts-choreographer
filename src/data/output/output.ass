@@ -11,74 +11,92 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.46,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}On
-Dialogue: 0,00:00:00.46,00:00:00.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}October
-Dialogue: 0,00:00:00.92,00:00:01.84,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}19, 2017,
-Dialogue: 0,00:00:01.84,00:00:02.30,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Panstar
-Dialogue: 0,00:00:02.30,00:00:02.76,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}spotted
-Dialogue: 0,00:00:02.76,00:00:03.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}an
-Dialogue: 0,00:00:03.23,00:00:03.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}object
-Dialogue: 0,00:00:03.69,00:00:04.61,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}moving rapidly
-Dialogue: 0,00:00:04.61,00:00:05.53,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}between the
-Dialogue: 0,00:00:05.53,00:00:06.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}stars.
-Dialogue: 0,00:00:06.00,00:00:06.57,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}We had
-Dialogue: 0,00:00:06.57,00:00:06.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}enough
-Dialogue: 0,00:00:06.85,00:00:07.42,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}data to
-Dialogue: 0,00:00:07.42,00:00:07.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}realize
-Dialogue: 0,00:00:07.71,00:00:08.28,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}that this
-Dialogue: 0,00:00:08.28,00:00:08.57,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}object
-Dialogue: 0,00:00:08.57,00:00:09.14,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}wasn't from
-Dialogue: 0,00:00:09.14,00:00:09.71,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}our solar
-Dialogue: 0,00:00:09.71,00:00:10.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}system.
-Dialogue: 0,00:00:10.00,00:00:10.35,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}The
-Dialogue: 0,00:00:10.35,00:00:10.71,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}interstellar
-Dialogue: 0,00:00:10.71,00:00:11.42,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}visitor entered
-Dialogue: 0,00:00:11.42,00:00:12.14,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}our solar
-Dialogue: 0,00:00:12.14,00:00:12.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}system from
-Dialogue: 0,00:00:12.85,00:00:13.21,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}above
-Dialogue: 0,00:00:13.21,00:00:13.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the plane
-Dialogue: 0,00:00:13.92,00:00:14.64,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of the
-Dialogue: 0,00:00:14.64,00:00:14.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}planets,
-Dialogue: 0,00:00:15.00,00:00:15.75,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}coming from
-Dialogue: 0,00:00:15.75,00:00:16.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the
-Dialogue: 0,00:00:16.12,00:00:16.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}direction
-Dialogue: 0,00:00:16.50,00:00:16.87,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
-Dialogue: 0,00:00:16.87,00:00:17.62,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the constellation
-Dialogue: 0,00:00:17.62,00:00:18.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Lyra.
-Dialogue: 0,00:00:18.00,00:00:18.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}And it
-Dialogue: 0,00:00:18.75,00:00:19.50,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}passed closest
-Dialogue: 0,00:00:19.50,00:00:20.25,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to the
-Dialogue: 0,00:00:20.25,00:00:21.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Sun on
-Dialogue: 0,00:00:21.00,00:00:21.37,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}September
-Dialogue: 0,00:00:21.37,00:00:21.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}9,
-Dialogue: 0,00:00:21.75,00:00:22.50,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}passing inside
-Dialogue: 0,00:00:22.50,00:00:23.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the orbit
-Dialogue: 0,00:00:23.25,00:00:24.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}of Mercury.
-Dialogue: 0,00:00:24.00,00:00:24.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Some mysterious
-Dialogue: 0,00:00:24.72,00:00:25.09,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}force
-Dialogue: 0,00:00:25.09,00:00:25.45,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}we
-Dialogue: 0,00:00:25.45,00:00:26.18,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}shout without
-Dialogue: 0,00:00:26.18,00:00:26.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}showing
-Dialogue: 0,00:00:26.54,00:00:27.27,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}any commentary
-Dialogue: 0,00:00:27.27,00:00:27.63,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:27.63,00:00:27.99,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}apparation,
-Dialogue: 0,00:00:28.00,00:00:28.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}no rocket
-Dialogue: 0,00:00:28.66,00:00:29.00,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}effect
-Dialogue: 0,00:00:29.00,00:00:29.33,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
-Dialogue: 0,00:00:29.33,00:00:29.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}push
-Dialogue: 0,00:00:29.66,00:00:29.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}it.
-Dialogue: 0,00:00:30.00,00:00:30.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}The question
-Dialogue: 0,00:00:30.85,00:00:31.71,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}is, what
-Dialogue: 0,00:00:31.71,00:00:32.14,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}was
-Dialogue: 0,00:00:32.14,00:00:33.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}pushing it?
-Dialogue: 0,00:00:33.00,00:00:33.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}The question
-Dialogue: 0,00:00:33.66,00:00:34.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}is, who
-Dialogue: 0,00:00:34.33,00:00:34.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}produced Umuamua,
-Dialogue: 0,00:00:34.99,00:00:35.66,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}how bad
-Dialogue: 0,00:00:35.66,00:00:35.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}would
-Dialogue: 0,00:00:35.99,00:00:36.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}this have
-Dialogue: 0,00:00:36.66,00:00:36.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}been?
-Dialogue: 0,00:00:37.00,00:00:37.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Had it
-Dialogue: 0,00:00:37.66,00:00:38.33,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}not missed
-Dialogue: 0,00:00:38.33,00:00:38.66,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:38.66,00:00:39.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Earth?
+Dialogue: 0,00:00:00.00,00:00:00.77,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}The scariest
+Dialogue: 0,00:00:00.77,00:00:01.54,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}drug, Devil's
+Dialogue: 0,00:00:01.54,00:00:02.31,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath, is
+Dialogue: 0,00:00:02.31,00:00:02.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:02.69,00:00:03.08,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}dangerous
+Dialogue: 0,00:00:03.08,00:00:03.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}drug produced
+Dialogue: 0,00:00:03.85,00:00:04.23,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}from
+Dialogue: 0,00:00:04.23,00:00:04.62,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:04.62,00:00:05.39,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}seeds of
+Dialogue: 0,00:00:05.39,00:00:06.16,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Dittura SPP,
+Dialogue: 0,00:00:06.16,00:00:07.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}a tropane
+Dialogue: 0,00:00:07.23,00:00:07.77,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}alkaloid
+Dialogue: 0,00:00:07.77,00:00:08.30,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}plant.
+Dialogue: 0,00:00:08.30,00:00:09.38,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}The drug
+Dialogue: 0,00:00:09.38,00:00:10.45,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}contains scopolamine,
+Dialogue: 0,00:00:10.45,00:00:11.53,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}an anticholinergic
+Dialogue: 0,00:00:11.53,00:00:12.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}medication that
+Dialogue: 0,00:00:12.60,00:00:13.68,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}causes amnesia
+Dialogue: 0,00:00:13.67,00:00:14.31,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and loss
+Dialogue: 0,00:00:14.31,00:00:14.62,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:14.62,00:00:15.25,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}inhibitions. Just
+Dialogue: 0,00:00:15.25,00:00:15.89,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}one gram
+Dialogue: 0,00:00:15.89,00:00:16.20,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
+Dialogue: 0,00:00:16.20,00:00:16.83,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Devil's Breath
+Dialogue: 0,00:00:16.83,00:00:17.15,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}is
+Dialogue: 0,00:00:17.15,00:00:17.46,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}enough
+Dialogue: 0,00:00:17.46,00:00:18.10,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to block
+Dialogue: 0,00:00:18.10,00:00:18.41,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}memories
+Dialogue: 0,00:00:18.41,00:00:19.04,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}for the
+Dialogue: 0,00:00:19.04,00:00:19.36,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}next
+Dialogue: 0,00:00:19.36,00:00:19.67,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}12
+Dialogue: 0,00:00:19.67,00:00:20.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}hours and
+Dialogue: 0,00:00:20.40,00:00:21.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}leave users
+Dialogue: 0,00:00:21.12,00:00:21.85,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}helpless under
+Dialogue: 0,00:00:21.85,00:00:22.57,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the control
+Dialogue: 0,00:00:22.57,00:00:22.94,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
+Dialogue: 0,00:00:22.94,00:00:23.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}others. It
+Dialogue: 0,00:00:23.66,00:00:24.02,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}is
+Dialogue: 0,00:00:24.02,00:00:24.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}commonly used
+Dialogue: 0,00:00:24.75,00:00:25.47,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}by criminals
+Dialogue: 0,00:00:25.47,00:00:25.84,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}for
+Dialogue: 0,00:00:25.83,00:00:26.36,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}robbery,
+Dialogue: 0,00:00:26.36,00:00:27.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}kidnapping and
+Dialogue: 0,00:00:27.42,00:00:28.48,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}sexual assault.
+Dialogue: 0,00:00:28.48,00:00:29.54,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}In 2008,
+Dialogue: 0,00:00:29.54,00:00:30.07,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Colombia's
+Dialogue: 0,00:00:30.07,00:00:30.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}National
+Dialogue: 0,00:00:30.60,00:00:31.13,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Police
+Dialogue: 0,00:00:31.13,00:00:32.19,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}estimated that
+Dialogue: 0,00:00:32.19,00:00:32.71,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Devil's
+Dialogue: 0,00:00:32.71,00:00:33.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath was
+Dialogue: 0,00:00:33.69,00:00:34.17,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}responsible
+Dialogue: 0,00:00:34.17,00:00:34.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}for
+Dialogue: 0,00:00:34.66,00:00:35.63,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}over 1,200
+Dialogue: 0,00:00:35.63,00:00:36.60,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}crimes in
+Dialogue: 0,00:00:36.60,00:00:37.08,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Colombia
+Dialogue: 0,00:00:37.08,00:00:37.57,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}alone.
+Dialogue: 0,00:00:37.57,00:00:38.54,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}The drug's
+Dialogue: 0,00:00:38.54,00:00:39.02,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}potent
+Dialogue: 0,00:00:39.02,00:00:39.51,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}ability
+Dialogue: 0,00:00:39.51,00:00:40.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to
+Dialogue: 0,00:00:40.00,00:00:40.72,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}erase memory
+Dialogue: 0,00:00:40.72,00:00:41.08,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and
+Dialogue: 0,00:00:41.08,00:00:41.45,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}subdue
+Dialogue: 0,00:00:41.45,00:00:41.81,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}free
+Dialogue: 0,00:00:41.81,00:00:42.53,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}will makes
+Dialogue: 0,00:00:42.53,00:00:42.90,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}it
+Dialogue: 0,00:00:42.90,00:00:43.26,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}terrifyingly
+Dialogue: 0,00:00:43.26,00:00:43.98,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}effective. That's
+Dialogue: 0,00:00:43.98,00:00:44.35,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}why
+Dialogue: 0,00:00:44.35,00:00:44.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Devil's
+Dialogue: 0,00:00:44.71,00:00:45.07,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Breath
+Dialogue: 0,00:00:45.07,00:00:45.44,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is
+Dialogue: 0,00:00:45.43,00:00:46.11,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}often referred
+Dialogue: 0,00:00:46.11,00:00:46.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}to as
+Dialogue: 0,00:00:46.79,00:00:47.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the
+Dialogue: 0,00:00:47.12,00:00:47.80,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}most dangerous
+Dialogue: 0,00:00:47.80,00:00:48.14,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}drug
+Dialogue: 0,00:00:48.14,00:00:48.48,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in
+Dialogue: 0,00:00:48.48,00:00:49.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the world.
+Dialogue: 0,00:00:49.15,00:00:49.49,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Like,
+Dialogue: 0,00:00:49.49,00:00:49.83,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}share
+Dialogue: 0,00:00:49.83,00:00:50.16,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}and
+Dialogue: 0,00:00:50.16,00:00:50.84,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}subscribe for
+Dialogue: 0,00:00:50.84,00:00:51.52,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}more cosmic
+Dialogue: 0,00:00:51.52,00:00:52.18,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}stories
+Dialogue: 0,00:00:52.18,00:00:52.84,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
+Dialogue: 0,00:00:52.84,00:00:53.50,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}astronomical
+Dialogue: 0,00:00:53.50,00:00:54.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}phenomena.
