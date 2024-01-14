@@ -4,143 +4,80 @@
     "Scenes": [
         {
             "SceneNumber": 1,
-            "Duration": "9",
-            "VoiceOverText": " The sun is about 400 times wider than the moon, but it also happens to be about 400 times farther away.",
+            "Duration": "4",
+            "VoiceOverText": " Dude, did you know that a new star appeared in the sky about a thousand years ago?",
             "Description": "",
-            "Text": " The sun is about 400 times wider than the moon, but it also happens to be about 400 times farther away."
+            "Text": " Dude, did you know that a new star appeared in the sky about a thousand years ago?"
         },
         {
             "SceneNumber": 2,
             "Duration": "0",
-            "VoiceOverText": " Okay.",
+            "VoiceOverText": " Really?",
             "Description": "",
-            "Text": " Okay."
+            "Text": " Really?"
         },
         {
             "SceneNumber": 3,
-            "Duration": "5",
-            "VoiceOverText": " That's why the sun and moon appear to be the same size in the sky.",
+            "Duration": "6",
+            "VoiceOverText": " Yeah, on July 4th in the year 1054, Chinese astronomers documented the guest star's appearance.",
             "Description": "",
-            "Text": " That's why the sun and moon appear to be the same size in the sky."
+            "Text": " Yeah, on July 4th in the year 1054, Chinese astronomers documented the guest star's appearance."
         },
         {
             "SceneNumber": 4,
-            "Duration": "6",
-            "VoiceOverText": " And it's why the moon can fit perfectly over the sun during a total solar eclipse.",
+            "Duration": "7",
+            "VoiceOverText": " A Native American petroglyphs such as those in Shaco Canyon also illustrate the appearance of a brilliant new star at that time.",
             "Description": "",
-            "Text": " And it's why the moon can fit perfectly over the sun during a total solar eclipse."
+            "Text": " A Native American petroglyphs such as those in Shaco Canyon also illustrate the appearance of a brilliant new star at that time."
         },
         {
             "SceneNumber": 5,
             "Duration": "3",
-            "VoiceOverText": " The fact that this can happen is just a coincidence.",
+            "VoiceOverText": " It was much brighter than everything, aside from the sun and the moon.",
             "Description": "",
-            "Text": " The fact that this can happen is just a coincidence."
+            "Text": " It was much brighter than everything, aside from the sun and the moon."
         },
         {
             "SceneNumber": 6,
-            "Duration": "3",
-            "VoiceOverText": " The dimensions of our solar system just happen to work out for it.",
+            "Duration": "10",
+            "VoiceOverText": " Anyone with a good view of the Northern Sky was able to see it in broad daylight for over 20 days and at night for nearly two years before it completely faded out of view.",
             "Description": "",
-            "Text": " The dimensions of our solar system just happen to work out for it."
+            "Text": " Anyone with a good view of the Northern Sky was able to see it in broad daylight for over 20 days and at night for nearly two years before it completely faded out of view."
         },
         {
             "SceneNumber": 7,
-            "Duration": "0",
-            "VoiceOverText": " Wow.",
+            "Duration": "2",
+            "VoiceOverText": " How does a star just disappear?",
             "Description": "",
-            "Text": " Wow."
+            "Text": " How does a star just disappear?"
         },
         {
             "SceneNumber": 8,
-            "Duration": "1",
-            "VoiceOverText": " That's so perfect.",
+            "Duration": "7",
+            "VoiceOverText": " Well, as it turns out, what these people witnessed was not a new star, but the cataclysmic decimation of an old one.",
             "Description": "",
-            "Text": " That's so perfect."
+            "Text": " Well, as it turns out, what these people witnessed was not a new star, but the cataclysmic decimation of an old one."
         },
         {
             "SceneNumber": 9,
-            "Duration": "1",
-            "VoiceOverText": " Yeah.",
+            "Duration": "3",
+            "VoiceOverText": " The Supernova of 1054 AD.",
             "Description": "",
-            "Text": " Yeah."
+            "Text": " The Supernova of 1054 AD."
         },
         {
             "SceneNumber": 10,
-            "Duration": "1",
-            "VoiceOverText": " But it won't always be.",
+            "Duration": "5",
+            "VoiceOverText": " A stellar explosion that gave rise to what we now know as the crab Nebula.",
             "Description": "",
-            "Text": " But it won't always be."
+            "Text": " A stellar explosion that gave rise to what we now know as the crab Nebula."
         },
         {
             "SceneNumber": 11,
-            "Duration": "0",
-            "VoiceOverText": " What do you mean?",
+            "Duration": "9",
+            "VoiceOverText": " The remains of a star that was ten times the size of our sun, which at the end of its life cycle collapsed suddenly and exploded gloriously.",
             "Description": "",
-            "Text": " What do you mean?"
-        },
-        {
-            "SceneNumber": 12,
-            "Duration": "4",
-            "VoiceOverText": " Well, it turns out that due to tidal interactions between the moon and Earth,",
-            "Description": "",
-            "Text": " Well, it turns out that due to tidal interactions between the moon and Earth,"
-        },
-        {
-            "SceneNumber": 13,
-            "Duration": "4",
-            "VoiceOverText": " the moon is slowly drifting away from us by about an inch and a half every year.",
-            "Description": "",
-            "Text": " the moon is slowly drifting away from us by about an inch and a half every year."
-        },
-        {
-            "SceneNumber": 14,
-            "Duration": "6",
-            "VoiceOverText": " And there will inevitably come a time when the moon's apparent size is too small to ever cover the sun completely.",
-            "Description": "",
-            "Text": " And there will inevitably come a time when the moon's apparent size is too small to ever cover the sun completely."
-        },
-        {
-            "SceneNumber": 15,
-            "Duration": "3",
-            "VoiceOverText": " Total solar eclipses will no longer be possible.",
-            "Description": "",
-            "Text": " Total solar eclipses will no longer be possible."
-        },
-        {
-            "SceneNumber": 16,
-            "Duration": "1",
-            "VoiceOverText": " Gotta catch one while you still can.",
-            "Description": "",
-            "Text": " Gotta catch one while you still can."
-        },
-        {
-            "SceneNumber": 17,
-            "Duration": "0",
-            "VoiceOverText": " Oh crap.",
-            "Description": "",
-            "Text": " Oh crap."
-        },
-        {
-            "SceneNumber": 18,
-            "Duration": "0",
-            "VoiceOverText": " Yeah.",
-            "Description": "",
-            "Text": " Yeah."
-        },
-        {
-            "SceneNumber": 19,
-            "Duration": "1",
-            "VoiceOverText": " When's the last one gonna be?",
-            "Description": "",
-            "Text": " When's the last one gonna be?"
-        },
-        {
-            "SceneNumber": 20,
-            "Duration": "2",
-            "VoiceOverText": " Uh, about 1 billion years.",
-            "Description": "",
-            "Text": " Uh, about 1 billion years."
+            "Text": " The remains of a star that was ten times the size of our sun, which at the end of its life cycle collapsed suddenly and exploded gloriously."
         }
     ]
 }

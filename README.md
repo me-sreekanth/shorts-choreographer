@@ -3,7 +3,7 @@ Convert ideas into AI generated shorts/reels
 
 
 # Scripts
-1. npm run generateImages -- --images --voiceovers --video --transcription --upload
+1. npm run generateImages -- --images --voiceovers --video --transcription --watermarks --upload
 
 # Enhancements needed
     1. Randomise voiceId

@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cleanAssets": "chmod +x src/ai-generator/cleanAssests.sh && ./src/ai-generator/cleanAssests.sh",
-    "generateShorts": "node ./src/ai-generator/index.js",
+    "cleanAssets": "chmod +x src/scripts/cleanAssests.sh && ./src/scripts/cleanAssests.sh",
+    "installDependencies": "chmod +x src/scripts/install_dependencies.sh && ./src/scripts/install_dependencies.sh",
     "generateVideoTranscription": "node ./src/video-transcriber/index.js",
-    "createTranscription": "node ./src/ai-generator/createTranscription.js",
-    "installDependencies": "chmod +x src/scripts/install_dependencies.sh && ./src/scripts/install_dependencies.sh"
+    "generateShorts": "node ./src/ai-generator/index.js"
   },
   "keywords": [],
   "author": "",
