@@ -1,55 +1,55 @@
 {
-  "Title": "The Supernova of 1054: Birth of the Crab Nebula #shorts #short",
-  "Description": "Travel back a thousand years to witness the spectacular Supernova of 1054, an event that illuminated the skies and led to the creation of the iconic Crab Nebula. Join us in exploring this cosmic phenomenon. #Supernova1054 #CrabNebula #AstronomyShorts",
+  "Title": "Mystery of Oumuamua: A Galactic Enigma #shorts #short",
+  "Description": "Explore the enigmatic journey of 'Oumuamua, the first interstellar visitor observed in our solar system. From its unusual trajectory to the mysteries surrounding its origin, this short delves into the cosmic puzzle of this unique celestial object.",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "5",
-      "VoiceOverText": "Did you know about the new star that appeared in our sky a thousand years ago?",
-      "Description": "Visuals of a night sky from a thousand years ago with a new star appearing.",
-      "Text": "Did you know about the new star that appeared in our sky a thousand years ago?"
+      "Duration": "10",
+      "VoiceOverText": "On October 19th, 2017, Panstar spotted an object moving rapidly between the stars.",
+      "Description": "A telescope scanning the night sky, discovering a fast-moving object among the stars.",
+      "Text": "Mysterious Object Spotted in Space"
     },
     {
       "SceneNumber": 2,
-      "Duration": "7",
-      "VoiceOverText": "On July 4th, 1054, Chinese astronomers recorded a 'guest star', now known to be a significant astronomical event.",
-      "Description": "Images of ancient Chinese astronomical records depicting the new star.",
-      "Text": "On July 4th, 1054, Chinese astronomers recorded a 'guest star', now known to be a significant astronomical event."
+      "Duration": "10",
+      "VoiceOverText": "We had enough data to realize that this object wasn't from our solar system.",
+      "Description": "Scientists analyzing data and realizing the object's extraterrestrial origin.",
+      "Text": "Not From Our Solar System"
     },
     {
       "SceneNumber": 3,
-      "Duration": "7",
-      "VoiceOverText": "Native American petroglyphs, like those in Chaco Canyon, also depict this brilliant new star, a testament to its global visibility.",
-      "Description": "Illustrations of Native American petroglyphs from Chaco Canyon showing the star.",
-      "Text": "Native American petroglyphs, like those in Chaco Canyon, also depict this brilliant new star, a testament to its global visibility."
+      "Duration": "10",
+      "VoiceOverText": "The interstellar visitor entered our solar system from above the plane of the planets, coming from the direction of the constellation Lyra.",
+      "Description": "A depiction of 'Oumuamua entering the solar system from an unusual angle, with the constellation Lyra in the background.",
+      "Text": "Visitor from Lyra"
     },
     {
       "SceneNumber": 4,
-      "Duration": "6",
-      "VoiceOverText": "It outshone every celestial body except the sun and moon, visible even in broad daylight for weeks.",
-      "Description": "Graphic showing the brightness of the new star in the daytime sky.",
-      "Text": "It outshone every celestial body except the sun and moon, visible even in broad daylight for weeks."
-    },
-    {
-      "SceneNumber": 5,
-      "Duration": "7",
-      "VoiceOverText": "What people witnessed was the Supernova of 1054, not a new star but the explosive death of an old one.",
-      "Description": "Visualization of the supernova event in space.",
-      "Text": "What people witnessed was the Supernova of 1054, not a new star but the explosive death of an old one."
-    },
-    {
-      "SceneNumber": 6,
-      "Duration": "7",
-      "VoiceOverText": "This cosmic explosion gave birth to the Crab Nebula, the remains of a star once ten times the size of our sun.",
-      "Description": "Images of the Crab Nebula as seen by modern telescopes.",
-      "Text": "This cosmic explosion gave birth to the Crab Nebula, the remains of a star once ten times the size of our sun."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "8",
-      "VoiceOverText": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena.",
-      "Description": "A call to action with space imagery and nebulae in the background.",
-      "Text": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena."
-    }
-  ]
+"Duration": "10",
+"VoiceOverText": "And it passed closest to the Sun on September 9th, passing inside the orbit of Mercury.",
+"Description": "A visualization of 'Oumuamua's trajectory as it passes close to the Sun, inside Mercury's orbit.",
+"Text": "Close Encounter with the Sun"
+},
+{
+"SceneNumber": 5,
+"Duration": "10",
+"VoiceOverText": "Some mysterious force, we shout without showing any cometary evaporation, no rocket effect to push it. The question is, what was pushing it?",
+"Description": "Illustration of 'Oumuamua moving through space without any visible propulsion or cometary tail.",
+"Text": "Mystery of 'Oumuamua's Propulsion"
+},
+{
+"SceneNumber": 6,
+"Duration": "10",
+"VoiceOverText": "The question is who produced Oumuamua? How bad would this have been? Had it not missed the Earth?",
+"Description": "Image of scientists pondering over 'Oumuamua's origins and its potential impact on Earth.",
+"Text": "Unsolved Mysteries of 'Oumuamua"
+},
+{
+  "SceneNumber": 7,
+  "Duration": "8",
+  "VoiceOverText": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena.",
+  "Description": "A call to action with space imagery and nebulae in the background.",
+  "Text": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena."
+}
+]
 }
