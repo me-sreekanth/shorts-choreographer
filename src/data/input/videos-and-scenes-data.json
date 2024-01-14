@@ -1,48 +1,55 @@
 {
-  "Title": "The Cosmic Coincidence: Sun, Moon, and Solar Eclipses #shorts #short",
-  "Description": "Discover the fascinating cosmic coincidence of the sun and moon's sizes and what it means for the future of solar eclipses. Delve into this astronomical marvel in our short, engaging video. #SolarEclipse #Astronomy #CosmicCoincidence",
+  "Title": "The Supernova of 1054: Birth of the Crab Nebula #shorts #short",
+  "Description": "Travel back a thousand years to witness the spectacular Supernova of 1054, an event that illuminated the skies and led to the creation of the iconic Crab Nebula. Join us in exploring this cosmic phenomenon. #Supernova1054 #CrabNebula #AstronomyShorts",
   "Scenes": [
     {
       "SceneNumber": 1,
-      "Duration": "7",
-      "VoiceOverText": "Did you know the sun is about 400 times wider than the moon, but also 400 times farther away? That's why they look the same size in our sky.",
-      "Description": "Visualization of the sun and moon's relative sizes and distances from Earth.",
-      "Text": "Did you know the sun is about 400 times wider than the moon, but also 400 times farther away? That's why they look the same size in our sky."
+      "Duration": "5",
+      "VoiceOverText": "Did you know about the new star that appeared in our sky a thousand years ago?",
+      "Description": "Visuals of a night sky from a thousand years ago with a new star appearing.",
+      "Text": "Did you know about the new star that appeared in our sky a thousand years ago?"
     },
     {
       "SceneNumber": 2,
       "Duration": "7",
-      "VoiceOverText": "This perfect alignment is what makes total solar eclipses possible. The moon can completely cover the sun, but it's all just a remarkable coincidence.",
-      "Description": "Footage of a total solar eclipse showing the moon covering the sun.",
-      "Text": "This perfect alignment is what makes total solar eclipses possible. The moon can completely cover the sun, but it's all just a remarkable coincidence."
+      "VoiceOverText": "On July 4th, 1054, Chinese astronomers recorded a 'guest star', now known to be a significant astronomical event.",
+      "Description": "Images of ancient Chinese astronomical records depicting the new star.",
+      "Text": "On July 4th, 1054, Chinese astronomers recorded a 'guest star', now known to be a significant astronomical event."
     },
     {
       "SceneNumber": 3,
       "Duration": "7",
-      "VoiceOverText": "Interestingly, the moon is slowly drifting away from us, about an inch and a half each year due to tidal interactions with Earth.",
-      "Description": "Animation showing the moon gradually moving away from Earth.",
-      "Text": "Interestingly, the moon is slowly drifting away from us, about an inch and a half each year due to tidal interactions with Earth."
+      "VoiceOverText": "Native American petroglyphs, like those in Chaco Canyon, also depict this brilliant new star, a testament to its global visibility.",
+      "Description": "Illustrations of Native American petroglyphs from Chaco Canyon showing the star.",
+      "Text": "Native American petroglyphs, like those in Chaco Canyon, also depict this brilliant new star, a testament to its global visibility."
     },
     {
       "SceneNumber": 4,
-      "Duration": "7",
-      "VoiceOverText": "Eventually, the moon will appear too small in the sky to cover the sun. That means no more total solar eclipses!",
-      "Description": "Graphic depiction of future solar eclipses with the moon not fully covering the sun.",
-      "Text": "Eventually, the moon will appear too small in the sky to cover the sun. That means no more total solar eclipses!"
+      "Duration": "6",
+      "VoiceOverText": "It outshone every celestial body except the sun and moon, visible even in broad daylight for weeks.",
+      "Description": "Graphic showing the brightness of the new star in the daytime sky.",
+      "Text": "It outshone every celestial body except the sun and moon, visible even in broad daylight for weeks."
     },
     {
       "SceneNumber": 5,
       "Duration": "7",
-      "VoiceOverText": "We've got about a billion years until the last total solar eclipse. So there's still time, but don't wait too long!",
-      "Description": "Calendar pages flipping rapidly to indicate the passage of a billion years.",
-      "Text": "We've got about a billion years until the last total solar eclipse. So there's still time, but don't wait too long!"
+      "VoiceOverText": "What people witnessed was the Supernova of 1054, not a new star but the explosive death of an old one.",
+      "Description": "Visualization of the supernova event in space.",
+      "Text": "What people witnessed was the Supernova of 1054, not a new star but the explosive death of an old one."
     },
     {
       "SceneNumber": 6,
       "Duration": "7",
-      "VoiceOverText": "Join us for more ASTRONOMICAL WONDERS. LIKE, SHARE, AND SUBSCRIBE for more insights into the mysteries of our universe.",
-      "Description": "A call to action with visuals of space and celestial phenomena.",
-      "Text": "Join us for more ASTRONOMICAL WONDERS. LIKE, SHARE, AND SUBSCRIBE for more insights into the mysteries of our universe."
+      "VoiceOverText": "This cosmic explosion gave birth to the Crab Nebula, the remains of a star once ten times the size of our sun.",
+      "Description": "Images of the Crab Nebula as seen by modern telescopes.",
+      "Text": "This cosmic explosion gave birth to the Crab Nebula, the remains of a star once ten times the size of our sun."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "8",
+      "VoiceOverText": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena.",
+      "Description": "A call to action with space imagery and nebulae in the background.",
+      "Text": "Discover more about the wonders of the universe. LIKE, SHARE, AND SUBSCRIBE for more cosmic stories and astronomical phenomena."
     }
   ]
 }
