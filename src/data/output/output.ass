@@ -11,87 +11,74 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.28,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Did
-Dialogue: 0,00:00:00.28,00:00:00.84,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}you know
-Dialogue: 0,00:00:00.84,00:00:01.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}about the
-Dialogue: 0,00:00:01.40,00:00:01.96,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}new star
-Dialogue: 0,00:00:01.96,00:00:02.24,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}that
-Dialogue: 0,00:00:02.24,00:00:02.80,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}appeared in
-Dialogue: 0,00:00:02.80,00:00:03.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}our sky
-Dialogue: 0,00:00:03.36,00:00:03.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}a thousand
-Dialogue: 0,00:00:03.92,00:00:04.20,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}years
-Dialogue: 0,00:00:04.20,00:00:04.48,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}ago?
-Dialogue: 0,00:00:04.48,00:00:04.92,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}On
-Dialogue: 0,00:00:04.92,00:00:05.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}July
-Dialogue: 0,00:00:05.36,00:00:05.81,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}4,
-Dialogue: 0,00:00:05.81,00:00:06.25,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}1054,
-Dialogue: 0,00:00:06.25,00:00:07.14,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Chinese astronomers
-Dialogue: 0,00:00:07.14,00:00:08.03,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}recorded a
-Dialogue: 0,00:00:08.03,00:00:08.48,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}guest
-Dialogue: 0,00:00:08.48,00:00:09.36,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}star now
-Dialogue: 0,00:00:09.36,00:00:10.25,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}known to
-Dialogue: 0,00:00:10.25,00:00:11.14,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}be a
-Dialogue: 0,00:00:11.14,00:00:11.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}significant
-Dialogue: 0,00:00:11.59,00:00:12.48,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}astronomical event.
-Dialogue: 0,00:00:12.48,00:00:13.30,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Native American
-Dialogue: 0,00:00:13.30,00:00:13.71,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}petroglyphs,
-Dialogue: 0,00:00:13.71,00:00:14.12,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}like
-Dialogue: 0,00:00:14.12,00:00:14.94,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}those in
-Dialogue: 0,00:00:14.94,00:00:15.77,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}Chaco Canyon,
-Dialogue: 0,00:00:15.77,00:00:16.18,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}also
-Dialogue: 0,00:00:16.18,00:00:17.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}depict this
-Dialogue: 0,00:00:17.00,00:00:17.41,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}brilliant
-Dialogue: 0,00:00:17.41,00:00:18.24,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}new star,
-Dialogue: 0,00:00:18.24,00:00:19.09,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}a testament
-Dialogue: 0,00:00:19.09,00:00:19.94,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}to its
-Dialogue: 0,00:00:19.94,00:00:20.37,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}global
-Dialogue: 0,00:00:20.37,00:00:20.79,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}visibility.
-Dialogue: 0,00:00:20.80,00:00:21.58,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}It outshone
-Dialogue: 0,00:00:21.58,00:00:22.36,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}every celestial
-Dialogue: 0,00:00:22.36,00:00:22.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}body
-Dialogue: 0,00:00:22.75,00:00:23.53,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}except the
-Dialogue: 0,00:00:23.53,00:00:23.92,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}sun
-Dialogue: 0,00:00:23.92,00:00:24.70,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}and moon,
-Dialogue: 0,00:00:24.70,00:00:25.48,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}visible even
-Dialogue: 0,00:00:25.48,00:00:26.26,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}in broad
-Dialogue: 0,00:00:26.26,00:00:26.65,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}daylight
-Dialogue: 0,00:00:26.65,00:00:27.44,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}for weeks.
-Dialogue: 0,00:00:27.44,00:00:28.08,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}What people
-Dialogue: 0,00:00:28.08,00:00:28.72,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}witnessed was
-Dialogue: 0,00:00:28.72,00:00:29.36,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the supernova
-Dialogue: 0,00:00:29.36,00:00:29.68,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}of
-Dialogue: 0,00:00:29.68,00:00:30.32,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}1054, not
-Dialogue: 0,00:00:30.32,00:00:30.96,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}a new
-Dialogue: 0,00:00:30.96,00:00:31.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}star but
-Dialogue: 0,00:00:31.60,00:00:31.92,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:31.92,00:00:32.56,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}explosive death
-Dialogue: 0,00:00:32.56,00:00:33.20,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}of an
-Dialogue: 0,00:00:33.20,00:00:33.52,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}old
-Dialogue: 0,00:00:33.52,00:00:33.84,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}one.
-Dialogue: 0,00:00:33.84,00:00:34.20,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}This
-Dialogue: 0,00:00:34.20,00:00:34.56,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}cosmic
-Dialogue: 0,00:00:34.56,00:00:34.93,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}explosion
-Dialogue: 0,00:00:34.93,00:00:35.29,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}gave
-Dialogue: 0,00:00:35.29,00:00:36.02,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}birth to
-Dialogue: 0,00:00:36.02,00:00:36.75,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the crab
-Dialogue: 0,00:00:36.75,00:00:37.12,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Nebula.
-Dialogue: 0,00:00:37.12,00:00:37.76,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}The remains
-Dialogue: 0,00:00:37.76,00:00:38.08,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of
-Dialogue: 0,00:00:38.08,00:00:38.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}a
-Dialogue: 0,00:00:38.40,00:00:38.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}star
-Dialogue: 0,00:00:38.72,00:00:39.04,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}once
-Dialogue: 0,00:00:39.04,00:00:39.68,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}ten times
-Dialogue: 0,00:00:39.68,00:00:40.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the
-Dialogue: 0,00:00:40.00,00:00:40.64,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}size of
-Dialogue: 0,00:00:40.64,00:00:41.28,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}our sun.
-Dialogue: 0,00:00:41.28,00:00:42.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Discover more
-Dialogue: 0,00:00:42.00,00:00:42.35,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}about
-Dialogue: 0,00:00:42.35,00:00:42.71,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}the
-Dialogue: 0,00:00:42.71,00:00:43.43,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}wonders of
-Dialogue: 0,00:00:43.43,00:00:44.15,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}the universe,
-Dialogue: 0,00:00:44.15,00:00:45.19,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}like, share,
-Dialogue: 0,00:00:45.19,00:00:46.22,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}and subscribe
-Dialogue: 0,00:00:46.22,00:00:47.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}for more
-Dialogue: 0,00:00:47.25,00:00:48.29,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}cosmic stories
-Dialogue: 0,00:00:48.29,00:00:49.32,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}and astronomical
-Dialogue: 0,00:00:49.32,00:00:49.83,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}phenomena.
+Dialogue: 0,00:00:00.00,00:00:00.46,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}On
+Dialogue: 0,00:00:00.46,00:00:00.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}October
+Dialogue: 0,00:00:00.92,00:00:01.84,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}19, 2017,
+Dialogue: 0,00:00:01.84,00:00:02.30,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Panstar
+Dialogue: 0,00:00:02.30,00:00:02.76,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}spotted
+Dialogue: 0,00:00:02.76,00:00:03.23,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}an
+Dialogue: 0,00:00:03.23,00:00:03.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}object
+Dialogue: 0,00:00:03.69,00:00:04.61,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}moving rapidly
+Dialogue: 0,00:00:04.61,00:00:05.53,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}between the
+Dialogue: 0,00:00:05.53,00:00:06.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}stars.
+Dialogue: 0,00:00:06.00,00:00:06.57,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}We had
+Dialogue: 0,00:00:06.57,00:00:06.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}enough
+Dialogue: 0,00:00:06.85,00:00:07.42,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}data to
+Dialogue: 0,00:00:07.42,00:00:07.71,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}realize
+Dialogue: 0,00:00:07.71,00:00:08.28,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}that this
+Dialogue: 0,00:00:08.28,00:00:08.57,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}object
+Dialogue: 0,00:00:08.57,00:00:09.14,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}wasn't from
+Dialogue: 0,00:00:09.14,00:00:09.71,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}our solar
+Dialogue: 0,00:00:09.71,00:00:10.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}system.
+Dialogue: 0,00:00:10.00,00:00:10.35,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}The
+Dialogue: 0,00:00:10.35,00:00:10.71,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}interstellar
+Dialogue: 0,00:00:10.71,00:00:11.42,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}visitor entered
+Dialogue: 0,00:00:11.42,00:00:12.14,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}our solar
+Dialogue: 0,00:00:12.14,00:00:12.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}system from
+Dialogue: 0,00:00:12.85,00:00:13.21,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}above
+Dialogue: 0,00:00:13.21,00:00:13.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the plane
+Dialogue: 0,00:00:13.92,00:00:14.64,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of the
+Dialogue: 0,00:00:14.64,00:00:14.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}planets,
+Dialogue: 0,00:00:15.00,00:00:15.75,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}coming from
+Dialogue: 0,00:00:15.75,00:00:16.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:16.12,00:00:16.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}direction
+Dialogue: 0,00:00:16.50,00:00:16.87,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
+Dialogue: 0,00:00:16.87,00:00:17.62,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the constellation
+Dialogue: 0,00:00:17.62,00:00:18.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Lyra.
+Dialogue: 0,00:00:18.00,00:00:18.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}And it
+Dialogue: 0,00:00:18.75,00:00:19.50,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}passed closest
+Dialogue: 0,00:00:19.50,00:00:20.25,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to the
+Dialogue: 0,00:00:20.25,00:00:21.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}Sun on
+Dialogue: 0,00:00:21.00,00:00:21.37,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}September
+Dialogue: 0,00:00:21.37,00:00:21.75,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}9,
+Dialogue: 0,00:00:21.75,00:00:22.50,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}passing inside
+Dialogue: 0,00:00:22.50,00:00:23.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the orbit
+Dialogue: 0,00:00:23.25,00:00:24.00,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}of Mercury.
+Dialogue: 0,00:00:24.00,00:00:24.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Some mysterious
+Dialogue: 0,00:00:24.72,00:00:25.09,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}force
+Dialogue: 0,00:00:25.09,00:00:25.45,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}we
+Dialogue: 0,00:00:25.45,00:00:26.18,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}shout without
+Dialogue: 0,00:00:26.18,00:00:26.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}showing
+Dialogue: 0,00:00:26.54,00:00:27.27,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}any commentary
+Dialogue: 0,00:00:27.27,00:00:27.63,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
+Dialogue: 0,00:00:27.63,00:00:27.99,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}apparation,
+Dialogue: 0,00:00:28.00,00:00:28.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}no rocket
+Dialogue: 0,00:00:28.66,00:00:29.00,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}effect
+Dialogue: 0,00:00:29.00,00:00:29.33,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
+Dialogue: 0,00:00:29.33,00:00:29.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}push
+Dialogue: 0,00:00:29.66,00:00:29.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}it.
+Dialogue: 0,00:00:30.00,00:00:30.85,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}The question
+Dialogue: 0,00:00:30.85,00:00:31.71,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}is, what
+Dialogue: 0,00:00:31.71,00:00:32.14,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}was
+Dialogue: 0,00:00:32.14,00:00:33.00,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}pushing it?
+Dialogue: 0,00:00:33.00,00:00:33.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}The question
+Dialogue: 0,00:00:33.66,00:00:34.33,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}is, who
+Dialogue: 0,00:00:34.33,00:00:34.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}produced Umuamua,
+Dialogue: 0,00:00:34.99,00:00:35.66,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}how bad
+Dialogue: 0,00:00:35.66,00:00:35.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}would
+Dialogue: 0,00:00:35.99,00:00:36.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}this have
+Dialogue: 0,00:00:36.66,00:00:36.99,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}been?
+Dialogue: 0,00:00:37.00,00:00:37.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Had it
+Dialogue: 0,00:00:37.66,00:00:38.33,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}not missed
+Dialogue: 0,00:00:38.33,00:00:38.66,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:38.66,00:00:39.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Earth?
