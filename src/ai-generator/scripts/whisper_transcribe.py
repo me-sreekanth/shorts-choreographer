@@ -43,7 +43,7 @@ def random_color():
     return random.choice(colors)
 
 def random_font_size():
-    sizes = [35, 30]
+    sizes = [15]
     return random.choice(sizes)
 
 def transcribe(audio_path=AUDIO_PATH, output_file_path=OUTPUT_ASS_PATH):

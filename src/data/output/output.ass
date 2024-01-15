@@ -11,84 +11,82 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Michelangelo,
-Dialogue: 0,00:00:00.52,00:00:01.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}born
-Dialogue: 0,00:00:01.04,00:00:01.56,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in
-Dialogue: 0,00:00:01.56,00:00:02.08,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}1475,
-Dialogue: 0,00:00:02.08,00:00:03.12,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}was a
-Dialogue: 0,00:00:03.12,00:00:03.64,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}sculptor,
-Dialogue: 0,00:00:03.64,00:00:04.67,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}painter, and
-Dialogue: 0,00:00:04.67,00:00:05.19,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}architect
-Dialogue: 0,00:00:05.19,00:00:05.71,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}who
-Dialogue: 0,00:00:05.71,00:00:06.75,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}transformed the
-Dialogue: 0,00:00:06.75,00:00:07.79,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}face of
-Dialogue: 0,00:00:07.79,00:00:08.83,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Renaissance art.
-Dialogue: 0,00:00:08.83,00:00:09.14,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}His
-Dialogue: 0,00:00:09.14,00:00:09.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}statue
-Dialogue: 0,00:00:09.45,00:00:09.76,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:09.76,00:00:10.38,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}David created
-Dialogue: 0,00:00:10.38,00:00:11.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}when he
-Dialogue: 0,00:00:11.00,00:00:11.31,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}was
-Dialogue: 0,00:00:11.31,00:00:11.62,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}just
-Dialogue: 0,00:00:11.62,00:00:11.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}in
-Dialogue: 0,00:00:11.92,00:00:12.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}his 20s
-Dialogue: 0,00:00:12.54,00:00:13.16,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is a
-Dialogue: 0,00:00:13.16,00:00:13.78,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}masterpiece of
-Dialogue: 0,00:00:13.78,00:00:14.40,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Renaissance sculpture.
-Dialogue: 0,00:00:14.40,00:00:15.14,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}The Sistine
-Dialogue: 0,00:00:15.14,00:00:15.88,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Chapel ceiling,
-Dialogue: 0,00:00:15.88,00:00:16.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}painted
-Dialogue: 0,00:00:16.25,00:00:16.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}by Michelangelo,
-Dialogue: 0,00:00:16.99,00:00:17.74,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}features the
-Dialogue: 0,00:00:17.74,00:00:18.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}famous
-Dialogue: 0,00:00:18.11,00:00:18.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}scene of
-Dialogue: 0,00:00:18.85,00:00:19.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the creation
-Dialogue: 0,00:00:19.59,00:00:19.96,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:19.96,00:00:20.33,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Adam.
-Dialogue: 0,00:00:20.33,00:00:20.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Michelangelo's
-Dialogue: 0,00:00:20.79,00:00:21.24,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}work
-Dialogue: 0,00:00:21.24,00:00:21.70,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}on
-Dialogue: 0,00:00:21.70,00:00:22.15,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the
-Dialogue: 0,00:00:22.15,00:00:22.61,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Medici
-Dialogue: 0,00:00:22.61,00:00:23.06,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Chapel
-Dialogue: 0,00:00:23.06,00:00:23.97,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}influences renowned
-Dialogue: 0,00:00:23.97,00:00:24.88,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}for its
-Dialogue: 0,00:00:24.88,00:00:25.34,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}architectural
-Dialogue: 0,00:00:25.34,00:00:25.79,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}innovation
-Dialogue: 0,00:00:25.79,00:00:26.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
-Dialogue: 0,00:00:26.25,00:00:26.70,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}sculptural
-Dialogue: 0,00:00:26.70,00:00:27.16,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}figures.
-Dialogue: 0,00:00:27.16,00:00:27.52,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}His
-Dialogue: 0,00:00:27.52,00:00:27.88,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}later
-Dialogue: 0,00:00:27.88,00:00:28.25,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}work,
-Dialogue: 0,00:00:28.25,00:00:28.98,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}The Last
-Dialogue: 0,00:00:28.98,00:00:29.34,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Judgment,
-Dialogue: 0,00:00:29.34,00:00:30.07,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is a
-Dialogue: 0,00:00:30.07,00:00:30.80,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}powerful fresco
-Dialogue: 0,00:00:30.80,00:00:31.53,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}that covers
-Dialogue: 0,00:00:31.53,00:00:32.26,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the entire
-Dialogue: 0,00:00:32.26,00:00:32.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}alter wall
-Dialogue: 0,00:00:32.99,00:00:33.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of the
-Dialogue: 0,00:00:33.72,00:00:34.45,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Sistine Chapel.
-Dialogue: 0,00:00:34.46,00:00:34.92,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Michelangelo's
-Dialogue: 0,00:00:34.92,00:00:35.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}artistic influence
-Dialogue: 0,00:00:35.85,00:00:36.32,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}extended
-Dialogue: 0,00:00:36.32,00:00:37.25,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}beyond his
-Dialogue: 0,00:00:37.25,00:00:37.72,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}works,
-Dialogue: 0,00:00:37.72,00:00:38.65,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}inspiring generations
-Dialogue: 0,00:00:38.65,00:00:39.59,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of artists
-Dialogue: 0,00:00:39.59,00:00:40.52,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}and shaping
-Dialogue: 0,00:00:40.52,00:00:40.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the
-Dialogue: 0,00:00:40.99,00:00:41.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}course
-Dialogue: 0,00:00:41.45,00:00:42.39,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of Western
-Dialogue: 0,00:00:42.39,00:00:42.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}art.
-Dialogue: 0,00:00:42.85,00:00:43.70,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like, share,
-Dialogue: 0,00:00:43.70,00:00:44.12,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
-Dialogue: 0,00:00:44.12,00:00:44.55,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subscribe
-Dialogue: 0,00:00:44.55,00:00:45.39,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}for more
-Dialogue: 0,00:00:45.39,00:00:45.82,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}inspiring
-Dialogue: 0,00:00:45.82,00:00:46.24,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}stories
-Dialogue: 0,00:00:46.24,00:00:46.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:46.66,00:00:47.51,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}our history's
-Dialogue: 0,00:00:47.51,00:00:47.93,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}greatest
-Dialogue: 0,00:00:47.93,00:00:48.35,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}masters.
+Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Michelangelo,
+Dialogue: 0,00:00:00.52,00:00:01.04,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}born
+Dialogue: 0,00:00:01.04,00:00:02.08,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}in 1475,
+Dialogue: 0,00:00:02.08,00:00:03.12,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}was a
+Dialogue: 0,00:00:03.12,00:00:04.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}sculptor, painter,
+Dialogue: 0,00:00:04.16,00:00:04.67,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and
+Dialogue: 0,00:00:04.67,00:00:05.19,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}architect
+Dialogue: 0,00:00:05.19,00:00:06.23,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}who transformed
+Dialogue: 0,00:00:06.23,00:00:07.27,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the face
+Dialogue: 0,00:00:07.27,00:00:07.79,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:07.79,00:00:08.83,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Renaissance art.
+Dialogue: 0,00:00:08.83,00:00:09.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}His
+Dialogue: 0,00:00:09.14,00:00:09.45,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}statue
+Dialogue: 0,00:00:09.45,00:00:09.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:09.76,00:00:10.38,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}David created
+Dialogue: 0,00:00:10.38,00:00:11.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}when he
+Dialogue: 0,00:00:11.00,00:00:11.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}was just
+Dialogue: 0,00:00:11.62,00:00:11.92,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}in
+Dialogue: 0,00:00:11.92,00:00:12.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}his
+Dialogue: 0,00:00:12.23,00:00:12.54,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}20s
+Dialogue: 0,00:00:12.54,00:00:13.16,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}is a
+Dialogue: 0,00:00:13.16,00:00:13.78,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}masterpiece of
+Dialogue: 0,00:00:13.78,00:00:14.09,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Renaissance
+Dialogue: 0,00:00:14.09,00:00:14.40,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}sculpture.
+Dialogue: 0,00:00:14.40,00:00:14.77,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}The
+Dialogue: 0,00:00:14.77,00:00:15.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Sistine
+Dialogue: 0,00:00:15.14,00:00:15.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Chapel
+Dialogue: 0,00:00:15.51,00:00:15.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}ceiling,
+Dialogue: 0,00:00:15.88,00:00:16.62,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}painted by
+Dialogue: 0,00:00:16.62,00:00:16.99,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Michelangelo,
+Dialogue: 0,00:00:16.99,00:00:17.74,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}features the
+Dialogue: 0,00:00:17.74,00:00:18.11,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}famous
+Dialogue: 0,00:00:18.11,00:00:18.48,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}scene
+Dialogue: 0,00:00:18.48,00:00:18.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:18.85,00:00:19.22,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}the
+Dialogue: 0,00:00:19.22,00:00:19.96,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}creation of
+Dialogue: 0,00:00:19.96,00:00:20.33,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Adam.
+Dialogue: 0,00:00:20.33,00:00:21.24,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Michelangelo's work
+Dialogue: 0,00:00:21.24,00:00:22.15,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}on the
+Dialogue: 0,00:00:22.15,00:00:23.06,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Medici Chapel
+Dialogue: 0,00:00:23.06,00:00:23.97,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}influences renowned
+Dialogue: 0,00:00:23.97,00:00:24.43,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}for
+Dialogue: 0,00:00:24.43,00:00:24.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}its
+Dialogue: 0,00:00:24.88,00:00:25.79,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}architectural innovation
+Dialogue: 0,00:00:25.79,00:00:26.70,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and sculptural
+Dialogue: 0,00:00:26.70,00:00:27.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}figures.
+Dialogue: 0,00:00:27.16,00:00:27.89,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}His later
+Dialogue: 0,00:00:27.89,00:00:28.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}work, The
+Dialogue: 0,00:00:28.62,00:00:29.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Last Judgment,
+Dialogue: 0,00:00:29.35,00:00:29.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}is
+Dialogue: 0,00:00:29.71,00:00:30.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}a
+Dialogue: 0,00:00:30.07,00:00:30.80,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}powerful fresco
+Dialogue: 0,00:00:30.80,00:00:31.53,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}that covers
+Dialogue: 0,00:00:31.53,00:00:31.90,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:31.90,00:00:32.26,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}entire
+Dialogue: 0,00:00:32.26,00:00:32.63,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}alter
+Dialogue: 0,00:00:32.63,00:00:33.36,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}wall of
+Dialogue: 0,00:00:33.36,00:00:34.09,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}the Sistine
+Dialogue: 0,00:00:34.09,00:00:34.45,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Chapel.
+Dialogue: 0,00:00:34.46,00:00:35.39,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Michelangelo's artistic
+Dialogue: 0,00:00:35.39,00:00:35.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}influence
+Dialogue: 0,00:00:35.85,00:00:36.79,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}extended beyond
+Dialogue: 0,00:00:36.79,00:00:37.25,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}his
+Dialogue: 0,00:00:37.25,00:00:37.72,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}works,
+Dialogue: 0,00:00:37.72,00:00:38.19,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}inspiring
+Dialogue: 0,00:00:38.19,00:00:38.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}generations
+Dialogue: 0,00:00:38.66,00:00:39.59,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of artists
+Dialogue: 0,00:00:39.59,00:00:40.52,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and shaping
+Dialogue: 0,00:00:40.52,00:00:41.45,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the course
+Dialogue: 0,00:00:41.45,00:00:42.39,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of Western
+Dialogue: 0,00:00:42.39,00:00:42.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}art.
+Dialogue: 0,00:00:42.85,00:00:43.70,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Like, share,
+Dialogue: 0,00:00:43.70,00:00:44.55,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and subscribe
+Dialogue: 0,00:00:44.55,00:00:44.97,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}for
+Dialogue: 0,00:00:44.97,00:00:45.82,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}more inspiring
+Dialogue: 0,00:00:45.82,00:00:46.24,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}stories
+Dialogue: 0,00:00:46.24,00:00:46.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:46.66,00:00:47.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}our history's
+Dialogue: 0,00:00:47.51,00:00:48.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}greatest masters.
