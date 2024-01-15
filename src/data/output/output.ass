@@ -11,86 +11,84 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.41,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Quanta
-Dialogue: 0,00:00:00.41,00:00:00.82,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker's
-Dialogue: 0,00:00:00.82,00:00:01.23,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}mother,
-Dialogue: 0,00:00:01.23,00:00:01.63,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Cynthia
-Dialogue: 0,00:00:01.63,00:00:02.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}Ann
-Dialogue: 0,00:00:02.04,00:00:02.46,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Parker,
-Dialogue: 0,00:00:02.46,00:00:02.77,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}was
-Dialogue: 0,00:00:02.77,00:00:03.41,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}kidnapped by
-Dialogue: 0,00:00:03.41,00:00:04.04,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}the Comanche
-Dialogue: 0,00:00:04.04,00:00:04.36,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
-Dialogue: 0,00:00:04.36,00:00:04.99,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}eventually became
-Dialogue: 0,00:00:05.00,00:00:05.43,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the
-Dialogue: 0,00:00:05.43,00:00:06.29,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}chief's wife.
-Dialogue: 0,00:00:06.29,00:00:06.95,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Cynthia Ann
-Dialogue: 0,00:00:06.95,00:00:07.28,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker
-Dialogue: 0,00:00:07.28,00:00:07.60,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}was
-Dialogue: 0,00:00:07.60,00:00:07.93,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}white
-Dialogue: 0,00:00:07.93,00:00:08.26,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}and
-Dialogue: 0,00:00:08.26,00:00:08.59,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}had
-Dialogue: 0,00:00:08.59,00:00:09.24,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}a half-native
-Dialogue: 0,00:00:09.24,00:00:09.57,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}American
-Dialogue: 0,00:00:09.57,00:00:09.90,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}baby,
-Dialogue: 0,00:00:09.90,00:00:10.62,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}Quanta
-Dialogue: 0,00:00:10.62,00:00:11.33,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Parker.
-Dialogue: 0,00:00:11.33,00:00:11.69,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Quanta
-Dialogue: 0,00:00:11.69,00:00:12.41,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Parker is
-Dialogue: 0,00:00:12.41,00:00:13.12,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the last
-Dialogue: 0,00:00:13.12,00:00:13.48,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Comanche
-Dialogue: 0,00:00:13.48,00:00:13.83,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}chief.
-Dialogue: 0,00:00:13.83,00:00:14.32,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}The Comanches
-Dialogue: 0,00:00:14.32,00:00:14.80,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}were the
-Dialogue: 0,00:00:14.80,00:00:15.04,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}people
-Dialogue: 0,00:00:15.04,00:00:15.28,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}in
-Dialogue: 0,00:00:15.28,00:00:15.52,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}control
-Dialogue: 0,00:00:15.52,00:00:16.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of the
-Dialogue: 0,00:00:16.00,00:00:16.24,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}planes
-Dialogue: 0,00:00:16.24,00:00:16.59,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
-Dialogue: 0,00:00:16.59,00:00:16.94,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}control
-Dialogue: 0,00:00:16.94,00:00:17.64,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of Texas
-Dialogue: 0,00:00:17.64,00:00:17.99,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
-Dialogue: 0,00:00:17.99,00:00:18.69,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}were the
-Dialogue: 0,00:00:18.69,00:00:19.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}most
-Dialogue: 0,00:00:19.04,00:00:19.39,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}fierce
-Dialogue: 0,00:00:19.39,00:00:19.74,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}tribe.
-Dialogue: 0,00:00:19.74,00:00:20.00,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}They
-Dialogue: 0,00:00:20.00,00:00:20.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}were
-Dialogue: 0,00:00:20.27,00:00:20.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the
-Dialogue: 0,00:00:20.54,00:00:21.07,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}most difficult
-Dialogue: 0,00:00:21.07,00:00:21.34,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}to
-Dialogue: 0,00:00:21.34,00:00:21.87,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}get passed,
-Dialogue: 0,00:00:21.87,00:00:22.34,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}preventing
-Dialogue: 0,00:00:22.34,00:00:22.81,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}settlers
-Dialogue: 0,00:00:22.81,00:00:23.28,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}from
-Dialogue: 0,00:00:23.28,00:00:24.21,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}inhabiting the
-Dialogue: 0,00:00:24.21,00:00:24.67,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}area.
-Dialogue: 0,00:00:24.67,00:00:24.95,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}It
-Dialogue: 0,00:00:24.95,00:00:25.50,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}wasn't until
-Dialogue: 0,00:00:25.50,00:00:26.05,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}the Texas
-Dialogue: 0,00:00:26.05,00:00:26.60,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Rangers figured
-Dialogue: 0,00:00:26.60,00:00:26.87,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}out
-Dialogue: 0,00:00:26.87,00:00:27.27,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}how
-Dialogue: 0,00:00:27.27,00:00:27.67,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}to
-Dialogue: 0,00:00:27.67,00:00:28.47,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}combat them
-Dialogue: 0,00:00:28.47,00:00:28.87,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}on
-Dialogue: 0,00:00:28.87,00:00:29.67,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}their own
-Dialogue: 0,00:00:29.67,00:00:30.07,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}terms.
-Dialogue: 0,00:00:30.07,00:00:30.47,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}They
-Dialogue: 0,00:00:30.47,00:00:31.25,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}cold-camped, never
-Dialogue: 0,00:00:31.25,00:00:32.03,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}used fires
-Dialogue: 0,00:00:32.03,00:00:32.81,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and dressed
-Dialogue: 0,00:00:32.81,00:00:33.20,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}like
-Dialogue: 0,00:00:33.20,00:00:33.59,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}civilians
-Dialogue: 0,00:00:33.60,00:00:34.50,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}living like
-Dialogue: 0,00:00:34.50,00:00:34.95,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}the
-Dialogue: 0,00:00:34.95,00:00:35.40,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Indians.
-Dialogue: 0,00:00:35.39,00:00:35.74,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like,
-Dialogue: 0,00:00:35.74,00:00:36.42,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}share, and
-Dialogue: 0,00:00:36.42,00:00:37.11,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subscribe for
-Dialogue: 0,00:00:37.11,00:00:37.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}more stories
-Dialogue: 0,00:00:37.79,00:00:38.26,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}of
-Dialogue: 0,00:00:38.26,00:00:39.20,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}historical legends
-Dialogue: 0,00:00:39.20,00:00:40.13,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and cultural
-Dialogue: 0,00:00:40.13,00:00:40.60,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}heritage.
+Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Michelangelo,
+Dialogue: 0,00:00:00.52,00:00:01.04,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}born
+Dialogue: 0,00:00:01.04,00:00:01.56,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}in
+Dialogue: 0,00:00:01.56,00:00:02.08,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}1475,
+Dialogue: 0,00:00:02.08,00:00:03.12,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}was a
+Dialogue: 0,00:00:03.12,00:00:03.64,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}sculptor,
+Dialogue: 0,00:00:03.64,00:00:04.67,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}painter, and
+Dialogue: 0,00:00:04.67,00:00:05.19,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}architect
+Dialogue: 0,00:00:05.19,00:00:05.71,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}who
+Dialogue: 0,00:00:05.71,00:00:06.75,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}transformed the
+Dialogue: 0,00:00:06.75,00:00:07.79,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}face of
+Dialogue: 0,00:00:07.79,00:00:08.83,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Renaissance art.
+Dialogue: 0,00:00:08.83,00:00:09.14,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}His
+Dialogue: 0,00:00:09.14,00:00:09.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}statue
+Dialogue: 0,00:00:09.45,00:00:09.76,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
+Dialogue: 0,00:00:09.76,00:00:10.38,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}David created
+Dialogue: 0,00:00:10.38,00:00:11.00,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}when he
+Dialogue: 0,00:00:11.00,00:00:11.31,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}was
+Dialogue: 0,00:00:11.31,00:00:11.62,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}just
+Dialogue: 0,00:00:11.62,00:00:11.92,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}in
+Dialogue: 0,00:00:11.92,00:00:12.54,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}his 20s
+Dialogue: 0,00:00:12.54,00:00:13.16,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is a
+Dialogue: 0,00:00:13.16,00:00:13.78,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}masterpiece of
+Dialogue: 0,00:00:13.78,00:00:14.40,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Renaissance sculpture.
+Dialogue: 0,00:00:14.40,00:00:15.14,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}The Sistine
+Dialogue: 0,00:00:15.14,00:00:15.88,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Chapel ceiling,
+Dialogue: 0,00:00:15.88,00:00:16.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}painted
+Dialogue: 0,00:00:16.25,00:00:16.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}by Michelangelo,
+Dialogue: 0,00:00:16.99,00:00:17.74,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}features the
+Dialogue: 0,00:00:17.74,00:00:18.11,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}famous
+Dialogue: 0,00:00:18.11,00:00:18.85,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}scene of
+Dialogue: 0,00:00:18.85,00:00:19.59,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the creation
+Dialogue: 0,00:00:19.59,00:00:19.96,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of
+Dialogue: 0,00:00:19.96,00:00:20.33,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}Adam.
+Dialogue: 0,00:00:20.33,00:00:20.79,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}Michelangelo's
+Dialogue: 0,00:00:20.79,00:00:21.24,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}work
+Dialogue: 0,00:00:21.24,00:00:21.70,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}on
+Dialogue: 0,00:00:21.70,00:00:22.15,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:22.15,00:00:22.61,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Medici
+Dialogue: 0,00:00:22.61,00:00:23.06,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}Chapel
+Dialogue: 0,00:00:23.06,00:00:23.97,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}influences renowned
+Dialogue: 0,00:00:23.97,00:00:24.88,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}for its
+Dialogue: 0,00:00:24.88,00:00:25.34,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}architectural
+Dialogue: 0,00:00:25.34,00:00:25.79,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}innovation
+Dialogue: 0,00:00:25.79,00:00:26.25,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}and
+Dialogue: 0,00:00:26.25,00:00:26.70,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}sculptural
+Dialogue: 0,00:00:26.70,00:00:27.16,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}figures.
+Dialogue: 0,00:00:27.16,00:00:27.52,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}His
+Dialogue: 0,00:00:27.52,00:00:27.88,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}later
+Dialogue: 0,00:00:27.88,00:00:28.25,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}work,
+Dialogue: 0,00:00:28.25,00:00:28.98,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}The Last
+Dialogue: 0,00:00:28.98,00:00:29.34,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Judgment,
+Dialogue: 0,00:00:29.34,00:00:30.07,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}is a
+Dialogue: 0,00:00:30.07,00:00:30.80,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}powerful fresco
+Dialogue: 0,00:00:30.80,00:00:31.53,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}that covers
+Dialogue: 0,00:00:31.53,00:00:32.26,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}the entire
+Dialogue: 0,00:00:32.26,00:00:32.99,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}alter wall
+Dialogue: 0,00:00:32.99,00:00:33.72,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of the
+Dialogue: 0,00:00:33.72,00:00:34.45,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Sistine Chapel.
+Dialogue: 0,00:00:34.46,00:00:34.92,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}Michelangelo's
+Dialogue: 0,00:00:34.92,00:00:35.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}artistic influence
+Dialogue: 0,00:00:35.85,00:00:36.32,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}extended
+Dialogue: 0,00:00:36.32,00:00:37.25,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}beyond his
+Dialogue: 0,00:00:37.25,00:00:37.72,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}works,
+Dialogue: 0,00:00:37.72,00:00:38.65,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}inspiring generations
+Dialogue: 0,00:00:38.65,00:00:39.59,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}of artists
+Dialogue: 0,00:00:39.59,00:00:40.52,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}and shaping
+Dialogue: 0,00:00:40.52,00:00:40.99,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}the
+Dialogue: 0,00:00:40.99,00:00:41.45,Default,,0000,0000,0000,,{\fs30}{\1c&H00FF00}course
+Dialogue: 0,00:00:41.45,00:00:42.39,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}of Western
+Dialogue: 0,00:00:42.39,00:00:42.85,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}art.
+Dialogue: 0,00:00:42.85,00:00:43.70,Default,,0000,0000,0000,,{\fs35}{\1c&H0000FFFF}Like, share,
+Dialogue: 0,00:00:43.70,00:00:44.12,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}and
+Dialogue: 0,00:00:44.12,00:00:44.55,Default,,0000,0000,0000,,{\fs30}{\1c&H000000FF}subscribe
+Dialogue: 0,00:00:44.55,00:00:45.39,Default,,0000,0000,0000,,{\fs35}{\1c&H000000FF}for more
+Dialogue: 0,00:00:45.39,00:00:45.82,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}inspiring
+Dialogue: 0,00:00:45.82,00:00:46.24,Default,,0000,0000,0000,,{\fs35}{\1c&H00FFFFFF}stories
+Dialogue: 0,00:00:46.24,00:00:46.66,Default,,0000,0000,0000,,{\fs30}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:46.66,00:00:47.51,Default,,0000,0000,0000,,{\fs35}{\1c&H00FF00}our history's
+Dialogue: 0,00:00:47.51,00:00:47.93,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}greatest
+Dialogue: 0,00:00:47.93,00:00:48.35,Default,,0000,0000,0000,,{\fs30}{\1c&H0000FFFF}masters.
