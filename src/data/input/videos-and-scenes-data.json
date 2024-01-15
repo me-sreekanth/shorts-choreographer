@@ -1,57 +1,54 @@
 {
-  "Title": "Michelangelo: Master of the Renaissance #shorts",
-  "Description": "Dive into the world of Michelangelo, one of the greatest artists of the Renaissance. This video explores his life, his iconic works like the Sistine Chapel, and his enduring legacy in art history. #Michelangelo #Renaissance #Art #shorts",
+  "Title": "The Evolution of Language: How We Communicate #shorts",
+  "Description": "Embark on a journey through the evolution of language, from ancient scripts to modern-day linguistics. Discover how language shapes culture, thought, and society. #LanguageEvolution #Linguistics #Communication #shorts",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "5",
-      "VoiceOverText": "Michelangelo, born in 1475, was a sculptor, painter, and architect who transformed the face of Renaissance art.",
-      "Text": "Michelangelo, born in 1475, was a sculptor, painter, and architect who transformed the face of Renaissance art.",
-      "Description": "A portrait of Michelangelo with a backdrop of Renaissance Italy."
+      "VoiceOverText": "The story of language begins with early human communication through symbols and sounds.",
+      "Text": "The story of language begins with early human communication through symbols and sounds.",
+      "Description": "Primitive humans communicating using basic symbols and sounds in a prehistoric setting."
     },
     {
       "SceneNumber": 2,
       "Duration": "5",
-      "VoiceOverText": "His statue of David, created when he was just in his twenties, is a masterpiece of Renaissance sculpture.",
-      "Text": "His statue of David, created when he was just in his twenties, is a masterpiece of Renaissance sculpture.",
-      "Description": "The iconic statue of David, showcasing its detailed craftsmanship and artistic beauty."
+      "VoiceOverText": "Ancient civilizations developed the first written languages, like Sumerian cuneiform and Egyptian hieroglyphs.",
+      "Text": "Ancient civilizations developed the first written languages, like Sumerian cuneiform and Egyptian hieroglyphs.",
+      "Description": "Ancient scripts such as cuneiform and hieroglyphs, with a backdrop of Sumerian and Egyptian civilizations."
     },
     {
       "SceneNumber": 3,
-      "Duration": "6",
-      "VoiceOverText": "The Sistine Chapel ceiling, painted by Michelangelo, features the famous scene of The Creation of Adam.",
-      "Text": "The Sistine Chapel ceiling, painted by Michelangelo, features the famous scene of The Creation of Adam.",
-      "Description": "A view of the Sistine Chapel ceiling, focusing on The Creation of Adam, with its vibrant colors and emotional expression."
+      "Duration": "5",
+      "VoiceOverText": "The invention of alphabets marked a significant leap, making writing more accessible and widespread.",
+      "Text": "The invention of alphabets marked a significant leap, making writing more accessible and widespread.",
+      "Description": "Early alphabets like Phoenician and Greek being used in ancient manuscripts."
     },
     {
       "SceneNumber": 4,
-      "Duration": "5",
-      "VoiceOverText": "Michelangelo's work on the Medici Chapel in Florence is renowned for its architectural innovation and sculptural figures.",
-      "Text": "Michelangelo's work on the Medici Chapel in Florence is renowned for its architectural innovation and sculptural figures.",
-      "Description": "The interior of the Medici Chapel, displaying Michelangelo's architectural and sculptural genius."
+      "Duration": "6",
+      "VoiceOverText": "Language evolved through trade, conquest, and cultural exchange, leading to the diverse linguistic landscape we see today.",
+      "Text": "Language evolved through trade, conquest, and cultural exchange, leading to the diverse linguistic landscape we see today.",
+      "Description": "A montage showing cultural interactions, such as trade and exploration, influencing language evolution."
     },
     {
       "SceneNumber": 5,
-      "Duration": "6",
-      "VoiceOverText": "His later work, The Last Judgment, is a powerful fresco that covers the entire altar wall of the Sistine Chapel.",
-      "Text": "His later work, The Last Judgment, is a powerful fresco that covers the entire altar wall of the Sistine Chapel.",
-      "Description": "A dramatic depiction of The Last Judgment fresco, highlighting its intense imagery and emotional depth."
+      "Duration": "5",
+      "VoiceOverText": "Modern technology has further transformed language, from the printing press to digital communication.",
+      "Text": "Modern technology has further transformed language, from the printing press to digital communication.",
+      "Description": "The evolution from the Gutenberg printing press to modern digital devices and internet communication."
     },
     {
       "SceneNumber": 6,
       "Duration": "4",
-      "VoiceOverText": "Michelangelo's artistic influence extended beyond his works, inspiring generations of artists and shaping the course of Western art.",
-      "Text": "Michelangelo's artistic influence extended beyond his works, inspiring generations of artists and shaping the course of Western art.",
-      "Description": "A montage of various artists studying Michelangelo's works, emphasizing his lasting impact on art history."
-    },
-    {
-      "SceneNumber": 7,
-      "Duration": "6",
-      "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more inspiring stories of art history's greatest masters.",
-      "Text": "LIKE, SHARE, AND SUBSCRIBE for more inspiring stories of art history's greatest masters.",
-      "Description": "A call to action with captivating imagery of art supplies, famous art pieces, and a glowing Renaissance backdrop."
-    }
-  ]
-}
-
-
+      "VoiceOverText": "The future of language may see even greater changes with AI and global interconnectedness.",
+      "Text": "The future of language may see even greater changes with AI and global interconnectedness.",
+      "Description": "A futuristic vision of AI-assisted communication and a globally connected world."    },
+      {
+        "SceneNumber": 7,
+        "Duration": "6",
+        "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more fascinating insights into human history and culture.",
+        "Text": "LIKE, SHARE, AND SUBSCRIBE for more fascinating insights into human history and culture.",
+        "Description": "A call to action with imagery of diverse cultures, ancient texts, and digital communication networks."
+      }
+    ]
+  }

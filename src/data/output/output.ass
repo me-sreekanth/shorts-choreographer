@@ -11,82 +11,64 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.52,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Michelangelo,
-Dialogue: 0,00:00:00.52,00:00:01.04,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}born
-Dialogue: 0,00:00:01.04,00:00:02.08,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}in 1475,
-Dialogue: 0,00:00:02.08,00:00:03.12,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}was a
-Dialogue: 0,00:00:03.12,00:00:04.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}sculptor, painter,
-Dialogue: 0,00:00:04.16,00:00:04.67,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and
-Dialogue: 0,00:00:04.67,00:00:05.19,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}architect
-Dialogue: 0,00:00:05.19,00:00:06.23,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}who transformed
-Dialogue: 0,00:00:06.23,00:00:07.27,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the face
-Dialogue: 0,00:00:07.27,00:00:07.79,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
-Dialogue: 0,00:00:07.79,00:00:08.83,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Renaissance art.
-Dialogue: 0,00:00:08.83,00:00:09.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}His
-Dialogue: 0,00:00:09.14,00:00:09.45,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}statue
-Dialogue: 0,00:00:09.45,00:00:09.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
-Dialogue: 0,00:00:09.76,00:00:10.38,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}David created
-Dialogue: 0,00:00:10.38,00:00:11.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}when he
-Dialogue: 0,00:00:11.00,00:00:11.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}was just
-Dialogue: 0,00:00:11.62,00:00:11.92,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}in
-Dialogue: 0,00:00:11.92,00:00:12.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}his
-Dialogue: 0,00:00:12.23,00:00:12.54,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}20s
-Dialogue: 0,00:00:12.54,00:00:13.16,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}is a
-Dialogue: 0,00:00:13.16,00:00:13.78,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}masterpiece of
-Dialogue: 0,00:00:13.78,00:00:14.09,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Renaissance
-Dialogue: 0,00:00:14.09,00:00:14.40,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}sculpture.
-Dialogue: 0,00:00:14.40,00:00:14.77,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}The
-Dialogue: 0,00:00:14.77,00:00:15.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Sistine
-Dialogue: 0,00:00:15.14,00:00:15.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Chapel
-Dialogue: 0,00:00:15.51,00:00:15.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}ceiling,
-Dialogue: 0,00:00:15.88,00:00:16.62,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}painted by
-Dialogue: 0,00:00:16.62,00:00:16.99,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Michelangelo,
-Dialogue: 0,00:00:16.99,00:00:17.74,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}features the
-Dialogue: 0,00:00:17.74,00:00:18.11,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}famous
-Dialogue: 0,00:00:18.11,00:00:18.48,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}scene
-Dialogue: 0,00:00:18.48,00:00:18.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
-Dialogue: 0,00:00:18.85,00:00:19.22,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}the
-Dialogue: 0,00:00:19.22,00:00:19.96,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}creation of
-Dialogue: 0,00:00:19.96,00:00:20.33,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Adam.
-Dialogue: 0,00:00:20.33,00:00:21.24,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Michelangelo's work
-Dialogue: 0,00:00:21.24,00:00:22.15,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}on the
-Dialogue: 0,00:00:22.15,00:00:23.06,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Medici Chapel
-Dialogue: 0,00:00:23.06,00:00:23.97,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}influences renowned
-Dialogue: 0,00:00:23.97,00:00:24.43,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}for
-Dialogue: 0,00:00:24.43,00:00:24.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}its
-Dialogue: 0,00:00:24.88,00:00:25.79,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}architectural innovation
-Dialogue: 0,00:00:25.79,00:00:26.70,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and sculptural
-Dialogue: 0,00:00:26.70,00:00:27.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}figures.
-Dialogue: 0,00:00:27.16,00:00:27.89,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}His later
-Dialogue: 0,00:00:27.89,00:00:28.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}work, The
-Dialogue: 0,00:00:28.62,00:00:29.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Last Judgment,
-Dialogue: 0,00:00:29.35,00:00:29.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}is
-Dialogue: 0,00:00:29.71,00:00:30.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}a
-Dialogue: 0,00:00:30.07,00:00:30.80,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}powerful fresco
-Dialogue: 0,00:00:30.80,00:00:31.53,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}that covers
-Dialogue: 0,00:00:31.53,00:00:31.90,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:31.90,00:00:32.26,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}entire
-Dialogue: 0,00:00:32.26,00:00:32.63,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}alter
-Dialogue: 0,00:00:32.63,00:00:33.36,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}wall of
-Dialogue: 0,00:00:33.36,00:00:34.09,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}the Sistine
-Dialogue: 0,00:00:34.09,00:00:34.45,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Chapel.
-Dialogue: 0,00:00:34.46,00:00:35.39,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Michelangelo's artistic
-Dialogue: 0,00:00:35.39,00:00:35.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}influence
-Dialogue: 0,00:00:35.85,00:00:36.79,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}extended beyond
-Dialogue: 0,00:00:36.79,00:00:37.25,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}his
-Dialogue: 0,00:00:37.25,00:00:37.72,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}works,
-Dialogue: 0,00:00:37.72,00:00:38.19,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}inspiring
-Dialogue: 0,00:00:38.19,00:00:38.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}generations
-Dialogue: 0,00:00:38.66,00:00:39.59,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of artists
-Dialogue: 0,00:00:39.59,00:00:40.52,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and shaping
-Dialogue: 0,00:00:40.52,00:00:41.45,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the course
-Dialogue: 0,00:00:41.45,00:00:42.39,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of Western
-Dialogue: 0,00:00:42.39,00:00:42.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}art.
-Dialogue: 0,00:00:42.85,00:00:43.70,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Like, share,
-Dialogue: 0,00:00:43.70,00:00:44.55,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and subscribe
-Dialogue: 0,00:00:44.55,00:00:44.97,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}for
-Dialogue: 0,00:00:44.97,00:00:45.82,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}more inspiring
-Dialogue: 0,00:00:45.82,00:00:46.24,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}stories
-Dialogue: 0,00:00:46.24,00:00:46.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
-Dialogue: 0,00:00:46.66,00:00:47.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}our history's
-Dialogue: 0,00:00:47.51,00:00:48.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}greatest masters.
+Dialogue: 0,00:00:00.00,00:00:00.76,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}The story
+Dialogue: 0,00:00:00.76,00:00:01.15,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of
+Dialogue: 0,00:00:01.15,00:00:01.92,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}language begins
+Dialogue: 0,00:00:01.92,00:00:02.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}with early
+Dialogue: 0,00:00:02.69,00:00:03.07,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
+Dialogue: 0,00:00:03.07,00:00:03.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}communication through
+Dialogue: 0,00:00:03.84,00:00:04.61,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}symbols and
+Dialogue: 0,00:00:04.61,00:00:05.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}sounds.
+Dialogue: 0,00:00:05.00,00:00:06.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Ancient civilizations
+Dialogue: 0,00:00:06.07,00:00:06.61,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}developed
+Dialogue: 0,00:00:06.61,00:00:07.15,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:07.15,00:00:07.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}first
+Dialogue: 0,00:00:07.69,00:00:08.76,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}written languages,
+Dialogue: 0,00:00:08.76,00:00:09.30,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}like
+Dialogue: 0,00:00:09.30,00:00:10.38,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Sumerian Cuneiform
+Dialogue: 0,00:00:10.38,00:00:11.46,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and Egyptian
+Dialogue: 0,00:00:11.46,00:00:11.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Hieroglyphs.
+Dialogue: 0,00:00:12.00,00:00:12.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}The invention
+Dialogue: 0,00:00:12.71,00:00:13.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of
+Dialogue: 0,00:00:13.07,00:00:13.78,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}alphabets marked
+Dialogue: 0,00:00:13.78,00:00:14.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}a
+Dialogue: 0,00:00:14.14,00:00:14.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}significant leap,
+Dialogue: 0,00:00:14.85,00:00:15.21,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}making
+Dialogue: 0,00:00:15.21,00:00:15.57,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}writing
+Dialogue: 0,00:00:15.57,00:00:15.92,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}more
+Dialogue: 0,00:00:15.92,00:00:16.28,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}accessible
+Dialogue: 0,00:00:16.28,00:00:17.00,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and widespread.
+Dialogue: 0,00:00:17.00,00:00:17.94,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Language evolved
+Dialogue: 0,00:00:17.94,00:00:18.41,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}through
+Dialogue: 0,00:00:18.41,00:00:19.35,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}trade, conquest,
+Dialogue: 0,00:00:19.35,00:00:20.29,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and cultural
+Dialogue: 0,00:00:20.29,00:00:21.23,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}exchange, leading
+Dialogue: 0,00:00:21.23,00:00:22.17,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}to the
+Dialogue: 0,00:00:22.17,00:00:23.11,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}diverse linguistic
+Dialogue: 0,00:00:23.11,00:00:23.58,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}landscape
+Dialogue: 0,00:00:23.58,00:00:24.52,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}we see
+Dialogue: 0,00:00:24.52,00:00:24.99,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}today.
+Dialogue: 0,00:00:25.00,00:00:25.46,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Modern
+Dialogue: 0,00:00:25.46,00:00:26.38,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}technology has
+Dialogue: 0,00:00:26.38,00:00:27.30,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}further transformed
+Dialogue: 0,00:00:27.30,00:00:28.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}language from
+Dialogue: 0,00:00:28.23,00:00:29.15,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}the printing
+Dialogue: 0,00:00:29.15,00:00:30.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}press to
+Dialogue: 0,00:00:30.07,00:00:30.53,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}digital
+Dialogue: 0,00:00:30.53,00:00:30.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}communication.
+Dialogue: 0,00:00:31.00,00:00:31.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}The future
+Dialogue: 0,00:00:31.85,00:00:32.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of language
+Dialogue: 0,00:00:32.71,00:00:33.57,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}may see
+Dialogue: 0,00:00:33.57,00:00:34.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}even greater
+Dialogue: 0,00:00:34.42,00:00:34.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}changes
+Dialogue: 0,00:00:34.85,00:00:35.71,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}with AI
+Dialogue: 0,00:00:35.71,00:00:36.57,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and global
+Dialogue: 0,00:00:36.57,00:00:36.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}interconnectedness.
+Dialogue: 0,00:00:37.00,00:00:37.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Like, share,
+Dialogue: 0,00:00:37.76,00:00:38.15,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and
+Dialogue: 0,00:00:38.15,00:00:38.92,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}subscribe for
+Dialogue: 0,00:00:38.92,00:00:39.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}more fascinating
+Dialogue: 0,00:00:39.69,00:00:40.46,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}insights into
+Dialogue: 0,00:00:40.46,00:00:40.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
+Dialogue: 0,00:00:40.84,00:00:41.23,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}history
+Dialogue: 0,00:00:41.23,00:00:41.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and culture.
