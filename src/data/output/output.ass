@@ -11,64 +11,76 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.76,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}The story
-Dialogue: 0,00:00:00.76,00:00:01.15,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of
-Dialogue: 0,00:00:01.15,00:00:01.92,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}language begins
-Dialogue: 0,00:00:01.92,00:00:02.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}with early
-Dialogue: 0,00:00:02.69,00:00:03.07,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
-Dialogue: 0,00:00:03.07,00:00:03.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}communication through
-Dialogue: 0,00:00:03.84,00:00:04.61,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}symbols and
-Dialogue: 0,00:00:04.61,00:00:05.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}sounds.
-Dialogue: 0,00:00:05.00,00:00:06.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Ancient civilizations
-Dialogue: 0,00:00:06.07,00:00:06.61,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}developed
-Dialogue: 0,00:00:06.61,00:00:07.15,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
-Dialogue: 0,00:00:07.15,00:00:07.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}first
-Dialogue: 0,00:00:07.69,00:00:08.76,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}written languages,
-Dialogue: 0,00:00:08.76,00:00:09.30,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}like
-Dialogue: 0,00:00:09.30,00:00:10.38,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Sumerian Cuneiform
-Dialogue: 0,00:00:10.38,00:00:11.46,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and Egyptian
-Dialogue: 0,00:00:11.46,00:00:11.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Hieroglyphs.
-Dialogue: 0,00:00:12.00,00:00:12.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}The invention
-Dialogue: 0,00:00:12.71,00:00:13.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of
-Dialogue: 0,00:00:13.07,00:00:13.78,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}alphabets marked
-Dialogue: 0,00:00:13.78,00:00:14.14,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}a
-Dialogue: 0,00:00:14.14,00:00:14.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}significant leap,
-Dialogue: 0,00:00:14.85,00:00:15.21,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}making
-Dialogue: 0,00:00:15.21,00:00:15.57,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}writing
-Dialogue: 0,00:00:15.57,00:00:15.92,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}more
-Dialogue: 0,00:00:15.92,00:00:16.28,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}accessible
-Dialogue: 0,00:00:16.28,00:00:17.00,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and widespread.
-Dialogue: 0,00:00:17.00,00:00:17.94,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Language evolved
-Dialogue: 0,00:00:17.94,00:00:18.41,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}through
-Dialogue: 0,00:00:18.41,00:00:19.35,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}trade, conquest,
-Dialogue: 0,00:00:19.35,00:00:20.29,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and cultural
-Dialogue: 0,00:00:20.29,00:00:21.23,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}exchange, leading
-Dialogue: 0,00:00:21.23,00:00:22.17,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}to the
-Dialogue: 0,00:00:22.17,00:00:23.11,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}diverse linguistic
-Dialogue: 0,00:00:23.11,00:00:23.58,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}landscape
-Dialogue: 0,00:00:23.58,00:00:24.52,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}we see
-Dialogue: 0,00:00:24.52,00:00:24.99,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}today.
-Dialogue: 0,00:00:25.00,00:00:25.46,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Modern
-Dialogue: 0,00:00:25.46,00:00:26.38,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}technology has
-Dialogue: 0,00:00:26.38,00:00:27.30,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}further transformed
-Dialogue: 0,00:00:27.30,00:00:28.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}language from
-Dialogue: 0,00:00:28.23,00:00:29.15,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}the printing
-Dialogue: 0,00:00:29.15,00:00:30.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}press to
-Dialogue: 0,00:00:30.07,00:00:30.53,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}digital
-Dialogue: 0,00:00:30.53,00:00:30.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}communication.
-Dialogue: 0,00:00:31.00,00:00:31.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}The future
-Dialogue: 0,00:00:31.85,00:00:32.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of language
-Dialogue: 0,00:00:32.71,00:00:33.57,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}may see
-Dialogue: 0,00:00:33.57,00:00:34.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}even greater
-Dialogue: 0,00:00:34.42,00:00:34.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}changes
-Dialogue: 0,00:00:34.85,00:00:35.71,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}with AI
-Dialogue: 0,00:00:35.71,00:00:36.57,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and global
-Dialogue: 0,00:00:36.57,00:00:36.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}interconnectedness.
-Dialogue: 0,00:00:37.00,00:00:37.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Like, share,
-Dialogue: 0,00:00:37.76,00:00:38.15,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and
-Dialogue: 0,00:00:38.15,00:00:38.92,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}subscribe for
-Dialogue: 0,00:00:38.92,00:00:39.69,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}more fascinating
-Dialogue: 0,00:00:39.69,00:00:40.46,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}insights into
-Dialogue: 0,00:00:40.46,00:00:40.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
-Dialogue: 0,00:00:40.84,00:00:41.23,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}history
-Dialogue: 0,00:00:41.23,00:00:41.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}and culture.
+Dialogue: 0,00:00:00.00,00:00:00.37,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}The
+Dialogue: 0,00:00:00.37,00:00:00.75,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
+Dialogue: 0,00:00:00.75,00:00:01.12,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}microbiome
+Dialogue: 0,00:00:01.12,00:00:01.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}consists of
+Dialogue: 0,00:00:01.88,00:00:02.63,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}trillions of
+Dialogue: 0,00:00:02.63,00:00:03.38,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}bacteria, viruses,
+Dialogue: 0,00:00:03.38,00:00:03.76,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and
+Dialogue: 0,00:00:03.76,00:00:04.14,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}fungi
+Dialogue: 0,00:00:04.14,00:00:04.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}living
+Dialogue: 0,00:00:04.51,00:00:04.89,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}in
+Dialogue: 0,00:00:04.89,00:00:05.27,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and
+Dialogue: 0,00:00:05.27,00:00:05.64,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}on
+Dialogue: 0,00:00:05.64,00:00:06.40,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}our bodies.
+Dialogue: 0,00:00:06.40,00:00:07.33,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}These microorganisms
+Dialogue: 0,00:00:07.33,00:00:07.80,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}play
+Dialogue: 0,00:00:07.80,00:00:08.26,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}crucial
+Dialogue: 0,00:00:08.26,00:00:08.73,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}roles
+Dialogue: 0,00:00:08.73,00:00:09.20,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}in
+Dialogue: 0,00:00:09.20,00:00:09.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}digestion,
+Dialogue: 0,00:00:09.66,00:00:10.13,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}immunity,
+Dialogue: 0,00:00:10.13,00:00:11.06,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}and even
+Dialogue: 0,00:00:11.06,00:00:12.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}mental health.
+Dialogue: 0,00:00:12.00,00:00:12.47,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Imbalances
+Dialogue: 0,00:00:12.47,00:00:13.41,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}in the
+Dialogue: 0,00:00:13.41,00:00:13.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}microbiome
+Dialogue: 0,00:00:13.88,00:00:14.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}can
+Dialogue: 0,00:00:14.35,00:00:14.82,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}lead
+Dialogue: 0,00:00:14.82,00:00:15.29,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}to
+Dialogue: 0,00:00:15.29,00:00:16.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}various health
+Dialogue: 0,00:00:16.23,00:00:16.70,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}issues,
+Dialogue: 0,00:00:16.70,00:00:17.17,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}including
+Dialogue: 0,00:00:17.17,00:00:18.11,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}digestive disorders,
+Dialogue: 0,00:00:18.11,00:00:19.05,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}allergies, and
+Dialogue: 0,00:00:19.05,00:00:19.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}autoimmune diseases.
+Dialogue: 0,00:00:20.00,00:00:20.54,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Diet,
+Dialogue: 0,00:00:20.54,00:00:21.63,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}lifestyle, and
+Dialogue: 0,00:00:21.63,00:00:22.72,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}environment significantly
+Dialogue: 0,00:00:22.72,00:00:23.27,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}affect
+Dialogue: 0,00:00:23.27,00:00:23.81,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:23.81,00:00:24.90,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}composition of
+Dialogue: 0,00:00:24.90,00:00:25.45,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}our
+Dialogue: 0,00:00:25.45,00:00:26.00,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}microbiome.
+Dialogue: 0,00:00:26.39,00:00:26.83,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Emerging
+Dialogue: 0,00:00:26.83,00:00:27.26,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}research
+Dialogue: 0,00:00:27.26,00:00:27.69,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}suggests
+Dialogue: 0,00:00:27.69,00:00:28.56,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}the microbiome
+Dialogue: 0,00:00:28.56,00:00:29.00,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}may
+Dialogue: 0,00:00:29.00,00:00:29.86,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}even influence
+Dialogue: 0,00:00:29.86,00:00:30.30,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}our
+Dialogue: 0,00:00:30.30,00:00:31.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}behavior and
+Dialogue: 0,00:00:31.16,00:00:31.60,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}mood.
+Dialogue: 0,00:00:31.60,00:00:32.02,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Understanding
+Dialogue: 0,00:00:32.02,00:00:32.88,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}and harnessing
+Dialogue: 0,00:00:32.88,00:00:33.31,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}the
+Dialogue: 0,00:00:33.31,00:00:34.17,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}power of
+Dialogue: 0,00:00:34.17,00:00:34.60,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the
+Dialogue: 0,00:00:34.60,00:00:35.45,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}microbiome could
+Dialogue: 0,00:00:35.45,00:00:35.88,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}revolutionize
+Dialogue: 0,00:00:35.88,00:00:36.31,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}medicine
+Dialogue: 0,00:00:36.31,00:00:37.17,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and personal
+Dialogue: 0,00:00:37.17,00:00:37.60,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}health.
+Dialogue: 0,00:00:37.60,00:00:38.30,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Like, share,
+Dialogue: 0,00:00:38.30,00:00:38.65,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}and
+Dialogue: 0,00:00:38.65,00:00:39.01,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}subscribe
+Dialogue: 0,00:00:39.01,00:00:39.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}for more
+Dialogue: 0,00:00:39.71,00:00:40.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}insights into
+Dialogue: 0,00:00:40.42,00:00:41.12,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the amazing
+Dialogue: 0,00:00:41.12,00:00:41.48,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}world
+Dialogue: 0,00:00:41.48,00:00:41.83,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}of
+Dialogue: 0,00:00:41.83,00:00:42.18,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}human
+Dialogue: 0,00:00:42.18,00:00:42.89,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}biology and
+Dialogue: 0,00:00:42.89,00:00:43.24,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}health
+Dialogue: 0,00:00:43.24,00:00:43.59,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}sciences.
