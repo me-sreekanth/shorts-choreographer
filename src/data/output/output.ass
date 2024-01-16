@@ -11,99 +11,97 @@ Style: Default, Bangers, 14, &H00FFFFFF, &H00FFFFFF, &H00000000, &H80000000, 0, 
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,00:00:00.00,00:00:00.87,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}The Great
-Dialogue: 0,00:00:00.87,00:00:01.31,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Train
-Dialogue: 0,00:00:01.31,00:00:01.74,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}robbery
-Dialogue: 0,00:00:01.74,00:00:02.18,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of
-Dialogue: 0,00:00:02.18,00:00:02.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}1963
-Dialogue: 0,00:00:02.62,00:00:03.05,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}remains
-Dialogue: 0,00:00:03.05,00:00:03.49,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}one
-Dialogue: 0,00:00:03.49,00:00:03.93,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}of
-Dialogue: 0,00:00:03.93,00:00:04.36,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Britain's
-Dialogue: 0,00:00:04.36,00:00:05.24,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}most infamous
-Dialogue: 0,00:00:05.24,00:00:05.67,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}heists,
-Dialogue: 0,00:00:05.67,00:00:06.01,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}involving
-Dialogue: 0,00:00:06.01,00:00:06.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}a
-Dialogue: 0,00:00:06.35,00:00:06.69,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}gang
-Dialogue: 0,00:00:06.69,00:00:07.03,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}that
-Dialogue: 0,00:00:07.03,00:00:07.36,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}made
-Dialogue: 0,00:00:07.36,00:00:07.70,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}off
-Dialogue: 0,00:00:07.70,00:00:08.38,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}with millions.
-Dialogue: 0,00:00:08.38,00:00:09.05,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}In 1911,
-Dialogue: 0,00:00:09.05,00:00:09.39,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}the
-Dialogue: 0,00:00:09.39,00:00:09.73,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Mona
-Dialogue: 0,00:00:09.73,00:00:10.07,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Lisa
-Dialogue: 0,00:00:10.07,00:00:10.74,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}was stolen
-Dialogue: 0,00:00:10.74,00:00:11.42,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}from the
-Dialogue: 0,00:00:11.42,00:00:11.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}Louvre,
-Dialogue: 0,00:00:11.75,00:00:12.59,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}an audacious
-Dialogue: 0,00:00:12.59,00:00:13.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}theft that
-Dialogue: 0,00:00:13.42,00:00:14.25,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}baffled the
-Dialogue: 0,00:00:14.25,00:00:14.67,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}world.
-Dialogue: 0,00:00:14.67,00:00:15.08,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}The
-Dialogue: 0,00:00:15.08,00:00:15.50,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Isabella
-Dialogue: 0,00:00:15.50,00:00:16.33,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Stewart Gardner
-Dialogue: 0,00:00:16.33,00:00:17.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Museum heist
-Dialogue: 0,00:00:17.16,00:00:18.00,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}in 1990
-Dialogue: 0,00:00:18.00,00:00:18.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}saw the
-Dialogue: 0,00:00:18.71,00:00:19.06,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}theft
-Dialogue: 0,00:00:19.06,00:00:19.77,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of $500
-Dialogue: 0,00:00:19.77,00:00:20.13,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}million
-Dialogue: 0,00:00:20.13,00:00:20.48,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}worth
-Dialogue: 0,00:00:20.48,00:00:21.19,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}of art,
-Dialogue: 0,00:00:21.19,00:00:21.55,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}a
-Dialogue: 0,00:00:21.55,00:00:21.91,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}case
-Dialogue: 0,00:00:21.91,00:00:22.62,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}still unsolved.
-Dialogue: 0,00:00:22.62,00:00:22.97,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}The
-Dialogue: 0,00:00:22.97,00:00:23.68,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Antwerp Diamond
-Dialogue: 0,00:00:23.68,00:00:24.39,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Heist of
-Dialogue: 0,00:00:24.39,00:00:24.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}2003
-Dialogue: 0,00:00:24.85,00:00:25.75,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}dubbed The
-Dialogue: 0,00:00:25.75,00:00:26.65,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Heist of
-Dialogue: 0,00:00:26.65,00:00:27.56,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}the Century,
-Dialogue: 0,00:00:27.56,00:00:28.46,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}involved stealing
-Dialogue: 0,00:00:28.46,00:00:28.91,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}diamonds
-Dialogue: 0,00:00:28.91,00:00:29.36,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}worth
-Dialogue: 0,00:00:29.36,00:00:30.26,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}over $100
-Dialogue: 0,00:00:30.26,00:00:30.72,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}million.
-Dialogue: 0,00:00:31.27,00:00:31.99,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}The Hatton
-Dialogue: 0,00:00:31.99,00:00:32.71,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}Garden saved
-Dialogue: 0,00:00:32.71,00:00:33.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}deposit burglary
-Dialogue: 0,00:00:33.42,00:00:33.78,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}in
-Dialogue: 0,00:00:33.78,00:00:34.14,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}2015
-Dialogue: 0,00:00:34.14,00:00:34.85,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}was carried
-Dialogue: 0,00:00:34.85,00:00:35.21,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}out
-Dialogue: 0,00:00:35.21,00:00:35.92,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}by a
-Dialogue: 0,00:00:35.92,00:00:36.28,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}group
-Dialogue: 0,00:00:36.28,00:00:37.00,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of elderly
-Dialogue: 0,00:00:37.00,00:00:37.36,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}thieves
-Dialogue: 0,00:00:37.35,00:00:38.14,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}who drilled
-Dialogue: 0,00:00:38.14,00:00:38.53,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}into
-Dialogue: 0,00:00:38.53,00:00:39.31,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}a vault
-Dialogue: 0,00:00:39.31,00:00:40.09,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}in London.
-Dialogue: 0,00:00:40.09,00:00:40.48,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Each
-Dialogue: 0,00:00:40.48,00:00:41.26,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of these
-Dialogue: 0,00:00:41.26,00:00:42.04,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}heists, marked
-Dialogue: 0,00:00:42.04,00:00:42.43,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}by
-Dialogue: 0,00:00:42.43,00:00:42.82,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}daring
-Dialogue: 0,00:00:42.82,00:00:43.21,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}and
-Dialogue: 0,00:00:43.21,00:00:43.60,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}ingenuity,
-Dialogue: 0,00:00:43.59,00:00:43.98,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}has
-Dialogue: 0,00:00:43.98,00:00:44.74,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}left a
-Dialogue: 0,00:00:44.74,00:00:45.51,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}lasting legacy
-Dialogue: 0,00:00:45.51,00:00:46.27,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}in the
-Dialogue: 0,00:00:46.27,00:00:46.65,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}world
-Dialogue: 0,00:00:46.65,00:00:47.42,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of crime
-Dialogue: 0,00:00:47.42,00:00:47.80,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}and
-Dialogue: 0,00:00:47.80,00:00:48.56,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}mystery. Like,
-Dialogue: 0,00:00:48.56,00:00:49.33,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}share, and
-Dialogue: 0,00:00:49.33,00:00:50.09,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}subscribe for
-Dialogue: 0,00:00:50.09,00:00:50.47,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}more
-Dialogue: 0,00:00:50.47,00:00:50.95,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}thrilling
-Dialogue: 0,00:00:50.95,00:00:51.42,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}stories
-Dialogue: 0,00:00:51.42,00:00:52.36,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}of history's
-Dialogue: 0,00:00:52.36,00:00:52.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}most
-Dialogue: 0,00:00:52.84,00:00:53.31,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}daring,
-Dialogue: 0,00:00:53.31,00:00:53.78,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}heist,
-Dialogue: 0,00:00:53.78,00:00:54.72,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}and unsolved
-Dialogue: 0,00:00:54.72,00:00:55.20,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}mysteries.
+Dialogue: 0,00:00:00.00,00:00:00.53,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}Is there
+Dialogue: 0,00:00:00.53,00:00:00.80,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}a
+Dialogue: 0,00:00:00.80,00:00:01.07,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}chance
+Dialogue: 0,00:00:01.07,00:00:01.34,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}you'll
+Dialogue: 0,00:00:01.34,00:00:01.88,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}blow up
+Dialogue: 0,00:00:01.88,00:00:02.41,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}the world
+Dialogue: 0,00:00:02.41,00:00:02.68,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}from
+Dialogue: 0,00:00:02.68,00:00:03.22,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}the experiments
+Dialogue: 0,00:00:03.22,00:00:03.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}in large,
+Dialogue: 0,00:00:03.76,00:00:04.56,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}heat-run collider?
+Dialogue: 0,00:00:04.56,00:00:04.96,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}No,
+Dialogue: 0,00:00:04.96,00:00:05.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}there's no
+Dialogue: 0,00:00:05.76,00:00:06.16,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}chance.
+Dialogue: 0,00:00:06.16,00:00:06.96,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}In fact,
+Dialogue: 0,00:00:06.96,00:00:07.36,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}nature's
+Dialogue: 0,00:00:07.36,00:00:08.16,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}own cosmic
+Dialogue: 0,00:00:08.16,00:00:08.56,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}rays
+Dialogue: 0,00:00:08.56,00:00:08.96,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}are
+Dialogue: 0,00:00:08.96,00:00:09.76,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}far more
+Dialogue: 0,00:00:09.76,00:00:10.16,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}powerful
+Dialogue: 0,00:00:10.16,00:00:10.87,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}than anything
+Dialogue: 0,00:00:10.87,00:00:11.58,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}the LHC
+Dialogue: 0,00:00:11.58,00:00:11.94,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}can
+Dialogue: 0,00:00:11.94,00:00:12.66,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}produce. The
+Dialogue: 0,00:00:12.66,00:00:13.01,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}upper
+Dialogue: 0,00:00:13.01,00:00:13.73,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}atmosphere is
+Dialogue: 0,00:00:13.73,00:00:14.44,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}constantly bombarded
+Dialogue: 0,00:00:14.44,00:00:14.80,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}by
+Dialogue: 0,00:00:14.80,00:00:15.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}these high
+Dialogue: 0,00:00:15.51,00:00:16.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}energy particles,
+Dialogue: 0,00:00:16.71,00:00:17.32,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}far
+Dialogue: 0,00:00:17.32,00:00:18.51,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}exceeding the
+Dialogue: 0,00:00:18.51,00:00:19.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}LHC's capacity.
+Dialogue: 0,00:00:19.71,00:00:20.32,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}These
+Dialogue: 0,00:00:20.32,00:00:20.92,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}natural
+Dialogue: 0,00:00:20.92,00:00:21.52,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}collisions
+Dialogue: 0,00:00:21.52,00:00:22.72,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}produce moons,
+Dialogue: 0,00:00:22.71,00:00:23.09,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}with
+Dialogue: 0,00:00:23.09,00:00:23.85,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}about one
+Dialogue: 0,00:00:23.85,00:00:24.22,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}moon
+Dialogue: 0,00:00:24.22,00:00:24.60,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}going
+Dialogue: 0,00:00:24.60,00:00:25.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}through your
+Dialogue: 0,00:00:25.35,00:00:26.11,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}head every
+Dialogue: 0,00:00:26.11,00:00:26.49,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}second.
+Dialogue: 0,00:00:26.49,00:00:27.24,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}Currently, we're
+Dialogue: 0,00:00:27.24,00:00:27.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}colliding
+Dialogue: 0,00:00:27.62,00:00:28.00,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}protons
+Dialogue: 0,00:00:28.00,00:00:28.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}at the
+Dialogue: 0,00:00:28.71,00:00:29.07,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}highest
+Dialogue: 0,00:00:29.07,00:00:29.43,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}energies
+Dialogue: 0,00:00:29.43,00:00:29.79,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}ever
+Dialogue: 0,00:00:29.79,00:00:30.51,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}used by
+Dialogue: 0,00:00:30.51,00:00:30.87,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}humans,
+Dialogue: 0,00:00:30.87,00:00:31.59,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}yet they
+Dialogue: 0,00:00:31.59,00:00:32.31,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}are no
+Dialogue: 0,00:00:32.31,00:00:32.67,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}match
+Dialogue: 0,00:00:32.67,00:00:33.39,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}for nature's
+Dialogue: 0,00:00:33.39,00:00:33.75,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}forces.
+Dialogue: 0,00:00:33.75,00:00:34.15,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}And
+Dialogue: 0,00:00:34.15,00:00:34.94,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}while these
+Dialogue: 0,00:00:34.94,00:00:35.73,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}experiments sound
+Dialogue: 0,00:00:35.73,00:00:36.52,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}daunting, they
+Dialogue: 0,00:00:36.52,00:00:37.31,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}are essential
+Dialogue: 0,00:00:37.31,00:00:37.71,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}in
+Dialogue: 0,00:00:37.71,00:00:38.50,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}unlocking the
+Dialogue: 0,00:00:38.50,00:00:38.89,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}mysteries
+Dialogue: 0,00:00:38.89,00:00:39.68,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of the
+Dialogue: 0,00:00:39.68,00:00:40.08,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}universe.
+Dialogue: 0,00:00:40.07,00:00:40.45,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}The
+Dialogue: 0,00:00:40.45,00:00:41.20,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}LHC is
+Dialogue: 0,00:00:41.20,00:00:41.58,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}not
+Dialogue: 0,00:00:41.58,00:00:41.96,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}just
+Dialogue: 0,00:00:41.96,00:00:42.71,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}safe, it's
+Dialogue: 0,00:00:42.71,00:00:43.46,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}a crucial
+Dialogue: 0,00:00:43.46,00:00:43.84,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}tool
+Dialogue: 0,00:00:43.84,00:00:44.22,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}in
+Dialogue: 0,00:00:44.22,00:00:44.59,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}advancing
+Dialogue: 0,00:00:44.59,00:00:45.35,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}our understanding
+Dialogue: 0,00:00:45.35,00:00:45.72,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:45.72,00:00:46.47,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}the fundamental
+Dialogue: 0,00:00:46.48,00:00:46.85,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}principles
+Dialogue: 0,00:00:46.85,00:00:47.23,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}of
+Dialogue: 0,00:00:47.23,00:00:47.99,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}physics. Like,
+Dialogue: 0,00:00:47.99,00:00:48.75,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}share and
+Dialogue: 0,00:00:48.75,00:00:49.50,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}subscribe for
+Dialogue: 0,00:00:49.50,00:00:50.26,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}more insights
+Dialogue: 0,00:00:50.26,00:00:51.02,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}into the
+Dialogue: 0,00:00:51.02,00:00:51.40,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}amazing
+Dialogue: 0,00:00:51.40,00:00:51.78,Default,,0000,0000,0000,,{\fs15}{\1c&H000000FF}world
+Dialogue: 0,00:00:51.78,00:00:52.16,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}of
+Dialogue: 0,00:00:52.15,00:00:52.62,Default,,0000,0000,0000,,{\fs15}{\1c&H00FFFFFF}particle
+Dialogue: 0,00:00:52.62,00:00:53.08,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}physics
+Dialogue: 0,00:00:53.08,00:00:53.55,Default,,0000,0000,0000,,{\fs15}{\1c&H0000FFFF}and
+Dialogue: 0,00:00:53.55,00:00:54.47,Default,,0000,0000,0000,,{\fs15}{\1c&H00FF00}cosmic wonders.
