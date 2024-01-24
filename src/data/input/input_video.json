@@ -1,31 +1,160 @@
 {
-    "Title": "Debunking Myths: Is the Large Hadron Collider a Threat? #shorts",
-    "Description": "In under a minute, we'll debunk the myths surrounding the Large Hadron Collider. Is it a threat to our planet, or a window to understanding the universe? #LHC #ScienceMyths #ParticlePhysics #shorts",
+    "Title": "Your Video Title",
+    "Description": "Your Video Description",
     "Scenes": [
-      {
-        "SceneNumber": 1,
-        "Duration": "5",
-        "VoiceOverText": "Is there a chance you'll blow up the world from the experiments in Large Hadron Collider?",
-        "Text": "Is there a chance you'll blow up the world from the experiments in Large Hadron Collider?",
-        "Description": "A visually engaging scene showing the Large Hadron Collider with a question mark symbolizing public concerns."
-      },
-      {
-        "SceneNumber": 2,
-        "Duration": "5",
-        "VoiceOverText": "No, there's no chance. In fact, nature's own cosmic rays are far more powerful than anything the LHC can produce.",
-        "Text": "No, there's no chance. In fact, nature's own cosmic rays are far more powerful than anything the LHC can produce.",
-        "Description": "A reassuring image of scientists working at the LHC, juxtaposed with visuals of cosmic rays in space."
-      },
-      {
-        "SceneNumber": 3,
-        "Duration": "5",
-        "VoiceOverText": "The upper atmosphere is constantly bombarded by these high-energy particles, far exceeding the LHC's capacity.",
-        "Text": "The upper atmosphere is constantly bombarded by these high-energy particles, far exceeding the LHC's capacity.",
-        "Description": "Dynamic imagery of high-speed cosmic particles colliding with Earth's atmosphere."
-      },
-      {
-        "SceneNumber": 4,
-        "Duration": "5",
-        "VoiceOverText": "These natural collisions produce muons, with about one muon going through your head every second.",
-        "Text": "These natural collisions produce muons, with about one muon going through your head every second.",
-        "Description": "Illustration showing muons passing through a person's head, symbolizing their constant presence and harmlessness." }, { "SceneNumber": 5, "Duration": "5", "VoiceOverText": "Currently, we're colliding protons at the highest energies ever used by humans, yet they're no match for nature's forces.", "Text": "Currently, we're colliding protons at the highest energies ever used by humans, yet they're no match for nature's forces.", "Description": "Animation showing protons colliding in the LHC, contrasted with the immense power of cosmic events." }, { "SceneNumber": 6, "Duration": "5", "VoiceOverText": "And while these experiments sound daunting, they are essential in unlocking the mysteries of the universe.", "Text": "And while these experiments sound daunting, they are essential in unlocking the mysteries of the universe.", "Description": "A montage of the LHC, space imagery, and scientists in deep research, highlighting the quest for knowledge." }, { "SceneNumber": 7, "Duration": "5", "VoiceOverText": "The LHC is not just safe; it's a crucial tool in advancing our understanding of the fundamental principles of physics.", "Text": "The LHC is not just safe; it's a crucial tool in advancing our understanding of the fundamental principles of physics.", "Description": "Footage of the LHC's tunnels and operations, emphasizing its importance in scientific research." }, { "SceneNumber": 8, "Duration": "5", "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more insights into the amazing world of particle physics and cosmic wonders.", "Text": "LIKE, SHARE, AND SUBSCRIBE for more insights into the amazing world of particle physics and cosmic wonders.", "Description": "A call to action scene, with engaging imagery related to particle physics, the LHC, and cosmic phenomena." } ] }
+        {
+            "SceneNumber": 1,
+            "Duration": "2",
+            "VoiceOverText": " Is there a chance you'll blow up the world?",
+            "Description": "",
+            "Text": " Is there a chance you'll blow up the world?"
+        },
+        {
+            "SceneNumber": 2,
+            "Duration": "2",
+            "VoiceOverText": " No, there's no chance.",
+            "Description": "",
+            "Text": " No, there's no chance."
+        },
+        {
+            "SceneNumber": 3,
+            "Duration": "1",
+            "VoiceOverText": " But what if you discover dark matter?",
+            "Description": "",
+            "Text": " But what if you discover dark matter?"
+        },
+        {
+            "SceneNumber": 4,
+            "Duration": "2",
+            "VoiceOverText": " And then all of a sudden, it blows up the world.",
+            "Description": "",
+            "Text": " And then all of a sudden, it blows up the world."
+        },
+        {
+            "SceneNumber": 5,
+            "Duration": "5",
+            "VoiceOverText": " If you're not satisfied with the answer, trust me, bro.",
+            "Description": "",
+            "Text": " If you're not satisfied with the answer, trust me, bro."
+        },
+        {
+            "SceneNumber": 6,
+            "Duration": "3",
+            "VoiceOverText": " Currently, we're colliding protons at the highest energies",
+            "Description": "",
+            "Text": " Currently, we're colliding protons at the highest energies"
+        },
+        {
+            "SceneNumber": 7,
+            "Duration": "2",
+            "VoiceOverText": " that humans have ever used in the collider experiment.",
+            "Description": "",
+            "Text": " that humans have ever used in the collider experiment."
+        },
+        {
+            "SceneNumber": 8,
+            "Duration": "2",
+            "VoiceOverText": " Maybe that sounds very dangerous or daunting.",
+            "Description": "",
+            "Text": " Maybe that sounds very dangerous or daunting."
+        },
+        {
+            "SceneNumber": 9,
+            "Duration": "3",
+            "VoiceOverText": " But the key phrase is that one in the middle, by humans,",
+            "Description": "",
+            "Text": " But the key phrase is that one in the middle, by humans,"
+        },
+        {
+            "SceneNumber": 10,
+            "Duration": "2",
+            "VoiceOverText": " we're actually no match for nature itself.",
+            "Description": "",
+            "Text": " we're actually no match for nature itself."
+        },
+        {
+            "SceneNumber": 11,
+            "Duration": "2",
+            "VoiceOverText": " So above your head, just now, for example,",
+            "Description": "",
+            "Text": " So above your head, just now, for example,"
+        },
+        {
+            "SceneNumber": 12,
+            "Duration": "1",
+            "VoiceOverText": " there are way higher energy collisions",
+            "Description": "",
+            "Text": " there are way higher energy collisions"
+        },
+        {
+            "SceneNumber": 13,
+            "Duration": "1",
+            "VoiceOverText": " going on in the universe all the time.",
+            "Description": "",
+            "Text": " going on in the universe all the time."
+        },
+        {
+            "SceneNumber": 14,
+            "Duration": "2",
+            "VoiceOverText": " In fact, some of them are very, very close to you right now.",
+            "Description": "",
+            "Text": " In fact, some of them are very, very close to you right now."
+        },
+        {
+            "SceneNumber": 15,
+            "Duration": "1",
+            "VoiceOverText": " The upper atmosphere is constantly",
+            "Description": "",
+            "Text": " The upper atmosphere is constantly"
+        },
+        {
+            "SceneNumber": 16,
+            "Duration": "3",
+            "VoiceOverText": " being bombarded by cosmic ray particles",
+            "Description": "",
+            "Text": " being bombarded by cosmic ray particles"
+        },
+        {
+            "SceneNumber": 17,
+            "Duration": "2",
+            "VoiceOverText": " from far away in the universe, like protons, in fact.",
+            "Description": "",
+            "Text": " from far away in the universe, like protons, in fact."
+        },
+        {
+            "SceneNumber": 18,
+            "Duration": "2",
+            "VoiceOverText": " And they're coming in at very, very high speeds and energies.",
+            "Description": "",
+            "Text": " And they're coming in at very, very high speeds and energies."
+        },
+        {
+            "SceneNumber": 19,
+            "Duration": "2",
+            "VoiceOverText": " And they're smacking into the atoms in the upper atmosphere.",
+            "Description": "",
+            "Text": " And they're smacking into the atoms in the upper atmosphere."
+        },
+        {
+            "SceneNumber": 20,
+            "Duration": "2",
+            "VoiceOverText": " And a bunch of low energy particles come down.",
+            "Description": "",
+            "Text": " And a bunch of low energy particles come down."
+        },
+        {
+            "SceneNumber": 21,
+            "Duration": "1",
+            "VoiceOverText": " For example, these muons that I said,",
+            "Description": "",
+            "Text": " For example, these muons that I said,"
+        },
+        {
+            "SceneNumber": 22,
+            "Duration": "4",
+            "VoiceOverText": " you have about a one muon going through your head every second.",
+            "Description": "",
+            "Text": " you have about a one muon going through your head every second."
+        }
+    ]
+}

@@ -1,31 +1,55 @@
 {
-  "Title": "Debunking Myths: Is the Large Hadron Collider a Threat? #shorts",
-  "Description": "In under a minute, we'll debunk the myths surrounding the Large Hadron Collider. Is it a threat to our planet, or a window to understanding the universe? #LHC #ScienceMyths #ParticlePhysics #shorts",
+  "Title": "Voyager 1's Glitch: A Space Odyssey's New Challenge #shorts",
+  "Description": "Discover the latest challenge facing Voyager 1, humanity's farthest space probe. With a glitch in its communication system, what does the future hold for this iconic explorer? #Voyager1 #SpaceExploration #NASA #shorts",
   "Scenes": [
     {
       "SceneNumber": 1,
       "Duration": "5",
-      "VoiceOverText": "Is there a chance you'll blow up the world from the experiments in Large Hadron Collider?",
-      "Text": "Is there a chance you'll blow up the world from the experiments in Large Hadron Collider?",
-      "Description": "A visually engaging scene showing the Large Hadron Collider with a question mark symbolizing public concerns."
+      "VoiceOverText": "So unfortunately, I may have some really sad space news. The Voyager 1, humanity's farthest space probe, is experiencing a glitch.",
+      "Text": "So unfortunately, I may have some really sad space news. The Voyager 1, humanity's farthest space probe, is experiencing a glitch.",
+      "Description": "A visual of Voyager 1 in space, with a glitch effect symbolizing the communication issue."
     },
     {
       "SceneNumber": 2,
       "Duration": "5",
-      "VoiceOverText": "No, there's no chance. In fact, nature's own cosmic rays are far more powerful than anything the LHC can produce.",
-      "Text": "No, there's no chance. In fact, nature's own cosmic rays are far more powerful than anything the LHC can produce.",
-      "Description": "A reassuring image of scientists working at the LHC, juxtaposed with visuals of cosmic rays in space."
+      "VoiceOverText": "The issue lies in its telemetry modulation unit, crucial for converting scientific data into binary code for transmission to Earth.",
+      "Text": "The issue lies in its telemetry modulation unit, crucial for converting scientific data into binary code for transmission to Earth.",
+      "Description": "Close-up of a circuit board or computer chip, representing the telemetry modulation unit."
     },
     {
       "SceneNumber": 3,
       "Duration": "5",
-      "VoiceOverText": "The upper atmosphere is constantly bombarded by these high-energy particles, far exceeding the LHC's capacity.",
-      "Text": "The upper atmosphere is constantly bombarded by these high-energy particles, far exceeding the LHC's capacity.",
-      "Description": "Dynamic imagery of high-speed cosmic particles colliding with Earth's atmosphere."
+      "VoiceOverText": "Currently, it's just sending a series of binary ones and zeros repeatedly, making communication challenging.",
+      "Text": "Currently, it's just sending a series of binary ones and zeros repeatedly, making communication challenging.",
+      "Description": "An animated binary code stream, symbolizing the repetitive data transmission from Voyager 1."
     },
     {
       "SceneNumber": 4,
       "Duration": "5",
-      "VoiceOverText": "These natural collisions produce muons, with about one muon going through your head every second.",
-      "Text": "These natural collisions produce muons, with about one muon going through your head every second.",
-      "Description": "Illustration showing muons passing through a person's head, symbolizing their constant presence and harmlessness." }, { "SceneNumber": 5, "Duration": "5", "VoiceOverText": "Currently, we're colliding protons at the highest energies ever used by humans, yet they're no match for nature's forces.", "Text": "Currently, we're colliding protons at the highest energies ever used by humans, yet they're no match for nature's forces.", "Description": "Animation showing protons colliding in the LHC, contrasted with the immense power of cosmic events." }, { "SceneNumber": 6, "Duration": "5", "VoiceOverText": "And while these experiments sound daunting, they are essential in unlocking the mysteries of the universe.", "Text": "And while these experiments sound daunting, they are essential in unlocking the mysteries of the universe.", "Description": "A montage of the LHC, space imagery, and scientists in deep research, highlighting the quest for knowledge." }, { "SceneNumber": 7, "Duration": "5", "VoiceOverText": "The LHC is not just safe; it's a crucial tool in advancing our understanding of the fundamental principles of physics.", "Text": "The LHC is not just safe; it's a crucial tool in advancing our understanding of the fundamental principles of physics.", "Description": "Footage of the LHC's tunnels and operations, emphasizing its importance in scientific research." }, { "SceneNumber": 8, "Duration": "5", "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more insights into the amazing world of particle physics and cosmic wonders.", "Text": "LIKE, SHARE, AND SUBSCRIBE for more insights into the amazing world of particle physics and cosmic wonders.", "Description": "A call to action scene, with engaging imagery related to particle physics, the LHC, and cosmic phenomena." } ] }
+      "VoiceOverText": "NASA has been trying to fix it for about a week now, but Voyager 1 is over 15 billion miles away.",
+      "Text": "NASA has been trying to fix it for about a week now, but Voyager 1 is over 15 billion miles away.",
+      "Description": "A depiction of NASA scientists analyzing data, with a distance marker showing Voyager 1's location in the background."
+    },
+    {
+      "SceneNumber": 5,
+      "Duration": "5",
+      "VoiceOverText": "If the glitch remains unsolved, we may witness one of humanity's greatest space feats fading into the cosmos.",
+      "Text": "If the glitch remains unsolved, we may witness one of humanity's greatest space feats fading into the cosmos.",
+      "Description": "A poignant image of Voyager 1 drifting away into the dark expanse of space."
+    },
+    {
+      "SceneNumber": 6,
+      "Duration": "5",
+      "VoiceOverText": "Yet, we hope the Golden Record aboard Voyager 1 someday reaches another civilization in the universe.",
+      "Text": "Yet, we hope the Golden Record aboard Voyager 1 someday reaches another civilization in the universe.",
+      "Description": "A visual of the Golden Record on Voyager 1, with a starry sky in the background, symbolizing hope for interstellar discovery."
+    },
+    {
+      "SceneNumber": 7,
+      "Duration": "5",
+      "VoiceOverText": "LIKE, SHARE, AND SUBSCRIBE for more updates on this incredible journey beyond our solar system.",
+      "Text": "LIKE, SHARE, AND SUBSCRIBE for more updates on this incredible journey beyond our solar system.",
+      "Description": "A call to action with imagery of stars, the Voyager 1, and a connected global audience."
+    }
+  ]
+}
